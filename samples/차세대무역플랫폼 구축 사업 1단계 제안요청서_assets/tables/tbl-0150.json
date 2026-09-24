@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0150",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0150-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0150-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0150-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0150-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DS-001"
+    },
+    {
+      "id": "tbl-0150-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0150-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "위젯 데이터 정의"
+    },
+    {
+      "id": "tbl-0150-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0150-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0150-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "위젯별 데이터 명세 및 메타 정의"
+    },
+    {
+      "id": "tbl-0150-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0150-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 위젯별 데이터 명세 및 메타 기준 정의\n  - 필드/지표/필터/갱신주기 등 위젯별 데이터 명세를 정의해야 함\n  - 단위(unit) 및 기준/갱신시점포함 기준을 포함한 메타 기준을 정의해야 함\n  - 위젯 형상관리를 위해 등록/수정/삭제 및 변경이력을 관리해야 하며, 버전 관리와 배포 권한 관리를 포함해야 함\n  ※ 데이터 적재/거버넌스/DQ등은 데이터 플랫폼팀 범위"
+    },
+    {
+      "id": "tbl-0150-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0150-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 정의서"
+    }
+  ]
+}

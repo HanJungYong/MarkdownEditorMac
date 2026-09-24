@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0204",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0204-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0204-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0204-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0204-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AC-006"
+    },
+    {
+      "id": "tbl-0204-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0204-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통계 관리"
+    },
+    {
+      "id": "tbl-0204-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0204-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0204-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 기반 의사결정을 위한 다각적 운영 성과 분석 및 시각화"
+    },
+    {
+      "id": "tbl-0204-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0204-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 회원 통계\n  - 일별/월별 신규 가입자 수, 방문자 수 등을 시각화 차트로 제공해야 하며, 기간 비교 및 회원 유형/상태/소속 등 다양한 필터 조회가 가능해야 함\n○ 교육 통계\n  - 과정별 수료율, 미수료율, 평균 진도율, 평균 점수 등 학습 성과를 분석할 수 있어야 하며, 담당자별/과정별 필터로 조회가 가능해야 함\n  - 협회가 설정한 교육 성과 지표(KPI)(예: 수료율, 만족도 등)를 대시보드로 시각화하여 목표 대비 실적을 확인할 수 있어야 함\n  - 수강생 행동 패턴 분석(예: 학습 이탈이 많이 발생하는 콘텐츠 구간, 반복 시청 구간 등)을 제공\n  - 그룹별(실/기업) 교육 성과 리포트를 제공\n○ 설문 통계\n  - 과정별 설문 답변 결과 통계를 제공해야 하며, 정량 지표(만족도 점수 등)와 정성 지표(핵심 키워드, 의견 분석)를 함께 확인할 수 있어야 함 (다운로드 지원)\n○ 매출/비용 통계\n  - 기간별 매출 추이를 조회·다운로드할 수 있어야 하며, 과정별 매출 성과를 비교 분석할 수 있어야 함\n  - 강사료, 제작비 등 교육과정별 비용(예산) 항목을 기록·분석하여 수익성을 관리할 수 있어야 함\n○ AI 기반 통계 리포트 생성\n  - 교육담당자가 자연어(텍스트/프롬프트)로 데이터 조회를 요청할 경우, 시스템이 의도를 파악하여 실시간으로 관련 수치를 추출하고 리포트를 생성, 생성된 리포트는 엑셀/pdf로 다운로드를 지원함\n  (예시) \"지난달 수강생 평균 출석률 보여줘\", \"작년 대비 e러닝 과정 수강생 추이 그래프로 그려줘\" 등의 질의에 대응\n  - 단순 수치 답변뿐만 아니라, 질의 성격에 맞는 적정 차트(막대, 파이, 선 그래프 등)를 자동 생성하여 시각화"
+    },
+    {
+      "id": "tbl-0204-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0204-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서"
+    }
+  ]
+}

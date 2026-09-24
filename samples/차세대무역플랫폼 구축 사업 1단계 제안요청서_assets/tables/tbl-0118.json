@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0118",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0118-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0118-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0118-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0118-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-005"
+    },
+    {
+      "id": "tbl-0118-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0118-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 분석형 Agent 구축"
+    },
+    {
+      "id": "tbl-0118-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0118-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0118-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "자연어 질의 혹은 데이터 기반으로 분석 역할을 수행하는 유형의 Agent"
+    },
+    {
+      "id": "tbl-0118-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0118-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 검색 결과 요약 및 가공\n  - 검색으로 확보 된 데이터는 주요 내용을 기반으로 요약 제공 되어야 함\n  - 무역통계 등의 정량데이터는 검색 조건 기반으로 요약가공 되어야 함\n○ 결과 시각화\n  - 다양한 유형의 데이터로부터 취합 된 정보는 표·차트·그래프 등의 방식으로 시각화 되어야 함\n○ 데이터 해석 및 인사이트 제공\n  - 집계 된 데이터를 기반으로 의미를 해석하여 분석 결과를 제공 해야 함\n  - 분석 결과를 기반으로 이용자에게 추가로 검토해야 할 데이터나 연계 작업에 대한 가이드를 제공해야 함"
+    },
+    {
+      "id": "tbl-0118-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0118-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서, 시나리오 정의서, 데이터 정의서, 소스 코드"
+    }
+  ]
+}

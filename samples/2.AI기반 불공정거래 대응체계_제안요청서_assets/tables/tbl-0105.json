@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0105",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0105-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0105-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0105-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0105-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-005"
+    },
+    {
+      "id": "tbl-0105-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0105-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "데이터 정제 및 관리"
+    },
+    {
+      "id": "tbl-0105-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0105-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0105-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "데이터 정제 및 관리에 관한 사항"
+    },
+    {
+      "id": "tbl-0105-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0105-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 수집된 문서와 DB 데이터는 학습에 앞서 불필요한 정보 제거 및 품질관리 작업을 수행할 수 있어야 함\n  - 텍스트 정규화, 중복 제거, 필터링 등 전처리 기능 제공\n  - AI 학습에 부적합한 문서 자동 감지 및 제외 "
+    },
+    {
+      "id": "tbl-0105-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0105-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "단계별 개발 산출물"
+    }
+  ]
+}

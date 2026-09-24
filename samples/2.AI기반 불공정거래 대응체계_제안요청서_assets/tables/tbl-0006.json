@@ -1,0 +1,272 @@
+{
+  "table_id": "tbl-0006",
+  "logical_rows": 11,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0006-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "추진 내용"
+    },
+    {
+      "id": "tbl-0006-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "추진 일정"
+    },
+    {
+      "id": "tbl-0006-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "비고"
+    },
+    {
+      "id": "tbl-0006-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "□  입찰공고 및 제안서 접수"
+    },
+    {
+      "id": "tbl-0006-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  사전공개 및 기초금액 산정"
+    },
+    {
+      "id": "tbl-0006-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.6.25. ~ 7.1.  (7일)"
+    },
+    {
+      "id": "tbl-0006-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "5일 이상 준수"
+    },
+    {
+      "id": "tbl-0006-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  입찰공고 및 경영공시"
+    },
+    {
+      "id": "tbl-0006-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.7.2. ~ 8.13.  (43일)"
+    },
+    {
+      "id": "tbl-0006-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "40일 이상 준수"
+    },
+    {
+      "id": "tbl-0006-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  사업설명회"
+    },
+    {
+      "id": "tbl-0006-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.7.15. 14:00"
+    },
+    {
+      "id": "tbl-0006-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "우리원 회의실"
+    },
+    {
+      "id": "tbl-0006-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  제안서접수 및 입찰마감"
+    },
+    {
+      "id": "tbl-0006-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.8.13. 15:00"
+    },
+    {
+      "id": "tbl-0006-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국가종합전자조달"
+    },
+    {
+      "id": "tbl-0006-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "□  제안서 평가 및 업체 선정"
+    },
+    {
+      "id": "tbl-0006-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  평가위원회 구성"
+    },
+    {
+      "id": "tbl-0006-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.8.13.  ~ 8.14.  (2일)"
+    },
+    {
+      "id": "tbl-0006-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0006-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  제안설명회 및 기술성 평가"
+    },
+    {
+      "id": "tbl-0006-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.8.14. 15:00"
+    },
+    {
+      "id": "tbl-0006-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "우리원 회의실"
+    },
+    {
+      "id": "tbl-0006-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  가격개찰 및 우선협상대상자 선정"
+    },
+    {
+      "id": "tbl-0006-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.8.18. 15:00"
+    },
+    {
+      "id": "tbl-0006-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국가종합전자조달"
+    },
+    {
+      "id": "tbl-0006-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " ·  협상 및 계약체결"
+    },
+    {
+      "id": "tbl-0006-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "’26.8.18. ~ 8.24.   (7일)"
+    },
+    {
+      "id": "tbl-0006-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기술·가격 협상 및 계약"
+    }
+  ]
+}

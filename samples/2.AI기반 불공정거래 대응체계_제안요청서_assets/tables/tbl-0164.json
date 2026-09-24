@@ -1,0 +1,470 @@
+{
+  "table_id": "tbl-0164",
+  "logical_rows": 19,
+  "logical_cols": 8,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0164-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업명"
+    },
+    {
+      "id": "tbl-0164-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업기간"
+    },
+    {
+      "id": "tbl-0164-r0c5",
+      "row": 0,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "개월"
+    },
+    {
+      "id": "tbl-0164-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "입찰자"
+    },
+    {
+      "id": "tbl-0164-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "상호"
+    },
+    {
+      "id": "tbl-0164-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r1c5",
+      "row": 1,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "대표자"
+    },
+    {
+      "id": "tbl-0164-r1c7",
+      "row": 1,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업자등록번호"
+    },
+    {
+      "id": "tbl-0164-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r2c5",
+      "row": 2,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "소재지"
+    },
+    {
+      "id": "tbl-0164-r2c7",
+      "row": 2,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": " □ 하도급 예정 계획"
+    },
+    {
+      "id": "tbl-0164-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "입찰자"
+    },
+    {
+      "id": "tbl-0164-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "하수급인 상호"
+    },
+    {
+      "id": "tbl-0164-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "하도급 계약명"
+    },
+    {
+      "id": "tbl-0164-r4c6",
+      "row": 4,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "하도급 금액 비율"
+    },
+    {
+      "id": "tbl-0164-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r5c6",
+      "row": 5,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r6c6",
+      "row": 6,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r7c6",
+      "row": 7,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r8c6",
+      "row": 8,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r9c6",
+      "row": 9,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r10c3",
+      "row": 10,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0164-r10c6",
+      "row": 10,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r11c0",
+      "row": 11,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": "합    계"
+    },
+    {
+      "id": "tbl-0164-r11c6",
+      "row": 11,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "%"
+    },
+    {
+      "id": "tbl-0164-r12c0",
+      "row": 12,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": "○ 하도급 금액 비율은 원도급의 총입찰금액 대비 하도급 총금액의 비율\n           \n    * 입찰자가 직접 구매하려는 물품(하드웨어, 상용소프트웨어, 설비 등)에 대한 구매 금액\n  - 하도급 금액 비율 합계 50% 초과 사유: _________________________________________________"
+    },
+    {
+      "id": "tbl-0164-r13c0",
+      "row": 13,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": " □ 재하도급 여부"
+    },
+    {
+      "id": "tbl-0164-r14c0",
+      "row": 14,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": "○ 하수급자의 재하도급\n  - 재하도급 여부 : ( ○ ), ( × )\n  - 재하도급을 하려는 경우 그 사유 : ______________________________________________________"
+    },
+    {
+      "id": "tbl-0164-r15c0",
+      "row": 15,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": " □ 표준하도급계약서 사용 여부"
+    },
+    {
+      "id": "tbl-0164-r16c0",
+      "row": 16,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": "○「하도급거래 공정화에 관한 법률」제3조의2에 따른 소프트웨어사업 표준하도급계약서를 활용\n  - 표준하도급계약서 활용 여부: ( ○ ), ( × )\n  - 표준하도급계약서를 활용하지 않는 경우 사유: ______________________________________________"
+    },
+    {
+      "id": "tbl-0164-r17c0",
+      "row": 17,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": "   위와 같이 소프트웨어사업 하도급 계획서를 제출하며 하도급 시 발주기관으로부터 사전승인을 받아 하도급 계약을 체결하고 정당한 사유 없이 하도급 계획을 이행치 아니할 경우에는 어떠한 불이익을 받더라도 이의를 제기하지 아니할 것임을 확약합니다.\n\n                                                        년        월        일\n\n\n                                                       업체명:\n                                                       대표자:              (서명 또는 인)"
+    },
+    {
+      "id": "tbl-0164-r18c0",
+      "row": 18,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 8,
+      "is_header": false,
+      "text": "   발주기관의 장 귀하"
+    }
+  ]
+}

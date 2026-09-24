@@ -1,0 +1,110 @@
+{
+  "table_id": "tbl-0131",
+  "logical_rows": 4,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0131-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0131-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 요구사항"
+    },
+    {
+      "id": "tbl-0131-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0131-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-003"
+    },
+    {
+      "id": "tbl-0131-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0131-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "사업관리방법"
+    },
+    {
+      "id": "tbl-0131-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0131-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0131-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 사업규모, 일정을 종합적으로 고려하여 본 사업에 적합하고 검증된 관리   방법론을 제안하여야 함\n  - 통합관리, 일정관리, 범위관리, 변화관리, 이슈 및 위험관리, 기술요소관리, 테스트 및 이행관리, 의사소통관리, 산출물 관리, 성과관리, 품질관리 방안 등을 제안하여야 함\n  - 각 사업단계 및 세부 단계별 사업 관리방안을 구체적으로 제안하여야 하며, 활동내용 및 산출물을 상세히 제시하여야 함\n  - 사업관리시스템(PMS)을 이용하여 일정, 진척상황, 결함 등을 체계적으로 관리하고 현황을 파악할 수 있어야 함\n  - 금감원은 사업기간 중 사업관리시스템 관련 기능 개선을 요청할 수 있으며, 제안사는 적극적으로 요청을 수용하여야 함\n ㅇ 사업관리방안은 사업수행계획서에 포함하여 제출하여야 함\n ㅇ 사업을 기간 내에 완수하기 위한 단계별 추진일정 및 세부 활동 내용 등이 포함된 일정계획과 사업의 안정성·연속성 확보를 위한 방안을 제안하여야 함"
+    },
+    {
+      "id": "tbl-0131-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0131-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "사업수행계획서, WBS"
+    }
+  ]
+}

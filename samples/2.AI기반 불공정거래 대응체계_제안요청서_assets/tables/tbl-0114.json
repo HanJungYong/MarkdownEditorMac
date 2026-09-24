@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0114",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0114-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0114-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0114-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0114-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-008"
+    },
+    {
+      "id": "tbl-0114-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0114-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "인수테스트"
+    },
+    {
+      "id": "tbl-0114-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0114-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0114-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "인수테스트"
+    },
+    {
+      "id": "tbl-0114-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0114-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 사용자 승인을 위한 검사 및 테스트 수행방법, 절차, 참여 조직 및 역할,  점검사항, 최종 검수 기준, 점검 후 조치 방안 등을 세부적으로 기술하여 계획을 수립하여야 함\n ㅇ 요구사항별 적합/부적합 판정을 할 수 있도록 요구사항별 테스트를 수행할 수 있어야 하며, 이에 따른 테스트 데이터를 준비해야 함\n ㅇ 발주자와 협의하여 승인 검사/테스트를 계획하고, 발주자가 승인 검사/  테스트를 이행하기 위하여 필요한 모든 조력을 제공하여야 함\n ㅇ 개발 완료 후 최종 산출물 및 테스트 결과물을 첨부하여 발주자에게 승인 검사 및 테스트를 요청하여야 하며, 승인 검사 및 테스트 과정에서 발견된 하자 사항은 만족한 결과를 얻을 때까지 보완·테스트를 반복적으로 실시해야 함\n ㅇ 최종 승인 처리는 별도의 문서에 의하여 발주자의 승인을 받은 일자에 완료된 것으로 함"
+    },
+    {
+      "id": "tbl-0114-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0114-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "인수테스트 계획서, 결과 보고서 및 인수테스트 시나리오/케이스"
+    }
+  ]
+}

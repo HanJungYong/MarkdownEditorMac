@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0068",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0068-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0068-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 요구사항"
+    },
+    {
+      "id": "tbl-0068-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0068-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-005"
+    },
+    {
+      "id": "tbl-0068-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0068-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무 보고"
+    },
+    {
+      "id": "tbl-0068-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0068-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0068-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무 보고 요구사항"
+    },
+    {
+      "id": "tbl-0068-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0068-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 사업자는 사업 추진상황을 효율적으로 관리할 수 있도록 발주처에 보고하여야 함\n○ 보고는 착수, 정기, 중간, 완료 및 필요 시 수시보고 형태로 수행할 수 있어야 함\n○ 정기보고에는 사업 추진현황, 주요 이슈, 향후 일정 및 협의사항을 포함하여야 함\n○ 중간 및 완료보고에는 추진실적, 주요 결과 및 후속조치 사항을 포함하여야 함\n○ 보고의 시기, 횟수, 방법 및 제출형식은 발주처와 협의하여 정하여야 함"
+    },
+    {
+      "id": "tbl-0068-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0068-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "착수 보고서, 중간 보고서, 완료 보고서, 주간 보고서, 결과 산출물"
+    }
+  ]
+}

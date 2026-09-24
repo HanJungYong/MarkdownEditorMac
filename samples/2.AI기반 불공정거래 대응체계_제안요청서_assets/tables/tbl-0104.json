@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0104",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0104-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0104-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0104-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0104-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-004"
+    },
+    {
+      "id": "tbl-0104-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0104-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "데이터 구조 개선 및 SQL튜닝"
+    },
+    {
+      "id": "tbl-0104-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0104-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0104-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "성능 향상을 위한 데이터 구조 개선 SQL튜닝 요구사항"
+    },
+    {
+      "id": "tbl-0104-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0104-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 1단계 컨설팅에서 과제로 도출한 데이터 구조 개선 사항에 한해, 데이터베이스의 성능 개선을 위한 데이터 성능 개선 방안을 제시하고 개선 수행\n ㅇ 데이터 성능 개선(DB 구조 변경, 인덱스 조정, SQL튜닝 등)을 수행하고 적용 결과를 보고\n    - DB 변경 후 우려되는 성능 저하 등의 부작용 해소 방안 (문제되는 쿼리 사전 발견 및 튜닝 방안 제시)\n ㅇ SQL 품질점검 도구를 활용하여 SQL 품질을 점검하고, 개선 계획을 수립하고 반영하여야 함"
+    },
+    {
+      "id": "tbl-0104-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0104-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "SQL 품질 및 DB 성능 점검 결과서"
+    }
+  ]
+}

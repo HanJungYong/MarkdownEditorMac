@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0149",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0149-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0149-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0149-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0149-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DS-004"
+    },
+    {
+      "id": "tbl-0149-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0149-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Agent 연계 인터페이스 제공"
+    },
+    {
+      "id": "tbl-0149-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0149-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0149-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "위젯에서 Agent 결과를 연계 제공하고, Agent 질문 입력창 및 Agent 화면 전환 기능 제공"
+    },
+    {
+      "id": "tbl-0149-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0149-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 위젯용 Agent 결과 연계\n  - Agent가 생성한 요약/브리핑/추천 결과를 위젯에서 조회/표시 가능하도록 연계 제공되어야 함\n  ※ 결과 생성 로직 및 응답 규격 정의는 AI Agent팀 범위\n○ 질문 입력 및 Agent 화면 전환\n  - 대시보드화면에서 질문 입력창 제공 및 질문과 사용자 컨텍스트(기업/관심분야)를 포함해 Agent 화면으로 전환(Deeplink) 동선을 제공해야 함\n○ 저장함 연계 및 화면 복귀\n  - Agent 화면에서 생성된 답변을 대시보드 저장함에 저장 가능하도록 제공해야 함\n  - 네비게이션을 통해 대시보드로 복귀 동선을 제공해야 함"
+    },
+    {
+      "id": "tbl-0149-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0149-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서, 연동 규격서"
+    }
+  ]
+}

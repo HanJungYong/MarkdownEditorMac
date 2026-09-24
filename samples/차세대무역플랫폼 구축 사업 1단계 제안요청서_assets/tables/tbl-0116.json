@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0116",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0116-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0116-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0116-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0116-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-003"
+    },
+    {
+      "id": "tbl-0116-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0116-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 검색형 Agent 구축"
+    },
+    {
+      "id": "tbl-0116-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0116-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0116-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "내·외부 데이터를 검색·요약·가공 역할을 수행하는 유형의 Agent"
+    },
+    {
+      "id": "tbl-0116-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0116-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 내·외부 데이터 검색\n  - 통합데이터 플랫폼, 기존 KITA 서비스의 데이터자산 등을 메타데이터 기반으로 인식하고 검색 할 수 있어야 함\n  - 내부 데이터 검색시 직접 접근하여 검색을 하거나 통합데이터 플랫폼 환경의 API를 이용할 수 있어야 함\n  - 외부 데이터 검색시 가드레일을 준수하여 임의로 데이터를 탈취하지 않아야 함\n  - 외부 검색을 통해 수집한 데이터를 관리하는 방안이 제시 되어야 함\n○ 정형 데이터 검색 기능 구현\n  - 정형 데이터 조회 시 다양한 데이터 질의 방식을 검토해야 함\n  - 데이터 검색시 민감데이터로 분류 된 개인정보·기밀정보 등에 대한 보호 기준이 적용 되어야 함\n○ 세션 관리\n  - 데이터 조회 후 사용자 혹은 Agent 제공 완료시 조회 세션은 초기화 되어 메모리 관리가 되어야 함\n  - 전체 작업 내용은 세션관리와는 별도로 로그기록을 통해 저장 되어야 함"
+    },
+    {
+      "id": "tbl-0116-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0116-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서, 시나리오 정의서, 데이터 정의서, 소스 코드"
+    }
+  ]
+}

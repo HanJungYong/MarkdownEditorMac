@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0125",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0125-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0125-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0125-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0125-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-012"
+    },
+    {
+      "id": "tbl-0125-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0125-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 포털 기능 구현"
+    },
+    {
+      "id": "tbl-0125-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0125-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0125-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 활용을 위한 대화형 UI 기반의 포털 구현"
+    },
+    {
+      "id": "tbl-0125-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0125-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 통합 포털 구현\n  - 단일 UI 환경에서 AI서비스를 이용할 수 있는 통합 포털을 구성 해야 함\n  - Agent와 소통하는 대화 영역, 사용 이력 영역, 특화 Agent 선택 영역 등의 메뉴가 제공 되어야 함\n  - 사용자 유형 및 권한에 따라 접근 하고 사용할 수 있는 영역들이 구분 되어야 함\n○ 사용자 인증\n  - SSO 연동 기능을 통해 기존 KITA 서비스들의 로그인 체계와 연계 되어야 함\n  - 사용자 및 역할 기반의 접근 제어(RBAC)를 지원하여야 함\n  - 사용자 정보 관리·인증·및 사용 이력 관리 기능이 제공 되어야 함\n○ 세션 관리\n  - 포털 내 영역 전환시 재인증 없이 단일 세션이 유지 되어야 함\n  - 멀티턴 기반의 대화 관리를 위해 사용자가 대화를 종료하지 않으면 세션이 지속 유지 될 수 있어야 함\n○ 운영 및 관리 기능 제공\n  - 서비스 운영자·시스템 관리자가 LLM모델·자원·서비스 등을 관리할 수 있는 별도의 페이지가 마련 되어야 함\n  - 각 Agent와 LLM모델별 적용 되어 있는 파라미터를 관리할 수 있어야 함"
+    },
+    {
+      "id": "tbl-0125-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0125-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서, 기능 설계서, 데이터 정의서, 소스 코드"
+    }
+  ]
+}

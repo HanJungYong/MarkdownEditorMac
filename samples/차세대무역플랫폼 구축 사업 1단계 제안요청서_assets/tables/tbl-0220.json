@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0220",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0220-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0220-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0220-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0220-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-AC-003"
+    },
+    {
+      "id": "tbl-0220-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0220-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합 및 연동 테스트"
+    },
+    {
+      "id": "tbl-0220-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0220-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0220-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 간 데이터 인터페이스 및 전체 업무 흐름의 완결성 검증"
+    },
+    {
+      "id": "tbl-0220-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0220-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 인터페이스 검증: KNEX(인증), KAMIS(정산) 등 협회 내부 시스템과의 데이터 송수신 및 프로세스 연동을 집중 테스트해야 함\n○ 업무 흐름 검증: '수강신청-학습-수료'로 이어지는 전체 업무 시나리오 기반의 통합 테스트를 통해 프로세스 단절 여부를 확인해야 함\n○ 인프라 연결 확인: 협회 통합 클라우드 환경과의 보안 연결 및 통신 안정성을 최종 점검해야 함\n○ 운영 환경 전환: 테스트 환경의 설정값이 운영 환경으로 안정적으로 이관되었는지 체크리스트 기반으로 검증해야 함\n○ 인수 확정: 발견된 하자 사항에 대한 조치가 완료된 후 최종 승인 절차를 진행해야 함"
+    },
+    {
+      "id": "tbl-0220-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0220-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 계획·결과서"
+    }
+  ]
+}

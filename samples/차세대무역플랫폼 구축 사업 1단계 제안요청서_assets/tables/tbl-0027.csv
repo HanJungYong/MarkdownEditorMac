@@ -1,0 +1,24 @@
+﻿요구사항 분류,고유번호,요구사항명
+기능 요구사항,SFR-AP-001,Agent 공통 기능 구현
+,SFR-AP-002,Orchestration 구성
+,SFR-AP-003,[Unit Agent] 검색형 Agent 구축
+,SFR-AP-004,[Unit Agent] 대화형 Agent 구축
+,SFR-AP-005,[Unit Agent] 분석형 Agent 구축
+,SFR-AP-006,[Unit Agent] 추천형 Agent 구축
+,SFR-AP-007,[Unit Agent] 생성형 Agent 구축
+,SFR-AP-008,[Unit Agent] Master Agent 구축
+,SFR-AP-009,[Unit Agent] 서비스 특화 Agent 구축
+,SFR-AP-010,AI Data 파이프라인 구축
+,SFR-AP-011,AI Data 전처리 및 가공
+,SFR-AP-012,Agent 포털 기능 구현
+성능 요구사항,PER-AP-001,Agent 포털 페이지 성능
+,PER-AP-002,Agent 작업 실행 성능
+인터페이스 요구사항,INR-AP-001,데이터 인터페이스
+,INR-AP-002,UI/UX
+데이터 요구사항,DAR-AP-001,메타데이터 정의
+,DAR-AP-002,AI Data 표준 정의
+,DAR-AP-003,사용자 데이터·이력·로그 관리
+보안 요구사항,SER-AP-001,AI 가드레일 정의
+,SER-AP-002,LLM 모델 데이터 접근 보안
+,SER-AP-003,민감정보 비식별화
+,SER-AP-004,Agent 보안 취약점 강화

@@ -1,0 +1,110 @@
+{
+  "table_id": "tbl-0142",
+  "logical_rows": 4,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0142-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0142-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 지원 요구사항"
+    },
+    {
+      "id": "tbl-0142-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0142-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PSR-004"
+    },
+    {
+      "id": "tbl-0142-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0142-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 검사·하자보수"
+    },
+    {
+      "id": "tbl-0142-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0142-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0142-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 검사는 제안사의 검사요청일로부터 금감원이 14일 이내에 실시함\n  - 검사기간 중 미흡한 사항이 발견되어 금감원이 보완을 요청하는 경우 제안사는 신속히 개선 및 보완을 하여야 함"
+    },
+    {
+      "id": "tbl-0142-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0142-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 검사요청서, 검사확인서, 하자보수계획서"
+    }
+  ]
+}

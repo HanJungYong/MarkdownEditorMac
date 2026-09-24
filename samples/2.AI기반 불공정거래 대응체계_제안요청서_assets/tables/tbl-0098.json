@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0098",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0098-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0098-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0098-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0098-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-004"
+    },
+    {
+      "id": "tbl-0098-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0098-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "응답 정확도"
+    },
+    {
+      "id": "tbl-0098-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0098-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0098-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "생성형 AI 응답 정확도에 관한 사항"
+    },
+    {
+      "id": "tbl-0098-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0098-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 생성형 AI 모델별 테스트를 위해 수행사는 AI 모델별 응답 정확도 테스트를 위한 시나리오*를 제시하고 발주처가 제시하는 테스트케이스를 활용하여 정확도를 측정하고 결과를 제공해야 함\n    *시나리오: 테스트 시나리오는 조사 업무 담당자의 업무 절차와 환경을 고려하여 작성되어야 함\n\n ㅇ 생성형 AI 모델의 정확도는 특정 수준* 이상 이어야 함 \n    *특정 수준: 발주처와 협의하여 정함"
+    },
+    {
+      "id": "tbl-0098-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0098-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "성능테스트 계획서, 성능테스트 결과서"
+    }
+  ]
+}

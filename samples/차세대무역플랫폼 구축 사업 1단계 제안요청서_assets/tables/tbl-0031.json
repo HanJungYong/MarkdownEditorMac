@@ -1,0 +1,254 @@
+{
+  "table_id": "tbl-0031",
+  "logical_rows": 11,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0031-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0031-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0031-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0031-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨설팅 요구사항"
+    },
+    {
+      "id": "tbl-0031-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-TK-001"
+    },
+    {
+      "id": "tbl-0031-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영 체계 표준화"
+    },
+    {
+      "id": "tbl-0031-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-TK-002"
+    },
+    {
+      "id": "tbl-0031-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 고도화"
+    },
+    {
+      "id": "tbl-0031-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-TK-003"
+    },
+    {
+      "id": "tbl-0031-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "상세 설계"
+    },
+    {
+      "id": "tbl-0031-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-TK-004"
+    },
+    {
+      "id": "tbl-0031-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea–전자무역–해외세관 연계 PI설계"
+    },
+    {
+      "id": "tbl-0031-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0031-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-TK-001"
+    },
+    {
+      "id": "tbl-0031-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea Web 고도화"
+    },
+    {
+      "id": "tbl-0031-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-TK-002"
+    },
+    {
+      "id": "tbl-0031-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea 모바일 고도화"
+    },
+    {
+      "id": "tbl-0031-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-TK-003"
+    },
+    {
+      "id": "tbl-0031-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "견적·계약·e-Invoicing 서비스 구축"
+    },
+    {
+      "id": "tbl-0031-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-TK-004"
+    },
+    {
+      "id": "tbl-0031-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전자무역(PTB) 플랫폼 연계"
+    },
+    {
+      "id": "tbl-0031-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0031-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-TK-001"
+    },
+    {
+      "id": "tbl-0031-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea 서비스 성능 개선"
+    },
+    {
+      "id": "tbl-0031-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0031-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-TK-001"
+    },
+    {
+      "id": "tbl-0031-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합로그인(SSO) 인터페이스 연계"
+    }
+  ]
+}

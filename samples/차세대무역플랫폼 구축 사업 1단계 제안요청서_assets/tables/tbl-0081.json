@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0081",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0081-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0081-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비 구성 요구사항"
+    },
+    {
+      "id": "tbl-0081-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0081-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-005"
+    },
+    {
+      "id": "tbl-0081-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0081-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) ETL 소프트웨어 업그레이드"
+    },
+    {
+      "id": "tbl-0081-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0081-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0081-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) ETL 소프트웨어 업그레이드 요구사항"
+    },
+    {
+      "id": "tbl-0081-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0081-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 멀티 플랫폼 및 하이브리드 인프라 지원\n  - 온프레미스 환경과 클라우드 간의 데이터 이관 및 통합을 지원해야 함\n  - 윈도우, 리눅스, 유닉스 등 다양한 OS 환경에 설치 가능한 멀티 OS 아키텍처를 제공해야 함\n○ 다양한 데이터 소스 연계 및 커넥티비티 제공\n  - 국내외 주요 RDBMS 및 NoSQL 커넥터를 제공해야 함\n  - 클라우드 기반 스토리지 및 DW와의 네이티브 연동을 지원해야 함\n  - 파일(Excel, CSV, XML, JSON)등 비정형/반정형 데이터 소스 수집이 가능해야 함\n○ 데이터 변환 및 개발 편의성\n  - ETL 워크플로우는 코딩 없이 드래그 앤 드롭 방식으로 설계할 수 있는 GUI 기반 디자이너를 제공하여야 함\n  - 사용자는 시각적 환경에서 데이터 추출, 변환, 적재 작업을 설계·수정할 수 있어야 함\n○ 작업 스케줄링 및 모니터링\n  - 시간 기반 및 이벤트 기반(파일 생성 등)의 작업 스케줄링 기능을 제공하여야 함\n  - 작업 단계별 성공·실패 여부를 실시간으로 모니터링할 수 있어야 하며, 시각화된 운영 통계를 제공하여야 함\n  - 장애 발생 시 자동 재시도 및 특정 시점부터 재시작(Check-point) 기능을 제공해야 함\n○ 권한관리 및 감사 기능\n  - 사용자 및 그룹별로 작업 권한을 설정할 수 있어야 함\n  - 작업 수정 이력 및 감사 추적 기능을 제공하여야 함\n○ 기존 ETL 호환성 및 연속성 보장\n  - 발주처가 기존 온프레미스 환경에서 사용 중인 ETL 작업과의 호환성을 유지해야 함\n  - 기존 ETL 작업의 연속성을 보장하면서 신규 데이터플랫폼의 ETL 작업을 함께 수용할 수 있어야 함"
+    },
+    {
+      "id": "tbl-0081-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0081-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아키텍처 설계서, 라이선스 목록, 제조사 물품공급·기술지원 확약서, 사용자·운영자 매뉴얼"
+    }
+  ]
+}

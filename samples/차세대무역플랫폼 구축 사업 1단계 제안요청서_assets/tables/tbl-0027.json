@@ -1,0 +1,497 @@
+{
+  "table_id": "tbl-0027",
+  "logical_rows": 24,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0027-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0027-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0027-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0027-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 12,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0027-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-001"
+    },
+    {
+      "id": "tbl-0027-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 공통 기능 구현"
+    },
+    {
+      "id": "tbl-0027-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-002"
+    },
+    {
+      "id": "tbl-0027-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Orchestration 구성"
+    },
+    {
+      "id": "tbl-0027-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-003"
+    },
+    {
+      "id": "tbl-0027-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 검색형 Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-004"
+    },
+    {
+      "id": "tbl-0027-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 대화형 Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-005"
+    },
+    {
+      "id": "tbl-0027-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 분석형 Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-006"
+    },
+    {
+      "id": "tbl-0027-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 추천형 Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-007"
+    },
+    {
+      "id": "tbl-0027-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 생성형 Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-008"
+    },
+    {
+      "id": "tbl-0027-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] Master Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-009"
+    },
+    {
+      "id": "tbl-0027-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 서비스 특화 Agent 구축"
+    },
+    {
+      "id": "tbl-0027-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-010"
+    },
+    {
+      "id": "tbl-0027-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Data 파이프라인 구축"
+    },
+    {
+      "id": "tbl-0027-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-011"
+    },
+    {
+      "id": "tbl-0027-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Data 전처리 및 가공"
+    },
+    {
+      "id": "tbl-0027-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-012"
+    },
+    {
+      "id": "tbl-0027-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 포털 기능 구현"
+    },
+    {
+      "id": "tbl-0027-r13c0",
+      "row": 13,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0027-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-AP-001"
+    },
+    {
+      "id": "tbl-0027-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 포털 페이지 성능"
+    },
+    {
+      "id": "tbl-0027-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-AP-002"
+    },
+    {
+      "id": "tbl-0027-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 작업 실행 성능"
+    },
+    {
+      "id": "tbl-0027-r15c0",
+      "row": 15,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0027-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-AP-001"
+    },
+    {
+      "id": "tbl-0027-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 인터페이스"
+    },
+    {
+      "id": "tbl-0027-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-AP-002"
+    },
+    {
+      "id": "tbl-0027-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX"
+    },
+    {
+      "id": "tbl-0027-r17c0",
+      "row": 17,
+      "col": 0,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0027-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-AP-001"
+    },
+    {
+      "id": "tbl-0027-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "메타데이터 정의"
+    },
+    {
+      "id": "tbl-0027-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-AP-002"
+    },
+    {
+      "id": "tbl-0027-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Data 표준 정의"
+    },
+    {
+      "id": "tbl-0027-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-AP-003"
+    },
+    {
+      "id": "tbl-0027-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 데이터·이력·로그 관리"
+    },
+    {
+      "id": "tbl-0027-r20c0",
+      "row": 20,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 요구사항"
+    },
+    {
+      "id": "tbl-0027-r20c1",
+      "row": 20,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-AP-001"
+    },
+    {
+      "id": "tbl-0027-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 가드레일 정의"
+    },
+    {
+      "id": "tbl-0027-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-AP-002"
+    },
+    {
+      "id": "tbl-0027-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "LLM 모델 데이터 접근 보안"
+    },
+    {
+      "id": "tbl-0027-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-AP-003"
+    },
+    {
+      "id": "tbl-0027-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "민감정보 비식별화"
+    },
+    {
+      "id": "tbl-0027-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-AP-004"
+    },
+    {
+      "id": "tbl-0027-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 보안 취약점 강화"
+    }
+  ]
+}

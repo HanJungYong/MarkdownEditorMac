@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0088",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0088-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0088-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0088-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0088-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AIS-014"
+    },
+    {
+      "id": "tbl-0088-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0088-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 운영관리 기능"
+    },
+    {
+      "id": "tbl-0088-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0088-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0088-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 운영 및 관리 기능 구축에 관한 사항"
+    },
+    {
+      "id": "tbl-0088-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0088-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 성능 모니터링 기능  \n   - 모델 응답 품질, 검색 정확도 및 응답 속도 등 핵심 지표를 추적할 수 있도록 AI 모델 성능 모니터링 체계 구축\n   - 또한 AI 서비스별 최대 사용자 수, 동접 이용자 수 모니터링 기능 제공\n ㅇ AI 서비스 품질 관리 기능\n   - 사용자 피드백 기반 품질 개선 프로세스*를 수립\n     *피드백 수집 → 분석 → 프롬프트·데이터 개선 체계 마련\n   - 대화 품질 관리:　정확성, 적절성, 문제 대화 표시 기능, 개선조치 결과 관리 \n ㅇ AI 서비스 이용 현황 조회 기능\n   - 로그인, 메뉴 접속, AI 서비스별 이용, 프롬프트 라이브러리별 이용현황, 에이전트별 수행 정보 등 조회 기능 제공\n ㅇ 프롬프트 관리(이력, 평가, 개선) 및 응답 정확도 평가\n ㅇ RAG 구성에 필요한 다양한 형식(HWP(X), PDF, DOC(X), CSV, XLS(X), PPT(X) 등)의 비정형 문서를 효율적으로 분류하여 자동 전처리 및 벡터화 지원\n ㅇ RAG를 통해 학습된 문서 현황 조회, 추가, 삭제를 할 수 있어야 하며, 추가 또는 삭제한 경우 이를 LLM에 실시간으로 반영하여야 함 \n ㅇ 권한관리\n   - AI 시스템에 대한 운영자 권한관리, 사용자 권한관리 기능 제공\n   - 생성형 AI 기능별, RAG 인스턴스별 사용자 접근권한 관리"
+    },
+    {
+      "id": "tbl-0088-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0088-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "단계별 개발 산출물"
+    }
+  ]
+}

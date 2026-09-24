@@ -1,0 +1,200 @@
+{
+  "table_id": "tbl-0157",
+  "logical_rows": 5,
+  "logical_cols": 8,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0157-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성 명"
+    },
+    {
+      "id": "tbl-0157-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "소 속"
+    },
+    {
+      "id": "tbl-0157-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직 책"
+    },
+    {
+      "id": "tbl-0157-r0c5",
+      "row": 0,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r0c6",
+      "row": 0,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연 령"
+    },
+    {
+      "id": "tbl-0157-r0c7",
+      "row": 0,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "    세"
+    },
+    {
+      "id": "tbl-0157-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "학 력"
+    },
+    {
+      "id": "tbl-0157-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r1c4",
+      "row": 1,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "해당분야 근무경력"
+    },
+    {
+      "id": "tbl-0157-r1c6",
+      "row": 1,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "       년     개월"
+    },
+    {
+      "id": "tbl-0157-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "자   격   증"
+    },
+    {
+      "id": "tbl-0157-r2c6",
+      "row": 2,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "본 사업 참여임무"
+    },
+    {
+      "id": "tbl-0157-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "목표투입공수"
+    },
+    {
+      "id": "tbl-0157-r3c6",
+      "row": 3,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0157-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "IT기술 보유현황"
+    },
+    {
+      "id": "tbl-0157-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

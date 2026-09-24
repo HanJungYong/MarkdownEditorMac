@@ -1,0 +1,182 @@
+{
+  "table_id": "tbl-0229",
+  "logical_rows": 5,
+  "logical_cols": 4,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0229-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "구 분"
+    },
+    {
+      "id": "tbl-0229-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "산 출 내 역"
+    },
+    {
+      "id": "tbl-0229-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "금 액"
+    },
+    {
+      "id": "tbl-0229-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "비  고"
+    },
+    {
+      "id": "tbl-0229-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직  접\n인건비"
+    },
+    {
+      "id": "tbl-0229-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접경비"
+    },
+    {
+      "id": "tbl-0229-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "제경비"
+    },
+    {
+      "id": "tbl-0229-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "소        계"
+    },
+    {
+      "id": "tbl-0229-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0229-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

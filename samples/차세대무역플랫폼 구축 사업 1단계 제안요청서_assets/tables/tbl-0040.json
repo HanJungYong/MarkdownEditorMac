@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0040",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0040-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0040-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0040-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0040-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-CM-004"
+    },
+    {
+      "id": "tbl-0040-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0040-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 통합 및 연계 방안 수립"
+    },
+    {
+      "id": "tbl-0040-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0040-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0040-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "다면플랫폼 관점의 사용자 통합 및 연계방안 제시 및 구현"
+    },
+    {
+      "id": "tbl-0040-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0040-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 플랫폼 신규가입자, KITA.net SSO 및 향후 연계가 확대될 기관을 통합적으로 고려하여 회원가입 및 관리 프로세스 설계(회원사/비회원사/관리자 측면)\n\n○ KITA.net SSO ↔ 신규 무역플랫폼 서비스 연결 \n  - 신규 구축되는 무역플랫폼 서비스(데이터플랫폼, ESG,\n  지재권 등)는 KITA.net SSO 인증 체계로 진입\n  - 단일 로그인으로 신규 플랫폼 전체 서비스 이용 가능\n\n○ KITA.net 회원사 → tradeKorea 연계\n  - 연계 KEY: 무역업고유번호\n  - 매핑 대상: KITA.net 회원사 中 무역업고유번호 발급\n  업체에 한정\n  - 무역업고유번호 미발급 업체는 매핑 대상에서 제외\n\n○ SSO 발전 방향에 대한 제안사 의견 제시\n  - 향후 확장 가능성을 고려한 SSO 개선안 제시 (외부 기관 연계, OAuth/JWT 등 표준 인증 방식 도입 등)\n  - 회원 등급·권한 체계 통합 모델\n  - 보안 강화 방안 (MFA, 토큰 갱신 정책 등)\n  - 협회 및 자회사(KTNET, CAAM, CALT, WTCS, COEX) 통합 플랫폼 관점\n  - ※ 구현 범위가 아닌 의견·로드맵 제시 수준"
+    },
+    {
+      "id": "tbl-0040-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0040-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "table_id": "tbl-0151",
+  "logical_rows": 9,
+  "logical_cols": 4,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0151-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회 사 명"
+    },
+    {
+      "id": "tbl-0151-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대 표 자"
+    },
+    {
+      "id": "tbl-0151-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업 분야"
+    },
+    {
+      "id": "tbl-0151-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "주    소"
+    },
+    {
+      "id": "tbl-0151-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전화번호"
+    },
+    {
+      "id": "tbl-0151-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "팩스번호"
+    },
+    {
+      "id": "tbl-0151-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업자번호"
+    },
+    {
+      "id": "tbl-0151-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업    종"
+    },
+    {
+      "id": "tbl-0151-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "자 본 금"
+    },
+    {
+      "id": "tbl-0151-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매 출 액"
+    },
+    {
+      "id": "tbl-0151-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회사 설립년도"
+    },
+    {
+      "id": "tbl-0151-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "            년      월 "
+    },
+    {
+      "id": "tbl-0151-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "종업원 수"
+    },
+    {
+      "id": "tbl-0151-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0151-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "해당부문 종사기간"
+    },
+    {
+      "id": "tbl-0151-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "     년    월   ～        년    월 (    년    개월)"
+    },
+    {
+      "id": "tbl-0151-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "\n  주요연혁\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

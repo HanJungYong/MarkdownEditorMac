@@ -1,0 +1,191 @@
+{
+  "table_id": "tbl-0225",
+  "logical_rows": 9,
+  "logical_cols": 6,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0225-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": "기술용역실적증명원"
+    },
+    {
+      "id": "tbl-0225-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "용 역 명"
+    },
+    {
+      "id": "tbl-0225-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "계약금액"
+    },
+    {
+      "id": "tbl-0225-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "계약기간"
+    },
+    {
+      "id": "tbl-0225-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "용역내용"
+    },
+    {
+      "id": "tbl-0225-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": " 폐사에서는 귀사에서 발주한 기술용역에 대하여 상기와 같이 수행한 실적이 있음을 증명하여 주시기 바랍니다.\n               \n               2026년  00월     일\n\n                                               상  호 :\n                                               주  소 :\n                                               대표자 :                 (인)"
+    },
+    {
+      "id": "tbl-0225-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": " 위 사실을 증명함.\n\n                                         2026년  00월     일\n\n                                             상  호 :\n                                             주  소 :\n                                             대표자 :                (인)"
+    },
+    {
+      "id": "tbl-0225-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 2,
+      "is_header": false,
+      "text": "발  급  자"
+    },
+    {
+      "id": "tbl-0225-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "소    속"
+    },
+    {
+      "id": "tbl-0225-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r7c4",
+      "row": 7,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직    위"
+    },
+    {
+      "id": "tbl-0225-r7c5",
+      "row": 7,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성    명"
+    },
+    {
+      "id": "tbl-0225-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0225-r8c4",
+      "row": 8,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전화번호"
+    },
+    {
+      "id": "tbl-0225-r8c5",
+      "row": 8,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

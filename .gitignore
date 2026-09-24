@@ -1,0 +1,13 @@
+.venv/
+.uv-cache/
+.uv-python/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+reports/verification_*.json
+reports/verification_*.md
+reports/screenshots/*.png

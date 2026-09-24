@@ -1,0 +1,110 @@
+{
+  "table_id": "tbl-0129",
+  "logical_rows": 4,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0129-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0129-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 요구사항"
+    },
+    {
+      "id": "tbl-0129-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0129-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-001"
+    },
+    {
+      "id": "tbl-0129-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0129-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "참여인력 자격요건"
+    },
+    {
+      "id": "tbl-0129-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0129-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0129-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 핵심인력은 본 사업과 관련된 개발에 직접 참여하였거나, 유사 프로젝트 개발경험이 있는 전문 기술 인력을 권장함\n ㅇ 핵심인력에 대한 자격, 경력, 유사사업 참여 실적을 상세하게 제시하여야 하며, 특히, PM의 경우에는 반드시 제시하여야 함(SW 개발자는 제시 대상에서 제외)\n ㅇ 모든 참여인력은 상주를 원칙으로 하며, 비상주 인력(제품공급사 엔지니어 등)에 대해서는 타당한 비상주 사유를 명시하고, 사유가 불명확할 경우 투입공수에서 제외함\n ㅇ 도입 대상 제품(HW, SW)은 제조사(국내 제조가 없는 경우 판매·기술지원·라이선스 관리를 총괄하는 기관)의 전문기술 인력을 투입"
+    },
+    {
+      "id": "tbl-0129-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0129-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "사업수행계획서"
+    }
+  ]
+}

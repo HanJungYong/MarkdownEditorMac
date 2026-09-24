@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0078",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0078-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0078-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성 요구사항"
+    },
+    {
+      "id": "tbl-0078-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0078-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-002"
+    },
+    {
+      "id": "tbl-0078-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0078-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) DB 모델링 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0078-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0078-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0078-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) DB 모델링 소프트웨어 도입 요구사항"
+    },
+    {
+      "id": "tbl-0078-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0078-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 모델링 도구 도입 및 설계 지원\n  - 프로젝트 수행에 필요한 상용DB 모델링 도구를 도입해야 하며, 논리 및 물리 모델 설계가 가능해야 함\n  - 모델링 도구는 데이터 모델 표준화 작업을 지원할 수 있어야 함\n○ DBMS 연계 및 확장 호환성\n  - 모델링 도구는 다양한 관계형 및 비관계형 데이터베이스와의 연동을 지원해야 함\n  - 향후 데이터 플랫폼 확장 시에도 호환성 문제가 발생하지 않도록 유연한 연결 구조를 제공하여야 함\n○ 모델링 핵심 기능 제공\n  - ER 모델 작성, 엔티티 및 속성 정의, 키 설정, 관계 구성 등의 기능을 제공하여야 함\n  - 표준 용어 및 지표 체계와 연계 가능한 구조를 지원하여야 함\n○ 이력관리 및 메타데이터 연계\n  - 모델 변경에 대한 이력관리 기능을 제공\n  - 모델 정보를 활용한 자동 문서화 기능을 제공하여야 함\n  - 메타데이터 관리 시스템과의 연계 인터페이스를 지원해야 함"
+    },
+    {
+      "id": "tbl-0078-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0078-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아키텍처 설계서, 라이선스 목록, 제조사 물품공급·기술지원 확약서, 사용자·운영자 매뉴얼"
+    }
+  ]
+}

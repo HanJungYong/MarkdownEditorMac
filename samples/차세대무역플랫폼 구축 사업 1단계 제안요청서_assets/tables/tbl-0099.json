@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0099",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0099-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0099-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0099-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0099-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-003"
+    },
+    {
+      "id": "tbl-0099-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0099-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합데이터플랫폼 데이터 아키텍처 설계"
+    },
+    {
+      "id": "tbl-0099-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0099-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0099-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합데이터플랫폼 데이터 아키텍처 설계 요구사항"
+    },
+    {
+      "id": "tbl-0099-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0099-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 통합데이터플랫폼의 구축 및 운영 요건을 반영한 데이터 아키텍처를 설계하여야 함\n  - 유관 시스템과의 데이터 연계, 데이터 흐름, 저장 구조 및 활용 구조를 종합적으로 고려하여 데이터 수집·적재·통합·제공 체계를 설계하여야 함\n  - 정형 및 비정형 데이터 수용이 가능하도록 ODS, DW, DM 등 계층별 역할, 적재 범위 및 활용 구조를 정의하여야 함\n○ 데이터 표준 및 운영 효율성을 고려한 관리체계를 설계하여야 함\n  - 데이터 표준화, 공통코드 및 메타데이터 관리 방안을 반영하여야 함\n  - 데이터 수집·변환·적재 작업의 운영 효율성을 고려하여 ETL 통합관리 체계를 설계하여야 함\n○ 보안 및 외부연계를 고려한 데이터 구조를 설계하여야 함\n  - 개인정보 및 민감정보에 대한 보안등급과 데이터 영역 분리를 고려한 저장·관리 구조를 설계하여야 함\n  -외부 시스템 연계 시 DB Link 방식의 한계를 고려하여 API 또는 ETL 기반의 안정적인 연계 구조를 설계하여야 함\n  - 내·외부 시스템 연계 시 운영 안정성, 보안성 및 확장성을 고려한 데이터 연계 방안을 포함하여야 함\n○ AI Agent 및 대시보드 서비스에 활용할 수 있는 데이터 구조를 설계하여야 함\n  - 조회, 분석, 요약 등 서비스 목적에 적합한 데이터 제공 구조를 설계하여야 함\n  - 목적별 활용이 가능하도록 데이터마트 구성 방안을 마련하여야 함"
+    },
+    {
+      "id": "tbl-0099-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0099-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 아키텍처 설계서"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0111",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0111-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0111-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0111-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0111-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-005"
+    },
+    {
+      "id": "tbl-0111-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0111-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "통합테스트"
+    },
+    {
+      "id": "tbl-0111-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0111-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0111-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "통합테스트"
+    },
+    {
+      "id": "tbl-0111-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0111-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 통합테스트 방안, 검증 방법의 제시 및 통합테스트 시나리오 개발하여야 함\n ㅇ 통합테스트 시행이전에 기능, 성능 등의 요구사항 충족 여부 확인이 가능 하고 요구사항 추적관리가 가능하도록 통합테스트 시나리오를 작성하여야 함\n ㅇ 통합테스트를 수행하기 위한 테스트 데이터 확보 방안(본래의 정보를 유추할 수 없도록 변환·가공 등 보안 요구사항 준수)이 포함된 테스트 수행 방안 마련하여야 함\n ㅇ 단위테스트가 완료된 프로그램들을 대상으로 업무, 시스템영역, 대내 및 대외 간 유기적 연계 등의 기능이 정상적으로 수행되는지 통합테스트 시나리오에 따라 실시하여야 하며 다음의 사항을 검증하여야 함\n  - 기능, 성능 등의 요구사항 및 설계 사양 충족 여부 검증\n  - 기능의 정상적 수행 여부 검증 등\n  - 기능수행 후의 결과가 사전에 예측된 결과와 일치하는지 검증\n  - 시스템의 접근권한 및 업무 권한에 대한 적절성 검증 \n  - 업무 내, 업무 간 연계 및 업무 흐름 검증\n  - 대내 시스템 간, 영역 간 연계 및 이를 포함하는 업무 흐름 검증\n  - 대외기관 연계 및 이를 포함하는 업무 흐름 검증\n  - 프로그램 간의 인터페이스가 설계대로 이루어져 기능이 정상적으로 수행 되는지 검증(통합테스트)\n  - 통합 테스트 수행 후 그 결과(조치결과 포함) 제출하여야 함\n  - 기능 수행 오류 및 산출물의 결과에 포함된 결함을 파악하고 연계된 관련 프로그램의 오류를 추적하여 원인 제거\n  - 결함처리내역에 대한 결과를 관리하고 보고하여야 함"
+    },
+    {
+      "id": "tbl-0111-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0111-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 통합테스트 계획서/시나리오, 통합테스트 결과서, 결함관리대장"
+    }
+  ]
+}

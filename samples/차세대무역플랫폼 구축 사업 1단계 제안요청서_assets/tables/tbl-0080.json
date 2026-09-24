@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0080",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0080-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0080-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성 요구사항"
+    },
+    {
+      "id": "tbl-0080-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0080-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-004"
+    },
+    {
+      "id": "tbl-0080-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0080-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) DB 모니터링 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0080-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0080-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0080-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) DB 모니터링 소프트웨어 도입 요구사항"
+    },
+    {
+      "id": "tbl-0080-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0080-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 지원 환경 및 적용 범위\n  - DB 모니터링 소프트웨어는 온프레미스 및 클라우드에 분산된 DB 인프라를 지원할 수 있어야 함\n  - 다양한 DBMS에 대해 Agent 기반 및 Agentless 방식을 모두 지원하여야 함\n  - 클라우드 기반 서비스 형태로도 구성 가능하여야 함\n○ 확장성 및 운영 구조\n  - DB 수 증가에 따라 확장 가능한 구조를 제공하여야 함\n  - 분산된 DB 환경에 대해 통합 모니터링이 가능하도록 구성되어야 함\n○ 실시간 모니터링 및 성능 가시화\n  - DB 서버별, 인스턴스별, SQL별 실시간 모니터링 기능을 제공하여야 함\n  - CPU, 메모리, Disk I/O, 커넥션 수, 세션 수 등 주요 성능지표를 실시간으로 수집·시각화할 수 있어야 함\n  - 성능 현황 및 이상 징후를 직관적으로 확인할 수 있는 대시보드를 제공하여야 함\n○ 이상 탐지 및 성능 분석 기능\n  - 이상 탐지 및 자동 알림 기능을 제공하여야 함\n  - SQL 튜닝 및 성능 분석 기능을 제공하여야 함\n  - 로그 분석 및 감사 기능을 제공하여야 함\n○ 사용자 편의 및 관리 기능\n  - 솔루션 UI는 직관적으로 구성되어야 함\n  - 알림 설정 및 보고서 설정 기능을 제공하여야 함"
+    },
+    {
+      "id": "tbl-0080-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0080-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아키텍처 설계서, 라이선스 목록, 제조사 물품공급·기술지원 확약서, 사용자·운영자 매뉴얼"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0195",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0195-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0195-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0195-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0195-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-ESG-003"
+    },
+    {
+      "id": "tbl-0195-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0195-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ESG규제대응/ESG경영 수준진단 상세 페이지 구축"
+    },
+    {
+      "id": "tbl-0195-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0195-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0195-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ESG진단 및 보고서 생성 서비스 중 결과 확인 및 결과보고서 생성 서비스 상세 설계"
+    },
+    {
+      "id": "tbl-0195-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0195-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 수준진단 결과 확인 화면 설계\n  - 평가결과 수준판정 기준 수립 \n(예: 도입기, 정착기, 성숙기 각 단계별 최소 만족요구 문항 설계 \n 또는 점수 기준 구간 부여 방식)\n  - 입력 데이터 및 기 진단 동종업계 데이터 기반 Peer Review 기능\n (업계 내 수준 비교 가능한 원단위 분석)\n ※ S&P CSA, MSCI, SASB 등의 중대성(Materiality) 기준에 따른\n   중점관리 항목에 집중하여 상대 평가 결과 제시 \n  - 평가결과보고서 내용/형식(Template) 구성\n  ※ 보고서의 실무 활용성을 고려하여 영역/문항별 기준점이 되는 \n    최소 요구사항 해설 포함 \n  - 평가결과보고서(PDF) 생성 기능 \n○ 수준진단 결과 서비스 추천 및 바로가기 제공\n  - 단계별 필요한 Action Plan의 제시 및 관련 서비스 소개\n  (예: 도입기의 경우 기초 학습 및 인식제고를 위한 정보/자료 제공,\n 정착기의 경우 애로사항 해소를 위한 자문상담, 성숙기의 경우\n 실무 기술지원을 위한 전문기관 연결 서비스 등)"
+    },
+    {
+      "id": "tbl-0195-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0195-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 정의서"
+    }
+  ]
+}

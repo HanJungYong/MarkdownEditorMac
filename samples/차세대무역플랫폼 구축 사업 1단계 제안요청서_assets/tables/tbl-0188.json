@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0188",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0188-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0188-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0188-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0188-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-TK-001"
+    },
+    {
+      "id": "tbl-0188-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0188-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 성능 개선"
+    },
+    {
+      "id": "tbl-0188-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0188-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0188-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea 서비스 성능 개선"
+    },
+    {
+      "id": "tbl-0188-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0188-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 현행 Web 서비스 성능 개선\n  - 기존 Web서버의 서비스 제공 환경(설정 정보 등) 최적화\n  - 레거시 시스템 및 운영 자원 정비(노후 환경 고도화 및 버전 통일)\n○ CDN 서비스 환경 재구축\n  - 운영 데이터에 대한 접근 권한 통제 및 보안성 강화 방안 적용\n  - 이미지 및 css, js등 Web서버상에서 다운로드 되는 리소스 활용 경로 및 도메인 최적화\n  - 해외 사용자의 접속 지연(최초 세션 연결 등) 현상 해소를 위한 서비스 제공 성능 개선\n  - 해외 지역 별 목표 응답시간 기준 수립을 통한 서비스 관리 기준 적용"
+    },
+    {
+      "id": "tbl-0188-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0188-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서, 아키텍쳐 설계서, 인터페이스 정의서, UI/UX 설계서, 운영자 매뉴얼, DB 설계서, ERD, 단위테스트·통합테스트 시나리오 및 결과서"
+    }
+  ]
+}

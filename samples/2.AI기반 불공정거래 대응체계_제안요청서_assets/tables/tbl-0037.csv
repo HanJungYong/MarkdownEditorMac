@@ -1,0 +1,14 @@
+﻿요구사항 구분,,요구사항번호,요구사항수
+시스템 장비구성 요구사항,Equipment Composition Requirement,ECR-000,8
+컨설팅 요구사항,Consulting Requirement,CUR-000,8
+기능 요구사항,System Function Requirement,SFR-000-000,26
+성능 요구사항,Performance Requirement,PER-000,4
+인터페이스 요구사항,System Interface Requirement,INR-000,2
+데이터 요구사항,Data Requirement,DAR-000,5
+테스트 요구사항,Test Requirement,TER-000,10 
+보안 요구사항,Security Requirement,SER-000,4 
+품질 요구사항,Quality Requirement,QUR-000,3 
+제약사항,Constraint Requirement,COR-000,5 
+프로젝트관리 요구사항,Project Management Requirement,PMR-000,10 
+프로젝트지원 요구사항,Project Support Requirement,PSR-000,4
+합 계,,,89

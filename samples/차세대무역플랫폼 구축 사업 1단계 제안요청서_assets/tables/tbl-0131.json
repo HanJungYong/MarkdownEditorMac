@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0131",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0131-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0131-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0131-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0131-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-AP-002"
+    },
+    {
+      "id": "tbl-0131-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0131-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Data 정의"
+    },
+    {
+      "id": "tbl-0131-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0131-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0131-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Data 적재를 위한 데이터 자산의 AI Readable화"
+    },
+    {
+      "id": "tbl-0131-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0131-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 프롬프트 라이브러리 정의\n  - 작업 유형, 시나리오 별 표준화 된 프롬프트 라이브러리를 구축해야 함\n  - 프롬프트 구성을 위한 템플릿이 정의 되어야 하며 생성/수정/폐기를 위한 방안이 마련 되어야 함\n○ 워크플로우 정의\n  - Orchestration 기반의 Multi Agent 구성을 위한 작업 유형별 워크플로우를 데이터로 정의 해야 함\n  - 워크플로우 시나리오별 활용 대상 Agent에 대한 정보가 정의 되어야 함\n○ 지식데이터 정의\n  - 사내데이터를 추출 및 구조화 하여 벡터화 해야 함\n  - Agent가 작업을 수행하기 위해 필요한 지식과 정보의 범위를 지정하고 유형별로 데이터화 기준을 수립하여 이를 기반으로 Data를 생성 해야 함\n○ 관리 방안 수립\n    - AI Data를 vector화 하여 적재하고 관리하며 다양한 LLM 모델이 활용할 수 있는 표준 및 관리 방안이 수립 되어야 함\n    - 표준 데이터품질관리체계를 기반으로 데이터가 관리 되어야 함"
+    },
+    {
+      "id": "tbl-0131-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0131-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 모델 ERD, 데이터 정의서, 시나리오 정의서, 데이터 아키텍처 설계서"
+    }
+  ]
+}

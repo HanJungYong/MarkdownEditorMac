@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0120",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0120-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0120-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 요구사항"
+    },
+    {
+      "id": "tbl-0120-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0120-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-004"
+    },
+    {
+      "id": "tbl-0120-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0120-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 보안 및 접근 통제"
+    },
+    {
+      "id": "tbl-0120-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0120-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0120-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 보안 및 접근 통제에 관한 사항"
+    },
+    {
+      "id": "tbl-0120-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0120-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 국가정보원 등 공공기관이 지켜야 하는 AI 보안 지침들을 준수하여 구축하여야 함\n ㅇ 국가·공공기관 AI보안 가이드북(국가정보원)을 참고하여 구축하여야 함\n ㅇ AI 활용에 대한 보안·접근통제 체계 구축\n   - 조사원별 사건 배정에 따라 조회 가능 자료의 범위를 차등 적용하는 등 사용자별 접근 권한 통제 구현\n   - 사건별 AI 질의·응답 내역(민감정보 포함) 등에 대한 로그 기록 관리, 과도한 민감정보나 접근권한 외 정보가 노출되지 않도록 통제구현  \n   - 비의도적 입력을 통한 시스템 프롬프트 우회 및 비인가 정보 추출을 방지하기 위해 프롬프트 인젝션 방지 체계 구축"
+    },
+    {
+      "id": "tbl-0120-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0120-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "해당없음"
+    }
+  ]
+}

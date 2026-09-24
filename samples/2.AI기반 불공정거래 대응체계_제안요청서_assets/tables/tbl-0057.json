@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0057",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0057-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0057-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비 구성 요구사항"
+    },
+    {
+      "id": "tbl-0057-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0057-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-008"
+    },
+    {
+      "id": "tbl-0057-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0057-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "LLM 소프트웨어 도입 "
+    },
+    {
+      "id": "tbl-0057-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0057-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0057-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "LLM 소프트웨어 도입에 대한 요구사항"
+    },
+    {
+      "id": "tbl-0057-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0057-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 도입 품목: LLM 소프트웨어\n ㅇ 도입 수량: 1식 \n  - 도입 솔루션은 본 사업의 성공적인 구축을 위해 필요한 운영 및 개발 서버의 설치 수량에 맞게 라이선스가 제공되어야 함 \n ㅇ 요구 기능\n  - 온프레미스(On-Premise) 구축이 가능한 LLM모델로서 내부망에 설치하여 운영 가능한 모델이어야 함\n  - 한국어 기반 상용 파운데이션 모델 30B 이상 LLM 2종 이상을 제안해야 함 (오픈소스기반 모델을 파인튜닝한 모델은 제안할 수 없음) \n  - 제안 모델은 에이전트 구현을 위한 MCP& FunctionCalling*지원, 멀티모달(이미지인식, 음성변환) 지원 가능 (자체 또는 별도 도구조합) 하여야 하며, 컨텍스트 크기는 최소 64K이상이어야 함\n  - Chat생성(싱글턴, 멀티턴), 추론, 구조화된 출력(output), Function calling 등 API를 제공하여야 함\n  - 제안 모델은 윤리기준을 준수하고, 타기관에 납품실적이 있는 검증된 모델로 제안하여야 하며, 모델 선정 평가를 위한 벤치마크 또는 테스트 결과를 제시하여야 함\n  - 최종 적용 모델 선정은 평가 등을 거쳐 발주사의 승인 후 납품해야 함\n  - ChatGPT, Gemini 등 외부망에 위치한 언어모델에 플러그인, API를 통해 연계하는 방식은 적용 불가함\n  - 제안 S/W는 본 기능요구사항(SFR)에 명시된 모든 기능을 지원하는 모델을 제공하거나 별도 개발, 커스터마이징을 통해 제공할 수 있어야 함\n  - 제안한 소프트웨어가 기능(SFR), 성능(PER), 품질(QUR) 등 사업목적 및 요구사항을 반영하지 못하는 경우, 기준 충족을 위해 발생하는 제반 비용(라이선스 core 증설, 기능 보완을 위한 별도 솔루션 도입 등)은 사업수행자가 부담하여야 함\n  - 대상 소프트웨어가 향후 기술 향상 및 발전에 따른 변동성이 큰 점을 고려하여, 도입 SW의 업그레이드 및 기술지원 범위, 업그레이드 용이성 등을 상세히 포함하여 제안하여야 함\n  - 프리웨어는 제안에 포함할 수 없으며, 오픈소스는 관리적, 기술적, 법적 하자(라이선스 위반 등)가 없도록 제시하여야 함"
+    },
+    {
+      "id": "tbl-0057-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0057-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "설치계획서, 설치결과서"
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "app": "HWPtoMarkdown 0.1.0",
+  "md_file": "설문지_기업 인공지능 활용 실태조사.md",
+  "evidence_images": {},
+  "overall": "WARN",
+  "overall_label": "검증 일부 미완료",
+  "summary": [
+    "검증 일부 미완료: 필수 검사 17개 중 통과 10, 경고 0, 실패 0, 미실행 4.",
+    "미실행: HWPX 구조 기준 변환 여부(HWPX 변환 도구(한글 COM 등)를 쓸 수 없어 HWP 5.0 네이티브 파서로 대체 추출했습니다. HWPX 구조 기준 변환이 아닙니다.), 숫자·금액·날짜(PDF·OCR 페이지 단위)(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).), 블록↔PDF 페이지 매핑(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).), PDF 페이지 시각 대조(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).)"
+  ],
+  "item_status": {
+    "C1": "NOT_CHECKED",
+    "C2": "PASS",
+    "F6": "NOT_CHECKED",
+    "F6_MAP": "NOT_CHECKED",
+    "S1": "PASS",
+    "V1": "PASS",
+    "V2": "PASS",
+    "V3": "WARN",
+    "V4": "PASS",
+    "V5": "PASS",
+    "V6": "PASS",
+    "V7": "PASS",
+    "V7_AI": "NOT_CHECKED"
+  },
+  "checks": [
+    {
+      "id": "S1",
+      "item": "S1",
+      "title": "Markdown 재파싱 구조 무결성",
+      "scope": "document",
+      "basis": "MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "parsed_elements": 254,
+        "generated_elements": 1
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "C1",
+      "item": "C1",
+      "title": "HWPX 구조 기준 변환 여부",
+      "scope": "document",
+      "basis": "HWP5(네이티브)",
+      "status": "NOT_CHECKED",
+      "reason": "HWPX 변환 도구(한글 COM 등)를 쓸 수 없어 HWP 5.0 네이티브 파서로 대체 추출했습니다. HWPX 구조 기준 변환이 아닙니다.",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "C2",
+      "item": "C2",
+      "title": "HWP 원본 집계 ↔ 구조 모델(3중 대조)",
+      "scope": "document",
+      "basis": "HWP5 집계 ↔ HWP5 자체 모델(독립 코드 경로)",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "source_paragraphs_total": 1049,
+        "source_tables": 34,
+        "source_pictures": 0,
+        "source_equations": 0,
+        "source_footnotes": 0,
+        "source_endnotes": 0,
+        "source_shapes_with_text": 0,
+        "model_paragraphs_total": 1049,
+        "model_tables": 34,
+        "model_pictures": 0,
+        "model_equations": 0,
+        "model_footnotes": 0,
+        "model_endnotes": 0,
+        "model_shapes_with_text": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V1.model_md",
+      "item": "V1",
+      "title": "문단·표·이미지 개수(모델→MD)",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "aligned_equal": 254,
+        "aligned_changed": 0,
+        "missing": 0,
+        "extra": 0,
+        "image_placements_expected": 0,
+        "image_placements_md": 0,
+        "unique_assets": 0,
+        "asset_files_saved": 0,
+        "tables_model": 34,
+        "headings_model": 10,
+        "paragraphs_model_nonempty": 895,
+        "paragraphs_model_empty": 154,
+        "expected:heading@body": 10,
+        "md:heading@body": 10,
+        "expected:paragraph@blockquote": 9,
+        "md:paragraph@blockquote": 9,
+        "expected:paragraph@body": 212,
+        "md:paragraph@body": 212,
+        "expected:table_blockquote@container": 2,
+        "md:table_blockquote@container": 2,
+        "expected:table_gfm@body": 22,
+        "md:table_gfm@body": 22,
+        "expected:table_html@body": 1,
+        "md:table_html@body": 1
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V1.policy",
+      "item": "V1",
+      "title": "정책에 따른 변환(삭제 아님)",
+      "scope": "document",
+      "basis": "구조 모델",
+      "status": "PASS",
+      "reason": "shape_without_text: 글이 없는 도형 15개(장식용 선·사각형 등)는 Markdown에 출력하지 않았습니다. 위치는 source_map에 있습니다.; title_object: 제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(G.)",
+      "required": true,
+      "counts": {
+        "policy_conversions": 10
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V2.headings",
+      "item": "V2",
+      "title": "제목 수·순서·수준·텍스트(모델→MD)",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "headings_model": 10,
+        "headings_md": 10,
+        "method_outline": 1,
+        "method_title_object": 9
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V2.toc",
+      "item": "V2",
+      "title": "원문 목차 ↔ 본문 제목",
+      "scope": "document",
+      "basis": "구조 모델(목차·제목)",
+      "status": "NOT_APPLICABLE",
+      "reason": "원문에서 목차를 인식하지 못했습니다(목차가 없거나 형식 미인식).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V2.numbering",
+      "item": "V2",
+      "title": "자동 번호 계산 ↔ PDF",
+      "scope": "document",
+      "basis": "번호 정의 + PDF",
+      "status": "NOT_APPLICABLE",
+      "reason": "제목에 자동 번호(번호 정의로 계산하는 번호)가 없습니다.",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V3.model_md",
+      "item": "V3",
+      "title": "숫자·금액·날짜(모델→MD, 발생 횟수·위치)",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "expected_date": 27,
+        "expected_money": 36,
+        "expected_number": 215,
+        "expected_percent": 24,
+        "md_date": 27,
+        "md_money": 36,
+        "md_number": 215,
+        "md_percent": 24,
+        "compared_units": 914,
+        "tables_with_unit_context": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V3.pdf",
+      "item": "V3",
+      "title": "숫자·금액·날짜(PDF·OCR 페이지 단위)",
+      "scope": "document",
+      "basis": "PDF 텍스트·OCR → MD",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V4.model_md",
+      "item": "V4",
+      "title": "표 행·열·병합·셀 내용(모델→MD)",
+      "scope": "document",
+      "basis": "구조 모델 논리 격자 → MD 재파싱(GFM·HTML span 해석)",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "tables_compared": 25,
+        "tables_heading_converted": 9,
+        "tables_gfm": 22,
+        "tables_html": 1,
+        "tables_blockquote": 2
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V4.pdf",
+      "item": "V4",
+      "title": "표 셀 ↔ PDF 표 영역(보조 근거)",
+      "scope": "document",
+      "basis": "PDF",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": false,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V5",
+      "item": "V5",
+      "title": "깨진 한글·특수문자",
+      "scope": "document",
+      "basis": "MD·모델 문자 검사 + 모델↔MD(NFC) 대조",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "md_replacement_chars": 0,
+        "md_control_lines": 0,
+        "md_pua_chars": 0,
+        "md_zero_width_or_filler": 0,
+        "md_mojibake_lines": 0,
+        "source_replacement_blocks": 0,
+        "source_pua_chars": 0,
+        "source_mojibake_blocks": 0,
+        "old_hangul_jamo_chars": 0,
+        "char_variant_changes": 0,
+        "text_changed_elements": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V6.notes",
+      "item": "V6",
+      "title": "각주·미주 참조↔정의",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱(GFM 각주 + 표 안 HTML 각주)",
+      "status": "NOT_APPLICABLE",
+      "reason": "원문에 각주·미주가 없습니다.",
+      "required": true,
+      "counts": {
+        "notes_model": 0,
+        "gfm_notes": 0,
+        "html_notes": 0,
+        "md_refs": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V6.links",
+      "item": "V6",
+      "title": "내부 링크·상대 경로·원문 URL",
+      "scope": "document",
+      "basis": "MD 재파싱 + 출력 폴더",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "links_total": 1,
+        "internal_links": 0,
+        "broken_relative": 0,
+        "urls_model": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V6.inferred",
+      "item": "V6",
+      "title": "참조 파일로 추론한 출처 연결",
+      "scope": "document",
+      "basis": "참조 자료",
+      "status": "NOT_APPLICABLE",
+      "reason": "참조 파일로 새 출처를 연결하지 않았습니다(추론 연결 없음).",
+      "required": false,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V7.rules",
+      "item": "V7",
+      "title": "문서 내부 상충(규칙 기반)",
+      "scope": "document",
+      "basis": "주장 표(속성·값) + 날짜·요일 + 합계 검산",
+      "status": "PASS",
+      "reason": "규칙 기반 후보 탐지만 수행했습니다. 후보가 없다는 것이 문서에 모순이 없다는 보증은 아닙니다.",
+      "required": true,
+      "counts": {
+        "claims": 2,
+        "candidates": 0,
+        "sum_checks": 0,
+        "yearless_weekday_dates": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V7.ai",
+      "item": "V7_AI",
+      "title": "문서 내부 상충(AI 보조)",
+      "scope": "document",
+      "basis": "AI 보조(장·절 단위)",
+      "status": "NOT_CHECKED",
+      "reason": "외부 AI를 사용하지 않았습니다(설정에서 켜야 실행).",
+      "required": false,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "F6.map",
+      "item": "F6_MAP",
+      "title": "블록↔PDF 페이지 매핑",
+      "scope": "document",
+      "basis": "PDF",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "F6.visual",
+      "item": "F6",
+      "title": "PDF 페이지 시각 대조",
+      "scope": "document",
+      "basis": "PDF 렌더 ↔ 자료 모델·MD",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    }
+  ],
+  "issues": [],
+  "sections": [
+    {
+      "id": "sec-000",
+      "title": "(첫 제목 앞 내용)",
+      "level": 0,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-001",
+      "title": "2026년 기업 인공지능 활용 실태 및 정책·입법 수요 조사",
+      "level": 1,
+      "status": "PASS",
+      "blocks": 19
+    },
+    {
+      "id": "sec-002",
+      "title": "SQ. 응답자에 관한 사항",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 36
+    },
+    {
+      "id": "sec-003",
+      "title": "A. 기업 일반",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 46
+    },
+    {
+      "id": "sec-004",
+      "title": "B. AI 도입 및 활용",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 46
+    },
+    {
+      "id": "sec-005",
+      "title": "C. 데이터 및 인프라",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 26
+    },
+    {
+      "id": "sec-006",
+      "title": "D. 인력 및 협력",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 29
+    },
+    {
+      "id": "sec-007",
+      "title": "E. 법령 대응 및 규제",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 9
+    },
+    {
+      "id": "sec-008",
+      "title": "용어 설명",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 64
+    },
+    {
+      "id": "sec-009",
+      "title": "F. 정부 지원 및 생태계",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 62
+    },
+    {
+      "id": "sec-010",
+      "title": "G. Index 자기평가 및 입법 수요",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 43
+    }
+  ],
+  "alignment": {
+    "equal": 254,
+    "changed": 0,
+    "missing": 0,
+    "extra": 0
+  },
+  "coverage": {
+    "pdf_available": false,
+    "pdf_renderer_kind": "none",
+    "pdf_pages": null,
+    "pages_rendered": 0,
+    "blocks_mappable": 0,
+    "blocks_mapped": 0,
+    "pages_ai_reviewed": 0,
+    "pages_ai_reviewed_list": [],
+    "pages_ai_partial_list": [],
+    "pages_human_reviewed": 0,
+    "pages_partial": 0,
+    "unreviewed_regions": 0
+  },
+  "policy_conversions": [
+    {
+      "element": "shape_without_text",
+      "block_ids": [],
+      "action": "출력 생략",
+      "reason": "글이 없는 도형 15개(장식용 선·사각형 등)는 Markdown에 출력하지 않았습니다. 위치는 source_map에 있습니다."
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0001"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 문서 첫 내용인 1×1 표의 한 줄 문자열(문서 제목으로 판단)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0004"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(SQ.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0005"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(A.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0007"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(B.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0012"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(C.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0015"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(D.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0019"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(E.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0026"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(F.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0031"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(G.)"
+    },
+    {
+      "element": "empty_paragraph",
+      "block_ids": [],
+      "action": "Markdown에서 생략",
+      "reason": "빈 문단 135개는 Markdown 문단 구분에 흡수했습니다(자료 모델·source_map에는 남음)."
+    },
+    {
+      "element": "single_cell_table",
+      "block_ids": [
+        "b-tbl-0002"
+      ],
+      "action": "인용 블록으로 표현",
+      "reason": "1×1 표(테두리 상자)의 내용은 인용 블록으로 표현했습니다(표 수 집계는 유지)."
+    },
+    {
+      "element": "single_cell_table",
+      "block_ids": [
+        "b-tbl-0034"
+      ],
+      "action": "인용 블록으로 표현",
+      "reason": "1×1 표(테두리 상자)의 내용은 인용 블록으로 표현했습니다(표 수 집계는 유지)."
+    }
+  ],
+  "headings": [
+    {
+      "block_id": "b-tbl-0001",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": null,
+      "title": "2026년 기업 인공지능 활용 실태 및 정책·입법 수요 조사",
+      "inference_method": "title_object",
+      "evidence": "문서 첫 내용인 1×1 표의 한 줄 문자열(문서 제목으로 판단)",
+      "anchor_id": "sec-001"
+    },
+    {
+      "block_id": "b-tbl-0004",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "SQ.",
+      "title": "SQ. 응답자에 관한 사항",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(SQ.)",
+      "anchor_id": "sec-002"
+    },
+    {
+      "block_id": "b-tbl-0005",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "A.",
+      "title": "A. 기업 일반",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(A.)",
+      "anchor_id": "sec-003"
+    },
+    {
+      "block_id": "b-tbl-0007",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "B.",
+      "title": "B. AI 도입 및 활용",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(B.)",
+      "anchor_id": "sec-004"
+    },
+    {
+      "block_id": "b-tbl-0012",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "C.",
+      "title": "C. 데이터 및 인프라",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(C.)",
+      "anchor_id": "sec-005"
+    },
+    {
+      "block_id": "b-tbl-0015",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "D.",
+      "title": "D. 인력 및 협력",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(D.)",
+      "anchor_id": "sec-006"
+    },
+    {
+      "block_id": "b-tbl-0019",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "E.",
+      "title": "E. 법령 대응 및 규제",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(E.)",
+      "anchor_id": "sec-007"
+    },
+    {
+      "block_id": "p-00647",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": null,
+      "title": "용어 설명",
+      "inference_method": "outline",
+      "evidence": "문단 모양 개요 수준 3",
+      "anchor_id": "sec-008"
+    },
+    {
+      "block_id": "b-tbl-0026",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "F.",
+      "title": "F. 정부 지원 및 생태계",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(F.)",
+      "anchor_id": "sec-009"
+    },
+    {
+      "block_id": "b-tbl-0031",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "G.",
+      "title": "G. Index 자기평가 및 입법 수요",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 짧은 제목 문자열, 번호 패턴 'A. / SQ.'(G.)",
+      "anchor_id": "sec-010"
+    }
+  ],
+  "toc_entries": [],
+  "unknown_elements": [],
+  "warnings": [
+    "문서에 스크립트(Scripts)가 있습니다. 실행하지 않았습니다.",
+    "변경 추적 정보가 있습니다. 삭제 표시된 글은 제외하고(최종본 기준) 변환했습니다."
+  ],
+  "stages": [
+    {
+      "stage": "detect",
+      "title": "입력 판별·환경 점검",
+      "status": "done",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.002,
+      "processed": null,
+      "total": null,
+      "note": "HWP 5.x 5.1.1.0 — 지원: HWP 5.x 문서 (압축)"
+    },
+    {
+      "stage": "convert",
+      "title": "원본 변환(HWP→HWPX·PDF)",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.001,
+      "processed": null,
+      "total": null,
+      "note": "변환 도구가 없어 HWP5 네이티브 파서로 대체 추출합니다. HWPX: 없음 / PDF: 없음"
+    },
+    {
+      "stage": "source_counts",
+      "title": "원본 측 기준 집계(HWP5)",
+      "status": "done",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.008,
+      "processed": null,
+      "total": null,
+      "note": "문단 1049, 표 34, 그림 0"
+    },
+    {
+      "stage": "structure",
+      "title": "구조 추출(자료 모델)",
+      "status": "done",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.031,
+      "processed": 1083,
+      "total": null,
+      "note": "블록 1083, 표 34, 그림 0"
+    },
+    {
+      "stage": "outline",
+      "title": "자동 번호·제목·목차·장절 트리",
+      "status": "done",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.002,
+      "processed": null,
+      "total": null,
+      "note": "제목 10, 목차 항목 0, 장·절 11"
+    },
+    {
+      "stage": "pdf",
+      "title": "PDF 렌더링·텍스트 레이어·페이지 매핑",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정)."
+    },
+    {
+      "stage": "ocr",
+      "title": "OCR 보완",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "PDF가 없어 페이지 OCR을 하지 않았습니다."
+    },
+    {
+      "stage": "render",
+      "title": "장·절 단위 Markdown 렌더링",
+      "status": "done",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.011,
+      "processed": 11,
+      "total": 11,
+      "note": "778줄, 장·절 11"
+    },
+    {
+      "stage": "validate",
+      "title": "기계 검증(저장 파일 재파싱)",
+      "status": "done",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.106,
+      "processed": 20,
+      "total": null,
+      "note": "검증 일부 미완료: 필수 검사 17개 중 통과 10, 경고 0, 실패 0, 미실행 4."
+    },
+    {
+      "stage": "visual",
+      "title": "시각 대조",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "PDF가 없어 시각 대조를 하지 못했습니다."
+    },
+    {
+      "stage": "ai",
+      "title": "AI 보조 검토",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": "2026-09-19T01:26:00+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "외부 AI를 사용하지 않았습니다(설정 꺼짐)."
+    },
+    {
+      "stage": "save",
+      "title": "상태 판정·보고서·저장",
+      "status": "running",
+      "started_at": "2026-09-19T01:26:00+00:00",
+      "finished_at": null,
+      "duration_sec": null,
+      "processed": null,
+      "total": null,
+      "note": null
+    }
+  ],
+  "manifest": {
+    "app": "HWPtoMarkdown 0.1.0",
+    "job_id": "20260919-102600-048506",
+    "processed_at": "2026-09-19T01:26:00+00:00",
+    "started_at": "2026-09-19T01:26:00+00:00",
+    "inputs": [
+      {
+        "role": "주 입력",
+        "name": "설문지_기업 인공지능 활용 실태조사.hwp",
+        "sha256": "45c2e2d793951c63c785d3a83a2abe45baf49b197ecdf12e185c3c60fa94d63f",
+        "size": 111616,
+        "status": "HWP 5.x 5.1.1.0 — 지원: HWP 5.x 문서 (압축)",
+        "note": "압축"
+      }
+    ],
+    "structure_basis": "hwp5_native",
+    "source_format": "hwp5",
+    "hwpx_source": null,
+    "pdf_source": null,
+    "pdf_renderer_kind": "none",
+    "conversion_notes": [
+      "한글 COM 백엔드를 쓸 수 없습니다: HWPFrame.HwpObject ProgID가 없습니다(한글 미설치)."
+    ],
+    "provenance": [
+      {
+        "step": "structure",
+        "tool": "hwp_to_md.hwp5 parser",
+        "version": null,
+        "settings_hash": null,
+        "renderer_kind": "native",
+        "note": null
+      }
+    ],
+    "policy": {
+      "name": "default",
+      "source": "F:\\38.AICowork\\202609_HWPtoMD\\config\\validation_policy.toml",
+      "sha256": "95171431c5f7d07ff90bed0758bcc09a82429ec4a5604e8043e6789e4b9689f6"
+    },
+    "settings_hash": "0309b90ede2ce46c8be1763b53f46f685db3f58d255afb08a57c4ba64482753a",
+    "settings": {
+      "version": 1,
+      "output": {
+        "page_markers": true,
+        "single_cell_table_mode": "blockquote",
+        "include_memos": false,
+        "header_footer_appendix": true,
+        "keep_intermediate": false,
+        "debug_block_ids": false,
+        "render_dpi": 150
+      },
+      "backends": {
+        "hwp_com": {
+          "enabled": true,
+          "security_module_name": "FilePathCheckerModule",
+          "message_box_mode": 2244897,
+          "open_options": "forceopen:true",
+          "timeout_sec": 300,
+          "pdf_via_print_fallback": false
+        },
+        "java_path": null,
+        "hwp2hwpx_jar": null,
+        "hwp2hwpx_enabled": false,
+        "soffice_path": null,
+        "libreoffice_enabled": false,
+        "timeout_sec": 300
+      },
+      "ocr": {
+        "engine": "auto",
+        "languages": [
+          "ko",
+          "en-US"
+        ],
+        "tesseract_languages": "kor+eng",
+        "tesseract_cmd": null,
+        "dpi": 300,
+        "ocr_images": false,
+        "ocr_low_quality_pages": true
+      },
+      "ai": {
+        "enabled": false,
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "endpoint": null,
+        "timeout_sec": 300,
+        "max_retries": 2,
+        "max_requests": 200,
+        "max_output_tokens": 16000,
+        "server_fallbacks": true,
+        "cost_limit_usd": 5.0,
+        "price_input_per_mtok_usd": null,
+        "price_output_per_mtok_usd": null,
+        "policy_url": "https://www.anthropic.com/legal/commercial-terms",
+        "tasks_visual": true,
+        "tasks_conflicts": true,
+        "tasks_headings": false,
+        "mask_pii": true,
+        "cache_responses": true,
+        "image_max_long_side_px": 2576,
+        "image_max_pixels": 3750000,
+        "image_max_tokens": 4784,
+        "tile_overlap_px": 64,
+        "visual_dpi": 200,
+        "visual_max_pages": null,
+        "section_chunk_chars": 24000,
+        "consent_recorded": false
+      },
+      "policy_path": null
+    },
+    "ai": {
+      "enabled": false,
+      "provider": null,
+      "model": null,
+      "consent": null,
+      "plan": [],
+      "ran": false,
+      "sent": []
+    },
+    "log_file": "C:\\Users\\hdool\\AppData\\Local\\HWPtoMarkdown\\HWPtoMarkdown\\Logs\\job-20260919-102600-048506.log"
+  },
+  "notes": [
+    "HWPX 구조 기준 변환이 아닙니다: 변환 도구가 없어 HWP 5.0 네이티브 파서로 대체 추출했습니다.",
+    "한글 COM 백엔드를 쓸 수 없습니다: HWPFrame.HwpObject ProgID가 없습니다(한글 미설치).",
+    "PASS는 설정한 검사 범위 안의 결과입니다. 사실성, 상충 탐지의 완전성, OCR 100% 정확도를 보증하지 않습니다.",
+    "원문 자체 문제(내부 상충 후보, 원문 목차 불일치 등)는 변환 실패와 따로 분류하며 전체 상태를 실패로 만들지 않습니다."
+  ]
+}

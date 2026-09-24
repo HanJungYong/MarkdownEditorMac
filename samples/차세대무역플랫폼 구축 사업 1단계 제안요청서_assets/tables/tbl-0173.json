@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0173",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0173-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0173-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0173-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0173-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-005"
+    },
+    {
+      "id": "tbl-0173-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0173-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "홍보 채널 소싱 지원을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0173-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0173-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0173-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "콘텐츠IP 제작사와 유체물 제조사/유통사 간 협업 기회를 발굴할 수 있도록 협업 대상 기업 리스트를 제공하고 협업 요청 기능을 지원"
+    },
+    {
+      "id": "tbl-0173-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0173-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 협업 대상 기업 등록 기능 제공\n  - 콘텐츠IP 제작사 및 유체물 제조사/유통사가 협업 대상 리스트에 직접 등록할 수 있는 기능을 제공\n  - 협업 희망 기업은 협업 유형, 품목, 목표 수출국 등 협업 관련 정보를 등록할 수 있도록 제공\n  - 콘텐츠IP 제작사 및 협업 희망 기업 리스트를 외부 기관(예: 한국콘텐츠진흥원)과의 데이터 교류를 통해 제공\n○ 콘텐츠IP 제작사 및 유체물 기업 협업 대상 리스트 조회\n  - 콘텐츠IP 제작사와 협업을 희망하는 유체물 제조사/유통사 정보를 조회할 수 있도록 제공\n  - 유체물 제조사/유통사와 협업을 희망하는 콘텐츠IP 제작사 정보를 조회할 수 있도록 제공\n○ 협업 대상 기업 탐색 기능\n  - 홍보 유형, 품목, 목표 수출국 등 조건 기반 협업 대상 기업을 조회할 수 있도록 제공\n  - 협업 대상 기업 리스트 및 기본 정보를 확인할 수 있도록 제공\n○ 협업 요청 기능\n  - 협업 대상 기업에 대해 협업 요청을 진행할 수 있는 기능을 제공\n  - 협업 요청 버튼 클릭 시 협업 요청 메일을 발송할 수 있도록 제공"
+    },
+    {
+      "id": "tbl-0173-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0173-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서, 기능 설계서"
+    }
+  ]
+}

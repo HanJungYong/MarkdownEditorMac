@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0086",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0086-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0086-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0086-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0086-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AIS-013"
+    },
+    {
+      "id": "tbl-0086-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0086-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 불공정거래 혐의그룹 도출 모델 구축 "
+    },
+    {
+      "id": "tbl-0086-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0086-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0086-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "머신러닝 기술 등을 활용한 AI 모델 구축"
+    },
+    {
+      "id": "tbl-0086-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0086-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "ㅇ 컨설팅에서 수립한 개선과제를 기반으로 혐의그룹 도출을 위한 AI모델 구축\n   - 인공지능 기반의 알고리즘을 바탕으로 혐의패턴 및 정상패턴  모델링\n     예) 불공정거래 유형 분석과 매매패턴의 유사성·연계성 여부(머신러닝)를 통해 혐의그룹 적출을 위한 모델 정의 등\n   - 정의한 AI모델을 기반으로 불공정거래 유형의 혐의그룹 데이터(입력변수)를 학습하고 혐의 개연성을 판단할 수 있도록 구현\n   - 실시간으로 생성되는 데이터를 자동 수집하여 다양한 모델에 대한 학습 기능 구현\nㅇ 모델 검증\n   - 수립된 모델을 시스템에 적용하여 결과를 검증할 수 있도록 구현\n    예) 적출된 혐의그룹 검증 \nㅇ 모델 보완\n   - 시스템 적용 및 검증 결과를 토대로 수립된 모델을 보완할 수 있도록 기능 구현 "
+    },
+    {
+      "id": "tbl-0086-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0086-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "단계별 개발 산출물"
+    }
+  ]
+}

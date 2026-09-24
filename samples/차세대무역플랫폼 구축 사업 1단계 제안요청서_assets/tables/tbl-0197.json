@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0197",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0197-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0197-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0197-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0197-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-ESG-005"
+    },
+    {
+      "id": "tbl-0197-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0197-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "상담지원 메뉴 페이지 구축 및 1:1 상담메뉴 연결"
+    },
+    {
+      "id": "tbl-0197-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0197-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0197-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기업의 유형별 맞춤형 상담 서비스 제공 "
+    },
+    {
+      "id": "tbl-0197-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0197-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 상담지원 메뉴 페이지 구성\n  - 상담지원 상세 메뉴 선택 시 별도화면 제시 등 메뉴 페이지 구성 \n  - AI 문의/상담\n  : 회원사 기본/입력 정보 기반 최신 동향/정보를 반영한 챗봇 상담   \n   (Trade Agent 기능 반영)\n  - 1:1 상담 (TradePro 내 기존 메뉴 연결)\n  : 전문가 유선상담을 위한 전문가 Pool 카테고리 신규 구성\n    (예: 대분류 – 사업장/제품/공급망 규제, \n        소분류 – 공시/온실가스/자원순환/실사 등등)\n  - 상담이력 DB 조회 (FAQ, 자주 묻는 질문)\n  : 국가별/업종별/품목별 등 기업의 비즈니스 특성별 네비게이션 구성\n    ※ DB구축 과제 연계"
+    },
+    {
+      "id": "tbl-0197-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0197-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서"
+    }
+  ]
+}

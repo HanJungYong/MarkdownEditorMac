@@ -1,0 +1,425 @@
+{
+  "table_id": "tbl-0028",
+  "logical_rows": 19,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0028-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0028-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0028-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0028-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 8,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0028-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-001"
+    },
+    {
+      "id": "tbl-0028-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무 위젯 개발 및 표준 정의"
+    },
+    {
+      "id": "tbl-0028-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-002"
+    },
+    {
+      "id": "tbl-0028-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통계/지표 위젯 시각화 기능"
+    },
+    {
+      "id": "tbl-0028-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-003"
+    },
+    {
+      "id": "tbl-0028-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합 대시보드 화면 구성"
+    },
+    {
+      "id": "tbl-0028-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-004"
+    },
+    {
+      "id": "tbl-0028-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개인화 구성 및 콜드스타트 대응"
+    },
+    {
+      "id": "tbl-0028-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-005"
+    },
+    {
+      "id": "tbl-0028-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "콘텐츠/사업 자동 추천 기능"
+    },
+    {
+      "id": "tbl-0028-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-006"
+    },
+    {
+      "id": "tbl-0028-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "맞춤형 알림 서비스"
+    },
+    {
+      "id": "tbl-0028-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-007"
+    },
+    {
+      "id": "tbl-0028-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 설정/관리 기능"
+    },
+    {
+      "id": "tbl-0028-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-008"
+    },
+    {
+      "id": "tbl-0028-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영관리(관리자)"
+    },
+    {
+      "id": "tbl-0028-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0028-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-DS-001"
+    },
+    {
+      "id": "tbl-0028-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대시보드/위젯 화면 성능"
+    },
+    {
+      "id": "tbl-0028-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0028-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DS-001"
+    },
+    {
+      "id": "tbl-0028-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대시보드 UI/UX 표준 정의"
+    },
+    {
+      "id": "tbl-0028-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DS-002"
+    },
+    {
+      "id": "tbl-0028-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "로그인/SSO 연계"
+    },
+    {
+      "id": "tbl-0028-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DS-003"
+    },
+    {
+      "id": "tbl-0028-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대시보드 조회 인터페이스 제공"
+    },
+    {
+      "id": "tbl-0028-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DS-004"
+    },
+    {
+      "id": "tbl-0028-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Agent 연계 인터페이스 제공"
+    },
+    {
+      "id": "tbl-0028-r14c0",
+      "row": 14,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0028-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DS-001"
+    },
+    {
+      "id": "tbl-0028-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "위젯 데이터 정의"
+    },
+    {
+      "id": "tbl-0028-r15c0",
+      "row": 15,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0028-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-DS-001"
+    },
+    {
+      "id": "tbl-0028-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연계 테스트 및 정합성 검증"
+    },
+    {
+      "id": "tbl-0028-r16c0",
+      "row": 16,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 요구사항"
+    },
+    {
+      "id": "tbl-0028-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-DS-001"
+    },
+    {
+      "id": "tbl-0028-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "권한/데이터 접근 통제 준수 및 감사"
+    },
+    {
+      "id": "tbl-0028-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-DS-002"
+    },
+    {
+      "id": "tbl-0028-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "웹 취약점 점검 및 조치"
+    },
+    {
+      "id": "tbl-0028-r18c0",
+      "row": 18,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "품질 요구사항"
+    },
+    {
+      "id": "tbl-0028-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "QUR-DS-001"
+    },
+    {
+      "id": "tbl-0028-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 모니터링 및 사용 로그 수집"
+    }
+  ]
+}

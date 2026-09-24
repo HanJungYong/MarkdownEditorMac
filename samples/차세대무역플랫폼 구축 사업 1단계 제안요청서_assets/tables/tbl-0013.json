@@ -1,0 +1,1208 @@
+{
+  "table_id": "tbl-0013",
+  "logical_rows": 27,
+  "logical_cols": 6,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0013-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "구분"
+    },
+    {
+      "id": "tbl-0013-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연계시스템"
+    },
+    {
+      "id": "tbl-0013-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연계방식"
+    },
+    {
+      "id": "tbl-0013-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수신정보"
+    },
+    {
+      "id": "tbl-0013-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "발신정보"
+    },
+    {
+      "id": "tbl-0013-r0c5",
+      "row": 0,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "주기"
+    },
+    {
+      "id": "tbl-0013-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 15,
+      "col_span": 1,
+      "is_header": false,
+      "text": "내부"
+    },
+    {
+      "id": "tbl-0013-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KITA.net"
+    },
+    {
+      "id": "tbl-0013-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "환율정보\n수출의탑 시뮬레이션"
+    },
+    {
+      "id": "tbl-0013-r1c4",
+      "row": 1,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "자사 수출입 현황 분석\n국가별 수출실적"
+    },
+    {
+      "id": "tbl-0013-r1c5",
+      "row": 1,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Link"
+    },
+    {
+      "id": "tbl-0013-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "이용자관리(KITA.org)"
+    },
+    {
+      "id": "tbl-0013-r2c5",
+      "row": 2,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KITA멤버십"
+    },
+    {
+      "id": "tbl-0013-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수출입실적 조회"
+    },
+    {
+      "id": "tbl-0013-r3c5",
+      "row": 3,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Link"
+    },
+    {
+      "id": "tbl-0013-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r4c4",
+      "row": 4,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "품목별업체현황\n수출단체보험"
+    },
+    {
+      "id": "tbl-0013-r4c5",
+      "row": 4,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KNEX"
+    },
+    {
+      "id": "tbl-0013-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL"
+    },
+    {
+      "id": "tbl-0013-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r5c4",
+      "row": 5,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세계 무역 통계, 통관고유부호연계표 \n무역 통계 분석, 무역통계_ST_코드\nKTS_코드_변환\n 무역통계-업체, 국가, MTI\n무역통계 기업규모, MT_코드\n유망_시장_수출&수입"
+    },
+    {
+      "id": "tbl-0013-r5c5",
+      "row": 5,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매일"
+    },
+    {
+      "id": "tbl-0013-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL"
+    },
+    {
+      "id": "tbl-0013-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r6c4",
+      "row": 6,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국가_업체_HS수출내역\n한국간접수출내역"
+    },
+    {
+      "id": "tbl-0013-r6c5",
+      "row": 6,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Link"
+    },
+    {
+      "id": "tbl-0013-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r7c4",
+      "row": 7,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KNEX 마케팅 타겟 추출 조건-수출입실적"
+    },
+    {
+      "id": "tbl-0013-r7c5",
+      "row": 7,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수출역량진단"
+    },
+    {
+      "id": "tbl-0013-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL"
+    },
+    {
+      "id": "tbl-0013-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r8c4",
+      "row": 8,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국가_업체_HS수출내역"
+    },
+    {
+      "id": "tbl-0013-r8c5",
+      "row": 8,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ABTC카드"
+    },
+    {
+      "id": "tbl-0013-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Link"
+    },
+    {
+      "id": "tbl-0013-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r9c4",
+      "row": 9,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "HS코드"
+    },
+    {
+      "id": "tbl-0013-r9c5",
+      "row": 9,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회원회비관리"
+    },
+    {
+      "id": "tbl-0013-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Link"
+    },
+    {
+      "id": "tbl-0013-r10c3",
+      "row": 10,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업체정보\n통관부호 연계표"
+    },
+    {
+      "id": "tbl-0013-r10c4",
+      "row": 10,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수출입실적 조회"
+    },
+    {
+      "id": "tbl-0013-r10c5",
+      "row": 10,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국내외지부"
+    },
+    {
+      "id": "tbl-0013-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r11c3",
+      "row": 11,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r11c4",
+      "row": 11,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "해외지부별 무역통계"
+    },
+    {
+      "id": "tbl-0013-r11c5",
+      "row": 11,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Link"
+    },
+    {
+      "id": "tbl-0013-r12c3",
+      "row": 12,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r12c4",
+      "row": 12,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국내지부 수출입 통계"
+    },
+    {
+      "id": "tbl-0013-r12c5",
+      "row": 12,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "멤버십"
+    },
+    {
+      "id": "tbl-0013-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r13c3",
+      "row": 13,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r13c4",
+      "row": 13,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1:1, 오픈, AI 상담"
+    },
+    {
+      "id": "tbl-0013-r13c5",
+      "row": 13,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "콜센터"
+    },
+    {
+      "id": "tbl-0013-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r14c3",
+      "row": 14,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r14c4",
+      "row": 14,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전화 상담"
+    },
+    {
+      "id": "tbl-0013-r14c5",
+      "row": 14,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "FTA"
+    },
+    {
+      "id": "tbl-0013-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r15c3",
+      "row": 15,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r15c4",
+      "row": 15,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "자문 상담"
+    },
+    {
+      "id": "tbl-0013-r15c5",
+      "row": 15,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수시"
+    },
+    {
+      "id": "tbl-0013-r16c0",
+      "row": 16,
+      "col": 0,
+      "row_span": 11,
+      "col_span": 1,
+      "is_header": false,
+      "text": "외부"
+    },
+    {
+      "id": "tbl-0013-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통계청"
+    },
+    {
+      "id": "tbl-0013-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직접연결"
+    },
+    {
+      "id": "tbl-0013-r16c3",
+      "row": 16,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r16c4",
+      "row": 16,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "월별 수출입 데이터"
+    },
+    {
+      "id": "tbl-0013-r16c5",
+      "row": 16,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "관세청"
+    },
+    {
+      "id": "tbl-0013-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CD"
+    },
+    {
+      "id": "tbl-0013-r17c3",
+      "row": 17,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국내통계"
+    },
+    {
+      "id": "tbl-0013-r17c4",
+      "row": 17,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r17c5",
+      "row": 17,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ITC TradeMap"
+    },
+    {
+      "id": "tbl-0013-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n크롤링"
+    },
+    {
+      "id": "tbl-0013-r18c3",
+      "row": 18,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r18c4",
+      "row": 18,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "30개 국가 해외 수출입 실적\n(노르웨이, 러시아, 브라질 등)"
+    },
+    {
+      "id": "tbl-0013-r18c5",
+      "row": 18,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월\n매년"
+    },
+    {
+      "id": "tbl-0013-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Eurostat"
+    },
+    {
+      "id": "tbl-0013-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n다운로드"
+    },
+    {
+      "id": "tbl-0013-r19c3",
+      "row": 19,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r19c4",
+      "row": 19,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "26개 국가 해외 수출입 실적\n(그리스, 네덜란드, 덴마크 등)"
+    },
+    {
+      "id": "tbl-0013-r19c5",
+      "row": 19,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r20c1",
+      "row": 20,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Stats NZ Tatauranga Aotearoa"
+    },
+    {
+      "id": "tbl-0013-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n다운로드"
+    },
+    {
+      "id": "tbl-0013-r20c3",
+      "row": 20,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r20c4",
+      "row": 20,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "뉴질랜드 수출입 실적"
+    },
+    {
+      "id": "tbl-0013-r20c5",
+      "row": 20,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "U.S. Census Bureau"
+    },
+    {
+      "id": "tbl-0013-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n다운로드"
+    },
+    {
+      "id": "tbl-0013-r21c3",
+      "row": 21,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r21c4",
+      "row": 21,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "미국 수출입 실적"
+    },
+    {
+      "id": "tbl-0013-r21c5",
+      "row": 21,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETCN"
+    },
+    {
+      "id": "tbl-0013-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "FTP 서버"
+    },
+    {
+      "id": "tbl-0013-r22c3",
+      "row": 22,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r22c4",
+      "row": 22,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "중국 수출입 실적"
+    },
+    {
+      "id": "tbl-0013-r22c5",
+      "row": 22,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Statistics Canada"
+    },
+    {
+      "id": "tbl-0013-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n다운로드"
+    },
+    {
+      "id": "tbl-0013-r23c3",
+      "row": 23,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r23c4",
+      "row": 23,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "캐나다 수출입 실적"
+    },
+    {
+      "id": "tbl-0013-r23c5",
+      "row": 23,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r24c1",
+      "row": 24,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "JTAS (Japan Tariff Association)"
+    },
+    {
+      "id": "tbl-0013-r24c2",
+      "row": 24,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n다운로드"
+    },
+    {
+      "id": "tbl-0013-r24c3",
+      "row": 24,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r24c4",
+      "row": 24,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "일본 수출입 실적"
+    },
+    {
+      "id": "tbl-0013-r24c5",
+      "row": 24,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r25c1",
+      "row": 25,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Philippine Statistics Authority"
+    },
+    {
+      "id": "tbl-0013-r25c2",
+      "row": 25,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "이메일"
+    },
+    {
+      "id": "tbl-0013-r25c3",
+      "row": 25,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r25c4",
+      "row": 25,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "필리핀 수출입 실적"
+    },
+    {
+      "id": "tbl-0013-r25c5",
+      "row": 25,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    },
+    {
+      "id": "tbl-0013-r26c1",
+      "row": 26,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "IMF"
+    },
+    {
+      "id": "tbl-0013-r26c2",
+      "row": 26,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사이트 \n다운로드"
+    },
+    {
+      "id": "tbl-0013-r26c3",
+      "row": 26,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0013-r26c4",
+      "row": 26,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "IMF 세계통계"
+    },
+    {
+      "id": "tbl-0013-r26c5",
+      "row": 26,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매월"
+    }
+  ]
+}

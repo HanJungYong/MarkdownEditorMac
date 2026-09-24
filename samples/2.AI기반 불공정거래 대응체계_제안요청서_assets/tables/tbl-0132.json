@@ -1,0 +1,110 @@
+{
+  "table_id": "tbl-0132",
+  "logical_rows": 4,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0132-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0132-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 요구사항"
+    },
+    {
+      "id": "tbl-0132-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0132-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-004"
+    },
+    {
+      "id": "tbl-0132-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0132-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "사업수행 조직구성"
+    },
+    {
+      "id": "tbl-0132-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0132-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0132-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 사업수행책임자(PM)는 전체 사업을 총괄할 수 있는 지식과 경험을 보유한 전문 인력으로 전체 사업기간 동안 상주하여야 하며 금감원의 동의 없이 임의로 변경할 수 없음\n  - 사업수행책임자의 귀책 사유로 사업추진에 지장을 초래하는 경우 제안사는 즉시 대안을 마련하여 조치하여야 함\n ㅇ 사업의 안정성𐩐연속성 확보를 위하여 사업수행조직 변동 최소화 방안을 마련하여야 함\n ㅇ 원활한 사업 수행을 위해 PMO 및 감리 수행조직 등과 협력하여 시스템을 구축하여야 함\n  - 제안사는 PMO 조직에서 수행하는 규정, 절차 등 관리감독 업무에 적극 협조하여야 함\n  - 정보시스템 감리 수행 시 자료 및 설명 요구사항에 대해 대응하여야 함\n  - PMO 품질점검, 감리 수행결과 발견된 오류 및 개선권고사항 발생 시 적극 대응 및 시정조치 관리 활동을 수행하여야 함\n ㅇ 상용 소프트웨어를 판매한 사업자와 협력하여 시스템을 구축하여야 함\n  - 업무분장 및 책임 한계를 명확하게 하기 위해 해당 소프트웨어 판매사와 관련 확약서 및 계약서 등을 작성하고 세부적인 책임 및 역할을 정의하여야 함\n  - 제안사는 상용 소프트웨어 도입 및 적용 분야를 포함하여 사업관리를 수행하여야 함\n  - 상용 소프트웨어는 제안사가 1차 검사를 수행하여야 함\nㅇ 사업관리 조직 구성시 사업관리 내 아키텍처 역할을 담당할 인력을 포함하여 구성하여야 함 "
+    },
+    {
+      "id": "tbl-0132-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0132-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "사업수행계획서(프로젝트 추진 조직 구성 및 역할정의), 협약서, 감리시정조치결과서 등"
+    }
+  ]
+}

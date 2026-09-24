@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0110",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0110-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0110-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0110-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0110-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-004"
+    },
+    {
+      "id": "tbl-0110-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0110-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "단위테스트"
+    },
+    {
+      "id": "tbl-0110-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0110-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0110-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "단위테스트"
+    },
+    {
+      "id": "tbl-0110-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0110-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 사전에 단위 테스트 계획서 작성 및 제공하여야 함 \n ㅇ 사용자, 운영자 관점에서의 테스트를 모두 실시하여야 함\n  - 금감원 사용자, 운영자가 개발 프로그램의 품질 수준을 판단 가능하도록 단위테스트 계획 수립 및 테스트 수행 관리\n  - 단위테스트 범위 및 방법, 수행환경은 금감원 사용자, 운영자 단위테스트 가능 수준을 고려하여 계획 수립 및 테스트 수행 관리\n ㅇ 단위테스트 계획 및 단위테스트 시나리오에 따라 단위테스트를 실시하고 다음의 사항이 검증되어야 함\n  - 요구사항 및 설계를 만족하는지 검증\n  - 단위기능 품질 수준의 충분성, 완전성 검증\n  - 기능수행 후의 결과가 사전에 예상 작성된 데이터와 일치하는지 검증\n  - 시스템의 접근 권한 및 업무 권한에 대한 적절성 검증\n  - 이후의 테스트 과정에서 기능 관련 문제가 발생하지 않거나 최소화   되도록 검증\n ㅇ 단위테스트 수행 후 결과보고서 제출하여야 함\n  - 단위테스트 수행 후 결과에 따른 결함 파악 및 오류 추적을 통한 자체적인 시정 및 금감원 요구사항 반영  \n  - 결함처리내역에 대한 결과 관리\n ㅇ 통합테스트 진입의 적정성을 판단하기 위한 사전 통합테스트 기간 수립 및 운영 계획 수립하여야 함\n  - 단위테스트 품질 수준의 충분성, 완전성 검증된 이후 통합 테스트 진입 가능"
+    },
+    {
+      "id": "tbl-0110-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0110-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 단위테스트 계획서, 단위테스트 결과서, 결함관리대장"
+    }
+  ]
+}

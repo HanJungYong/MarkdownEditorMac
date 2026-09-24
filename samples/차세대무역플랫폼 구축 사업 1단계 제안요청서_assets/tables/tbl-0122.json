@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0122",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0122-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0122-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0122-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0122-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-009"
+    },
+    {
+      "id": "tbl-0122-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0122-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "[Unit Agent] 서비스 특화 Agent 구축"
+    },
+    {
+      "id": "tbl-0122-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0122-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0122-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "특정 비즈니스 영역에 특화 된 업무 수행을 위한 Agent"
+    },
+    {
+      "id": "tbl-0122-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0122-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 도메인 서비스 대응을 위한 전문 Agent 구축\n  - 무역 협회 전체 서비스를 Agent 기반으로 정보를 제공하거나 이용자들의 업무를 지원할 수 있는 전문 Agent가 도입 되어야 함\n  - 도메인 서비스별로 대응이 필요한 특화 기능(문서 인식, 음성 서비스, 사업 지원 등)을 Agent 기반으로 제공할 수 있어야 함\n○ [수출입 실적 증명 자동화] 전문 Agent 구축\n  - 서류 자동 인식 및 정보 추출\n    - 이용자가 수기로 입력한 다양한 양식의 서류(doc, hwpx, pdf 등)를 자동 인식하여 문서의 구조와 구성 항목을 인식해야 함\n    - 각 구성 항목별로 입력 되어 있는 정보들을 인식해야 하며 서류 각 필드 값별로 입력·미입력 값을 구분할 수 있어야 함\n    - 정보 추출 과정에서 데이터 구조화 및 불필요 항목이 제거 되어야 함\n  - 증빙서류 내용 검증\n    - 입력 필수 항목에 대한 입력 여부, 정보의 일치성·유효성·기준 준수 여부 등을 검증 해야 함\n    - 신청건 별 유사 카테고리를 검색하고 지정해야 함\n    - 심사 규칙 기반으로 서류를 검증하고 판정 해야 함\n  - 사용자 확인 및 심사 결과 발급\n    - 검증결과를 바탕으로 심사 우선순위를 제안하고 담당자가 검토하여 피드백을 반영할 수 있는 구조가 적용 되어야 함\n    - 검증 과정에서 발생한 이벤트에 대해 코드 기반으로 유형화 하여 담당자에게 자동 통보 되어야 함\n○ [ESG] 전문 Agent 구축\n    - ESG 전문 상담, Report 작성 등을 지원해야함\n○ [지재권 특화 서비스] 전문 Agent 구축\n    - 지재권 특화 상담, 지재권 관련 서류 초안 작성, 지재권 특화 법률 상담, IP 사업화 지원 Agent를 구축해야 함"
+    },
+    {
+      "id": "tbl-0122-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0122-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서, 시나리오 정의서, 데이터 정의서, 소스 코드"
+    }
+  ]
+}

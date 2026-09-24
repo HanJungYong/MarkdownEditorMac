@@ -1,0 +1,668 @@
+{
+  "table_id": "tbl-0012",
+  "logical_rows": 20,
+  "logical_cols": 12,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0012-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "\n1단계"
+    },
+    {
+      "id": "tbl-0012-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 20,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "󰊱 생성형 AI 모델 개발"
+    },
+    {
+      "id": "tbl-0012-r0c7",
+      "row": 0,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r0c8",
+      "row": 0,
+      "col": 8,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "󰊲 AI 기반 조사 프로세스 재정립"
+    },
+    {
+      "id": "tbl-0012-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 6,
+      "col_span": 2,
+      "is_header": false,
+      "text": "\nAI\n모델\n개발\n·\n업무\n재정립"
+    },
+    {
+      "id": "tbl-0012-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r1c4",
+      "row": 1,
+      "col": 4,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r1c5",
+      "row": 1,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋎 시장감시"
+    },
+    {
+      "id": "tbl-0012-r1c7",
+      "row": 1,
+      "col": 7,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r1c8",
+      "row": 1,
+      "col": 8,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r1c9",
+      "row": 1,
+      "col": 9,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r1c10",
+      "row": 1,
+      "col": 10,
+      "row_span": 2,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋎 AI 도입을 위한 조사 업무 全 프로세스 분석"
+    },
+    {
+      "id": "tbl-0012-r2c5",
+      "row": 2,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r2c6",
+      "row": 2,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "호가·공시자료,조사규칙 \n→ 의심종목 질의 → 사건발굴"
+    },
+    {
+      "id": "tbl-0012-r3c5",
+      "row": 3,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋏 연계성 분석"
+    },
+    {
+      "id": "tbl-0012-r3c10",
+      "row": 3,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " "
+    },
+    {
+      "id": "tbl-0012-r3c11",
+      "row": 3,
+      "col": 11,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "현행분석→문제도출→목표설계"
+    },
+    {
+      "id": "tbl-0012-r4c5",
+      "row": 4,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r4c6",
+      "row": 4,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연계분석 자료 입수 \n→ 연관관계 질의분석 → 클러스터 생성"
+    },
+    {
+      "id": "tbl-0012-r4c10",
+      "row": 4,
+      "col": 10,
+      "row_span": 2,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋏 AI 기술 전면 적용 계획 수립"
+    },
+    {
+      "id": "tbl-0012-r5c5",
+      "row": 5,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋐 보고서 작성 지원"
+    },
+    {
+      "id": "tbl-0012-r6c5",
+      "row": 6,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r6c6",
+      "row": 6,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "표·그림, 문답·처리의견서 \n초안 작성 "
+    },
+    {
+      "id": "tbl-0012-r6c10",
+      "row": 6,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r6c11",
+      "row": 6,
+      "col": 11,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무·기술선정→순위선정→적용계획"
+    },
+    {
+      "id": "tbl-0012-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 2,
+      "col_span": 4,
+      "is_header": false,
+      "text": "☞  1단계 핵심 AI 모델 구축"
+    },
+    {
+      "id": "tbl-0012-r7c7",
+      "row": 7,
+      "col": 7,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r7c8",
+      "row": 7,
+      "col": 8,
+      "row_span": 2,
+      "col_span": 4,
+      "is_header": false,
+      "text": "☞  AI 기반 프로세스 정립 과제 도출"
+    },
+    {
+      "id": "tbl-0012-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 9,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "\n2단계"
+    },
+    {
+      "id": "tbl-0012-r10c3",
+      "row": 10,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "󰊳 AI 업무 서비스 통합 구축"
+    },
+    {
+      "id": "tbl-0012-r10c7",
+      "row": 10,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r10c8",
+      "row": 10,
+      "col": 8,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "󰊴 업무체계 전환 · 시스템 고도화"
+    },
+    {
+      "id": "tbl-0012-r11c0",
+      "row": 11,
+      "col": 0,
+      "row_span": 6,
+      "col_span": 2,
+      "is_header": false,
+      "text": "AI\n서비스\n구축\n·\n시스템\n고도화"
+    },
+    {
+      "id": "tbl-0012-r11c3",
+      "row": 11,
+      "col": 3,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r11c4",
+      "row": 11,
+      "col": 4,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r11c5",
+      "row": 11,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋎 GPU·서버 등 H/W 도입*"
+    },
+    {
+      "id": "tbl-0012-r11c7",
+      "row": 11,
+      "col": 7,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r11c8",
+      "row": 11,
+      "col": 8,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r11c9",
+      "row": 11,
+      "col": 9,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r11c10",
+      "row": 11,
+      "col": 10,
+      "row_span": 2,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋎 조사 특화 AI 모델 구현"
+    },
+    {
+      "id": "tbl-0012-r12c5",
+      "row": 12,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r12c6",
+      "row": 12,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "GPU 서버(nvidia H200 * 8EA) 등"
+    },
+    {
+      "id": "tbl-0012-r13c5",
+      "row": 13,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋏 1단계 AI 모델 업무 서비스 개발"
+    },
+    {
+      "id": "tbl-0012-r13c10",
+      "row": 13,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " "
+    },
+    {
+      "id": "tbl-0012-r13c11",
+      "row": 13,
+      "col": 11,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1단계 모델 고도화, \n추가 AI 모델(ML, LLM) 구현"
+    },
+    {
+      "id": "tbl-0012-r14c5",
+      "row": 14,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r14c6",
+      "row": 14,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시장감시, 연계성분석, 보고서작성지원 서비스 통합"
+    },
+    {
+      "id": "tbl-0012-r14c10",
+      "row": 14,
+      "col": 10,
+      "row_span": 2,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋏 조사 시스템 고도화 과제 수행"
+    },
+    {
+      "id": "tbl-0012-r15c5",
+      "row": 15,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 󰋐 생성형 AI 모델 추가 구축"
+    },
+    {
+      "id": "tbl-0012-r15c7",
+      "row": 15,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r15c8",
+      "row": 15,
+      "col": 8,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r16c5",
+      "row": 16,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r16c6",
+      "row": 16,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "판례분석, 문답녹취STT, 제보·민원관리 모델 구현"
+    },
+    {
+      "id": "tbl-0012-r16c7",
+      "row": 16,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r16c8",
+      "row": 16,
+      "col": 8,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r16c10",
+      "row": 16,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r16c11",
+      "row": 16,
+      "col": 11,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "조사 프로세스 고도화 과제 수행\n매매재현 시뮬레이션 개선 등"
+    },
+    {
+      "id": "tbl-0012-r17c0",
+      "row": 17,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r17c3",
+      "row": 17,
+      "col": 3,
+      "row_span": 2,
+      "col_span": 4,
+      "is_header": false,
+      "text": "☞  AI 기술 통합을 통한 효율성 제고"
+    },
+    {
+      "id": "tbl-0012-r17c7",
+      "row": 17,
+      "col": 7,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r17c8",
+      "row": 17,
+      "col": 8,
+      "row_span": 2,
+      "col_span": 4,
+      "is_header": false,
+      "text": "☞  AI 기반 조사 업무 체계 전환"
+    },
+    {
+      "id": "tbl-0012-r18c0",
+      "row": 18,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r19c0",
+      "row": 19,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0012-r19c3",
+      "row": 19,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 9,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

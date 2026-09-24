@@ -1,0 +1,308 @@
+{
+  "table_id": "tbl-0030",
+  "logical_rows": 15,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0030-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0030-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0030-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0030-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨설팅 요구사항"
+    },
+    {
+      "id": "tbl-0030-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-IP-001"
+    },
+    {
+      "id": "tbl-0030-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영 체계 표준화"
+    },
+    {
+      "id": "tbl-0030-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-IP-002"
+    },
+    {
+      "id": "tbl-0030-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 관리 설계"
+    },
+    {
+      "id": "tbl-0030-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-IP-003"
+    },
+    {
+      "id": "tbl-0030-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "상세 설계"
+    },
+    {
+      "id": "tbl-0030-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 11,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0030-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-001"
+    },
+    {
+      "id": "tbl-0030-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지재권 특화 페이지 인입 채널 구축"
+    },
+    {
+      "id": "tbl-0030-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-002"
+    },
+    {
+      "id": "tbl-0030-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지재권 특화 페이지 랜딩 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-003"
+    },
+    {
+      "id": "tbl-0030-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지재권 특화 상세 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-004"
+    },
+    {
+      "id": "tbl-0030-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개인화 맞춤 대시보드 내 지재권 특화 연계 서비스 구축"
+    },
+    {
+      "id": "tbl-0030-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-005"
+    },
+    {
+      "id": "tbl-0030-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "홍보 채널 소싱 지원을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-006"
+    },
+    {
+      "id": "tbl-0030-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지식재산권 비용 지원을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-007"
+    },
+    {
+      "id": "tbl-0030-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TradePro AI 상담 서비스 고도화"
+    },
+    {
+      "id": "tbl-0030-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-008"
+    },
+    {
+      "id": "tbl-0030-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "특허분쟁 대응전략 제공을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-009"
+    },
+    {
+      "id": "tbl-0030-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "외부 문헌 제공을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-010"
+    },
+    {
+      "id": "tbl-0030-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "출원 가능성 검토 지원을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0030-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-011"
+    },
+    {
+      "id": "tbl-0030-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지재권 특화 교육 콘텐츠 강화"
+    }
+  ]
+}

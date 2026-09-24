@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0050",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0050-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0050-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 요구사항"
+    },
+    {
+      "id": "tbl-0050-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0050-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-CM-002"
+    },
+    {
+      "id": "tbl-0050-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0050-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발 시 보안 사항"
+    },
+    {
+      "id": "tbl-0050-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0050-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0050-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발 시 보안 요구사항"
+    },
+    {
+      "id": "tbl-0050-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0050-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 시스템 개발 시 관련 법령, 지침 및 소프트웨어 개발보안 가이드를 준수하여 보안대책을 마련하여야 함\n○ 인증, 접근통제, 암호화, 개인정보 보호 및 관리자 권한 통제 등 주요 보안 요구사항을 반영하여야 함\n○ 개발 및 테스트 환경은 외부 비인가 접근으로부터 보호될 수 있도록 보안대책을 적용하여야 함\n○ 개발 과정에서 시큐어코딩 기준을 적용하고, 보안 취약점 점검을 수행하여 발견된 취약점에 대한 조치 방안을 마련하여야 함\n○ 보안 점검 결과 및 조치 내역은 기록·관리하여야 하며, 발주처와 협의한 방식으로 보고하여야 함"
+    },
+    {
+      "id": "tbl-0050-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0050-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안점검 계획·결과서"
+    }
+  ]
+}

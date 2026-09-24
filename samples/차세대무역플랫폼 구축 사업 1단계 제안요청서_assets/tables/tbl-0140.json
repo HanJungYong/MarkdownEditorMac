@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0140",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0140-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0140-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0140-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0140-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-004"
+    },
+    {
+      "id": "tbl-0140-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0140-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개인화 구성 및 콜드스타트 대응"
+    },
+    {
+      "id": "tbl-0140-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0140-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0140-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자별 관심 기반 개인화 구성 및 신규/저활동 사용자 초기 구성 제공"
+    },
+    {
+      "id": "tbl-0140-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0140-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 관심 컨텍스트 기반 개인화 적용\n  - 사용자 데이터 기반으로 관심 컨텍스트(HS/국가 등)를 자동 도출하여 제공해야 함\n  - 사용자가 개인 관심 컨텍스트를 수정/편집할 수 있는 UX를 제공해야 함\n○ 사용자 세그먼트 정의 및 맞춤 제공 방안\n  - 다양한 KITA 사용자 특성을 반영할 수 있도록 사용자 세그먼트 기준을 정의하고, 세그먼트별 맞춤 정보 제공 방안을 제공해야 함\n○ 콜드스타트 대응\n  - 신규/저활동 사용자 초기 진입 시 기본 구성 방안 및 관심정보 설정을 유도하기 위한 방안을 제공해야 함\n  - 콜드스타트 기준 및 기본값을 정의하고 초기 설정/활동 정보를 기반으로 점진적 개인화 전환 방안을 제공해야 함"
+    },
+    {
+      "id": "tbl-0140-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0140-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 정의서, UI/UX 설계서"
+    }
+  ]
+}

@@ -1,0 +1,1307 @@
+{
+  "table_id": "tbl-0172",
+  "logical_rows": 24,
+  "logical_cols": 7,
+  "header_rows": 2,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0172-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": true,
+      "text": "구  분"
+    },
+    {
+      "id": "tbl-0172-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": true,
+      "text": "항    목"
+    },
+    {
+      "id": "tbl-0172-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": true,
+      "text": "적용계획/결과"
+    },
+    {
+      "id": "tbl-0172-r0c6",
+      "row": 0,
+      "col": 6,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": true,
+      "text": "부분적용/미적용시 사유 및 대체기술"
+    },
+    {
+      "id": "tbl-0172-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "적용"
+    },
+    {
+      "id": "tbl-0172-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "부분적용"
+    },
+    {
+      "id": "tbl-0172-r1c4",
+      "row": 1,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "미\n적용"
+    },
+    {
+      "id": "tbl-0172-r1c5",
+      "row": 1,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "해당없음"
+    },
+    {
+      "id": "tbl-0172-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "기본 지침"
+    },
+    {
+      "id": "tbl-0172-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r2c5",
+      "row": 2,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r2c6",
+      "row": 2,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "ｏ 응용서비스는 컴포넌트화하여 개발하는 것을 원칙으로 한다."
+    },
+    {
+      "id": "tbl-0172-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r3c5",
+      "row": 3,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r3c6",
+      "row": 3,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "ｏ 데이터는 데이터 공유 및 재사용, 데이터 교환, 데이터 품질 향상, 데이터베이스 통합 등을 위하여 표준화되어야 한다."
+    },
+    {
+      "id": "tbl-0172-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r4c4",
+      "row": 4,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r4c5",
+      "row": 4,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r4c6",
+      "row": 4,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "ｏ 데이터는 공공데이터(법 제2조제2호의 행정정보를 말한다)로 제공하기 위하여 기계 판독이 가능한 형태로 정비, 공공데이터법상 제공제외 대상의 별도 테이블 분리·설계, 품질확보 등이 수행되어야 한다."
+    },
+    {
+      "id": "tbl-0172-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r5c4",
+      "row": 5,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r5c5",
+      "row": 5,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r5c6",
+      "row": 5,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "ｏ 행정정보의 공동활용에 필요한 행정코드는 행정표준코드를 준수하여야 하며 그렇지 못한 경우에는 행정기관등의 장이 그 사유를 행정자치부장관에게 보고하고 행정자치부의 “행정기관의 코드표준화 추진지침”에 따라 코드체계 및 코드를 생성하여 행정자치부장관에게 표준 등록을 요청하여야 한다."
+    },
+    {
+      "id": "tbl-0172-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r6c4",
+      "row": 6,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r6c5",
+      "row": 6,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r6c6",
+      "row": 6,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "ｏ 패키지소프트웨어는 타 패키지소프트웨어 또는 타 정보시스템과의 연계를 위해 데이터베이스 사용이 투명해야 하며 다양한 유형의 인터페이스를 지원하여야 한다."
+    },
+    {
+      "id": "tbl-0172-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r7c4",
+      "row": 7,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r7c5",
+      "row": 7,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r7c6",
+      "row": 7,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "세부 기술 지침"
+    },
+    {
+      "id": "tbl-0172-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r8c4",
+      "row": 8,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r8c5",
+      "row": 8,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r8c6",
+      "row": 8,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "관련 규정"
+    },
+    {
+      "id": "tbl-0172-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 공공기관의 데이터베이스 표준화 지침\nｏ 공공데이터 관리지침\nｏ 공공데이터 제공·관리 매뉴얼"
+    },
+    {
+      "id": "tbl-0172-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r9c4",
+      "row": 9,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r9c5",
+      "row": 9,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r9c6",
+      "row": 9,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 5,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 표현"
+    },
+    {
+      "id": "tbl-0172-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 정적표현 : HTML 4.01/HTML 5, CSS 2.1"
+    },
+    {
+      "id": "tbl-0172-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r10c3",
+      "row": 10,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r10c4",
+      "row": 10,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r10c5",
+      "row": 10,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r10c6",
+      "row": 10,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 동적표현\n - JSP 2.1, 3.0"
+    },
+    {
+      "id": "tbl-0172-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r11c3",
+      "row": 11,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r11c4",
+      "row": 11,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r11c5",
+      "row": 11,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r11c6",
+      "row": 11,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - ASP.net"
+    },
+    {
+      "id": "tbl-0172-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r12c3",
+      "row": 12,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r12c4",
+      "row": 12,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r12c5",
+      "row": 12,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r12c6",
+      "row": 12,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - PHP"
+    },
+    {
+      "id": "tbl-0172-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r13c3",
+      "row": 13,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r13c4",
+      "row": 13,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r13c5",
+      "row": 13,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r13c6",
+      "row": 13,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 기타 (        )"
+    },
+    {
+      "id": "tbl-0172-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r14c3",
+      "row": 14,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r14c4",
+      "row": 14,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r14c5",
+      "row": 14,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r14c6",
+      "row": 14,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r15c0",
+      "row": 15,
+      "col": 0,
+      "row_span": 5,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로그래밍"
+    },
+    {
+      "id": "tbl-0172-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 프로그래밍\n - C"
+    },
+    {
+      "id": "tbl-0172-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r15c3",
+      "row": 15,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r15c4",
+      "row": 15,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r15c5",
+      "row": 15,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r15c6",
+      "row": 15,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - C++ "
+    },
+    {
+      "id": "tbl-0172-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r16c3",
+      "row": 16,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r16c4",
+      "row": 16,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r16c5",
+      "row": 16,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r16c6",
+      "row": 16,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - Java"
+    },
+    {
+      "id": "tbl-0172-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r17c3",
+      "row": 17,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r17c4",
+      "row": 17,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r17c5",
+      "row": 17,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r17c6",
+      "row": 17,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - C#"
+    },
+    {
+      "id": "tbl-0172-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r18c3",
+      "row": 18,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r18c4",
+      "row": 18,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r18c5",
+      "row": 18,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r18c6",
+      "row": 18,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 기타 (        )"
+    },
+    {
+      "id": "tbl-0172-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r19c3",
+      "row": 19,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r19c4",
+      "row": 19,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r19c5",
+      "row": 19,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r19c6",
+      "row": 19,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r20c0",
+      "row": 20,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 교환"
+    },
+    {
+      "id": "tbl-0172-r20c1",
+      "row": 20,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 교환프로토콜: \n - XMI 2.0"
+    },
+    {
+      "id": "tbl-0172-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r20c3",
+      "row": 20,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r20c4",
+      "row": 20,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r20c5",
+      "row": 20,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r20c6",
+      "row": 20,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - SOAP 1.2"
+    },
+    {
+      "id": "tbl-0172-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r21c3",
+      "row": 21,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r21c4",
+      "row": 21,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r21c5",
+      "row": 21,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r21c6",
+      "row": 21,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 문자셋\n - EUC-KR"
+    },
+    {
+      "id": "tbl-0172-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r22c3",
+      "row": 22,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r22c4",
+      "row": 22,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r22c5",
+      "row": 22,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r22c6",
+      "row": 22,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - UTF-8(단, 신규시스템은 UTF-8 우선 적용)"
+    },
+    {
+      "id": "tbl-0172-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0172-r23c3",
+      "row": 23,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r23c4",
+      "row": 23,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r23c5",
+      "row": 23,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0172-r23c6",
+      "row": 23,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

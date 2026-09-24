@@ -1,0 +1,416 @@
+{
+  "table_id": "tbl-0038",
+  "logical_rows": 9,
+  "logical_cols": 6,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0038-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "번호"
+    },
+    {
+      "id": "tbl-0038-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "구분"
+    },
+    {
+      "id": "tbl-0038-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "요구사항ID"
+    },
+    {
+      "id": "tbl-0038-r0c5",
+      "row": 0,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0038-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1 "
+    },
+    {
+      "id": "tbl-0038-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 8,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성 요구사항"
+    },
+    {
+      "id": "tbl-0038-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r1c4",
+      "row": 1,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "001"
+    },
+    {
+      "id": "tbl-0038-r1c5",
+      "row": 1,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "HW 및 SW 공통 요구사항"
+    },
+    {
+      "id": "tbl-0038-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "2 "
+    },
+    {
+      "id": "tbl-0038-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "002"
+    },
+    {
+      "id": "tbl-0038-r2c5",
+      "row": 2,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "납품 방안 (공통)"
+    },
+    {
+      "id": "tbl-0038-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "3"
+    },
+    {
+      "id": "tbl-0038-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "003"
+    },
+    {
+      "id": "tbl-0038-r3c5",
+      "row": 3,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "라이선스 사항 (공통)"
+    },
+    {
+      "id": "tbl-0038-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "4 "
+    },
+    {
+      "id": "tbl-0038-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r4c4",
+      "row": 4,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "004"
+    },
+    {
+      "id": "tbl-0038-r4c5",
+      "row": 4,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "장비 교체"
+    },
+    {
+      "id": "tbl-0038-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "5 "
+    },
+    {
+      "id": "tbl-0038-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r5c4",
+      "row": 5,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "005"
+    },
+    {
+      "id": "tbl-0038-r5c5",
+      "row": 5,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "장비 설치"
+    },
+    {
+      "id": "tbl-0038-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "6 "
+    },
+    {
+      "id": "tbl-0038-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r6c4",
+      "row": 6,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "006"
+    },
+    {
+      "id": "tbl-0038-r6c5",
+      "row": 6,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "장비 시험 운영"
+    },
+    {
+      "id": "tbl-0038-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "7 "
+    },
+    {
+      "id": "tbl-0038-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r7c4",
+      "row": 7,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "007"
+    },
+    {
+      "id": "tbl-0038-r7c5",
+      "row": 7,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "생성형 AI모델 장비 도입"
+    },
+    {
+      "id": "tbl-0038-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "8"
+    },
+    {
+      "id": "tbl-0038-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR"
+    },
+    {
+      "id": "tbl-0038-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0038-r8c4",
+      "row": 8,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "008"
+    },
+    {
+      "id": "tbl-0038-r8c5",
+      "row": 8,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "LLM 소프트웨어 도입"
+    }
+  ]
+}

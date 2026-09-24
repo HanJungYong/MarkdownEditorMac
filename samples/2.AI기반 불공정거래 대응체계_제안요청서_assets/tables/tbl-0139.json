@@ -1,0 +1,110 @@
+{
+  "table_id": "tbl-0139",
+  "logical_rows": 4,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0139-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0139-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 지원 요구사항"
+    },
+    {
+      "id": "tbl-0139-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0139-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PSR-001"
+    },
+    {
+      "id": "tbl-0139-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0139-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 지원 및 자문, 기술이전 및 시스템 안정화"
+    },
+    {
+      "id": "tbl-0139-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0139-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0139-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 사업수행조직 이외에 사업 내용 및 관련 기술에 대해 지원 또는 자문을 받을 수 있도록 방안을 마련하여야 함\n  - 지원 및 자문 조직구성, 수행 역할과 결과물을 명확하게 제시하여야 함\n ㅇ 기술이전 대상 목록과 기술이전방법 등에 대한 계획을 제안하여야 함\n ㅇ 시스템 개발 및 관련 분야 정보기술에 대한 정보 제공 및 기술 자문 요청에 적극적으로 응하여야 함\n ㅇ 안정화 기간 중 장애 및 서비스 개선사항 등이 발생할 경우 즉시 조치하고 개선방안을 마련하여야 함\n  - 안정화 활동에는 일별 가동상태 모니터링 및 기록, 예방점검 활동 실시, 비상연락체제 가동, 기술지원을 포함하여야 함\n  - 효율적인 안정화 지원을 위해 필수 인력 잔류 및 점진적 철수 등 지원방안을 제시하여야 함"
+    },
+    {
+      "id": "tbl-0139-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0139-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 기술이전 계획서 등"
+    }
+  ]
+}

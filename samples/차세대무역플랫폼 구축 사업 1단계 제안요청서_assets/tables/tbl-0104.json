@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0104",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0104-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0104-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0104-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0104-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-008"
+    },
+    {
+      "id": "tbl-0104-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0104-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 연계"
+    },
+    {
+      "id": "tbl-0104-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0104-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0104-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 연계 요구사항"
+    },
+    {
+      "id": "tbl-0104-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0104-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 외부 시스템 연계를 위한 안전하고 효율적인 연계 구조를 설계·구축하여야 함\n  - 외부 시스템 연계 시 보안 취약점 및 성능 저하 우려가 있는 기존 DB Link 방식 대신 API 등 안전하고 효율적인 연계 아키텍처를 적용하여야 함\n  ※ 연계 대상, 연계 범위 및 연계 방식은 한국무역협회 차세대 무역플랫폼 구축 ISP 결과물을 참조하되, 발주처와 협의하여 확정하여야 함\n○ 무역통계 데이터 재구축에 따른 유관 시스템 송신용 ETL을 설계·구축하여야 함\n  - 유관 시스템 송신 대상은 KNEX 및 통계청을 포함하여야 함\n  ※ 데이터 제공 범위 및 ETL 제공 건수는 한국무역협회 차세대 무역플랫폼 구축 ISP 결과물을 참조하되, 발주처와 협의하여 확정하여야 함"
+    },
+    {
+      "id": "tbl-0104-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0104-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 목록"
+    }
+  ]
+}

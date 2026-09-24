@@ -1,0 +1,893 @@
+{
+  "table_id": "tbl-0025",
+  "logical_rows": 44,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0025-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0025-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0025-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0025-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성\n요구사항"
+    },
+    {
+      "id": "tbl-0025-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-CM-001"
+    },
+    {
+      "id": "tbl-0025-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "하드웨어 공통"
+    },
+    {
+      "id": "tbl-0025-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-CM-002"
+    },
+    {
+      "id": "tbl-0025-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "소프트웨어 공통"
+    },
+    {
+      "id": "tbl-0025-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-CM-003"
+    },
+    {
+      "id": "tbl-0025-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "클라우드 인프라 구축"
+    },
+    {
+      "id": "tbl-0025-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0025-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-CM-001"
+    },
+    {
+      "id": "tbl-0025-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "검색 서비스 개선방안 검토"
+    },
+    {
+      "id": "tbl-0025-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-CM-002"
+    },
+    {
+      "id": "tbl-0025-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "메인 화면 구성 및 개선방안 수립"
+    },
+    {
+      "id": "tbl-0025-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-CM-003"
+    },
+    {
+      "id": "tbl-0025-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "플랫폼 서비스 약관 수립 "
+    },
+    {
+      "id": "tbl-0025-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-CM-004"
+    },
+    {
+      "id": "tbl-0025-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 통합 연계 방안 수립"
+    },
+    {
+      "id": "tbl-0025-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0025-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-CM-001"
+    },
+    {
+      "id": "tbl-0025-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "확장성 요구사항"
+    },
+    {
+      "id": "tbl-0025-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 7,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0025-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-001"
+    },
+    {
+      "id": "tbl-0025-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 일반"
+    },
+    {
+      "id": "tbl-0025-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-002"
+    },
+    {
+      "id": "tbl-0025-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 계획 수립 및 실시"
+    },
+    {
+      "id": "tbl-0025-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-003"
+    },
+    {
+      "id": "tbl-0025-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "단위 테스트"
+    },
+    {
+      "id": "tbl-0025-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-004"
+    },
+    {
+      "id": "tbl-0025-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합 테스트"
+    },
+    {
+      "id": "tbl-0025-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-005"
+    },
+    {
+      "id": "tbl-0025-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 테스트"
+    },
+    {
+      "id": "tbl-0025-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-006"
+    },
+    {
+      "id": "tbl-0025-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 테스트"
+    },
+    {
+      "id": "tbl-0025-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-CM-007"
+    },
+    {
+      "id": "tbl-0025-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 전환"
+    },
+    {
+      "id": "tbl-0025-r16c0",
+      "row": 16,
+      "col": 0,
+      "row_span": 5,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 요구사항"
+    },
+    {
+      "id": "tbl-0025-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-CM-001"
+    },
+    {
+      "id": "tbl-0025-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 관리 일반"
+    },
+    {
+      "id": "tbl-0025-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-CM-002"
+    },
+    {
+      "id": "tbl-0025-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발 시 보안 사항"
+    },
+    {
+      "id": "tbl-0025-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-CM-003"
+    },
+    {
+      "id": "tbl-0025-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서버 및 네트워크 보안"
+    },
+    {
+      "id": "tbl-0025-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-CM-004"
+    },
+    {
+      "id": "tbl-0025-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업자 및 투입인력에 대한 인원 보안관리"
+    },
+    {
+      "id": "tbl-0025-r20c1",
+      "row": 20,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-CM-005"
+    },
+    {
+      "id": "tbl-0025-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "로그 및 이력관리"
+    },
+    {
+      "id": "tbl-0025-r21c0",
+      "row": 21,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "품질 요구사항"
+    },
+    {
+      "id": "tbl-0025-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "QUR-CM-001"
+    },
+    {
+      "id": "tbl-0025-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "품질체계 관리"
+    },
+    {
+      "id": "tbl-0025-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "QUR-CM-002"
+    },
+    {
+      "id": "tbl-0025-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "변경관리"
+    },
+    {
+      "id": "tbl-0025-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "QUR-CM-003"
+    },
+    {
+      "id": "tbl-0025-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "형상관리"
+    },
+    {
+      "id": "tbl-0025-r24c1",
+      "row": 24,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "QUR-CM-004"
+    },
+    {
+      "id": "tbl-0025-r24c2",
+      "row": 24,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "검수지표"
+    },
+    {
+      "id": "tbl-0025-r25c0",
+      "row": 25,
+      "col": 0,
+      "row_span": 6,
+      "col_span": 1,
+      "is_header": false,
+      "text": "제약사항"
+    },
+    {
+      "id": "tbl-0025-r25c1",
+      "row": 25,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-001"
+    },
+    {
+      "id": "tbl-0025-r25c2",
+      "row": 25,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발 표준 준수"
+    },
+    {
+      "id": "tbl-0025-r26c1",
+      "row": 26,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-002"
+    },
+    {
+      "id": "tbl-0025-r26c2",
+      "row": 26,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정보시스템 구축 규정 및 기술표준 준수"
+    },
+    {
+      "id": "tbl-0025-r27c1",
+      "row": 27,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-003"
+    },
+    {
+      "id": "tbl-0025-r27c2",
+      "row": 27,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전자정부 프레임워크 기반 개발"
+    },
+    {
+      "id": "tbl-0025-r28c1",
+      "row": 28,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-004"
+    },
+    {
+      "id": "tbl-0025-r28c2",
+      "row": 28,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무 모듈화 및 자원 활용방안"
+    },
+    {
+      "id": "tbl-0025-r29c1",
+      "row": 29,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-005"
+    },
+    {
+      "id": "tbl-0025-r29c2",
+      "row": 29,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "감리 대응"
+    },
+    {
+      "id": "tbl-0025-r30c1",
+      "row": 30,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-006"
+    },
+    {
+      "id": "tbl-0025-r30c2",
+      "row": 30,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SaaS 서비스 운영 책임 및 인력 관리"
+    },
+    {
+      "id": "tbl-0025-r31c0",
+      "row": 31,
+      "col": 0,
+      "row_span": 9,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 요구사항"
+    },
+    {
+      "id": "tbl-0025-r31c1",
+      "row": 31,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-001"
+    },
+    {
+      "id": "tbl-0025-r31c2",
+      "row": 31,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업수행 일반"
+    },
+    {
+      "id": "tbl-0025-r32c1",
+      "row": 32,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-002"
+    },
+    {
+      "id": "tbl-0025-r32c2",
+      "row": 32,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 및 추진일정 계획"
+    },
+    {
+      "id": "tbl-0025-r33c1",
+      "row": 33,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-003"
+    },
+    {
+      "id": "tbl-0025-r33c2",
+      "row": 33,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "효율적인 사업 수행을 위한 조직 구성"
+    },
+    {
+      "id": "tbl-0025-r34c1",
+      "row": 34,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-004"
+    },
+    {
+      "id": "tbl-0025-r34c2",
+      "row": 34,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리자"
+    },
+    {
+      "id": "tbl-0025-r35c1",
+      "row": 35,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-005"
+    },
+    {
+      "id": "tbl-0025-r35c2",
+      "row": 35,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무 보고"
+    },
+    {
+      "id": "tbl-0025-r36c1",
+      "row": 36,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-006"
+    },
+    {
+      "id": "tbl-0025-r36c2",
+      "row": 36,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "산출물 관리"
+    },
+    {
+      "id": "tbl-0025-r37c1",
+      "row": 37,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-007"
+    },
+    {
+      "id": "tbl-0025-r37c2",
+      "row": 37,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "위험관리 방안"
+    },
+    {
+      "id": "tbl-0025-r38c1",
+      "row": 38,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-008"
+    },
+    {
+      "id": "tbl-0025-r38c2",
+      "row": 38,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "품질 보증 활동"
+    },
+    {
+      "id": "tbl-0025-r39c1",
+      "row": 39,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-009"
+    },
+    {
+      "id": "tbl-0025-r39c2",
+      "row": 39,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템간 영향도 분석"
+    },
+    {
+      "id": "tbl-0025-r40c0",
+      "row": 40,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 지원 요구사항"
+    },
+    {
+      "id": "tbl-0025-r40c1",
+      "row": 40,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PSR-CM-001"
+    },
+    {
+      "id": "tbl-0025-r40c2",
+      "row": 40,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기술 지원"
+    },
+    {
+      "id": "tbl-0025-r41c1",
+      "row": 41,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PSR-CM-002"
+    },
+    {
+      "id": "tbl-0025-r41c2",
+      "row": 41,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "교육 지원"
+    },
+    {
+      "id": "tbl-0025-r42c1",
+      "row": 42,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PSR-CM-003"
+    },
+    {
+      "id": "tbl-0025-r42c2",
+      "row": 42,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "매뉴얼"
+    },
+    {
+      "id": "tbl-0025-r43c1",
+      "row": 43,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PSR-CM-004"
+    },
+    {
+      "id": "tbl-0025-r43c2",
+      "row": 43,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "2단계 RFP 작성"
+    }
+  ]
+}

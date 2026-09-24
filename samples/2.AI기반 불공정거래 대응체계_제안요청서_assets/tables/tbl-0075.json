@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0075",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0075-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0075-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0075-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0075-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AIS-002"
+    },
+    {
+      "id": "tbl-0075-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0075-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "불공정거래 생성형 AI 모델 개선"
+    },
+    {
+      "id": "tbl-0075-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0075-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0075-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "1단계 불공정거래 생성형 AI 모델에 대한 개선"
+    },
+    {
+      "id": "tbl-0075-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0075-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 생성형 AI 기반 불공정거래 조사 업무 활용 모델 개선\n   - 1단계에서 개발한 시장감시, 혐의자 연계성 분석 및 보고서 작성 모델에 대해 컨설팅의 모델별 개선방안을 고려하고 금감원의 의견을 반영하여 모델 개선\n ㅇ 시장감시 모델 개선\n   - 컨설팅에서 수립한 검출규칙과 모델에 대한 개선방안을 검토하여 불공정거래 조기 적발하는 모델 개선 \n     • 검출규칙 : 불공정거래 관련 검출규칙 등 컨설팅에서 보완 및 신규로 정의한 검출 기준 \nㅇ 혐의자 연계성 분석 모델 개선\n   - 매매양태 의심자 연계성 자동 생성 모델에 대한 컨설팅 개선 사항 및 기준 등을 검토하여 해당 모델을 개선\n   - 조사원이 혐의그룹을 추가/삭제/업데이트할 수 있도록 상호작용 기능을 개발해야 하며, 그에 따라 시각화 내용에도 바로 반영될 수 있도록 개발\n ㅇ 보고서 생성 모델 개선\n   - 문답서·처리의견서에 보고서 생성 모델에 대한 컨설팅 개선방안을 검토하여 모델 개선 \n   - 각 조사국의 표준/모범 문답서·처리의견서를 학습하여 보고서의 완성도를 향상할 수 있도록 모델 개선\n   - 처리의견서 초안에 대해 담당자가 추가 조사 자료 제공 등을 통해 보완할 수 있도록 기능 제공"
+    },
+    {
+      "id": "tbl-0075-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0075-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 모델정의 산출물"
+    }
+  ]
+}

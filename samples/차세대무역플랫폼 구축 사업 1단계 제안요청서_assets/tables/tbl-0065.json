@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0065",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0065-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0065-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 요구사항"
+    },
+    {
+      "id": "tbl-0065-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0065-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PMR-CM-002"
+    },
+    {
+      "id": "tbl-0065-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0065-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 및 추진일정 계획"
+    },
+    {
+      "id": "tbl-0065-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0065-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0065-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "프로젝트 관리 및 추진일정 계획 요구사항"
+    },
+    {
+      "id": "tbl-0065-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0065-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 사업자는 본 사업에 적합한 방법론을 적용하여야 함\n○ 사업 수행계획에는 단계별 추진일정, 주요 활동, 선·후행 관계, 주요 산출물 및 관리방안을 포함하여야 함\n○ 프로젝트 착수부터 종료까지 범위, 일정, 품질, 위험 및 변경사항에 대한 관리체계와 절차를 마련하여야 함\n○ 제안한 개발방법론에 따라 분석, 설계, 개발, 테스트 및 전환 단계별 일정을 제시하여야 함\n○ 요구사항이 계획 및 수행 내역에 적절히 반영·추적될 수 있도록 관리하여야 함\n○ 발주처 및 유관 이해관계자와의 협의, 보고 및 의사소통이 원활하게 이루어질 수 있는 관리체계를 마련하여야 함\n○ 주요 일정 및 서비스 전환에 따른 위험요소를 식별하고, 일정관리 및 지연 대응방안을 포함하여야 함"
+    },
+    {
+      "id": "tbl-0065-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0065-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사업수행 계획서"
+    }
+  ]
+}

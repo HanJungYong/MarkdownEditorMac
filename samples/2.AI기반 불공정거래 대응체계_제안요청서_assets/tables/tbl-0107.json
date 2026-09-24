@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0107",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0107-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0107-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테스트 요구사항"
+    },
+    {
+      "id": "tbl-0107-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0107-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "TER-001"
+    },
+    {
+      "id": "tbl-0107-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0107-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "테스트 요구 일반사항"
+    },
+    {
+      "id": "tbl-0107-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0107-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0107-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "테스트 요구 일반사항"
+    },
+    {
+      "id": "tbl-0107-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0107-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 시스템은 요구사항을 모두 만족하여야 하며, 초기 협의한 요구사항에서 변경관리 절차를 통해 승인한 요구사항을 최종 베이스라인으로 간주함\n ㅇ 제공되기로 한 요구사항을 제공하는지 여부는 각 기능 요구사항의 검증(테스트) 활동을 통해 예상된 결과가 도출되었을 경우 요구사항을 제공한 것으로 평가함\n ㅇ 기능 구현 정확성은 사용자가 테스트 기간에 테스트를 수행함으로써 평가함\n ㅇ 사업자는 개발 초기부터 구축 완료까지 지속적인 테스트를 수행하고 보완하여야 함\n ㅇ 각 단계별 테스트 횟수는 기본적으로 결함이 발견되지 않을때까지이며, 제안사의 불가항력으로 인한 미조치 사항은 금감원의 승인을 득해야 함\n ㅇ 직접구매 및 기존 장비, 소프트웨어 등의 공급자와 적극적인 협조를 통하여 역할을 분담하고, 테스트를 수행하여야 함\n ㅇ 테스트 자동화(성능, 보안, 병행검증 등) 도구 및 환경 구축에 대한 제반 비용은 수행사가 지불함\n ㅇ 효과적이고 효율적인 테스트를 위해 테스트 전문가를 상주 투입하여 테스트를 수행해야 하며, 단위 테스트 케이스 작성, 통합 테스트 시나리오 작성을 가이드하여야 함"
+    },
+    {
+      "id": "tbl-0107-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0107-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "총괄테스트 계획서"
+    }
+  ]
+}

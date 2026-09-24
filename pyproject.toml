@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "markdowneditor"
+version = "0.1.0"
+description = "한국어 Windows용 실시간 Markdown 뷰어·편집기"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "MarkdownEditor contributors" }]
+dependencies = [
+  "PySide6>=6.8,<7",
+  "linkify-it-py>=2.0,<3",
+  "markdown-it-py>=3.0,<5",
+  "mdit-py-plugins>=0.4,<1",
+  "platformdirs>=4.0,<5",
+  "PyYAML>=6.0,<7",
+]
+
+[project.gui-scripts]
+markdowneditor = "markdowneditor.app:main"
+
+[project.scripts]
+markdowneditor-cli = "markdowneditor.cli:main"
+
+[dependency-groups]
+dev = [
+  "pyinstaller>=6.16,<7",
+  "pytest>=8,<10",
+  "pytest-qt>=4.4,<5",
+  "ruff>=0.11,<1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/markdowneditor"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"Font/Pretendard-Regular.otf" = "markdowneditor/assets/fonts/Pretendard-Regular.otf"
+"Font/Pretendard-Medium.otf" = "markdowneditor/assets/fonts/Pretendard-Medium.otf"
+"Font/Pretendard-Bold.otf" = "markdowneditor/assets/fonts/Pretendard-Bold.otf"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+  "gui: 실제 Qt/QtWebEngine 데스크톱 세션이 필요한 테스트",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = [".venv", ".uv-cache", ".uv-python", "Samples", "reports"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.format]
+line-ending = "lf"

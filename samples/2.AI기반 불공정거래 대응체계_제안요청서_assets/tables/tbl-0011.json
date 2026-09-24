@@ -1,0 +1,92 @@
+{
+  "table_id": "tbl-0011",
+  "logical_rows": 4,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0011-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 불공정거래 조사시스템 구축 및 프로세스 적립"
+    },
+    {
+      "id": "tbl-0011-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "◈ 조사 특화 AI 모델을 구축하여 지능·고도화되는 불공정 행위 적발을 신속화하고 AI 활용 프로세스 재정립을 통해 업무 효율성 제고 도모"
+    }
+  ]
+}

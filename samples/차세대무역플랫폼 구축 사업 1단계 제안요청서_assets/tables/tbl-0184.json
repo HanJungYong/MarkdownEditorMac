@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0184",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0184-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0184-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0184-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0184-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-TK-001"
+    },
+    {
+      "id": "tbl-0184-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0184-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea Web 고도화"
+    },
+    {
+      "id": "tbl-0184-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0184-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0184-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 기반 tradeKorea Web 서비스 고도화"
+    },
+    {
+      "id": "tbl-0184-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0184-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ tradeKorea 핵심 서비스 고도화\n  - AI 기반으로 상품 사진, 카탈로그 기반 주요 스펙, 상세 설명 등 필드 입력을 자동화하고 검색에 활용될 상품 키워드를 자동 도출하는 기능이 적용되어야 함\n  - 상품 등록(셀러스토어) 및 Inquiry 관련 단계별 상품 페이지 작성 내용을 미리 보기 지원해야 함\n  - 캠페인(오픈메일·대량메일 등) 통합 관리를 위한 현행 이메일 솔루션 고도화 \n○ 플랫폼 실시간 메시징을 위한 Live Chat 고도화\n  - 기존의 Chatting 수단을 일원화하고 사용 프로세스를 효율화할 수 있는 구조가 제시되어야 함\n  - Direct 채팅이 가능하도록 기능이 적용되어야 하며 지원 양식이 고도화 되어야 함\n  - 최초 문의 작성시 AI 기능을 연계하여 초기 대응이 가능하도록 기능이 제공되어야 함\n  - Inquiry 단위 채팅 히스토리 관리 체계 수립되어야 함\n  - 채팅 히스토리 연계와 화상 미팅 기능 탑재 검토\n○ Trade Agent 연계 기능 적용\n  - AI 기반 Inquiry 스코어링 기반 Inquiry 진정성 판단기능이 적용되어야 함\n  - AI 기반 키워드, 상품 특화 정보 자동 도출 기능이 도입되어야 함\n  - 검색·Inquiry·매칭 이력 및 상품 특성 기반의 정보 연계 기능이 제공되어야 함\n○ 바이어 매칭 스케줄 관리 서비스 고도화 \n  - 기존 tradeKorea 내 바이어 매칭 상담 스케줄을 관리 기능 분석 후 개선 필요 (Rule 기반 스케줄 관리 자동화 프로세스)"
+    },
+    {
+      "id": "tbl-0184-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0184-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서, 아키텍쳐 설계서, 인터페이스 정의서, UI/UX 설계서, 사용자/운영자 매뉴얼, DB 설계서, ERD, 단위테스트·통합테스트 시나리오 및 결과서"
+    }
+  ]
+}

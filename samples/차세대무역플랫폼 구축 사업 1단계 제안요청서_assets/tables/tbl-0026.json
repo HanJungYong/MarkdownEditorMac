@@ -1,0 +1,749 @@
+{
+  "table_id": "tbl-0026",
+  "logical_rows": 38,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0026-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0026-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0026-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0026-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 11,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성\n요구사항"
+    },
+    {
+      "id": "tbl-0026-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-001"
+    },
+    {
+      "id": "tbl-0026-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) 데이터플랫폼 도입"
+    },
+    {
+      "id": "tbl-0026-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-002"
+    },
+    {
+      "id": "tbl-0026-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) DB 모델링 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-003"
+    },
+    {
+      "id": "tbl-0026-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) 메타데이터관리 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-004"
+    },
+    {
+      "id": "tbl-0026-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) DB 모니터링 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-005"
+    },
+    {
+      "id": "tbl-0026-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) ETL 소프트웨어 업그레이드 도입"
+    },
+    {
+      "id": "tbl-0026-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-006"
+    },
+    {
+      "id": "tbl-0026-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) APIM 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-007"
+    },
+    {
+      "id": "tbl-0026-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) 데이터가상화 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-008"
+    },
+    {
+      "id": "tbl-0026-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) 시스템 접근제어 보안 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-009"
+    },
+    {
+      "id": "tbl-0026-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) 서버보안 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-010"
+    },
+    {
+      "id": "tbl-0026-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) DB 보안 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-011"
+    },
+    {
+      "id": "tbl-0026-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(추가) 무역통계서비스 화면구성을 위한 소프트웨어 도입"
+    },
+    {
+      "id": "tbl-0026-r12c0",
+      "row": 12,
+      "col": 0,
+      "row_span": 5,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0026-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DP-001"
+    },
+    {
+      "id": "tbl-0026-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 개발 공통"
+    },
+    {
+      "id": "tbl-0026-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DP-002"
+    },
+    {
+      "id": "tbl-0026-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "모바일 서비스 기능 개발 공통"
+    },
+    {
+      "id": "tbl-0026-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DP-003"
+    },
+    {
+      "id": "tbl-0026-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계 서비스 고도화"
+    },
+    {
+      "id": "tbl-0026-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DP-004"
+    },
+    {
+      "id": "tbl-0026-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계 조회·활용 서비스 제공"
+    },
+    {
+      "id": "tbl-0026-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DP-005"
+    },
+    {
+      "id": "tbl-0026-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연계시스템 화면 변경 대응"
+    },
+    {
+      "id": "tbl-0026-r17c0",
+      "row": 17,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능 요구사항"
+    },
+    {
+      "id": "tbl-0026-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-DP-001"
+    },
+    {
+      "id": "tbl-0026-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "웹 서비스 성능"
+    },
+    {
+      "id": "tbl-0026-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "PER-DP-002"
+    },
+    {
+      "id": "tbl-0026-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 전환"
+    },
+    {
+      "id": "tbl-0026-r19c0",
+      "row": 19,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0026-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DP-001"
+    },
+    {
+      "id": "tbl-0026-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 가이드라인 준수"
+    },
+    {
+      "id": "tbl-0026-r20c1",
+      "row": 20,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DP-002"
+    },
+    {
+      "id": "tbl-0026-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계시스템 권한 관리"
+    },
+    {
+      "id": "tbl-0026-r21c0",
+      "row": 21,
+      "col": 0,
+      "row_span": 17,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0026-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-001"
+    },
+    {
+      "id": "tbl-0026-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 표준화"
+    },
+    {
+      "id": "tbl-0026-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-002"
+    },
+    {
+      "id": "tbl-0026-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 관리 기반 시스템 구축 "
+    },
+    {
+      "id": "tbl-0026-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-003"
+    },
+    {
+      "id": "tbl-0026-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합데이터플랫폼 데이터 아키텍처 설계"
+    },
+    {
+      "id": "tbl-0026-r24c1",
+      "row": 24,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-004"
+    },
+    {
+      "id": "tbl-0026-r24c2",
+      "row": 24,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 주제영역 설계"
+    },
+    {
+      "id": "tbl-0026-r25c1",
+      "row": 25,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-005"
+    },
+    {
+      "id": "tbl-0026-r25c2",
+      "row": 25,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 모델링"
+    },
+    {
+      "id": "tbl-0026-r26c1",
+      "row": 26,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-006"
+    },
+    {
+      "id": "tbl-0026-r26c2",
+      "row": 26,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "민감데이터 식별 및 보호모델 설계"
+    },
+    {
+      "id": "tbl-0026-r27c1",
+      "row": 27,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-007"
+    },
+    {
+      "id": "tbl-0026-r27c2",
+      "row": 27,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 수집"
+    },
+    {
+      "id": "tbl-0026-r28c1",
+      "row": 28,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-008"
+    },
+    {
+      "id": "tbl-0026-r28c2",
+      "row": 28,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 연계"
+    },
+    {
+      "id": "tbl-0026-r29c1",
+      "row": 29,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-009"
+    },
+    {
+      "id": "tbl-0026-r29c2",
+      "row": 29,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL 개발 및 구축"
+    },
+    {
+      "id": "tbl-0026-r30c1",
+      "row": 30,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-010"
+    },
+    {
+      "id": "tbl-0026-r30c2",
+      "row": 30,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL 워크플로우 및 운영관리"
+    },
+    {
+      "id": "tbl-0026-r31c1",
+      "row": 31,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-011"
+    },
+    {
+      "id": "tbl-0026-r31c2",
+      "row": 31,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "초기데이터 구축 (무역통계 외)"
+    },
+    {
+      "id": "tbl-0026-r32c1",
+      "row": 32,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-012"
+    },
+    {
+      "id": "tbl-0026-r32c2",
+      "row": 32,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계 데이터 재구축"
+    },
+    {
+      "id": "tbl-0026-r33c1",
+      "row": 33,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-013"
+    },
+    {
+      "id": "tbl-0026-r33c2",
+      "row": 33,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계 데이터 마이그레이션 및 검증"
+    },
+    {
+      "id": "tbl-0026-r34c1",
+      "row": 34,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-014"
+    },
+    {
+      "id": "tbl-0026-r34c2",
+      "row": 34,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 품질 검증 방안"
+    },
+    {
+      "id": "tbl-0026-r35c1",
+      "row": 35,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-015"
+    },
+    {
+      "id": "tbl-0026-r35c2",
+      "row": 35,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 성능"
+    },
+    {
+      "id": "tbl-0026-r36c1",
+      "row": 36,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-016"
+    },
+    {
+      "id": "tbl-0026-r36c2",
+      "row": 36,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 백업 및 복구"
+    },
+    {
+      "id": "tbl-0026-r37c1",
+      "row": 37,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-017"
+    },
+    {
+      "id": "tbl-0026-r37c2",
+      "row": 37,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 라이프사이클 관리"
+    }
+  ]
+}

@@ -1,0 +1,3512 @@
+{
+  "table_id": "tbl-0173",
+  "logical_rows": 65,
+  "logical_cols": 7,
+  "header_rows": 2,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0173-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": true,
+      "text": "구  분"
+    },
+    {
+      "id": "tbl-0173-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": true,
+      "text": "항    목"
+    },
+    {
+      "id": "tbl-0173-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": true,
+      "text": "적용계획/결과"
+    },
+    {
+      "id": "tbl-0173-r0c6",
+      "row": 0,
+      "col": 6,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": true,
+      "text": "부분적용/미적용시 사유 및 대체기술"
+    },
+    {
+      "id": "tbl-0173-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "적용"
+    },
+    {
+      "id": "tbl-0173-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "부분적용"
+    },
+    {
+      "id": "tbl-0173-r1c4",
+      "row": 1,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "미\n적용"
+    },
+    {
+      "id": "tbl-0173-r1c5",
+      "row": 1,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "해당없음"
+    },
+    {
+      "id": "tbl-0173-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "기본 지침"
+    },
+    {
+      "id": "tbl-0173-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r2c5",
+      "row": 2,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r2c6",
+      "row": 2,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "o 정보시스템의 보안을 위하여 위험분석을 통한 보안 계획을 수립하고 이를 적용하여야 한다.  이는 정보시스템의 구축 운영과 관련된 “서비스 접근 및 전달”, “플랫폼 및 기반구조”, “요소기술” 및 “인터페이스 및 통합” 분야를 모두 포함하여야 한다."
+    },
+    {
+      "id": "tbl-0173-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r3c5",
+      "row": 3,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r3c6",
+      "row": 3,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "o 보안이 중요한 서비스 및 데이터의 접근에 관련된 사용자 인증은 공인전자서명 또는 행정전자서명을 기반으로 하여야 한다."
+    },
+    {
+      "id": "tbl-0173-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r4c4",
+      "row": 4,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r4c5",
+      "row": 4,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r4c6",
+      "row": 4,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "ｏ 네트워크 장비 및 네트워크 보안장비에 임의 접속이 가능한 악의적인 기능 등 설치된 백도어가 없도록 하여야 하고 보안기능 취약점 발견시 개선·조치하여야 한다."
+    },
+    {
+      "id": "tbl-0173-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r5c4",
+      "row": 5,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r5c5",
+      "row": 5,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r5c6",
+      "row": 5,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "세부 기술 지침"
+    },
+    {
+      "id": "tbl-0173-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r6c4",
+      "row": 6,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r6c5",
+      "row": 6,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r6c6",
+      "row": 6,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "관련규정"
+    },
+    {
+      "id": "tbl-0173-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 전자정부법\nｏ 국가정보보안기본지침(국가정보원)\nｏ 네트워크 장비 구축·운영사업 추가특수조건\n   (조달청 지침)"
+    },
+    {
+      "id": "tbl-0173-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r7c4",
+      "row": 7,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r7c5",
+      "row": 7,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r7c6",
+      "row": 7,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 44,
+      "col_span": 1,
+      "is_header": false,
+      "text": "제품별 도입\n요건 및 보안\n기준 \n준수"
+    },
+    {
+      "id": "tbl-0173-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "o 국정원 검증필 암호모듈 탑재ㆍ사용 대상\n  (암호가 주기능인 정보보호제품)\n - PKI제품"
+    },
+    {
+      "id": "tbl-0173-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r8c4",
+      "row": 8,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r8c5",
+      "row": 8,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r8c6",
+      "row": 8,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - SSO제품(보안기능 확인서 또는 CC인증 필수)"
+    },
+    {
+      "id": "tbl-0173-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r9c4",
+      "row": 9,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r9c5",
+      "row": 9,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r9c6",
+      "row": 9,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 디스크·파일 암호화 제품"
+    },
+    {
+      "id": "tbl-0173-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r10c3",
+      "row": 10,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r10c4",
+      "row": 10,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r10c5",
+      "row": 10,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r10c6",
+      "row": 10,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 문서 암호화 제품(DRM)(보안기능 확인서 또는 CC인증 필수)"
+    },
+    {
+      "id": "tbl-0173-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r11c3",
+      "row": 11,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r11c4",
+      "row": 11,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r11c5",
+      "row": 11,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r11c6",
+      "row": 11,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 이메일 암호화 제품"
+    },
+    {
+      "id": "tbl-0173-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r12c3",
+      "row": 12,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r12c4",
+      "row": 12,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r12c5",
+      "row": 12,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r12c6",
+      "row": 12,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 구간 암호화 제품"
+    },
+    {
+      "id": "tbl-0173-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r13c3",
+      "row": 13,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r13c4",
+      "row": 13,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r13c5",
+      "row": 13,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r13c6",
+      "row": 13,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 하드웨어 보안 토큰"
+    },
+    {
+      "id": "tbl-0173-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r14c3",
+      "row": 14,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r14c4",
+      "row": 14,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r14c5",
+      "row": 14,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r14c6",
+      "row": 14,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - DB암호화 제품(보안기능 확인서 또는 CC인증 필수)"
+    },
+    {
+      "id": "tbl-0173-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r15c3",
+      "row": 15,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r15c4",
+      "row": 15,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r15c5",
+      "row": 15,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r15c6",
+      "row": 15,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 상기제품(8종)이외 중요정보 보호를 위해 암호기능이 내장된 제품"
+    },
+    {
+      "id": "tbl-0173-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r16c3",
+      "row": 16,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r16c4",
+      "row": 16,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r16c5",
+      "row": 16,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r16c6",
+      "row": 16,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 암호모듈 검증서에 명시된 제품과 동일 제품 여부"
+    },
+    {
+      "id": "tbl-0173-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r17c3",
+      "row": 17,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r17c4",
+      "row": 17,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r17c5",
+      "row": 17,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r17c6",
+      "row": 17,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "o 보안기능 확인서 또는 CC인증 필수제품 유형군(국제 CC인 경우 보안적합성 검증 필요)\n - (네트워크)침입차단"
+    },
+    {
+      "id": "tbl-0173-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r18c3",
+      "row": 18,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r18c4",
+      "row": 18,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r18c5",
+      "row": 18,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r18c6",
+      "row": 18,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - (네트워크)침입방지(침입탐지 포함)"
+    },
+    {
+      "id": "tbl-0173-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r19c3",
+      "row": 19,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r19c4",
+      "row": 19,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r19c5",
+      "row": 19,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r19c6",
+      "row": 19,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r20c1",
+      "row": 20,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 통합보안관리"
+    },
+    {
+      "id": "tbl-0173-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r20c3",
+      "row": 20,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r20c4",
+      "row": 20,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r20c5",
+      "row": 20,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r20c6",
+      "row": 20,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 웹 응용프로그램 침입차단"
+    },
+    {
+      "id": "tbl-0173-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r21c3",
+      "row": 21,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r21c4",
+      "row": 21,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r21c5",
+      "row": 21,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r21c6",
+      "row": 21,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - DDoS 대응"
+    },
+    {
+      "id": "tbl-0173-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r22c3",
+      "row": 22,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r22c4",
+      "row": 22,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r22c5",
+      "row": 22,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r22c6",
+      "row": 22,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 인터넷 전화 보안"
+    },
+    {
+      "id": "tbl-0173-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r23c3",
+      "row": 23,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r23c4",
+      "row": 23,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r23c5",
+      "row": 23,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r23c6",
+      "row": 23,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r24c1",
+      "row": 24,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 무선침입방지"
+    },
+    {
+      "id": "tbl-0173-r24c2",
+      "row": 24,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r24c3",
+      "row": 24,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r24c4",
+      "row": 24,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r24c5",
+      "row": 24,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r24c6",
+      "row": 24,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r25c1",
+      "row": 25,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 무선랜 인증"
+    },
+    {
+      "id": "tbl-0173-r25c2",
+      "row": 25,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r25c3",
+      "row": 25,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r25c4",
+      "row": 25,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r25c5",
+      "row": 25,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r25c6",
+      "row": 25,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r26c1",
+      "row": 26,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 가상사설망(검증필 암호모듈 탑재 필수)"
+    },
+    {
+      "id": "tbl-0173-r26c2",
+      "row": 26,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r26c3",
+      "row": 26,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r26c4",
+      "row": 26,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r26c5",
+      "row": 26,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r26c6",
+      "row": 26,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r27c1",
+      "row": 27,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 네트워크 접근통제"
+    },
+    {
+      "id": "tbl-0173-r27c2",
+      "row": 27,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r27c3",
+      "row": 27,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r27c4",
+      "row": 27,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r27c5",
+      "row": 27,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r27c6",
+      "row": 27,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r28c1",
+      "row": 28,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 망간 자료전송(2022.1 이전 인증제품)"
+    },
+    {
+      "id": "tbl-0173-r28c2",
+      "row": 28,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r28c3",
+      "row": 28,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r28c4",
+      "row": 28,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r28c5",
+      "row": 28,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r28c6",
+      "row": 28,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r29c1",
+      "row": 29,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 안티 바이러스(성능평가로 도입 가능)"
+    },
+    {
+      "id": "tbl-0173-r29c2",
+      "row": 29,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r29c3",
+      "row": 29,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r29c4",
+      "row": 29,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r29c5",
+      "row": 29,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r29c6",
+      "row": 29,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r30c1",
+      "row": 30,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 패치관리"
+    },
+    {
+      "id": "tbl-0173-r30c2",
+      "row": 30,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r30c3",
+      "row": 30,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r30c4",
+      "row": 30,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r30c5",
+      "row": 30,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r30c6",
+      "row": 30,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r31c1",
+      "row": 31,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 스팸메일 차단"
+    },
+    {
+      "id": "tbl-0173-r31c2",
+      "row": 31,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r31c3",
+      "row": 31,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r31c4",
+      "row": 31,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r31c5",
+      "row": 31,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r31c6",
+      "row": 31,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r32c1",
+      "row": 32,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 서버 접근통제"
+    },
+    {
+      "id": "tbl-0173-r32c2",
+      "row": 32,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r32c3",
+      "row": 32,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r32c4",
+      "row": 32,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r32c5",
+      "row": 32,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r32c6",
+      "row": 32,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r33c1",
+      "row": 33,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - DB접근 통제"
+    },
+    {
+      "id": "tbl-0173-r33c2",
+      "row": 33,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r33c3",
+      "row": 33,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r33c4",
+      "row": 33,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r33c5",
+      "row": 33,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r33c6",
+      "row": 33,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r34c1",
+      "row": 34,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 스마트카드"
+    },
+    {
+      "id": "tbl-0173-r34c2",
+      "row": 34,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r34c3",
+      "row": 34,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r34c4",
+      "row": 34,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r34c5",
+      "row": 34,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r34c6",
+      "row": 34,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r35c1",
+      "row": 35,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 디지털 복합기 (비휘발성 저장매체 장착 제품에 대한 완전삭제 혹은 암호화 기능)"
+    },
+    {
+      "id": "tbl-0173-r35c2",
+      "row": 35,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r35c3",
+      "row": 35,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r35c4",
+      "row": 35,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r35c5",
+      "row": 35,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r35c6",
+      "row": 35,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r36c1",
+      "row": 36,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 소스코드 보안약점 분석도구(성능평가로 도입 가능)"
+    },
+    {
+      "id": "tbl-0173-r36c2",
+      "row": 36,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r36c3",
+      "row": 36,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r36c4",
+      "row": 36,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r36c5",
+      "row": 36,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r36c6",
+      "row": 36,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r37c1",
+      "row": 37,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 스마트폰 보안관리"
+    },
+    {
+      "id": "tbl-0173-r37c2",
+      "row": 37,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r37c3",
+      "row": 37,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r37c4",
+      "row": 37,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r37c5",
+      "row": 37,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r37c6",
+      "row": 37,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r38c1",
+      "row": 38,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 소프트웨어기반 보안USB(2020.1.1이전 인증제품, 검증필 암호모듈 탑재 필수)"
+    },
+    {
+      "id": "tbl-0173-r38c2",
+      "row": 38,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r38c3",
+      "row": 38,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r38c4",
+      "row": 38,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r38c5",
+      "row": 38,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r38c6",
+      "row": 38,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r39c1",
+      "row": 39,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 호스트 자료유출 방지(2021.1.1이전 인증제품, 매체제어제품 포함, 자료저장 기능이 있는 경우 국정원 검증필 암호모듈 탑재 필수)"
+    },
+    {
+      "id": "tbl-0173-r39c2",
+      "row": 39,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r39c3",
+      "row": 39,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r39c4",
+      "row": 39,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r39c5",
+      "row": 39,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r39c6",
+      "row": 39,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r40c1",
+      "row": 40,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 네트워크 자료유출방지(2021.1.1 이전 인증제품)"
+    },
+    {
+      "id": "tbl-0173-r40c2",
+      "row": 40,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r40c3",
+      "row": 40,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r40c4",
+      "row": 40,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r40c5",
+      "row": 40,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r40c6",
+      "row": 40,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r41c1",
+      "row": 41,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - CC인증서에 명시된 제품과 동일 제품 여부"
+    },
+    {
+      "id": "tbl-0173-r41c2",
+      "row": 41,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r41c3",
+      "row": 41,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r41c4",
+      "row": 41,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r41c5",
+      "row": 41,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r41c6",
+      "row": 41,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r42c1",
+      "row": 42,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 보안기능 확인서 필수제품 유형군\n - 소프트웨어기반 보안USB(검증필 암호모듈 탑재 필수)"
+    },
+    {
+      "id": "tbl-0173-r42c2",
+      "row": 42,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r42c3",
+      "row": 42,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r42c4",
+      "row": 42,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r42c5",
+      "row": 42,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r42c6",
+      "row": 42,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r43c1",
+      "row": 43,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 호스트 자료유출 방지(매체제어제품 포함, 자료저장 기능이 있는 경우 국정원 검증필 암호모듈 탑재 필수)"
+    },
+    {
+      "id": "tbl-0173-r43c2",
+      "row": 43,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r43c3",
+      "row": 43,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r43c4",
+      "row": 43,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r43c5",
+      "row": 43,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r43c6",
+      "row": 43,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r44c1",
+      "row": 44,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 망간 자료전송"
+    },
+    {
+      "id": "tbl-0173-r44c2",
+      "row": 44,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r44c3",
+      "row": 44,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r44c4",
+      "row": 44,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r44c5",
+      "row": 44,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r44c6",
+      "row": 44,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r45c1",
+      "row": 45,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 네트워크 자료유출방지"
+    },
+    {
+      "id": "tbl-0173-r45c2",
+      "row": 45,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r45c3",
+      "row": 45,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r45c4",
+      "row": 45,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r45c5",
+      "row": 45,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r45c6",
+      "row": 45,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r46c1",
+      "row": 46,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 네트워크 장비(L3 스위치 이상)"
+    },
+    {
+      "id": "tbl-0173-r46c2",
+      "row": 46,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r46c3",
+      "row": 46,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r46c4",
+      "row": 46,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r46c5",
+      "row": 46,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r46c6",
+      "row": 46,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r47c1",
+      "row": 47,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 가상화관리제품"
+    },
+    {
+      "id": "tbl-0173-r47c2",
+      "row": 47,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r47c3",
+      "row": 47,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r47c4",
+      "row": 47,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r47c5",
+      "row": 47,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r47c6",
+      "row": 47,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r48c1",
+      "row": 48,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 모바일 서비스(앱·웹) 등\n - 보안취약점 및 보안약점 점검·조치\n   (모바일 전자정부 서비스 관리 지침)"
+    },
+    {
+      "id": "tbl-0173-r48c2",
+      "row": 48,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r48c3",
+      "row": 48,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r48c4",
+      "row": 48,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r48c5",
+      "row": 48,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r48c6",
+      "row": 48,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r49c1",
+      "row": 49,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 국가·공공기관 모바일 활용업무에 대한 보안가이드라인"
+    },
+    {
+      "id": "tbl-0173-r49c2",
+      "row": 49,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r49c3",
+      "row": 49,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r49c4",
+      "row": 49,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r49c5",
+      "row": 49,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r49c6",
+      "row": 49,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r50c1",
+      "row": 50,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 민간 클라우드 활용\n - 클라우드 서비스 보안인증(CSAP)을 받은 서비스"
+    },
+    {
+      "id": "tbl-0173-r50c2",
+      "row": 50,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r50c3",
+      "row": 50,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r50c4",
+      "row": 50,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r50c5",
+      "row": 50,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r50c6",
+      "row": 50,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r51c1",
+      "row": 51,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 국가·공공기관 클라우드 컴퓨팅 보안가이드"
+    },
+    {
+      "id": "tbl-0173-r51c2",
+      "row": 51,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r51c3",
+      "row": 51,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r51c4",
+      "row": 51,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r51c5",
+      "row": 51,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r51c6",
+      "row": 51,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r52c0",
+      "row": 52,
+      "col": 0,
+      "row_span": 13,
+      "col_span": 1,
+      "is_header": false,
+      "text": "백도어\n방지\n기술적\n확인\n사항"
+    },
+    {
+      "id": "tbl-0173-r52c1",
+      "row": 52,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 보안기능 준수\n - 식별 및 인증"
+    },
+    {
+      "id": "tbl-0173-r52c2",
+      "row": 52,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r52c3",
+      "row": 52,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r52c4",
+      "row": 52,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r52c5",
+      "row": 52,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r52c6",
+      "row": 52,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r53c1",
+      "row": 53,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 암호지원"
+    },
+    {
+      "id": "tbl-0173-r53c2",
+      "row": 53,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r53c3",
+      "row": 53,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r53c4",
+      "row": 53,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r53c5",
+      "row": 53,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r53c6",
+      "row": 53,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r54c1",
+      "row": 54,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 정보 흐름 통제"
+    },
+    {
+      "id": "tbl-0173-r54c2",
+      "row": 54,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r54c3",
+      "row": 54,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r54c4",
+      "row": 54,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r54c5",
+      "row": 54,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r54c6",
+      "row": 54,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r55c1",
+      "row": 55,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 보안 관리"
+    },
+    {
+      "id": "tbl-0173-r55c2",
+      "row": 55,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r55c3",
+      "row": 55,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r55c4",
+      "row": 55,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r55c5",
+      "row": 55,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r55c6",
+      "row": 55,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r56c1",
+      "row": 56,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 자체 시험"
+    },
+    {
+      "id": "tbl-0173-r56c2",
+      "row": 56,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r56c3",
+      "row": 56,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r56c4",
+      "row": 56,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r56c5",
+      "row": 56,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r56c6",
+      "row": 56,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r57c1",
+      "row": 57,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 접근 통제"
+    },
+    {
+      "id": "tbl-0173-r57c2",
+      "row": 57,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r57c3",
+      "row": 57,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r57c4",
+      "row": 57,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r57c5",
+      "row": 57,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r57c6",
+      "row": 57,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r58c1",
+      "row": 58,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 전송데이터 보호"
+    },
+    {
+      "id": "tbl-0173-r58c2",
+      "row": 58,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r58c3",
+      "row": 58,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r58c4",
+      "row": 58,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r58c5",
+      "row": 58,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r58c6",
+      "row": 58,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r59c1",
+      "row": 59,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 감사 기록"
+    },
+    {
+      "id": "tbl-0173-r59c2",
+      "row": 59,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r59c3",
+      "row": 59,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r59c4",
+      "row": 59,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r59c5",
+      "row": 59,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r59c6",
+      "row": 59,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r60c1",
+      "row": 60,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 기타 제품별 특화기능"
+    },
+    {
+      "id": "tbl-0173-r60c2",
+      "row": 60,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r60c3",
+      "row": 60,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r60c4",
+      "row": 60,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r60c5",
+      "row": 60,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r60c6",
+      "row": 60,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r61c1",
+      "row": 61,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ｏ 보안기능 확인 및 취약점 제거\n - 보안기능별 명령어 등 시험 및 운영방법 제공"
+    },
+    {
+      "id": "tbl-0173-r61c2",
+      "row": 61,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r61c3",
+      "row": 61,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r61c4",
+      "row": 61,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r61c5",
+      "row": 61,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r61c6",
+      "row": 61,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r62c1",
+      "row": 62,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 취약점 개선(취약점이 없는 펌웨어 및 패치 적용)"
+    },
+    {
+      "id": "tbl-0173-r62c2",
+      "row": 62,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r62c3",
+      "row": 62,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r62c4",
+      "row": 62,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r62c5",
+      "row": 62,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r62c6",
+      "row": 62,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r63c1",
+      "row": 63,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 백도어 제거(비공개 원격 관리 및 접속 기능)"
+    },
+    {
+      "id": "tbl-0173-r63c2",
+      "row": 63,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r63c3",
+      "row": 63,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r63c4",
+      "row": 63,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r63c5",
+      "row": 63,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r63c6",
+      "row": 63,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r64c1",
+      "row": 64,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " - 오픈소스 적용 기능 및 리스트 제공"
+    },
+    {
+      "id": "tbl-0173-r64c2",
+      "row": 64,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "√"
+    },
+    {
+      "id": "tbl-0173-r64c3",
+      "row": 64,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r64c4",
+      "row": 64,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r64c5",
+      "row": 64,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0173-r64c6",
+      "row": 64,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

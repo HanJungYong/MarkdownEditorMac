@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0109",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0109-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0109-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0109-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0109-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-013"
+    },
+    {
+      "id": "tbl-0109-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0109-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계 데이터 마이그레이션 및 검증"
+    },
+    {
+      "id": "tbl-0109-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0109-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0109-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계 데이터 마이그레이션 및 검증 요구사항"
+    },
+    {
+      "id": "tbl-0109-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0109-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 제안사는 기존 데이터를 목표 시간 내에 이관 가능한 최적의 환경을 마련해야 함\n○ 제안사는 데이터 마이그레이션시 발생할 수 있는 다양한 상황을 예측하고 대응할 수 있는 전략을 포함한 시나리오 수립 방안을 제시하고 적용해야 함\n  - 데이터 이관을 진행할 일정 계획 수립 방안\n  - 데이터 이관 대상, 방법, 담당자, 절차, 모니터링 등 단계별로 진행 내용과 결과에 대한 검증 계획 수립 방안\n  - 단계별 예상 소요 시간을 산정하여 작업 목표 완료 시간 설정 방안 \n  - 이관 작업의 실패 또는 데이터 오류 등의 문제 발생시 이행 전으로의 복구 전략 등\n○ 제안사는 마이그레이션 시나리오에 따라 작업을 진행하고 이관된 값을 정합성 검증해야 함\n  - 단계별 작업은 목표 완료 시간 내에 종료되어야 함    \n  - 데이터 검증은 이행의 각 단계에 생성되는 데이터가 매핑정의서의 매핑 규칙에 맞게 이행되었는지를 검증\n  - 마이그레이션 완료 후 데이터 정합성 검증 실시\n  - 검증은 변환된 값 자체를 기준으로 수행하며, 최종 목표 데이터는 표준화 및 업무 규칙에 부합되어야 함\n○ 제안사는 단계별 이관 진행 결과에 대해 보고서를 작성하여 제출해야 함\n  - 마이그레이션 대상, 마이그레이션 데이터 건수, 마이그레이션 시간, 데이터 정합성 검증 결과 등"
+    },
+    {
+      "id": "tbl-0109-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0109-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "테이블 매핑 정의서"
+    }
+  ]
+}

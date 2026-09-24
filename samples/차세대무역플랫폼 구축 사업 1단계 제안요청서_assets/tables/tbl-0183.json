@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0183",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0183-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0183-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨설팅 요구사항"
+    },
+    {
+      "id": "tbl-0183-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0183-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-TK-004"
+    },
+    {
+      "id": "tbl-0183-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0183-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea–전자무역–해외세관 연계 PI 설계"
+    },
+    {
+      "id": "tbl-0183-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0183-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0183-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea와 전자무역 (PTB·uTradeHub·LogisHub, Peppol 등 글로벌 e-Invoicing 네트워크 포함), 해외세관(미국 CBP 등) 간 E2E 연계를 위한 To-Be 모델 및 PI 수준 설계 산출물 도출"
+    },
+    {
+      "id": "tbl-0183-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0183-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 연계 대상·업무 범위 정의\n  - tradeKorea–전자무역 분야별(외환·간접수출·요건확인·통관·물류 등) 연계 업무 및 데이터 항목 식별\n  - 국내 전자무역(PTB·uTradeHub·LogisHub) 외 글로벌 e-Invoicing 네트워크(예: Peppol) 등 해외 전자무역 서비스 연계 가능성 검토\n  - 회원체계 통합 모델 및 가입·연계 프로세스 To-Be 정의\n\n  ○ 연계 아키텍처·데이터 설계\n  - 데이터 흐름, 교환 형식, 오류 처리·정합성 기준 정립\n  - 기 정의 인터페이스(INR-TK-001 SSO 등)와의 정합성 확보\n\n  ○ 해외세관 연계 모델 설계\n  - 국내 통관·물류 ↔ 해외 수입 통관 표준 워크플로우 정립\n  - 거점별(미국·EU·동남아 등) 요구사항 분석 및 우선 거점 선정\n  - 시장 사례 기반 통관 자동화 솔루션 비교 및 기술적 실현 \n가능성·컴플라이언스 검토\n\n  ○ PI 산출물 도출\n  - 2단계 본 구축용 시스템 개선 과제 목록·우선순위,\n  거점별 추진 로드맵 및 자원 추정"
+    },
+    {
+      "id": "tbl-0183-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0183-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "To-Be 프로세스 정의서, 인터페이스·데이터 표준 정의서,\n  시스템 구축 과제 목록, 거점별 추진 로드맵"
+    }
+  ]
+}

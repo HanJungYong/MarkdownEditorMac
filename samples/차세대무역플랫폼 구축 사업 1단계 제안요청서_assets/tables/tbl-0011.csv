@@ -1,0 +1,38 @@
+﻿구 분,SW 종류,제조사,SW 명 및 버젼
+DB Server,운영체제,오라클,Solaris 11
+,클러스터,오라클,Sun Cluster
+,백업SW,베리타스,Netbackup 10
+,서버접근제어,휴네시온,i-one NGS 7.0
+,DBMS,오라클,Oracle 19c
+,DBMS 성능관리,셀파소프트,Sherpa Oracle
+,시스템 모니터링,브레인즈컴퍼니,Zenius SMS 7
+,DBMS 모니터링,브레인즈컴퍼니,Zenius DBMS 7
+ETL Server,운영체계,레드햇,RedHat 7.3
+,백업SW,베리타스,Netbackup 10
+,서버접근제어,휴네시온,I-one NGS 7.0
+,DBMS,오픈소스,MariaDB 10.2.16
+,ETL솔루션,이노트리,InnoQuartz 7.2.1
+가상화서버,운영체계,브로드컴,VMware ESXi 7
+,백업SW,베리타스,Netbackup 10
+"클라우드 
+마스트서버, 노드서버",운영체계,레드햇,RHEL 7.9
+,서버접근제어,휴네시온,i-one NGS 7.0
+,클라우드 통합관리,아콘소프트,Cocktail Cloud 4.7.3
+,,오픈소스,Kubernetes 1.23.10
+,,오픈소스,Jenkins 2.346.3
+,웹서버,오픈소스,NGINX ingress 1.1.2
+,WAS,오픈소스,
+,성능관리,제니퍼소프트,Jeniffer 5
+,시스템 모니터링,브레인즈컴퍼니,Zenius SMS 7
+WEB,운영체계,레드햇,RHEL 7.9
+,컨테이너 관리,오픈소스,Kubernetes 1.23.10
+,개발언어,오픈소스,OpenJDK 1.8.0_352
+,웹서버,오픈소스,NGINX ingress 1.1.2
+WAS,운영체계,레드햇,RHEL 7.9
+,컨테이너 관리,오픈소스,Kubernetes 1.23.10
+,개발언어,오픈소스,OpenJDK 1.8.0_352
+,개발 프레임워크,SDCIT,UDAP Framework 4.0
+,WAS,오픈소스,Tomcat 9.0.70
+,Sheet 솔루션,아이비리더스,IB Sheet 7.0.13.20
+,Chart 솔루션,리아모어소프트,rMate Chart 3.0
+,Map Chart 솔루션,리아모어소프트,rMate Map Chart 1.0

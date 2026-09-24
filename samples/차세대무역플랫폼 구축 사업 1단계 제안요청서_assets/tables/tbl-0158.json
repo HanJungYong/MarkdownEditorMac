@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0158",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0158-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0158-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0158-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0158-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-EC-001"
+    },
+    {
+      "id": "tbl-0158-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0158-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "현황판 – MyPage"
+    },
+    {
+      "id": "tbl-0158-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0158-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0158-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수출실적증명(직수출, 용역 및 전자무체물, 선용품, 외화영수부 등) 신청 시작 화면 신설 업무 위젯 개발"
+    },
+    {
+      "id": "tbl-0158-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0158-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 수출실적증명(직수출, 용역 및 전자무체물, 선용품, 외화영수부 등) 시작 페이지 (현황판)\n  - KITA.net 마이페이지 내 최근 3개월간의 접수/승인 건수로 표현된 정보를 시각적으로 표시\n  - 클릭 시 상세 신청 목록 페이지로 이동하는 링크 구현 및 신청 데이터 실시간 동기화\n  - 신청목록 테이블: 수출입 구분, 신청일, 진행상태, 비고(수정/취소/출력) 등 신청 이력 목록 제공\n  - 상세 검색 기능: 신청 기간, 발급 구분, 진행상태로 목록 내 필터링/검색 기능 제공\n  - 기본 검색 기간을 최근 3개월로 설정\n  - 신청번호 부여 (예. YYMMDD-XXX채번) 기능 구현으로 신청번호 검색 기능 제공\n  - 일괄 출력: 리스트 내 ‘승인’ 상태의 건들을 복수 선택하여 한 개 증명서로 출력하는 기능 제공\n  - 선택 가능한 최대 건수 제한 여부 및 예외 처리 정책 정의\n  - 신규/정정 신청 기능 통해 신청서 작성 페이지로 이동 기능 제공 \n  - 정정신청은 ‘승인’ 또는 ‘발급완료’건 선택 시에만 활성화되도록 처리\n  - 상태 변경 알림: 반려/승인 시 확인 링크를 포함한 알림 메시지 노출 (카톡알림 연동)\n  - 공지사항 게시: 시스템 업데이트 및 법규/가이드 변경 등 주요 공지사항을 목록 상단에 노출"
+    },
+    {
+      "id": "tbl-0158-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0158-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서, 기능 설계서"
+    }
+  ]
+}

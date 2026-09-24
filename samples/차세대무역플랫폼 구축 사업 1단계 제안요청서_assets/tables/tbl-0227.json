@@ -1,0 +1,317 @@
+{
+  "table_id": "tbl-0227",
+  "logical_rows": 7,
+  "logical_cols": 11,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0227-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성  명"
+    },
+    {
+      "id": "tbl-0227-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "소 속"
+    },
+    {
+      "id": "tbl-0227-r0c5",
+      "row": 0,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r0c7",
+      "row": 0,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "직 책"
+    },
+    {
+      "id": "tbl-0227-r0c8",
+      "row": 0,
+      "col": 8,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r0c9",
+      "row": 0,
+      "col": 9,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연  령"
+    },
+    {
+      "id": "tbl-0227-r0c10",
+      "row": 0,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "        세"
+    },
+    {
+      "id": "tbl-0227-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "학력"
+    },
+    {
+      "id": "tbl-0227-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": "           대학교       전공         (졸업년도)"
+    },
+    {
+      "id": "tbl-0227-r1c7",
+      "row": 1,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "해당분야근무경력"
+    },
+    {
+      "id": "tbl-0227-r1c9",
+      "row": 1,
+      "col": 9,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "         년     개월"
+    },
+    {
+      "id": "tbl-0227-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 6,
+      "is_header": false,
+      "text": "           대학원       전공         (졸업년도)"
+    },
+    {
+      "id": "tbl-0227-r2c7",
+      "row": 2,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "자    격    증"
+    },
+    {
+      "id": "tbl-0227-r2c9",
+      "row": 2,
+      "col": 9,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "본사업 \n참여임무"
+    },
+    {
+      "id": "tbl-0227-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r3c6",
+      "row": 3,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "참여기간"
+    },
+    {
+      "id": "tbl-0227-r3c7",
+      "row": 3,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r3c9",
+      "row": 3,
+      "col": 9,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "참여율"
+    },
+    {
+      "id": "tbl-0227-r3c10",
+      "row": 3,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "        %"
+    },
+    {
+      "id": "tbl-0227-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 11,
+      "is_header": false,
+      "text": "사업 참여 이력"
+    },
+    {
+      "id": "tbl-0227-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "사업명"
+    },
+    {
+      "id": "tbl-0227-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "기간"
+    },
+    {
+      "id": "tbl-0227-r5c5",
+      "row": 5,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "발주자"
+    },
+    {
+      "id": "tbl-0227-r5c7",
+      "row": 5,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "담당업무"
+    },
+    {
+      "id": "tbl-0227-r5c9",
+      "row": 5,
+      "col": 9,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "소속업체"
+    },
+    {
+      "id": "tbl-0227-r5c10",
+      "row": 5,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "참여율"
+    },
+    {
+      "id": "tbl-0227-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r6c5",
+      "row": 6,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r6c7",
+      "row": 6,
+      "col": 7,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r6c9",
+      "row": 6,
+      "col": 9,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0227-r6c10",
+      "row": 6,
+      "col": 10,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

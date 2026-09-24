@@ -1,0 +1,398 @@
+{
+  "table_id": "tbl-0007",
+  "logical_rows": 20,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0007-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "구분"
+    },
+    {
+      "id": "tbl-0007-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "주요 서비스명"
+    },
+    {
+      "id": "tbl-0007-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 내용"
+    },
+    {
+      "id": "tbl-0007-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 14,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대외"
+    },
+    {
+      "id": "tbl-0007-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역통계"
+    },
+    {
+      "id": "tbl-0007-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세계 수출입 통계(품목·국가별)\n IMF 세계무역통계, 자사 수출입실적 조회"
+    },
+    {
+      "id": "tbl-0007-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KITA.net"
+    },
+    {
+      "id": "tbl-0007-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "· 무역뉴스, 연구보고서, 무역실무매뉴얼 등 각종 무역정보\n· 글로별 무역 포털(영문:kita.org)"
+    },
+    {
+      "id": "tbl-0007-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "관세규제(TradeNAVI)"
+    },
+    {
+      "id": "tbl-0007-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "최신 관세율, 무역규제 정보조회\n키워드, HS코드 등 품목 통합검색"
+    },
+    {
+      "id": "tbl-0007-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역상담(TradePro)"
+    },
+    {
+      "id": "tbl-0007-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1:1 상담(희망분야 전문가와 사전예약), 오픈상담, AI 상담"
+    },
+    {
+      "id": "tbl-0007-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KITA멤버십"
+    },
+    {
+      "id": "tbl-0007-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역지원 사업일정, 회원사 전용서비스, 무역상담, 제증명 발급"
+    },
+    {
+      "id": "tbl-0007-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국제무역통상연구"
+    },
+    {
+      "id": "tbl-0007-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "한국무역협회 부설 국제무역통상연구원의 무역 관련 연구 보고서 발간"
+    },
+    {
+      "id": "tbl-0007-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "tradeKorea"
+    },
+    {
+      "id": "tbl-0007-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "해외비즈니스 매칭서비스, \n국내기업과 해외기업간 온라인매칭지원"
+    },
+    {
+      "id": "tbl-0007-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역아카데미"
+    },
+    {
+      "id": "tbl-0007-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "무역교육 및 인력매칭, 맞춤형 위탁연수, 전문인력 양성"
+    },
+    {
+      "id": "tbl-0007-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "증명서 발급"
+    },
+    {
+      "id": "tbl-0007-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수출입실적 증명서 발급, 해외지사 설치인증, 무역업고유번호 발급"
+    },
+    {
+      "id": "tbl-0007-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ABTC카드"
+    },
+    {
+      "id": "tbl-0007-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "APEC 기업인 여행카드, 발급 자격 확인, 카드 신청/취소"
+    },
+    {
+      "id": "tbl-0007-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "FTA포털"
+    },
+    {
+      "id": "tbl-0007-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "관세율, 원산지기준 등 FTA활용에 대한 전반적인 상담,교육"
+    },
+    {
+      "id": "tbl-0007-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국내외지부"
+    },
+    {
+      "id": "tbl-0007-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "국내지부 13개, 해외지부 15개"
+    },
+    {
+      "id": "tbl-0007-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "수출역량진단"
+    },
+    {
+      "id": "tbl-0007-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "빅데이터 기반 수출역량 진단보고서 제공"
+    },
+    {
+      "id": "tbl-0007-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "이노브렌치"
+    },
+    {
+      "id": "tbl-0007-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "스타트업 지원, 기업간 협업, 실증테스트 지원"
+    },
+    {
+      "id": "tbl-0007-r15c0",
+      "row": 15,
+      "col": 0,
+      "row_span": 5,
+      "col_span": 1,
+      "is_header": false,
+      "text": "내부"
+    },
+    {
+      "id": "tbl-0007-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "통합고객, 사업마케팅(KNEX)"
+    },
+    {
+      "id": "tbl-0007-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KITA 지원사업 내역, KITA 마케팅 내역\n개인/기업 고객 정보, 서비스 사용 이력, KITA 네트워킹맵"
+    },
+    {
+      "id": "tbl-0007-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회원회비관리"
+    },
+    {
+      "id": "tbl-0007-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회원사 가입, 회비 납부 내역"
+    },
+    {
+      "id": "tbl-0007-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KIWI(그룹웨어)"
+    },
+    {
+      "id": "tbl-0007-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "업무규정, 문서함, 문서 품의 내역, 자료실, 게시판"
+    },
+    {
+      "id": "tbl-0007-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "콜센터"
+    },
+    {
+      "id": "tbl-0007-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "상담 안내 내역(문의내역, 답변내역, 상담녹음)"
+    },
+    {
+      "id": "tbl-0007-r19c1",
+      "row": 19,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SR"
+    },
+    {
+      "id": "tbl-0007-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Service Request (서비스 유지보수 요청 시스템)"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0143",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0143-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0143-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0143-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0143-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-007"
+    },
+    {
+      "id": "tbl-0143-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0143-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 설정/관리 기능"
+    },
+    {
+      "id": "tbl-0143-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0143-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0143-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 관심정보/알림 설정/저장함 등 개인 설정/관리 기능 제공"
+    },
+    {
+      "id": "tbl-0143-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0143-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ My 대시보드 개인화 구성 편집\n  - 위젯 추가/해제등 사용자별 맞춤 대시보드 화면을 구성할 수 있는 방안을 설계해야 함\n○ 관심분야 관리\n  - HS/국가 등 관심 컨텍스트를 편집할 수 있는 기능을 제공해야 함\n○ 알림 설정 및 이력\n  - 알림 대상/채널/빈도등 알림 설정 기능을 제공해야 함\n  - 알림 히스토리 목록을 조회/관리할 수 있는 기능을 제공해야 함\n○ 저장함 관리\n  - AI Agent 답변 및 콘텐츠를 저장하고 목록을 조회할 수 있도록 제공해야 함\n○ My 진행현황 조회\n  - 신청/이용/처리 상태 등 사용자의 이용 서비스 진행현황을 조회할 수 있도록 제공해야 함\n○ My 계정/권한 조회\n  - 사용자 본인 기준 회원 정보 및 권한을 조회할 수 있도록 제공해야 함"
+    },
+    {
+      "id": "tbl-0143-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0143-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서"
+    }
+  ]
+}

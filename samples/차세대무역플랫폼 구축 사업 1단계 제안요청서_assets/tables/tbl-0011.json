@@ -1,0 +1,1055 @@
+{
+  "table_id": "tbl-0011",
+  "logical_rows": 37,
+  "logical_cols": 4,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0011-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "구 분"
+    },
+    {
+      "id": "tbl-0011-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "SW 종류"
+    },
+    {
+      "id": "tbl-0011-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "제조사"
+    },
+    {
+      "id": "tbl-0011-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "SW 명 및 버젼"
+    },
+    {
+      "id": "tbl-0011-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 8,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB Server"
+    },
+    {
+      "id": "tbl-0011-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영체제"
+    },
+    {
+      "id": "tbl-0011-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오라클"
+    },
+    {
+      "id": "tbl-0011-r1c3",
+      "row": 1,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Solaris 11"
+    },
+    {
+      "id": "tbl-0011-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "클러스터"
+    },
+    {
+      "id": "tbl-0011-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오라클"
+    },
+    {
+      "id": "tbl-0011-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Sun Cluster"
+    },
+    {
+      "id": "tbl-0011-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "백업SW"
+    },
+    {
+      "id": "tbl-0011-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "베리타스"
+    },
+    {
+      "id": "tbl-0011-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Netbackup 10"
+    },
+    {
+      "id": "tbl-0011-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서버접근제어"
+    },
+    {
+      "id": "tbl-0011-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "휴네시온"
+    },
+    {
+      "id": "tbl-0011-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "i-one NGS 7.0"
+    },
+    {
+      "id": "tbl-0011-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DBMS"
+    },
+    {
+      "id": "tbl-0011-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오라클"
+    },
+    {
+      "id": "tbl-0011-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Oracle 19c"
+    },
+    {
+      "id": "tbl-0011-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DBMS 성능관리"
+    },
+    {
+      "id": "tbl-0011-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "셀파소프트"
+    },
+    {
+      "id": "tbl-0011-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Sherpa Oracle"
+    },
+    {
+      "id": "tbl-0011-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 모니터링"
+    },
+    {
+      "id": "tbl-0011-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "브레인즈컴퍼니"
+    },
+    {
+      "id": "tbl-0011-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Zenius SMS 7"
+    },
+    {
+      "id": "tbl-0011-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DBMS 모니터링"
+    },
+    {
+      "id": "tbl-0011-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "브레인즈컴퍼니"
+    },
+    {
+      "id": "tbl-0011-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Zenius DBMS 7"
+    },
+    {
+      "id": "tbl-0011-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 5,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL Server"
+    },
+    {
+      "id": "tbl-0011-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영체계"
+    },
+    {
+      "id": "tbl-0011-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "레드햇"
+    },
+    {
+      "id": "tbl-0011-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "RedHat 7.3"
+    },
+    {
+      "id": "tbl-0011-r10c1",
+      "row": 10,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "백업SW"
+    },
+    {
+      "id": "tbl-0011-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "베리타스"
+    },
+    {
+      "id": "tbl-0011-r10c3",
+      "row": 10,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Netbackup 10"
+    },
+    {
+      "id": "tbl-0011-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서버접근제어"
+    },
+    {
+      "id": "tbl-0011-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "휴네시온"
+    },
+    {
+      "id": "tbl-0011-r11c3",
+      "row": 11,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "I-one NGS 7.0"
+    },
+    {
+      "id": "tbl-0011-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DBMS"
+    },
+    {
+      "id": "tbl-0011-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r12c3",
+      "row": 12,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "MariaDB 10.2.16"
+    },
+    {
+      "id": "tbl-0011-r13c1",
+      "row": 13,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL솔루션"
+    },
+    {
+      "id": "tbl-0011-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "이노트리"
+    },
+    {
+      "id": "tbl-0011-r13c3",
+      "row": 13,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "InnoQuartz 7.2.1"
+    },
+    {
+      "id": "tbl-0011-r14c0",
+      "row": 14,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "가상화서버"
+    },
+    {
+      "id": "tbl-0011-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영체계"
+    },
+    {
+      "id": "tbl-0011-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "브로드컴"
+    },
+    {
+      "id": "tbl-0011-r14c3",
+      "row": 14,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "VMware ESXi 7"
+    },
+    {
+      "id": "tbl-0011-r15c1",
+      "row": 15,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "백업SW"
+    },
+    {
+      "id": "tbl-0011-r15c2",
+      "row": 15,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "베리타스"
+    },
+    {
+      "id": "tbl-0011-r15c3",
+      "row": 15,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Netbackup 10"
+    },
+    {
+      "id": "tbl-0011-r16c0",
+      "row": 16,
+      "col": 0,
+      "row_span": 9,
+      "col_span": 1,
+      "is_header": false,
+      "text": "클라우드 \n마스트서버, 노드서버"
+    },
+    {
+      "id": "tbl-0011-r16c1",
+      "row": 16,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영체계"
+    },
+    {
+      "id": "tbl-0011-r16c2",
+      "row": 16,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "레드햇"
+    },
+    {
+      "id": "tbl-0011-r16c3",
+      "row": 16,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "RHEL 7.9"
+    },
+    {
+      "id": "tbl-0011-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서버접근제어"
+    },
+    {
+      "id": "tbl-0011-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "휴네시온"
+    },
+    {
+      "id": "tbl-0011-r17c3",
+      "row": 17,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "i-one NGS 7.0"
+    },
+    {
+      "id": "tbl-0011-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "클라우드 통합관리"
+    },
+    {
+      "id": "tbl-0011-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아콘소프트"
+    },
+    {
+      "id": "tbl-0011-r18c3",
+      "row": 18,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Cocktail Cloud 4.7.3"
+    },
+    {
+      "id": "tbl-0011-r19c2",
+      "row": 19,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r19c3",
+      "row": 19,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Kubernetes 1.23.10"
+    },
+    {
+      "id": "tbl-0011-r20c2",
+      "row": 20,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r20c3",
+      "row": 20,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Jenkins 2.346.3"
+    },
+    {
+      "id": "tbl-0011-r21c1",
+      "row": 21,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "웹서버"
+    },
+    {
+      "id": "tbl-0011-r21c2",
+      "row": 21,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r21c3",
+      "row": 21,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "NGINX ingress 1.1.2"
+    },
+    {
+      "id": "tbl-0011-r22c1",
+      "row": 22,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "WAS"
+    },
+    {
+      "id": "tbl-0011-r22c2",
+      "row": 22,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r22c3",
+      "row": 22,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0011-r23c1",
+      "row": 23,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "성능관리"
+    },
+    {
+      "id": "tbl-0011-r23c2",
+      "row": 23,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "제니퍼소프트"
+    },
+    {
+      "id": "tbl-0011-r23c3",
+      "row": 23,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Jeniffer 5"
+    },
+    {
+      "id": "tbl-0011-r24c1",
+      "row": 24,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 모니터링"
+    },
+    {
+      "id": "tbl-0011-r24c2",
+      "row": 24,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "브레인즈컴퍼니"
+    },
+    {
+      "id": "tbl-0011-r24c3",
+      "row": 24,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Zenius SMS 7"
+    },
+    {
+      "id": "tbl-0011-r25c0",
+      "row": 25,
+      "col": 0,
+      "row_span": 4,
+      "col_span": 1,
+      "is_header": false,
+      "text": "WEB"
+    },
+    {
+      "id": "tbl-0011-r25c1",
+      "row": 25,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영체계"
+    },
+    {
+      "id": "tbl-0011-r25c2",
+      "row": 25,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "레드햇"
+    },
+    {
+      "id": "tbl-0011-r25c3",
+      "row": 25,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "RHEL 7.9"
+    },
+    {
+      "id": "tbl-0011-r26c1",
+      "row": 26,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨테이너 관리"
+    },
+    {
+      "id": "tbl-0011-r26c2",
+      "row": 26,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r26c3",
+      "row": 26,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Kubernetes 1.23.10"
+    },
+    {
+      "id": "tbl-0011-r27c1",
+      "row": 27,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발언어"
+    },
+    {
+      "id": "tbl-0011-r27c2",
+      "row": 27,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r27c3",
+      "row": 27,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "OpenJDK 1.8.0_352"
+    },
+    {
+      "id": "tbl-0011-r28c1",
+      "row": 28,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "웹서버"
+    },
+    {
+      "id": "tbl-0011-r28c2",
+      "row": 28,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r28c3",
+      "row": 28,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "NGINX ingress 1.1.2"
+    },
+    {
+      "id": "tbl-0011-r29c0",
+      "row": 29,
+      "col": 0,
+      "row_span": 8,
+      "col_span": 1,
+      "is_header": false,
+      "text": "WAS"
+    },
+    {
+      "id": "tbl-0011-r29c1",
+      "row": 29,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영체계"
+    },
+    {
+      "id": "tbl-0011-r29c2",
+      "row": 29,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "레드햇"
+    },
+    {
+      "id": "tbl-0011-r29c3",
+      "row": 29,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "RHEL 7.9"
+    },
+    {
+      "id": "tbl-0011-r30c1",
+      "row": 30,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨테이너 관리"
+    },
+    {
+      "id": "tbl-0011-r30c2",
+      "row": 30,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r30c3",
+      "row": 30,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Kubernetes 1.23.10"
+    },
+    {
+      "id": "tbl-0011-r31c1",
+      "row": 31,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발언어"
+    },
+    {
+      "id": "tbl-0011-r31c2",
+      "row": 31,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r31c3",
+      "row": 31,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "OpenJDK 1.8.0_352"
+    },
+    {
+      "id": "tbl-0011-r32c1",
+      "row": 32,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "개발 프레임워크"
+    },
+    {
+      "id": "tbl-0011-r32c2",
+      "row": 32,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SDCIT"
+    },
+    {
+      "id": "tbl-0011-r32c3",
+      "row": 32,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UDAP Framework 4.0"
+    },
+    {
+      "id": "tbl-0011-r33c1",
+      "row": 33,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "WAS"
+    },
+    {
+      "id": "tbl-0011-r33c2",
+      "row": 33,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "오픈소스"
+    },
+    {
+      "id": "tbl-0011-r33c3",
+      "row": 33,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Tomcat 9.0.70"
+    },
+    {
+      "id": "tbl-0011-r34c1",
+      "row": 34,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Sheet 솔루션"
+    },
+    {
+      "id": "tbl-0011-r34c2",
+      "row": 34,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아이비리더스"
+    },
+    {
+      "id": "tbl-0011-r34c3",
+      "row": 34,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "IB Sheet 7.0.13.20"
+    },
+    {
+      "id": "tbl-0011-r35c1",
+      "row": 35,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Chart 솔루션"
+    },
+    {
+      "id": "tbl-0011-r35c2",
+      "row": 35,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "리아모어소프트"
+    },
+    {
+      "id": "tbl-0011-r35c3",
+      "row": 35,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "rMate Chart 3.0"
+    },
+    {
+      "id": "tbl-0011-r36c1",
+      "row": 36,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Map Chart 솔루션"
+    },
+    {
+      "id": "tbl-0011-r36c2",
+      "row": 36,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "리아모어소프트"
+    },
+    {
+      "id": "tbl-0011-r36c3",
+      "row": 36,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "rMate Map Chart 1.0"
+    }
+  ]
+}

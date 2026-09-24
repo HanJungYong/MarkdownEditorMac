@@ -1,0 +1,11 @@
+﻿요구사항 분류,고유번호,요구사항명
+컨설팅 요구사항,CSR-TK-001,운영 체계 표준화
+,CSR-TK-002,서비스 고도화
+,CSR-TK-003,상세 설계
+,CSR-TK-004,tradeKorea–전자무역–해외세관 연계 PI설계
+기능 요구사항,SFR-TK-001,tradeKorea Web 고도화
+,SFR-TK-002,tradeKorea 모바일 고도화
+,SFR-TK-003,견적·계약·e-Invoicing 서비스 구축
+,SFR-TK-004,전자무역(PTB) 플랫폼 연계
+성능 요구사항,PER-TK-001,tradeKorea 서비스 성능 개선
+인터페이스 요구사항,INR-TK-001,통합로그인(SSO) 인터페이스 연계

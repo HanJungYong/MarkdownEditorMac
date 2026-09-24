@@ -1,0 +1,524 @@
+{
+  "table_id": "tbl-0036",
+  "logical_rows": 19,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0036-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "추진사업"
+    },
+    {
+      "id": "tbl-0036-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1단계\n\n(’26.08월~’27.02월)"
+    },
+    {
+      "id": "tbl-0036-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "2단계\n(’27.04월~’27.12월)"
+    },
+    {
+      "id": "tbl-0036-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "비고"
+    },
+    {
+      "id": "tbl-0036-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": "󰊱 생성형 AI 모델 개발 "
+    },
+    {
+      "id": "tbl-0036-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시장 감시 모델 개발"
+    },
+    {
+      "id": "tbl-0036-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대화형 AI Assistant 기반 시장 감시 체계 구축"
+    },
+    {
+      "id": "tbl-0036-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연계성 분석 모델 개발"
+    },
+    {
+      "id": "tbl-0036-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 혐의자 연계성 분석 모델 개발 및 연계성 순환 분석 체계 구축"
+    },
+    {
+      "id": "tbl-0036-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보고서 작성 모델 개발"
+    },
+    {
+      "id": "tbl-0036-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "문답서·처리의견서 “생성형 AI” 작성 지원 체계 구축"
+    },
+    {
+      "id": "tbl-0036-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r5c4",
+      "row": 5,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": "󰊲 AI 기반 조사 프로세스 재정립"
+    },
+    {
+      "id": "tbl-0036-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "조사 업무 全 프로세스 분석"
+    },
+    {
+      "id": "tbl-0036-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI기반 조사 프로세스 재정립, AI 기술 전면 적용 계획 수립"
+    },
+    {
+      "id": "tbl-0036-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r7c4",
+      "row": 7,
+      "col": 4,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r8c0",
+      "row": 8,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r9c1",
+      "row": 9,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "조사 업무 AI 기술 전면 적용 계획 수립"
+    },
+    {
+      "id": "tbl-0036-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "과제 도출 및 정의,\n2단계 개발 범위 및 일정 수립"
+    },
+    {
+      "id": "tbl-0036-r9c3",
+      "row": 9,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r9c4",
+      "row": 9,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "2단계 구축\n대상 상세화"
+    },
+    {
+      "id": "tbl-0036-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": "󰊳 AI 업무 서비스 통합 구축"
+    },
+    {
+      "id": "tbl-0036-r11c0",
+      "row": 11,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r11c1",
+      "row": 11,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 인프라 도입"
+    },
+    {
+      "id": "tbl-0036-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r11c3",
+      "row": 11,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "GPU 서버 등 생성형 AI 인프라 도입"
+    },
+    {
+      "id": "tbl-0036-r11c4",
+      "row": 11,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r12c1",
+      "row": 12,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 모델 시스템 통합 개발"
+    },
+    {
+      "id": "tbl-0036-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r12c3",
+      "row": 12,
+      "col": 3,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 모델을 現 불공정거래 조사시스템에 AI 모델 서비스 통합 개발"
+    },
+    {
+      "id": "tbl-0036-r12c4",
+      "row": 12,
+      "col": 4,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1단계 AI 모델 서비스 개발 "
+    },
+    {
+      "id": "tbl-0036-r13c0",
+      "row": 13,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r14c1",
+      "row": 14,
+      "col": 1,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "생성형 AI 모델 추가 구축"
+    },
+    {
+      "id": "tbl-0036-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r14c3",
+      "row": 14,
+      "col": 3,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "판례 및 유사 사례 분석모델, 제보민원관리 내용분석 등 모델 추가 구현 "
+    },
+    {
+      "id": "tbl-0036-r14c4",
+      "row": 14,
+      "col": 4,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r15c0",
+      "row": 15,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r16c0",
+      "row": 16,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 5,
+      "is_header": false,
+      "text": "󰊴 업무 체계 정립 · 시스템 고도화"
+    },
+    {
+      "id": "tbl-0036-r17c0",
+      "row": 17,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r17c1",
+      "row": 17,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "조사 특화 AI 모델 구현"
+    },
+    {
+      "id": "tbl-0036-r17c2",
+      "row": 17,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r17c3",
+      "row": 17,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1단계 모델 고도화, 추가 AI 모델(ML, LLM) 구현"
+    },
+    {
+      "id": "tbl-0036-r17c4",
+      "row": 17,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r18c0",
+      "row": 18,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r18c1",
+      "row": 18,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "조사시스템 고도화 과제수행"
+    },
+    {
+      "id": "tbl-0036-r18c2",
+      "row": 18,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0036-r18c3",
+      "row": 18,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "조사 프로세스 고도화 과제 수행, 매매재현 시뮬레이션 개선 등"
+    },
+    {
+      "id": "tbl-0036-r18c4",
+      "row": 18,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    }
+  ]
+}

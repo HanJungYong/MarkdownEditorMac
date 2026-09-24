@@ -1,0 +1,96 @@
+:root, :root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --text: #202124;
+  --muted: #667085;
+  --border: #d0d5dd;
+  --accent: #155eef;
+  --soft: #f5f7fa;
+  --warn-bg: #fff4e5;
+  --warn: #9a3412;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: auto; }
+body {
+  margin: 0;
+  padding: 24px 28px 64px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", "Malgun Gothic", "맑은 고딕", sans-serif;
+  font-size: 17px;
+  line-height: 1.68;
+  overflow-wrap: anywhere;
+}
+#content { max-width: 1120px; margin: 0 auto; }
+.source-anchor { display: block; height: 0; margin: 0; padding: 0; }
+#empty { color: var(--muted); text-align: center; margin-top: 25vh; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.3; margin: 1.45em 0 .65em; scroll-margin-top: 18px; }
+h1, h2 { border-bottom: 1px solid #e4e7ec; padding-bottom: .3em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+blockquote { margin: 1em 0; padding: .2em 1em; border-left: 4px solid #b9c6dc; color: #475467; }
+code, pre { font-family: Consolas, "Malgun Gothic", monospace; }
+code { background: #f2f4f7; border-radius: 4px; padding: .12em .35em; }
+pre { margin: 0; padding: 14px; overflow: auto; background: #111827; color: #f9fafb; border-radius: 7px; }
+pre code { padding: 0; background: transparent; color: inherit; }
+.code-wrap { position: relative; margin: 1em 0; }
+.code-language { position: absolute; right: 9px; top: 5px; color: #98a2b3; font-size: 11px; }
+.front-matter { margin: 0 0 1.4em; border: 1px solid var(--border); border-radius: 8px; background: var(--soft); }
+.front-matter summary { cursor: pointer; font-weight: 700; padding: 10px 13px; }
+.front-matter dl { display: grid; grid-template-columns: minmax(120px, 220px) 1fr; margin: 0 12px 12px; }
+.front-matter dt, .front-matter dd { margin: 0; padding: 6px 8px; border-top: 1px solid var(--border); }
+.front-matter dt { font-weight: 700; }
+table { border-collapse: collapse; margin: 1em 0; width: max-content; min-width: min(100%, 520px); max-width: 100%; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--border); padding: 6px 9px; text-align: left; vertical-align: top; min-width: 36px; }
+th { background: #f2f4f7; font-weight: 700; }
+table table { display: table; min-width: 0; width: 100%; margin: 0; }
+img { display: block; max-width: 100%; height: auto; margin: 1em auto; }
+.image-error, .external-image-blocked, .mermaid-error {
+  margin: .8em 0;
+  padding: 12px 14px;
+  border: 1px solid #f79009;
+  border-radius: 7px;
+  background: var(--warn-bg);
+  color: var(--warn);
+  white-space: pre-wrap;
+}
+.mermaid-wrap { margin: 1.2em 0; overflow: auto; text-align: center; }
+.mermaid-wrap svg { max-width: 100%; height: auto; }
+:root[data-theme="dark"] .mermaid-rendered svg .flowchart-link,
+:root[data-theme="dark"] .mermaid-rendered svg .messageLine0,
+:root[data-theme="dark"] .mermaid-rendered svg .messageLine1,
+:root[data-theme="dark"] .mermaid-rendered svg .actor-line {
+  stroke: #d9e2f0 !important;
+}
+:root[data-theme="dark"] .mermaid-rendered svg marker path {
+  fill: #d9e2f0 !important;
+  stroke: #d9e2f0 !important;
+}
+:root[data-theme="dark"] .mermaid-rendered svg .edgeLabel,
+:root[data-theme="dark"] .mermaid-rendered svg .edgeLabel p,
+:root[data-theme="dark"] .mermaid-rendered svg .edgeLabel span,
+:root[data-theme="dark"] .mermaid-rendered svg .edgeLabel text,
+:root[data-theme="dark"] .mermaid-rendered svg .messageText,
+:root[data-theme="dark"] .mermaid-rendered svg .labelText,
+:root[data-theme="dark"] .mermaid-rendered svg .loopText {
+  color: #f4f6f8 !important;
+  fill: #f4f6f8 !important;
+}
+.task-list-item { list-style: none; }
+input[type="checkbox"] { margin-right: .45em; }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #15171a;
+  --text: #edf0f4;
+  --muted: #a7b0c0;
+  --border: #444b56;
+  --soft: #22262c;
+  --accent: #7db2ff;
+  --warn-bg: #3a2718;
+  --warn: #ffb067;
+}
+:root[data-theme="dark"] h1, :root[data-theme="dark"] h2 { border-bottom-color: #343a43; }
+:root[data-theme="dark"] th { background: #252a31; }
+:root[data-theme="dark"] code { background: #272c33; }
+:root[data-theme="dark"] blockquote { color: #b9c2d0; border-left-color: #53627a; }

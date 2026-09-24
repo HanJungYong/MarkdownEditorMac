@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0123",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0123-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0123-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0123-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0123-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-010"
+    },
+    {
+      "id": "tbl-0123-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0123-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI Data 파이프라인 구축"
+    },
+    {
+      "id": "tbl-0123-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0123-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0123-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지식데이터, VectorData 등의 AI Data 파이프라인 구성"
+    },
+    {
+      "id": "tbl-0123-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0123-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ AI Data 파이프라인 구축\n  - 데이터 변환 전 데이터 정제 및 비식별화, 구조화 작업이 선행 될 수 있는 체계를 마련 해야 함\n  - 임베딩 파이프라인을 구성하여 데이터를 벡터 변환 후 적재까지 이어지는 단계를 자동화 할 수 있는 워크플로우가 구성 되어야 함\n  - 파이프라인 관리를 위한 데이터 검증 모니터링 체계(DQ)를 구축 해야 함\n○ 데이터 Embedding 방안 수립\n  - Agent가 활용하는 다양한 종류의 LLM 모델별로 데이터를 활용할 수 있는 Embedding 전략이 수립 되어야 함\n  - 데이터 Embedding중 기존 서비스는 영향 없이 지속 운영 되어야 함\n○ 피드백 루프 구현\n  - 평가 데이터셋을 구축하여 변환 된 데이터셋을 평가하고 보정할 수 있어야 함\n  - 피드백 데이터를 기반으로 파이프라인에 대한 보정이 지속적으로 이루어 질 수 있도록 기반을 마련 해야 함"
+    },
+    {
+      "id": "tbl-0123-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0123-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 모델 ERD, 배치 설계서, 배치 설계서 목록, 소스 코드"
+    }
+  ]
+}

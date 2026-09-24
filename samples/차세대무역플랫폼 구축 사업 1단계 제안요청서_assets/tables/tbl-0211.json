@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0211",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0211-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0211-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0211-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0211-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-AC-002"
+    },
+    {
+      "id": "tbl-0211-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0211-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "내부 시스템 인터페이스"
+    },
+    {
+      "id": "tbl-0211-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0211-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0211-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "협회 내부 레거시 및 신규 플랫폼과의 보안 연동 구현"
+    },
+    {
+      "id": "tbl-0211-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0211-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 내부 시스템별 상세 연동 요구사항 구현\n  - KNEX: 무역협회 통합 회원 체계 기반 회원 정보 연계 및 표준 프로토콜 기반 통합 인증 (SSO) 구현\n  - 회원회비시스템: 회원사별 회비 납부 현황에 따른 수강료 할인 대상 여부 실시간 확인 및 적용\n  - 멤버십서비스: 교육 수료 이력 및 자격 취득 데이터를 연계하여 수료증·자격증 발급 서비스 구현\n  - KAMIS (정산): 예산코드연동, FB 입금 내역 및 직계좌 입금 확인, 전표 관리 등 전표 정산 데이터 연동\n  - 통합데이터 플랫폼 (신규): 향후 무역협회 통합 데이터 분석 및 관리를 위한 교육 데이터 송수신 체계 마련\n○ 보안 연결: 협회 내부망과의 연동 시 보안 채널 체계를 구성해야 함\n○ 연동 장애 발생 시 원인 분석을 위한 상세 로그 제공 및 모니터링 툴을 지원해야 함 \n○ 연동 대상·방식·항목 등은 주관기관 및 외부 시스템과 협의해 유연하게 조정 가능"
+    },
+    {
+      "id": "tbl-0211-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0211-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "연동 규격서"
+    }
+  ]
+}

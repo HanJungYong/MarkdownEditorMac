@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0171",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0171-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0171-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0171-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0171-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-003"
+    },
+    {
+      "id": "tbl-0171-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0171-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "지재권 특화 상세 페이지 구축"
+    },
+    {
+      "id": "tbl-0171-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0171-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0171-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "고객이 지재권 업무 단계를 선택했을 때 표출되는 화면을 구성"
+    },
+    {
+      "id": "tbl-0171-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0171-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 지재권 업무 단계 기반 서비스 카테고리 노출\n  - 사용자가 지재권 업무 단계(예: IP 아이디어 구상)를 클릭 시, 해당 단계와 연계된 지재권 특화 서비스 카테고리(예: 지식재산 자료 모아보기) 버튼/탭을 조회 및 노출해야 함\n○ 서비스 카테고리 기반 콘텐츠 노출\n  - 사용자가 노출된 서비스 카테고리 중 하나(예: 지식재산 자료 모아보기)를 선택 시 해당 상위 지재권 업무 단계(예: IP 아이디어 구상)와 연관된(태깅 및 맵핑된) 서비스 콘텐츠만을 필터링하여 화면에 표시한다.\n  - 콘텐츠는 유형(예: 외부 문헌/뉴스/지원사업/자료실)에 관계없이, 단계 매핑 기준에 따라 통합 조회되어야 함\n  - 필터링 결과는 최신순/인기순 등 기본 정렬 기준을 적용하여 노출하고, 필요 시 검색/추가 필터(키워드 등) 기능과 연계해야 함\n  - 콘텐츠 항목 선택 시 원천 서비스(내부/외부 도메인) 상세 화면으로 이동하거나, 다운로드/조회 등 후속 Action 수행이 가능해야 함"
+    },
+    {
+      "id": "tbl-0171-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0171-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서, 서비스 정의서"
+    }
+  ]
+}

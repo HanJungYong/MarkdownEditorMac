@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0198",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0198-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0198-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성 요구사항"
+    },
+    {
+      "id": "tbl-0198-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0198-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-AC-001"
+    },
+    {
+      "id": "tbl-0198-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0198-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 구성"
+    },
+    {
+      "id": "tbl-0198-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0198-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0198-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템(클라우드 인프라) 구성"
+    },
+    {
+      "id": "tbl-0198-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0198-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 클라우드 아키텍처 및 고가용성 확보\n  - 클라우드 서비스 수준 협약(SLA) 99.95% 이상의 가용성을 보장하며, 미달 시 구체적인 서비스 보상 정책(Service Credit 등)을 제시해야 함\n  - 대규모 수강 신청 및 동시 접속자 급증에 대비하여 유연한 아키텍처 구조를 지원해야 함\n○ 인프라 보안 및 데이터 관리\n  - 전용 가상 네트워크(VPC) 구성을 통해 외부 위협으로부터 인프라를 보호하며, 타 고객사 데이터와의 논리적·물리적 격리를 보장함\n  - 글로벌 접근성 및 대용량 영상 콘텐츠의 원활한 스트리밍을 위해 CDN(Content Delivery Network) 연계 서비스를 기본 제공함\n○ AI 및 외부 서비스 연계 인프라\n  - AI 기반 통계 및 학습 지원을 위해 최신 AI LLM 서비스 연동 환경을 구축하고, API 호출 성능 및 데이터 보안성을 확보함\n○ 모니터링 및 자원 최적화\n  - 웹 기반 대시보드 또는 정기 레포트를 통해 자원 사용량, 장애 발생 현황, 사용자 응답 시간 등을 확인할 수 있어야 함\n  - 인프라 자원 사용량 분석 및 최적화를 통하여 비용 타당성 리포트를 정기적으로 제출해야 함"
+    },
+    {
+      "id": "tbl-0198-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0198-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아키텍처 설계서"
+    }
+  ]
+}

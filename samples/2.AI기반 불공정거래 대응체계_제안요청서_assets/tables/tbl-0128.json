@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0128",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0128-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0128-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "제약사항"
+    },
+    {
+      "id": "tbl-0128-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0128-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-005"
+    },
+    {
+      "id": "tbl-0128-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0128-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 개발 소프트웨어의 활용 및 유지보수"
+    },
+    {
+      "id": "tbl-0128-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0128-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0128-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " 개발 소프트웨어의 활용 및 유지보수 등에 관한 사항"
+    },
+    {
+      "id": "tbl-0128-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0128-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 제안사가 소프트웨어를 무상으로 제공하는 경우 동 소프트웨어에 대한 유지보수방안을 제안하여야 함\n ㅇ UI/UX는 표준기술을 사용하여 구축하여야 함\n  - HTML5, CSS 등 웹 표준 문법을 준수하여 구축하여야 함\n  - 액티브X 등 비표준 플러그인은 보안 및 업무상 반드시 필요한 경우   금감원의 승인을 받아 제한적으로 허용함\n ㅇ 사업 추진 중 적용 규정 및 지침 등이 변경된 경우 이를 반영하여야 함\n    ※ 변경된 규정에 대한 적용 시점을 금감원과 협의 후 적용\n ㅇ 동 사업 수행 시 업무관련 소프트웨어의 이전 설치 및 테스트 등이 필요한 경우 동 기술지원 및 이전업무를 수행하여야 함\n ㅇ 오픈소스 기반 소프트웨어를 설치 및 활용하는 경우 금감원과 협의하여야 하며 라이선스 등 관리방안을 마련하여야 함"
+    },
+    {
+      "id": "tbl-0128-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0128-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "해당없음"
+    }
+  ]
+}

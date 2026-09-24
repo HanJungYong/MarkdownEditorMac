@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0141",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0141-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0141-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0141-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0141-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-005"
+    },
+    {
+      "id": "tbl-0141-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0141-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "콘텐츠/사업 자동 추천 기능"
+    },
+    {
+      "id": "tbl-0141-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0141-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0141-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 컨텍스트 기반 추천과 실행 동선 제공"
+    },
+    {
+      "id": "tbl-0141-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0141-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 자동 추천 기능 제공\n  - 개인화 기반 관심 콘텐츠(사업/교육/상담/바우처/뉴스 등) 자동 추천 방안을 제공해야 함\n  - 수출입 유망시장/유망품목 등 통계/분석 결과를 기반으로 수출입 추천 정보를 제공해야 함 \n○ 추천 신뢰도 제공 및 후행 버튼 제공\n  - 추천 결과에 대한 신뢰도를 확보할 수 있는 방안을 제시해야 함\n  - 사용자가 바로 다음 행동으로 이어갈 수 있도록 후행 버튼(신청/상담 등) 을 제공해야 함 \n○ 자동 추천 운영 정책 반영\n  - 노출 우선순위, 캠페인/공지 우선 등 운영 정책 기준을 정의해야 함"
+    },
+    {
+      "id": "tbl-0141-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0141-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 정의서, UI/UX 설계서"
+    }
+  ]
+}

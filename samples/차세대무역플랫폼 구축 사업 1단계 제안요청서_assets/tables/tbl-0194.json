@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0194",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0194-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0194-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0194-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0194-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-ESG-002"
+    },
+    {
+      "id": "tbl-0194-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0194-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ESG 진단 및 지원 사이트 랜딩 페이지 구축"
+    },
+    {
+      "id": "tbl-0194-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0194-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0194-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "고객이 ESG 진단 및 지원 페이지에 접속 시 첫 화면 구성"
+    },
+    {
+      "id": "tbl-0194-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0194-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ (상단) 히어로 이미지\n  - ESG 진단 및 지원페이지의 기능을 간략히 소개하는 텍스트 삽입\n○ 서비스 네비게이션 메뉴\n  - 회원사 상황과 니즈에 맞는 서비스 메뉴로 빠르게 진입 가능한 \n네비게이션 구성\n○ 화면 구성\n  - 2가지 서비스 파트의 화면 배치(안) 구축 \n ① ESG 규제대응/경영수준 진단 및 보고서 제공 서비스 와\n ② 맞춤형 ESG 정보 제공 서비스 \n○ 자주 찾는 서비스 모음 메뉴\n  - 고객의 이용률이 높은 서비스 모음 및 바로가기 제공\n○ 대시보드 연계\n  - 회원사 정보 및 설정 기반 맞춤형 정보 링크 "
+    },
+    {
+      "id": "tbl-0194-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0194-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서"
+    }
+  ]
+}

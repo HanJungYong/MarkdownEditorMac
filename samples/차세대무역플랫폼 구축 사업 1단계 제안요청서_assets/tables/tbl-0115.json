@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0115",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0115-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0115-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0115-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0115-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AP-002"
+    },
+    {
+      "id": "tbl-0115-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0115-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Orchestration 구성"
+    },
+    {
+      "id": "tbl-0115-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0115-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0115-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Multi Agent 기반 시스템 환경에서의 Agent 연계 활용"
+    },
+    {
+      "id": "tbl-0115-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0115-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 표준 Orchestration 구조 수립\n  - 다양한 A2A 아키텍처를 검토하여 발주처의 서비스 환경에 적합한 Multi Agent 서비스를 제공하기 위한 Orchestration 구조가 제시 되어야 함\n○ 워크플로우 제어 및 상태·컨텍스트 동기화\n  - Agent의 작업 순서, 의존성, 분기, 오류 대응 등을 제어할 수 있어야 함\n  - Fallback 대응을 위한 시나리오 및 모델 연계 방안이 정의 되어야 함\n  - 작업의 진행 상태와 맥락이 관리 되며 주어진 태스크가 수행 되는 동안 유지될 수 있어야 함\n  - Unit Agent들이 주제와 무관한 작업을 하지 않도록 데이터와 상태의 흐름을 제어해야 함\n  - 중앙 집중형 Orchestration이나 분산형 Choreography등 서비스에 적합한 구조가 제시 되어야 함\n○ Orchestration 관리\n  - Orchestration 하에 수행 되는 Agent들의 행동을 모니터링하고 작업 결과를 평가할 수 있어야 함\n  - Orchestration 레벨에서 전체 작업 수행 내역이 이력 관리 되어야 함\n○ 작업 수행 평가 및 관리 방안 수립\n  - 전체 작업 수행 결과 및 개별 Agent들의 작업 수행 결과를 평가하기 위한 기준 및 지표 정의 방안이 제시 되어야 함\n  - Agent의 성능 평가 결과를 기반으로 지속적인 성능 개선이 될 수 있도록 Embedding Data 재처리 방안, 모델 관리 방안 등이 제시 되어야 함"
+    },
+    {
+      "id": "tbl-0115-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0115-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "서비스 정의서, 시나리오 정의서, 지표 정의서, 소스 코드"
+    }
+  ]
+}

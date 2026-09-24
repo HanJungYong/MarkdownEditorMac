@@ -1,0 +1,308 @@
+{
+  "table_id": "tbl-0010",
+  "logical_rows": 15,
+  "logical_cols": 3,
+  "header_rows": 1,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0010-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "구 분"
+    },
+    {
+      "id": "tbl-0010-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "SW 종류"
+    },
+    {
+      "id": "tbl-0010-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": true,
+      "text": "SW 명 및 버젼"
+    },
+    {
+      "id": "tbl-0010-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "OS"
+    },
+    {
+      "id": "tbl-0010-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Linux"
+    },
+    {
+      "id": "tbl-0010-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CentOS 6.x/7.x RHEL 7.x/8.x, Rocky"
+    },
+    {
+      "id": "tbl-0010-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Windows"
+    },
+    {
+      "id": "tbl-0010-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Windows 10/2016, 2019, 2022"
+    },
+    {
+      "id": "tbl-0010-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UNIX"
+    },
+    {
+      "id": "tbl-0010-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Solaris 10/11"
+    },
+    {
+      "id": "tbl-0010-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "JDK"
+    },
+    {
+      "id": "tbl-0010-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "1.8"
+    },
+    {
+      "id": "tbl-0010-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "Web"
+    },
+    {
+      "id": "tbl-0010-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Apache, nginx, WebtoB"
+    },
+    {
+      "id": "tbl-0010-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "WAS"
+    },
+    {
+      "id": "tbl-0010-r6c2",
+      "row": 6,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Jeus, Tomcat, WebLogic"
+    },
+    {
+      "id": "tbl-0010-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DB"
+    },
+    {
+      "id": "tbl-0010-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Oracle"
+    },
+    {
+      "id": "tbl-0010-r7c2",
+      "row": 7,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Oracle 19c"
+    },
+    {
+      "id": "tbl-0010-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Tibero"
+    },
+    {
+      "id": "tbl-0010-r8c2",
+      "row": 8,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Tibero6/7"
+    },
+    {
+      "id": "tbl-0010-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "이중화 솔루션"
+    },
+    {
+      "id": "tbl-0010-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "MCCS 4.4, SUN H/A, RHCS"
+    },
+    {
+      "id": "tbl-0010-r10c0",
+      "row": 10,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "백업 솔루션"
+    },
+    {
+      "id": "tbl-0010-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "NetBackup"
+    },
+    {
+      "id": "tbl-0010-r11c0",
+      "row": 11,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "배포 도구"
+    },
+    {
+      "id": "tbl-0010-r11c2",
+      "row": 11,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Hudson,Jenkins, Svn,Git 등 다수"
+    },
+    {
+      "id": "tbl-0010-r12c0",
+      "row": 12,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "CDN"
+    },
+    {
+      "id": "tbl-0010-r12c2",
+      "row": 12,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Akamai, CloudFront"
+    },
+    {
+      "id": "tbl-0010-r13c0",
+      "row": 13,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "개발 프레임워크"
+    },
+    {
+      "id": "tbl-0010-r13c2",
+      "row": 13,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전자정부 프레임워크"
+    },
+    {
+      "id": "tbl-0010-r14c0",
+      "row": 14,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "CI/CD"
+    },
+    {
+      "id": "tbl-0010-r14c2",
+      "row": 14,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Github/Jenkins"
+    }
+  ]
+}

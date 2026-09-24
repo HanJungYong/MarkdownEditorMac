@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0106",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0106-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0106-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0106-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0106-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-010"
+    },
+    {
+      "id": "tbl-0106-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0106-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL 워크플로우 및 운영관리"
+    },
+    {
+      "id": "tbl-0106-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0106-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0106-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ETL 워크플로우 및 운영관리 요구사항"
+    },
+    {
+      "id": "tbl-0106-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0106-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 자동화된 데이터 처리 흐름을 제어하기 위해 워크플로우 기반의 ETL 환경을 구축해야 함\n  - 워크플로우(Workflow) 기능을 도입하여, 데이터 추출-변환-적재 간의 선/후행 의존성을 고려한 자동화된 ETL 작업 흐름을 구현하여야 함\n○ ETL의 모니터링 방안을 제시하여야 함\n  - ETL 작업의 상태, 처리 지연, 시스템 리소스 등을 통합 모니터링하는 기능을 제공하여야 함\n  - ETL 작업 중 오류 발생 시 담당자에게 보고(알림)되는 체계를 마련하고, 신속한 원인 분석 및 대응이 가능하도록 프로세스를 체계화하여야 함\n○ ETL 작업 중 서비스 연속성을 보장하는 방안을 제시하여야 함\n  - 대용량 ETL 작업이 수행되는 중에도 사용자의 통계 조회 서비스가 지연되거나 중단되지 않아야 함\n○ 제한된 시간 내 ETL 작업 시간 최소화를 위해 시스템 자원을 효율적으로 활용하는 병렬 처리 및 동시 작업 수행 방안을 마련해야 함"
+    },
+    {
+      "id": "tbl-0106-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0106-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "배치 설계서 목록, 배치 설계서"
+    }
+  ]
+}

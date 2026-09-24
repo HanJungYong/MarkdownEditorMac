@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0144",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0144-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0144-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0144-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0144-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DS-008"
+    },
+    {
+      "id": "tbl-0144-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0144-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영관리(관리자)"
+    },
+    {
+      "id": "tbl-0144-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0144-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0144-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "운영자가 위젯/알림 정책을 운영할 수 있는 관리자 기능 제공"
+    },
+    {
+      "id": "tbl-0144-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0144-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 운영자 홈\n  - 사용률/전환/구독, 오류/지연위젯 등 운영 지표를 모니터링하는 화면을 제공해야 함  \n○ 위젯 카탈로그 관리\n  - 위젯 등록/수정, 사용/중지, 변경이력 등 카탈로그 관리 기능을 제공해야 함\n  - 운영자는 위젯 목록(명칭/설명/카테고리/상태)을 조회하고 운영 상태를 관리할 수 있어야 함\n  - 신규 위젯 추가는 SI 개발 완료 후 카탈로그에 반영(메타 등록/노출 관리)할 수 있도록 제공해야 함\n○ 위젯 요청 관리\n  - 사용자의 위젯 요청 및 의견을 수집하고 개선에 반영할 수 있어야 함\n○ 알림서비스 운영 관리\n  - 알림서비스 대상/채널/빈도등의 제공 범위를 관리할 수 있도록 제공해야 함"
+    },
+    {
+      "id": "tbl-0144-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0144-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서"
+    }
+  ]
+}

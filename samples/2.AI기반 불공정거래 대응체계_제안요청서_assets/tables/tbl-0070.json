@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0070",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0070-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0070-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0070-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0070-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AIM-004"
+    },
+    {
+      "id": "tbl-0070-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0070-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "RAG(검색 증강) 기본 사항"
+    },
+    {
+      "id": "tbl-0070-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0070-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0070-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI 모델의 검색 증강(RAG) 구성에 관한 사항"
+    },
+    {
+      "id": "tbl-0070-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0070-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 최신 임베딩 기술들을 활용하여 문서(자료)와 질의어를 벡터로 변화하여 의미기반의 검색이 되도록 개발\n   - DRM, 암호화된 문서에 대해서 복호화처리 (관련 API 금감원 제공)\n ㅇ 다양한 유형의 데이터베이스에서 필요 정보 검색 및 추출 기능 제공\n   - 테이블 조건, 컬럼 필터 등은 운영자가 설정 가능해야 함\n ㅇ 단순 유사도 기반 검색이 아닌 질의 재구성, Multi-Query, Hybrid Search, 문서 재정렬, 장문 응답 최적화 등 Advanced RAG 기술 적용 \n ㅇ 검색 대상에 대한 데이터베이스 구축 및 색인화\n ㅇ 실시간 검색 및 추천 API 구현\n ㅇ 기존 조사시스템과의 연동을 위한 API 개발 및 인터페이스 구현"
+    },
+    {
+      "id": "tbl-0070-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0070-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "단계별 개발 산출물"
+    }
+  ]
+}

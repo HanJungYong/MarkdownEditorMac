@@ -1,0 +1,1950 @@
+{
+  "app": "HWPtoMarkdown 0.1.0",
+  "md_file": "차세대무역플랫폼 구축 사업 1단계 제안요청서.md",
+  "evidence_images": {},
+  "overall": "WARN",
+  "overall_label": "검증 일부 미완료",
+  "summary": [
+    "검증 일부 미완료: 필수 검사 18개 중 통과 9, 경고 2, 실패 0, 미실행 5.",
+    "미실행: HWPX 구조 기준 변환 여부(HWPX 변환 도구(한글 COM 등)를 쓸 수 없어 HWP 5.0 네이티브 파서로 대체 추출했습니다. HWPX 구조 기준 변환이 아닙니다.), 목차 쪽 번호 ↔ PDF 쪽(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).), 숫자·금액·날짜(PDF·OCR 페이지 단위)(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).), 블록↔PDF 페이지 매핑(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).), PDF 페이지 시각 대조(원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).)"
+  ],
+  "item_status": {
+    "C1": "NOT_CHECKED",
+    "C2": "PASS",
+    "F6": "NOT_CHECKED",
+    "F6_MAP": "NOT_CHECKED",
+    "S1": "PASS",
+    "V1": "PASS",
+    "V2": "WARN",
+    "V3": "WARN",
+    "V4": "PASS",
+    "V5": "WARN",
+    "V6": "PASS",
+    "V7": "PASS",
+    "V7_AI": "NOT_CHECKED"
+  },
+  "checks": [
+    {
+      "id": "S1",
+      "item": "S1",
+      "title": "Markdown 재파싱 구조 무결성",
+      "scope": "document",
+      "basis": "MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "parsed_elements": 655,
+        "generated_elements": 213
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "C1",
+      "item": "C1",
+      "title": "HWPX 구조 기준 변환 여부",
+      "scope": "document",
+      "basis": "HWP5(네이티브)",
+      "status": "NOT_CHECKED",
+      "reason": "HWPX 변환 도구(한글 COM 등)를 쓸 수 없어 HWP 5.0 네이티브 파서로 대체 추출했습니다. HWPX 구조 기준 변환이 아닙니다.",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "C2",
+      "item": "C2",
+      "title": "HWP 원본 집계 ↔ 구조 모델(3중 대조)",
+      "scope": "document",
+      "basis": "HWP5 집계 ↔ HWP5 자체 모델(독립 코드 경로)",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "source_paragraphs_total": 6942,
+        "source_tables": 242,
+        "source_pictures": 7,
+        "source_equations": 0,
+        "source_footnotes": 0,
+        "source_endnotes": 0,
+        "source_shapes_with_text": 14,
+        "model_paragraphs_total": 6942,
+        "model_tables": 242,
+        "model_pictures": 7,
+        "model_equations": 0,
+        "model_footnotes": 0,
+        "model_endnotes": 0,
+        "model_shapes_with_text": 14
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V1.model_md",
+      "item": "V1",
+      "title": "문단·표·이미지 개수(모델→MD)",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "aligned_equal": 655,
+        "aligned_changed": 0,
+        "missing": 0,
+        "extra": 0,
+        "image_placements_expected": 7,
+        "image_placements_md": 7,
+        "unique_assets": 3,
+        "asset_files_saved": 3,
+        "tables_model": 242,
+        "headings_model": 61,
+        "paragraphs_model_nonempty": 5892,
+        "paragraphs_model_empty": 1050,
+        "expected:heading@body": 61,
+        "md:heading@body": 61,
+        "expected:image@body": 7,
+        "md:image@body": 7,
+        "expected:list_item@body": 42,
+        "md:list_item@body": 42,
+        "expected:paragraph@blockquote": 4,
+        "md:paragraph@blockquote": 4,
+        "expected:paragraph@body": 295,
+        "md:paragraph@body": 295,
+        "expected:paragraph@textbox": 8,
+        "md:paragraph@textbox": 8,
+        "expected:table_blockquote@container": 3,
+        "md:table_blockquote@container": 3,
+        "expected:table_gfm@body": 14,
+        "md:table_gfm@body": 14,
+        "expected:table_html@blockquote": 1,
+        "md:table_html@blockquote": 1,
+        "expected:table_html@body": 222,
+        "md:table_html@body": 222,
+        "expected:table_html@html_nested": 1,
+        "md:table_html@html_nested": 1
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V1.policy",
+      "item": "V1",
+      "title": "정책에 따른 변환(삭제 아님)",
+      "scope": "document",
+      "basis": "구조 모델",
+      "status": "PASS",
+      "reason": "shape_without_text: 글이 없는 도형 3개(장식용 선·사각형 등)는 Markdown에 출력하지 않았습니다. 위치는 source_map에 있습니다.; title_object: 제목 역할의 글상자·묶음 개체를 제목으로 변환했습니다: 글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅴ.); 목차 항목 'Ⅴ. 제안서 목차 및 작성방법'과 일치(100점)",
+      "required": true,
+      "counts": {
+        "policy_conversions": 7
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V2.headings",
+      "item": "V2",
+      "title": "제목 수·순서·수준·텍스트(모델→MD)",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "headings_model": 61,
+        "headings_md": 61,
+        "method_pattern": 55,
+        "method_title_object": 6
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V2.toc",
+      "item": "V2",
+      "title": "원문 목차 ↔ 본문 제목",
+      "scope": "document",
+      "basis": "구조 모델(목차·제목) + MD 링크",
+      "status": "WARN",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "toc_entries": 5,
+        "matched": 4,
+        "unmatched": 1
+      },
+      "issue_ids": [
+        "iss-0001"
+      ],
+      "max_status": null
+    },
+    {
+      "id": "V2.toc_pages",
+      "item": "V2",
+      "title": "목차 쪽 번호 ↔ PDF 쪽",
+      "scope": "document",
+      "basis": "PDF 매핑",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V2.numbering",
+      "item": "V2",
+      "title": "자동 번호 계산 ↔ PDF",
+      "scope": "document",
+      "basis": "번호 정의 + PDF",
+      "status": "NOT_APPLICABLE",
+      "reason": "제목에 자동 번호(번호 정의로 계산하는 번호)가 없습니다.",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V3.model_md",
+      "item": "V3",
+      "title": "숫자·금액·날짜(모델→MD, 발생 횟수·위치)",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "expected_date": 19,
+        "expected_number": 527,
+        "expected_percent": 10,
+        "expected_time": 3,
+        "md_date": 19,
+        "md_number": 527,
+        "md_percent": 10,
+        "md_time": 3,
+        "compared_units": 4665,
+        "tables_with_unit_context": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V3.pdf",
+      "item": "V3",
+      "title": "숫자·금액·날짜(PDF·OCR 페이지 단위)",
+      "scope": "document",
+      "basis": "PDF 텍스트·OCR → MD",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V4.model_md",
+      "item": "V4",
+      "title": "표 행·열·병합·셀 내용(모델→MD)",
+      "scope": "document",
+      "basis": "구조 모델 논리 격자 → MD 재파싱(GFM·HTML span 해석)",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "tables_compared": 241,
+        "tables_heading_converted": 1,
+        "tables_gfm": 14,
+        "tables_html": 224,
+        "tables_blockquote": 3
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V4.pdf",
+      "item": "V4",
+      "title": "표 셀 ↔ PDF 표 영역(보조 근거)",
+      "scope": "document",
+      "basis": "PDF",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": false,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V5",
+      "item": "V5",
+      "title": "깨진 한글·특수문자",
+      "scope": "document",
+      "basis": "MD·모델 문자 검사 + 모델↔MD(NFC) 대조",
+      "status": "WARN",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "md_replacement_chars": 0,
+        "md_control_lines": 0,
+        "md_pua_chars": 0,
+        "md_zero_width_or_filler": 0,
+        "md_mojibake_lines": 0,
+        "source_replacement_blocks": 0,
+        "source_pua_chars": 42,
+        "source_mojibake_blocks": 0,
+        "old_hangul_jamo_chars": 0,
+        "char_variant_changes": 0,
+        "text_changed_elements": 0
+      },
+      "issue_ids": [
+        "iss-0002"
+      ],
+      "max_status": null
+    },
+    {
+      "id": "V6.notes",
+      "item": "V6",
+      "title": "각주·미주 참조↔정의",
+      "scope": "document",
+      "basis": "구조 모델 → MD 재파싱(GFM 각주 + 표 안 HTML 각주)",
+      "status": "NOT_APPLICABLE",
+      "reason": "원문에 각주·미주가 없습니다.",
+      "required": true,
+      "counts": {
+        "notes_model": 0,
+        "gfm_notes": 0,
+        "html_notes": 0,
+        "md_refs": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V6.links",
+      "item": "V6",
+      "title": "내부 링크·상대 경로·원문 URL",
+      "scope": "document",
+      "basis": "MD 재파싱 + 출력 폴더",
+      "status": "PASS",
+      "reason": null,
+      "required": true,
+      "counts": {
+        "links_total": 436,
+        "internal_links": 4,
+        "broken_relative": 0,
+        "urls_model": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V6.inferred",
+      "item": "V6",
+      "title": "참조 파일로 추론한 출처 연결",
+      "scope": "document",
+      "basis": "참조 자료",
+      "status": "NOT_APPLICABLE",
+      "reason": "참조 파일로 새 출처를 연결하지 않았습니다(추론 연결 없음).",
+      "required": false,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V7.rules",
+      "item": "V7",
+      "title": "문서 내부 상충(규칙 기반)",
+      "scope": "document",
+      "basis": "주장 표(속성·값) + 날짜·요일 + 합계 검산",
+      "status": "PASS",
+      "reason": "규칙 기반 후보 탐지만 수행했습니다. 후보가 없다는 것이 문서에 모순이 없다는 보증은 아닙니다.",
+      "required": true,
+      "counts": {
+        "claims": 3,
+        "candidates": 0,
+        "sum_checks": 0,
+        "yearless_weekday_dates": 0
+      },
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "V7.ai",
+      "item": "V7_AI",
+      "title": "문서 내부 상충(AI 보조)",
+      "scope": "document",
+      "basis": "AI 보조(장·절 단위)",
+      "status": "NOT_CHECKED",
+      "reason": "외부 AI를 사용하지 않았습니다(설정에서 켜야 실행).",
+      "required": false,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "F6.map",
+      "item": "F6_MAP",
+      "title": "블록↔PDF 페이지 매핑",
+      "scope": "document",
+      "basis": "PDF",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    },
+    {
+      "id": "F6.visual",
+      "item": "F6",
+      "title": "PDF 페이지 시각 대조",
+      "scope": "document",
+      "basis": "PDF 렌더 ↔ 자료 모델·MD",
+      "status": "NOT_CHECKED",
+      "reason": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정).",
+      "required": true,
+      "counts": {},
+      "issue_ids": [],
+      "max_status": null
+    }
+  ],
+  "issues": [
+    {
+      "id": "iss-0001",
+      "code": "toc_entry_unmatched",
+      "item": "V2",
+      "severity": "warning",
+      "origin": "source",
+      "status": "open",
+      "message": "목차 항목 'Ⅳ. 제안서 작성·제출 시 유의사항'에 대응하는 본문 제목을 찾지 못했습니다(원문 목차와 본문 제목이 다를 수 있음).",
+      "expected": "Ⅳ. 제안서 작성·제출 시 유의사항",
+      "actual": "6. 제안서 작성 시 유의사항",
+      "evidence": null,
+      "locations": [
+        {
+          "block_id": "p-00038",
+          "section_id": "sec-001",
+          "md_line": 56,
+          "cell": null,
+          "page_index": null,
+          "bbox": null,
+          "xml_path": "BodyText/Section0#r159"
+        }
+      ],
+      "review_state": "unreviewed"
+    },
+    {
+      "id": "iss-0002",
+      "code": "pua_source",
+      "item": "V5",
+      "severity": "warning",
+      "origin": "source",
+      "status": "open",
+      "message": "사용자 정의 영역(PUA) 문자 42개가 원문에 있습니다(U+F09F×42). 검증된 변환표가 없어 그대로 두었습니다(글머리표는 목록 기호로 대응).",
+      "expected": null,
+      "actual": null,
+      "evidence": "p-00076, p-00077, p-00078, p-00079, p-00080, p-00081, p-00087, p-00088, p-00089, p-00090, p-00091, p-00092, p-00093, p-00098, p-00099, p-00100, p-00101, p-00102, p-00103, p-00108",
+      "locations": [
+        {
+          "block_id": "p-00076",
+          "section_id": "sec-006",
+          "md_line": 128,
+          "cell": null,
+          "page_index": null,
+          "bbox": null,
+          "xml_path": "BodyText/Section0#r317"
+        }
+      ],
+      "review_state": "unreviewed"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-000",
+      "title": "(첫 제목 앞 내용)",
+      "level": 0,
+      "status": "PASS",
+      "blocks": 24
+    },
+    {
+      "id": "sec-001",
+      "title": "목  차",
+      "level": 1,
+      "status": "WARN",
+      "blocks": 5
+    },
+    {
+      "id": "sec-002",
+      "title": "I. 사업개요 및 사업추진 방안",
+      "level": 1,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "1. 사업개요",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 5
+    },
+    {
+      "id": "sec-004",
+      "title": "2. 추진배경",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-005",
+      "title": "3. 사업목표",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 13
+    },
+    {
+      "id": "sec-006",
+      "title": "4. 추진범위",
+      "level": 2,
+      "status": "WARN",
+      "blocks": 77
+    },
+    {
+      "id": "sec-007",
+      "title": "5. 사업자 선정",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 35
+    },
+    {
+      "id": "sec-008",
+      "title": "6. 제안서 및 구비 서류",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 37
+    },
+    {
+      "id": "sec-009",
+      "title": "7. 추진 조직 체계",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 6
+    },
+    {
+      "id": "sec-010",
+      "title": "8. 추진 일정",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 11
+    },
+    {
+      "id": "sec-011",
+      "title": "Ⅱ. 업무 및 시스템 현황",
+      "level": 1,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-012",
+      "title": "1. 업무 현황",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-013",
+      "title": "2. 정보시스템 현황",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-014",
+      "title": "가. 시스템 운영 현황",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 2
+    },
+    {
+      "id": "sec-015",
+      "title": "나. H/W 운영 현황",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 8
+    },
+    {
+      "id": "sec-016",
+      "title": "다. S/W 및 도입 솔루션 운영 현황",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 9
+    },
+    {
+      "id": "sec-017",
+      "title": "라. 시스템 구성도",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-018",
+      "title": "3. 데이터 연계 현황",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-019",
+      "title": "4. 사용자 현황",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 7
+    },
+    {
+      "id": "sec-020",
+      "title": "Ⅲ. 제안요청 내용",
+      "level": 1,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-021",
+      "title": "1. 요구사항 요약표(187개)",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-022",
+      "title": "가. 공통(43개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-023",
+      "title": "나. Trade Digital Brain 구축(37개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-024",
+      "title": "다. Trade Agent 구축(23개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 5
+    },
+    {
+      "id": "sec-025",
+      "title": "라. 맞춤형 디지털무역 통합대시보드 구축(18개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-026",
+      "title": "마. KITA 멤버십 서비스 고도화(11개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-027",
+      "title": "바. 글로벌 지재권 특화정보서비스 구축(14개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-028",
+      "title": "사. tradeKorea  서비스 고도화 및 전자무역 연계 기반 글로벌 디지털무역 구축 (10개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 6
+    },
+    {
+      "id": "sec-029",
+      "title": "아. ESG 규제 대응 지원 플랫폼 구축(8개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-030",
+      "title": "자. 차세대 무역아카데미 구축(23개)",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 5
+    },
+    {
+      "id": "sec-031",
+      "title": "2. 요구사항 목록표",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-032",
+      "title": "가. 공통",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-033",
+      "title": "나. Trade Digital Brain 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-034",
+      "title": "다. Trade Agent 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-035",
+      "title": "라. 맞춤형 디지털무역 통합대시보드 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 3
+    },
+    {
+      "id": "sec-036",
+      "title": "마. KITA 멤버십 서비스 고도화",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-037",
+      "title": "바. 글로벌 지재권 특화정보서비스 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-038",
+      "title": "사. tradeKorea 서비스 고도화 및 전자무역 연계 기반 글로벌 디지털무역 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-039",
+      "title": "아. ESG 규제 대응 지원 플랫폼 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 4
+    },
+    {
+      "id": "sec-040",
+      "title": "자. 차세대 무역아카데미 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 5
+    },
+    {
+      "id": "sec-041",
+      "title": "3. 상세 요구사항",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 1
+    },
+    {
+      "id": "sec-042",
+      "title": "가. 공통",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 129
+    },
+    {
+      "id": "sec-043",
+      "title": "나. Trade Digital Brain 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 90
+    },
+    {
+      "id": "sec-044",
+      "title": "다. Trade Agent 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 76
+    },
+    {
+      "id": "sec-045",
+      "title": "라. 맞춤형 디지털무역 통합대시보드 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 60
+    },
+    {
+      "id": "sec-046",
+      "title": "마. KITA 멤버십 서비스 고도화",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 39
+    },
+    {
+      "id": "sec-047",
+      "title": "바. 글로벌 지재권 특화정보서비스 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 45
+    },
+    {
+      "id": "sec-048",
+      "title": "사. tradeKorea 서비스 고도화 및 전자무역 연계 기반 글로벌 디지털무역 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 36
+    },
+    {
+      "id": "sec-049",
+      "title": "아. ESG 규제 대응 지원 플랫폼 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 27
+    },
+    {
+      "id": "sec-050",
+      "title": "자. 차세대 무역아카데미 구축",
+      "level": 3,
+      "status": "PASS",
+      "blocks": 77
+    },
+    {
+      "id": "sec-051",
+      "title": "Ⅳ. 제안 준수 사항",
+      "level": 1,
+      "status": "PASS",
+      "blocks": 2
+    },
+    {
+      "id": "sec-052",
+      "title": "1. 사업 수행조직 및 인력 요구사항",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 22
+    },
+    {
+      "id": "sec-053",
+      "title": "2. 하도급·공동수급 요건",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 10
+    },
+    {
+      "id": "sec-054",
+      "title": "3. 프로젝트 관리 및 기술 지원",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 14
+    },
+    {
+      "id": "sec-055",
+      "title": "4. 지적재산 보호권 및 보안 요건",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 8
+    },
+    {
+      "id": "sec-056",
+      "title": "5. 하자 보수",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 11
+    },
+    {
+      "id": "sec-057",
+      "title": "6. 제안서 작성 시 유의사항",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 10
+    },
+    {
+      "id": "sec-058",
+      "title": "7. 제안서 제출 시 유의사항",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 14
+    },
+    {
+      "id": "sec-059",
+      "title": "Ⅴ. 제안서 목차 및 작성방법",
+      "level": 1,
+      "status": "PASS",
+      "blocks": 2
+    },
+    {
+      "id": "sec-060",
+      "title": "1. 제안서 목차",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 5
+    },
+    {
+      "id": "sec-061",
+      "title": "2. 관련 서식",
+      "level": 2,
+      "status": "PASS",
+      "blocks": 216
+    }
+  ],
+  "alignment": {
+    "equal": 655,
+    "changed": 0,
+    "missing": 0,
+    "extra": 0
+  },
+  "coverage": {
+    "pdf_available": false,
+    "pdf_renderer_kind": "none",
+    "pdf_pages": null,
+    "pages_rendered": 0,
+    "blocks_mappable": 0,
+    "blocks_mapped": 0,
+    "pages_ai_reviewed": 0,
+    "pages_ai_reviewed_list": [],
+    "pages_ai_partial_list": [],
+    "pages_human_reviewed": 0,
+    "pages_partial": 0,
+    "unreviewed_regions": 0
+  },
+  "policy_conversions": [
+    {
+      "element": "shape_without_text",
+      "block_ids": [],
+      "action": "출력 생략",
+      "reason": "글이 없는 도형 3개(장식용 선·사각형 등)는 Markdown에 출력하지 않았습니다. 위치는 source_map에 있습니다."
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-tbl-0003"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 표를 제목으로 변환했습니다: 1행 표 안의 목차 제목"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-box-0003"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 글상자·묶음 개체를 제목으로 변환했습니다: 글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(I.); 목차 항목 'Ⅰ. 사업개요 및 사업추진 방안'과 일치(100점)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-box-0007"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 글상자·묶음 개체를 제목으로 변환했습니다: 글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅱ.); 목차 항목 'Ⅱ. 업무 및 시스템 현황'과 일치(100점)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-box-0011"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 글상자·묶음 개체를 제목으로 변환했습니다: 글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅲ.); 목차 항목 'Ⅲ. 제안요청 내용'과 일치(100점)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-box-0015"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 글상자·묶음 개체를 제목으로 변환했습니다: 글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅳ.)"
+    },
+    {
+      "element": "title_object",
+      "block_ids": [
+        "b-box-0019"
+      ],
+      "action": "제목으로 변환",
+      "reason": "제목 역할의 글상자·묶음 개체를 제목으로 변환했습니다: 글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅴ.); 목차 항목 'Ⅴ. 제안서 목차 및 작성방법'과 일치(100점)"
+    },
+    {
+      "element": "empty_paragraph",
+      "block_ids": [],
+      "action": "Markdown에서 생략",
+      "reason": "빈 문단 597개는 Markdown 문단 구분에 흡수했습니다(자료 모델·source_map에는 남음)."
+    },
+    {
+      "element": "leading_indent",
+      "block_ids": [],
+      "action": "줄 앞 공백 제거",
+      "reason": "문단 305개의 줄 앞 정렬용 공백·탭을 빼서 코드 블록으로 해석되지 않게 했습니다(자료 모델에는 원문 그대로 둠)."
+    },
+    {
+      "element": "pua_bullet",
+      "block_ids": [],
+      "action": "Markdown 목록으로 대응",
+      "reason": "사용자 정의 영역(PUA) 문자로 된 문단 머리 글머리표 42개는 검증된 변환표가 없어 Markdown 목록 기호(-)로 대응했습니다."
+    },
+    {
+      "element": "single_cell_table",
+      "block_ids": [
+        "b-tbl-0002"
+      ],
+      "action": "인용 블록으로 표현",
+      "reason": "1×1 표(테두리 상자)의 내용은 인용 블록으로 표현했습니다(표 수 집계는 유지)."
+    },
+    {
+      "element": "single_cell_table",
+      "block_ids": [
+        "b-tbl-0012"
+      ],
+      "action": "인용 블록으로 표현",
+      "reason": "1×1 표(테두리 상자)의 내용은 인용 블록으로 표현했습니다(표 수 집계는 유지)."
+    },
+    {
+      "element": "single_cell_table",
+      "block_ids": [
+        "b-tbl-0233"
+      ],
+      "action": "인용 블록으로 표현",
+      "reason": "1×1 표(테두리 상자)의 내용은 인용 블록으로 표현했습니다(표 수 집계는 유지)."
+    }
+  ],
+  "headings": [
+    {
+      "block_id": "b-tbl-0003",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": null,
+      "title": "목  차",
+      "inference_method": "title_object",
+      "evidence": "1행 표 안의 목차 제목",
+      "anchor_id": "sec-001"
+    },
+    {
+      "block_id": "b-box-0003",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": "I.",
+      "title": "I. 사업개요 및 사업추진 방안",
+      "inference_method": "title_object",
+      "evidence": "글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(I.); 목차 항목 'Ⅰ. 사업개요 및 사업추진 방안'과 일치(100점)",
+      "anchor_id": "sec-002"
+    },
+    {
+      "block_id": "p-00050",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "1.",
+      "title": "1. 사업개요",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(1.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-003"
+    },
+    {
+      "block_id": "p-00055",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "2.",
+      "title": "2. 추진배경",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(2.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-004"
+    },
+    {
+      "block_id": "p-00059",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "3.",
+      "title": "3. 사업목표",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(3.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-005"
+    },
+    {
+      "block_id": "p-00072",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "4.",
+      "title": "4. 추진범위",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(4.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-006"
+    },
+    {
+      "block_id": "p-00149",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "5.",
+      "title": "5. 사업자 선정",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(5.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-007"
+    },
+    {
+      "block_id": "p-00184",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "6.",
+      "title": "6. 제안서 및 구비 서류",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(6.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-008"
+    },
+    {
+      "block_id": "p-00221",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "7.",
+      "title": "7. 추진 조직 체계",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(7.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-009"
+    },
+    {
+      "block_id": "p-00357",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "8.",
+      "title": "8. 추진 일정",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(8.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-010"
+    },
+    {
+      "block_id": "b-box-0007",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": "Ⅱ.",
+      "title": "Ⅱ. 업무 및 시스템 현황",
+      "inference_method": "title_object",
+      "evidence": "글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅱ.); 목차 항목 'Ⅱ. 업무 및 시스템 현황'과 일치(100점)",
+      "anchor_id": "sec-011"
+    },
+    {
+      "block_id": "p-00390",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "1.",
+      "title": "1. 업무 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(1.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-012"
+    },
+    {
+      "block_id": "p-00440",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "2.",
+      "title": "2. 정보시스템 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(2.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-013"
+    },
+    {
+      "block_id": "p-00441",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "가.",
+      "title": "가. 시스템 운영 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(가.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-014"
+    },
+    {
+      "block_id": "p-00442",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "나.",
+      "title": "나. H/W 운영 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(나.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-015"
+    },
+    {
+      "block_id": "p-00531",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "다.",
+      "title": "다. S/W 및 도입 솔루션 운영 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(다.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-016"
+    },
+    {
+      "block_id": "p-00688",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "라.",
+      "title": "라. 시스템 구성도",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(라.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-017"
+    },
+    {
+      "block_id": "p-00692",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "3.",
+      "title": "3. 데이터 연계 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(3.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-018"
+    },
+    {
+      "block_id": "p-00848",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "4.",
+      "title": "4. 사용자 현황",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(4.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-019"
+    },
+    {
+      "block_id": "b-box-0011",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": "Ⅲ.",
+      "title": "Ⅲ. 제안요청 내용",
+      "inference_method": "title_object",
+      "evidence": "글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅲ.); 목차 항목 'Ⅲ. 제안요청 내용'과 일치(100점)",
+      "anchor_id": "sec-020"
+    },
+    {
+      "block_id": "p-00897",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "1.",
+      "title": "1. 요구사항 요약표(187개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(1.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-021"
+    },
+    {
+      "block_id": "p-00938",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "가.",
+      "title": "가. 공통(43개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(가.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-022"
+    },
+    {
+      "block_id": "p-00971",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "나.",
+      "title": "나. Trade Digital Brain 구축(37개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(나.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-023"
+    },
+    {
+      "block_id": "p-00992",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "다.",
+      "title": "다. Trade Agent 구축(23개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(다.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-024"
+    },
+    {
+      "block_id": "p-01014",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "라.",
+      "title": "라. 맞춤형 디지털무역 통합대시보드 구축(18개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(라.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-025"
+    },
+    {
+      "block_id": "p-01040",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "마.",
+      "title": "마. KITA 멤버십 서비스 고도화(11개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(마.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-026"
+    },
+    {
+      "block_id": "p-01061",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "바.",
+      "title": "바. 글로벌 지재권 특화정보서비스 구축(14개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(바.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-027"
+    },
+    {
+      "block_id": "p-01073",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "사.",
+      "title": "사. tradeKorea  서비스 고도화 및 전자무역 연계 기반 글로벌 디지털무역 구축 (10개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(사.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-028"
+    },
+    {
+      "block_id": "p-01093",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "아.",
+      "title": "아. ESG 규제 대응 지원 플랫폼 구축(8개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(아.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-029"
+    },
+    {
+      "block_id": "p-01105",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "자.",
+      "title": "자. 차세대 무역아카데미 구축(23개)",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(자.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-030"
+    },
+    {
+      "block_id": "p-01130",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "2.",
+      "title": "2. 요구사항 목록표",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(2.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-031"
+    },
+    {
+      "block_id": "p-01131",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "가.",
+      "title": "가. 공통",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(가.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-032"
+    },
+    {
+      "block_id": "p-01232",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "나.",
+      "title": "나. Trade Digital Brain 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(나.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-033"
+    },
+    {
+      "block_id": "p-01317",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "다.",
+      "title": "다. Trade Agent 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(다.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-034"
+    },
+    {
+      "block_id": "p-01374",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "라.",
+      "title": "라. 맞춤형 디지털무역 통합대시보드 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(라.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-035"
+    },
+    {
+      "block_id": "p-01422",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "마.",
+      "title": "마. KITA 멤버십 서비스 고도화",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(마.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-036"
+    },
+    {
+      "block_id": "p-01455",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "바.",
+      "title": "바. 글로벌 지재권 특화정보서비스 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(바.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-037"
+    },
+    {
+      "block_id": "p-01491",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "사.",
+      "title": "사. tradeKorea 서비스 고도화 및 전자무역 연계 기반 글로벌 디지털무역 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(사.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-038"
+    },
+    {
+      "block_id": "p-01521",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "아.",
+      "title": "아. ESG 규제 대응 지원 플랫폼 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(아.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-039"
+    },
+    {
+      "block_id": "p-01545",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "자.",
+      "title": "자. 차세대 무역아카데미 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(자.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-040"
+    },
+    {
+      "block_id": "p-01604",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "3.",
+      "title": "3. 상세 요구사항",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(3.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-041"
+    },
+    {
+      "block_id": "p-01605",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "가.",
+      "title": "가. 공통",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(가.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-042"
+    },
+    {
+      "block_id": "p-02463",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "나.",
+      "title": "나. Trade Digital Brain 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(나.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-043"
+    },
+    {
+      "block_id": "p-03300",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "다.",
+      "title": "다. Trade Agent 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(다.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-044"
+    },
+    {
+      "block_id": "p-03864",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "라.",
+      "title": "라. 맞춤형 디지털무역 통합대시보드 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(라.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-045"
+    },
+    {
+      "block_id": "p-04262",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "마.",
+      "title": "마. KITA 멤버십 서비스 고도화",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(마.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-046"
+    },
+    {
+      "block_id": "p-04485",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "바.",
+      "title": "바. 글로벌 지재권 특화정보서비스 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(바.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-047"
+    },
+    {
+      "block_id": "p-04837",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "사.",
+      "title": "사. tradeKorea 서비스 고도화 및 전자무역 연계 기반 글로벌 디지털무역 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(사.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-048"
+    },
+    {
+      "block_id": "p-05069",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "아.",
+      "title": "아. ESG 규제 대응 지원 플랫폼 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(아.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-049"
+    },
+    {
+      "block_id": "p-05250",
+      "level": 3,
+      "source_level": 3,
+      "numbering_text": "자.",
+      "title": "자. 차세대 무역아카데미 구축",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '가.'(자.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-050"
+    },
+    {
+      "block_id": "b-box-0015",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": "Ⅳ.",
+      "title": "Ⅳ. 제안 준수 사항",
+      "inference_method": "title_object",
+      "evidence": "글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅳ.)",
+      "anchor_id": "sec-051"
+    },
+    {
+      "block_id": "p-05824",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "1.",
+      "title": "1. 사업 수행조직 및 인력 요구사항",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(1.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-052"
+    },
+    {
+      "block_id": "p-05846",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "2.",
+      "title": "2. 하도급·공동수급 요건",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(2.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-053"
+    },
+    {
+      "block_id": "p-05856",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "3.",
+      "title": "3. 프로젝트 관리 및 기술 지원",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(3.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-054"
+    },
+    {
+      "block_id": "p-05870",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "4.",
+      "title": "4. 지적재산 보호권 및 보안 요건",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(4.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-055"
+    },
+    {
+      "block_id": "p-05878",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "5.",
+      "title": "5. 하자 보수",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(5.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-056"
+    },
+    {
+      "block_id": "p-05889",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "6.",
+      "title": "6. 제안서 작성 시 유의사항",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(6.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-057"
+    },
+    {
+      "block_id": "p-05899",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "7.",
+      "title": "7. 제안서 제출 시 유의사항",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(7.) + 굵게, 15pt(본문 15pt 이상)",
+      "anchor_id": "sec-058"
+    },
+    {
+      "block_id": "b-box-0019",
+      "level": 1,
+      "source_level": 1,
+      "numbering_text": "Ⅴ.",
+      "title": "Ⅴ. 제안서 목차 및 작성방법",
+      "inference_method": "title_object",
+      "evidence": "글상자·묶음 개체 안의 짧은 제목 문자열, 번호 패턴 'Ⅰ. / I.'(Ⅴ.); 목차 항목 'Ⅴ. 제안서 목차 및 작성방법'과 일치(100점)",
+      "anchor_id": "sec-059"
+    },
+    {
+      "block_id": "p-05916",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "1.",
+      "title": "1. 제안서 목차",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(1.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-060"
+    },
+    {
+      "block_id": "p-05994",
+      "level": 2,
+      "source_level": 2,
+      "numbering_text": "2.",
+      "title": "2. 관련 서식",
+      "inference_method": "pattern",
+      "evidence": "번호 패턴 '1.'(2.) + 굵게, 16pt(본문 15pt 이상)",
+      "anchor_id": "sec-061"
+    }
+  ],
+  "toc_entries": [
+    {
+      "block_id": "p-00032",
+      "text": "Ⅰ. 사업개요 및 사업추진 방안\t1",
+      "title": "Ⅰ. 사업개요 및 사업추진 방안",
+      "numbering": "Ⅰ.",
+      "page_label": "1",
+      "level": 1,
+      "target_heading_block_id": "b-box-0003",
+      "match_method": "heading_key_ratio",
+      "match_score": 100.0
+    },
+    {
+      "block_id": "p-00034",
+      "text": "Ⅱ. 업무 및 시스템 현황\t13",
+      "title": "Ⅱ. 업무 및 시스템 현황",
+      "numbering": "Ⅱ.",
+      "page_label": "13",
+      "level": 1,
+      "target_heading_block_id": "b-box-0007",
+      "match_method": "heading_key_ratio",
+      "match_score": 100.0
+    },
+    {
+      "block_id": "p-00036",
+      "text": "Ⅲ. 제안요청 내용\t20",
+      "title": "Ⅲ. 제안요청 내용",
+      "numbering": "Ⅲ.",
+      "page_label": "20",
+      "level": 1,
+      "target_heading_block_id": "b-box-0011",
+      "match_method": "heading_key_ratio",
+      "match_score": 100.0
+    },
+    {
+      "block_id": "p-00038",
+      "text": "Ⅳ. 제안서 작성·제출 시 유의사항\t114",
+      "title": "Ⅳ. 제안서 작성·제출 시 유의사항",
+      "numbering": "Ⅳ.",
+      "page_label": "114",
+      "level": 1,
+      "target_heading_block_id": null,
+      "match_method": null,
+      "match_score": null
+    },
+    {
+      "block_id": "p-00040",
+      "text": "Ⅴ. 제안서 목차 및 작성방법\t118",
+      "title": "Ⅴ. 제안서 목차 및 작성방법",
+      "numbering": "Ⅴ.",
+      "page_label": "118",
+      "level": 1,
+      "target_heading_block_id": "b-box-0019",
+      "match_method": "heading_key_ratio",
+      "match_score": 100.0
+    }
+  ],
+  "unknown_elements": [],
+  "warnings": [
+    "문서에 스크립트(Scripts)가 있습니다. 실행하지 않았습니다.",
+    "변경 추적 정보가 있습니다. 삭제 표시된 글은 제외하고(최종본 기준) 변환했습니다."
+  ],
+  "stages": [
+    {
+      "stage": "detect",
+      "title": "입력 판별·환경 점검",
+      "status": "done",
+      "started_at": "2026-09-19T01:24:06+00:00",
+      "finished_at": "2026-09-19T01:24:06+00:00",
+      "duration_sec": 0.002,
+      "processed": null,
+      "total": null,
+      "note": "HWP 5.x 5.1.0.1 — 지원: HWP 5.x 문서 (압축)"
+    },
+    {
+      "stage": "convert",
+      "title": "원본 변환(HWP→HWPX·PDF)",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:24:06+00:00",
+      "finished_at": "2026-09-19T01:24:06+00:00",
+      "duration_sec": 0.001,
+      "processed": null,
+      "total": null,
+      "note": "변환 도구가 없어 HWP5 네이티브 파서로 대체 추출합니다. HWPX: 없음 / PDF: 없음"
+    },
+    {
+      "stage": "source_counts",
+      "title": "원본 측 기준 집계(HWP5)",
+      "status": "done",
+      "started_at": "2026-09-19T01:24:06+00:00",
+      "finished_at": "2026-09-19T01:24:06+00:00",
+      "duration_sec": 0.059,
+      "processed": null,
+      "total": null,
+      "note": "문단 6942, 표 242, 그림 7"
+    },
+    {
+      "stage": "structure",
+      "title": "구조 추출(자료 모델)",
+      "status": "done",
+      "started_at": "2026-09-19T01:24:06+00:00",
+      "finished_at": "2026-09-19T01:24:07+00:00",
+      "duration_sec": 0.349,
+      "processed": 7216,
+      "total": null,
+      "note": "블록 7216, 표 242, 그림 7"
+    },
+    {
+      "stage": "outline",
+      "title": "자동 번호·제목·목차·장절 트리",
+      "status": "done",
+      "started_at": "2026-09-19T01:24:07+00:00",
+      "finished_at": "2026-09-19T01:24:07+00:00",
+      "duration_sec": 0.04,
+      "processed": null,
+      "total": null,
+      "note": "제목 61, 목차 항목 5, 장·절 62"
+    },
+    {
+      "stage": "pdf",
+      "title": "PDF 렌더링·텍스트 레이어·페이지 매핑",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:24:07+00:00",
+      "finished_at": "2026-09-19T01:24:07+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "원본에서 만든 PDF가 없습니다(한글·대체 렌더러 없음, 대응 PDF 미지정)."
+    },
+    {
+      "stage": "ocr",
+      "title": "OCR 보완",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:24:07+00:00",
+      "finished_at": "2026-09-19T01:24:07+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "PDF가 없어 페이지 OCR을 하지 않았습니다."
+    },
+    {
+      "stage": "render",
+      "title": "장·절 단위 Markdown 렌더링",
+      "status": "done",
+      "started_at": "2026-09-19T01:24:07+00:00",
+      "finished_at": "2026-09-19T01:24:07+00:00",
+      "duration_sec": 0.096,
+      "processed": 62,
+      "total": 62,
+      "note": "4717줄, 장·절 62"
+    },
+    {
+      "stage": "validate",
+      "title": "기계 검증(저장 파일 재파싱)",
+      "status": "done",
+      "started_at": "2026-09-19T01:24:07+00:00",
+      "finished_at": "2026-09-19T01:24:08+00:00",
+      "duration_sec": 1.053,
+      "processed": 21,
+      "total": null,
+      "note": "검증 일부 미완료: 필수 검사 18개 중 통과 9, 경고 2, 실패 0, 미실행 5."
+    },
+    {
+      "stage": "visual",
+      "title": "시각 대조",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:24:08+00:00",
+      "finished_at": "2026-09-19T01:24:08+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "PDF가 없어 시각 대조를 하지 못했습니다."
+    },
+    {
+      "stage": "ai",
+      "title": "AI 보조 검토",
+      "status": "skipped",
+      "started_at": "2026-09-19T01:24:08+00:00",
+      "finished_at": "2026-09-19T01:24:08+00:00",
+      "duration_sec": 0.0,
+      "processed": null,
+      "total": null,
+      "note": "외부 AI를 사용하지 않았습니다(설정 꺼짐)."
+    },
+    {
+      "stage": "save",
+      "title": "상태 판정·보고서·저장",
+      "status": "running",
+      "started_at": "2026-09-19T01:24:09+00:00",
+      "finished_at": null,
+      "duration_sec": null,
+      "processed": null,
+      "total": null,
+      "note": null
+    }
+  ],
+  "manifest": {
+    "app": "HWPtoMarkdown 0.1.0",
+    "job_id": "20260919-102406-8883ca",
+    "processed_at": "2026-09-19T01:24:09+00:00",
+    "started_at": "2026-09-19T01:24:06+00:00",
+    "inputs": [
+      {
+        "role": "주 입력",
+        "name": "차세대무역플랫폼 구축 사업 1단계 제안요청서.hwp",
+        "sha256": "be5dc074707db8f837d25be1689cd65174f5a79a0900fac339e8fcbbf84d0913",
+        "size": 662528,
+        "status": "HWP 5.x 5.1.0.1 — 지원: HWP 5.x 문서 (압축)",
+        "note": "압축"
+      }
+    ],
+    "structure_basis": "hwp5_native",
+    "source_format": "hwp5",
+    "hwpx_source": null,
+    "pdf_source": null,
+    "pdf_renderer_kind": "none",
+    "conversion_notes": [
+      "한글 COM 백엔드를 쓸 수 없습니다: HWPFrame.HwpObject ProgID가 없습니다(한글 미설치)."
+    ],
+    "provenance": [
+      {
+        "step": "structure",
+        "tool": "hwp_to_md.hwp5 parser",
+        "version": null,
+        "settings_hash": null,
+        "renderer_kind": "native",
+        "note": null
+      }
+    ],
+    "policy": {
+      "name": "default",
+      "source": "F:\\38.AICowork\\202609_HWPtoMD\\config\\validation_policy.toml",
+      "sha256": "95171431c5f7d07ff90bed0758bcc09a82429ec4a5604e8043e6789e4b9689f6"
+    },
+    "settings_hash": "0309b90ede2ce46c8be1763b53f46f685db3f58d255afb08a57c4ba64482753a",
+    "settings": {
+      "version": 1,
+      "output": {
+        "page_markers": true,
+        "single_cell_table_mode": "blockquote",
+        "include_memos": false,
+        "header_footer_appendix": true,
+        "keep_intermediate": false,
+        "debug_block_ids": false,
+        "render_dpi": 150
+      },
+      "backends": {
+        "hwp_com": {
+          "enabled": true,
+          "security_module_name": "FilePathCheckerModule",
+          "message_box_mode": 2244897,
+          "open_options": "forceopen:true",
+          "timeout_sec": 300,
+          "pdf_via_print_fallback": false
+        },
+        "java_path": null,
+        "hwp2hwpx_jar": null,
+        "hwp2hwpx_enabled": false,
+        "soffice_path": null,
+        "libreoffice_enabled": false,
+        "timeout_sec": 300
+      },
+      "ocr": {
+        "engine": "auto",
+        "languages": [
+          "ko",
+          "en-US"
+        ],
+        "tesseract_languages": "kor+eng",
+        "tesseract_cmd": null,
+        "dpi": 300,
+        "ocr_images": false,
+        "ocr_low_quality_pages": true
+      },
+      "ai": {
+        "enabled": false,
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "endpoint": null,
+        "timeout_sec": 300,
+        "max_retries": 2,
+        "max_requests": 200,
+        "max_output_tokens": 16000,
+        "server_fallbacks": true,
+        "cost_limit_usd": 5.0,
+        "price_input_per_mtok_usd": null,
+        "price_output_per_mtok_usd": null,
+        "policy_url": "https://www.anthropic.com/legal/commercial-terms",
+        "tasks_visual": true,
+        "tasks_conflicts": true,
+        "tasks_headings": false,
+        "mask_pii": true,
+        "cache_responses": true,
+        "image_max_long_side_px": 2576,
+        "image_max_pixels": 3750000,
+        "image_max_tokens": 4784,
+        "tile_overlap_px": 64,
+        "visual_dpi": 200,
+        "visual_max_pages": null,
+        "section_chunk_chars": 24000,
+        "consent_recorded": false
+      },
+      "policy_path": null
+    },
+    "ai": {
+      "enabled": false,
+      "provider": null,
+      "model": null,
+      "consent": null,
+      "plan": [],
+      "ran": false,
+      "sent": []
+    },
+    "log_file": "C:\\Users\\hdool\\AppData\\Local\\HWPtoMarkdown\\HWPtoMarkdown\\Logs\\job-20260919-102406-8883ca.log"
+  },
+  "notes": [
+    "HWPX 구조 기준 변환이 아닙니다: 변환 도구가 없어 HWP 5.0 네이티브 파서로 대체 추출했습니다.",
+    "한글 COM 백엔드를 쓸 수 없습니다: HWPFrame.HwpObject ProgID가 없습니다(한글 미설치).",
+    "PASS는 설정한 검사 범위 안의 결과입니다. 사실성, 상충 탐지의 완전성, OCR 100% 정확도를 보증하지 않습니다.",
+    "원문 자체 문제(내부 상충 후보, 원문 목차 불일치 등)는 변환 실패와 따로 분류하며 전체 상태를 실패로 만들지 않습니다."
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "table_id": "tbl-0223",
+  "logical_rows": 7,
+  "logical_cols": 4,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0223-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회     사      명"
+    },
+    {
+      "id": "tbl-0223-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0223-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "대 표 자"
+    },
+    {
+      "id": "tbl-0223-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0223-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사  업     분  야"
+    },
+    {
+      "id": "tbl-0223-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0223-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "주             소"
+    },
+    {
+      "id": "tbl-0223-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0223-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "전   화   번   호"
+    },
+    {
+      "id": "tbl-0223-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0223-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "회 사 설 립 년 도"
+    },
+    {
+      "id": "tbl-0223-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "      년   월 "
+    },
+    {
+      "id": "tbl-0223-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "해당부문 종사기간"
+    },
+    {
+      "id": "tbl-0223-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "      년   월  ～     년    월 (   년   개월)"
+    },
+    {
+      "id": "tbl-0223-r6c0",
+      "row": 6,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "\n 주요연혁\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

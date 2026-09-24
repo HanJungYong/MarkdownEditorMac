@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0192",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0192-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0192-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨설팅 요구사항"
+    },
+    {
+      "id": "tbl-0192-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0192-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CSR-ESG-003"
+    },
+    {
+      "id": "tbl-0192-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0192-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "맞춤형 정보 제공 상세 페이지 설계"
+    },
+    {
+      "id": "tbl-0192-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0192-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0192-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기업의 유형별 맞춤형 정보 제공 서비스 제공 "
+    },
+    {
+      "id": "tbl-0192-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0192-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 사용자 니즈 및 특성에 따른 맞춤형 메뉴 선택 기능  \n  - 서비스(기능)별 메뉴 : 정보, 교육, 상담 등\n  - 기업 특성별 메뉴 : 수출국가/업종/품목 등 \n예) EU, 미국/철강, 자동차, 섬유/강판, 자동차, 의류\n○ 일반/종합 정보 제공 (대시보드)  \n  - 국가/업종/품목별 맞춤정보가 아닌 일반/종합 정보 제공 \n(예: EU 기업지속가능성공시지침, EU CSRD ESRS 개정사항)\n  - 모니터링 필요 국가/채널 정보 리스트업 및 \n형식, 비용, 수집주기 등 데이터 속성 상세 정의\n(크롤링 솔루션 활용)\n○ 개인화 메뉴 (대시보드)  \n  - 회원사 기본/입력 정보 기반 맞춤형 정보 표시 형태, 내용 구성\n  - 사용자 설정 (정보채널, 키워드) 기반 Daily 콘텐츠 업데이트\n예) 유럽 내 독일 시장 내 친환경 지침/법규 제/개정 소식 제공\n  - 국가/업종/품목별 맞춤정보 제공 위한 산업별 모니터링 필요 채널\n리스트업 및 형식, 비용, 수집주기 등 데이터 속성 상세정의 "
+    },
+    {
+      "id": "tbl-0192-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0192-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서"
+    }
+  ]
+}

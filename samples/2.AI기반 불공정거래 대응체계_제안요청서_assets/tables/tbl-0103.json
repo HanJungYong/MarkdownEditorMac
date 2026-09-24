@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0103",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0103-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0103-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0103-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0103-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-003"
+    },
+    {
+      "id": "tbl-0103-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0103-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "데이터 표준화 수행"
+    },
+    {
+      "id": "tbl-0103-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0103-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0103-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "데이터 표준화 수행"
+    },
+    {
+      "id": "tbl-0103-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0103-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 데이터 표준화 대상  \n  - 불공정거래 조사시스템 내 본 사업을 통해 신규 또는 개선하는 데이터\n ㅇ 기존 데이터 표준을 정비하여야 함\n - 표준 코드 간 유사도, 테이블 간 유사도를 체크하여 중복된 표준 및 테이블이 등록되지 않도록 관리하여야 함 \n - 메타 데이터의 설명 내용이 충실히 입력되었는지 검사하고, 관련 기능을 구축하여야 함\n - 유사/중복 코드를 파악하여 코드를 정비하여야 함\n ㅇ 정립된 표준화 가이드를 기반으로 데이터 표준화를 수행하여야 함\n - 시스템 구축에 따라 추가가 필요한 데이터 표준항목(단어, 용어, 도메인)을 정의하고, 데이터 표준사전 등에 반영하여야 함\n ㅇ 사업초기 단어, 용어, 코드 표준화를 진행하여 데이터모델링 초기 지연을 예방하여야 함"
+    },
+    {
+      "id": "tbl-0103-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0103-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "데이터 코드 정비 방안"
+    }
+  ]
+}

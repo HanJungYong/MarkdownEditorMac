@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0176",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0176-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0176-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0176-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0176-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-IP-008"
+    },
+    {
+      "id": "tbl-0176-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0176-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "특허분쟁 대응전략 제공을 위한 신규 페이지 구축"
+    },
+    {
+      "id": "tbl-0176-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0176-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0176-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "KITA 지재권 상담 이력 기반 분쟁 발생 여부가 확인된 기업을 대상으로 분쟁 발생 여부를 인증하고, 분쟁 대응 지원 서비스를 제공하며 외부 기관 지원 사업 신청 화면과 연계 기능을 제공"
+    },
+    {
+      "id": "tbl-0176-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0176-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 분쟁 발생 여부 인증 기능\n  - 한국무역협회 지재권 서비스 참여 과정에서 기업의 특허 분쟁 발생 여부를 확인하고 인증할 수 있도록 제공\n  - 상담 이력 기반으로 분쟁 발생 여부 인증 결과를 조회할 수 있도록 제공\n○ 분쟁 대응 지원 서비스 연계 기능\n  - 분쟁 발생 여부를 인증할 수 있는 한국무역협회 지재권 서비스(예: TradePro 1:1 상담, 현장방문 컨설팅 등)에의 신청 링크 기능을 제공한다.\n○ 외부 기관 지원 사업 신청 연계 기능\n  - ‘특허분쟁 대응전략’ 사업 신청 시 지식재산보호원 신청 페이지로 이동할 수 있는 링크 기능을 제공한다.\n  - 외부 기관 신청 페이지와 연계하여 신청 절차를 진행할 수 있도록 제공\n  - 지식재산보호원의 ‘특허분쟁 대응전략’ 사업 외 연계 가능한 외부 사업이 있을 경우 서비스를 확대 제공"
+    },
+    {
+      "id": "tbl-0176-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0176-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 설계서, 기능 설계서"
+    }
+  ]
+}

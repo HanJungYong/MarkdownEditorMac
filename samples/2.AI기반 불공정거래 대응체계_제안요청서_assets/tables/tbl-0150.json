@@ -1,0 +1,335 @@
+{
+  "table_id": "tbl-0150",
+  "logical_rows": 14,
+  "logical_cols": 7,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0150-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 6,
+      "is_header": false,
+      "text": "입찰참가신청서\n* 아래사항중 해당되는 경우에만 기재하시기 바랍니다."
+    },
+    {
+      "id": "tbl-0150-r0c6",
+      "row": 0,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "처리기한"
+    },
+    {
+      "id": "tbl-0150-r1c6",
+      "row": 1,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "즉    시"
+    },
+    {
+      "id": "tbl-0150-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 3,
+      "col_span": 1,
+      "is_header": false,
+      "text": "신\n청\n인"
+    },
+    {
+      "id": "tbl-0150-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "상호 또는 법인명칭"
+    },
+    {
+      "id": "tbl-0150-r2c3",
+      "row": 2,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0150-r2c4",
+      "row": 2,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "법인등록번호"
+    },
+    {
+      "id": "tbl-0150-r2c6",
+      "row": 2,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0150-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "주    소"
+    },
+    {
+      "id": "tbl-0150-r3c3",
+      "row": 3,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0150-r3c4",
+      "row": 3,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "전화번호"
+    },
+    {
+      "id": "tbl-0150-r3c6",
+      "row": 3,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0150-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "대 표 자"
+    },
+    {
+      "id": "tbl-0150-r4c3",
+      "row": 4,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": " "
+    },
+    {
+      "id": "tbl-0150-r4c4",
+      "row": 4,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "생년월일"
+    },
+    {
+      "id": "tbl-0150-r4c6",
+      "row": 4,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0150-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "입\n찰\n개\n요"
+    },
+    {
+      "id": "tbl-0150-r5c1",
+      "row": 5,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "입찰공고번호"
+    },
+    {
+      "id": "tbl-0150-r5c3",
+      "row": 5,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": ""
+    },
+    {
+      "id": "tbl-0150-r5c4",
+      "row": 5,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "입찰등록\n마감일시"
+    },
+    {
+      "id": "tbl-0150-r5c6",
+      "row": 5,
+      "col": 6,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "2026. 8. 13.\n15:00"
+    },
+    {
+      "id": "tbl-0150-r6c1",
+      "row": 6,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "입찰건명"
+    },
+    {
+      "id": "tbl-0150-r6c3",
+      "row": 6,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "AI기반 불공정거래 대응체계 마련 사업"
+    },
+    {
+      "id": "tbl-0150-r7c0",
+      "row": 7,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "입찰보증금"
+    },
+    {
+      "id": "tbl-0150-r7c1",
+      "row": 7,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "납    부 "
+    },
+    {
+      "id": "tbl-0150-r7c3",
+      "row": 7,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "- 보증금율 : 입찰금액의 100분의 5 이상\n- 보증금액 : 금                   원정(￦                 )\n- 보증금 납부방법 : 현  금(   ), 이행보증보험증권(   )"
+    },
+    {
+      "id": "tbl-0150-r8c1",
+      "row": 8,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "납부면제 및 지급확약"
+    },
+    {
+      "id": "tbl-0150-r8c3",
+      "row": 8,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 4,
+      "is_header": false,
+      "text": "해당사항 없음"
+    },
+    {
+      "id": "tbl-0150-r9c0",
+      "row": 9,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 2,
+      "is_header": false,
+      "text": "대 리 인\n및\n사용인감"
+    },
+    {
+      "id": "tbl-0150-r9c2",
+      "row": 9,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "본 입찰에 관한 일체의 권한을 다음의 자에게 위임합니다."
+    },
+    {
+      "id": "tbl-0150-r9c5",
+      "row": 9,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "본 입찰에 사용할 인감을 다음과 같이 신고합니다."
+    },
+    {
+      "id": "tbl-0150-r10c2",
+      "row": 10,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "- 성        명 : \n- 생 년  월 일 : "
+    },
+    {
+      "id": "tbl-0150-r10c5",
+      "row": 10,
+      "col": 5,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": " 사용인감 날인 :           (인)"
+    },
+    {
+      "id": "tbl-0150-r11c0",
+      "row": 11,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 7,
+      "is_header": false,
+      "text": "\n   본인은 위의 번호로 입찰공고한 귀원의 경쟁입찰에 참가하고자 귀원의 입찰유의서 및 입찰공고사항을 모두 승낙하고 붙임서류를 첨부하여 입찰참가 신청을 합니다.\n\n붙임서류 : 1. 입찰참가자격을 증명하는 서류 사본 1통\n\t     2. 법인인감증명서 1통\n\t     3. 기타 공고로서 정한 서류\n\n신청인 :                   (인)\n\n* 대표자 성명을 기재하고 법인인감을 날인하시기 바랍니다.  "
+    },
+    {
+      "id": "tbl-0150-r12c0",
+      "row": 12,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 7,
+      "is_header": false,
+      "text": "금융감독원 귀중"
+    },
+    {
+      "id": "tbl-0150-r13c0",
+      "row": 13,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 7,
+      "is_header": false,
+      "text": "입찰보증금 납부(현금납부시) 확인 : 출납담당직원                        (인)"
+    }
+  ]
+}

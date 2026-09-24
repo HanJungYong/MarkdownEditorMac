@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0097",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0097-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0097-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0097-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0097-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-DP-001"
+    },
+    {
+      "id": "tbl-0097-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0097-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 표준화"
+    },
+    {
+      "id": "tbl-0097-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0097-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0097-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 표준화 요구사항"
+    },
+    {
+      "id": "tbl-0097-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0097-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 통합데이터플랫폼의 데이터를 체계적으로 구축·운영하기 위하여 데이터 표준을 정의하여야 함\n  - 관리 대상 정보요소를 식별하고, 메타데이터 표준(단어, 용어, 도메인, 코드) 및 DB Object 명명규칙을 수립하여야 함\n  - 구축 대상 데이터의 운영·관리 특성, 저장소 특성, 활용 목적 및 보안 요건을 고려하여 표준을 정의하여야 함\n○ 데이터 구조 설계 시 표준 사전을 적용할 수 있도록 하여야 함\n  - 테이블, 컬럼 및 데이터 구조 설계에 적용되는 단어, 용어, 도메인, 코드는 표준 사전에 정의하여 관리하여야 함\n  - 표준사전은 표준단어, 표준용어, 표준도메인, 표준코드 간 관계의 무결성과 정합성이 유지되도록 설계하여야 함\n  - 데이터 표준은 중복 없이 명확하게 정의하고, 재사용성 및 확장성을 고려하여야 함(단, 표준 적용이 어려운 예외 항목은 비표준 항목으로 별도 식별·관리할 수 있어야 함)\n○ 데이터 표준의 품질관리 방안을 마련하여야 함\n  - 표준사전의 생성, 변경, 승인, 배포 및 이력관리가 가능하도록 하여야 함\n  - 표준 변경 시 관련 데이터 구조 및 데이터값에 반영할 수 있는 절차를 마련하여야 함\n  - 데이터 개발 완료 시점에는 적용 대상 표준이 누락 없이 정비되고 목표한 품질 수준이 확보되어야 함"
+    },
+    {
+      "id": "tbl-0097-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0097-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 표준 정의서, 개발 표준 정의서"
+    }
+  ]
+}

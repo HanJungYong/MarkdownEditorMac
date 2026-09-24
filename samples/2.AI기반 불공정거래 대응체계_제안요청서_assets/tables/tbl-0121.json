@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0121",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0121-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0121-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "품질 요구사항"
+    },
+    {
+      "id": "tbl-0121-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0121-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "QUR-001"
+    },
+    {
+      "id": "tbl-0121-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0121-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "품질관리 방안 제시 및 관리"
+    },
+    {
+      "id": "tbl-0121-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0121-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0121-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "시스템 품질 수준 관리를 위한 공정별 품질관리 방안 제시"
+    },
+    {
+      "id": "tbl-0121-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0121-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 각 세부 사업에 대한 단계별 품질지표를 제시하고 품질수준 평가 및 개선을 위한 품질관리 계획을 수립하여야 함\n  - 구축 및 개선사업 : 분석, 설계, 개발, 테스트(단위, 통합, 성능, 사용자), 안정화 단계로 구성\n ㅇ 품질관리 활동에 대한 절차, 점검방법, 활동내역, 시기 등을 명시하여야 함\n ㅇ 품질수준 확보를 위해 정보시스템 구축에 필요한 표준 및 품질 준수 기준을 확인하여 정보화 사업 수행 시 반영해야 함\n ㅇ 단계별 표준 가이드를 마련하고 산출물을 표준화(산출물 템플릿 작성 및 내용 공유)하여야 함\n  - 단계별 산출물의 내용은 그 내용이 정확해야 하며 형식을 갖추어 체계적으로 작성되어야 함\n ㅇ 과업 진행 공정별 제반 성과물은 금감원의 평가 검증을 거쳐 확정하고, 성과물 품질 및 성능을 높이기 위한 금감원, PMO 및 감리의 검토결과를 성실히 이행하여야 함"
+    },
+    {
+      "id": "tbl-0121-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0121-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "품질관리계획서, 품질보증계획서, 단계별 표준 가이드, 산출물 목록, 산출물 템플릿"
+    }
+  ]
+}

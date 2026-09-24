@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0062",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0062-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0062-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "컨설팅 요구사항"
+    },
+    {
+      "id": "tbl-0062-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0062-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "CUR-005"
+    },
+    {
+      "id": "tbl-0062-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0062-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "AI기반 조사 업무프로세스 개선과제 정의"
+    },
+    {
+      "id": "tbl-0062-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0062-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0062-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "생성형 AI 기반의 조사 업무프로세스 개선 과제 정의"
+    },
+    {
+      "id": "tbl-0062-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0062-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": " ㅇ 대체거래소 출범 및 정책변화, 기술변화에 따른 조사업무 프로세스 재정립  \n ㅇ 시장감시 기준(무자본 M&A, 시세조정 등)을 정의 및 관련 업무 절차 정비\n ㅇ 업무 요구 및 현황분석 결과를 바탕으로 조사 업무를 지원하고 효율성을 향상할 수 있는 과제를 제시\n ㅇ AI 모델 구축 결과와 개선방향을 고려하여 AI 모델 개선 및 다양한 AI기술을 활용한 신규 모델 발굴 (2단계 구축 과제 발굴)\n    - 시장감시 모델, 혐의자 연계성 분석 모델, 보고서(문답서, 처리의견서) 생성 모델 개선 방안 수립\n    - AI 판례 및 과거사례 분석 모델 구축 방안 수립\n    - 이상값 탐지, 분류, 예측, 패턴인식 등의 AI 기술을 조사 업무에 활용하는 모델 제시 (머신러닝 기술을 통해 매매패턴 유사성·연계성 여부 등을 분석·추출할 수 있는 방안 등)\n ㅇ 생성형 AI를 업무에 최적으로 활용할 수 있는 프롬프트 제공 방안 제시\n    - 조사 업무 특성에 맞는 시나리오 기반의 프롬프트 제공 방안 수립\n    - 모델과 업무 상황에 적합한 질의 예시 제공 방안 수립\n ㅇ AI 모델 구축·운영에 따른 컴플라이언스 제약 사항과 해결방안 마련"
+    },
+    {
+      "id": "tbl-0062-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0062-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "업무 프로세스 설계서, 개선과제 정의서 "
+    }
+  ]
+}

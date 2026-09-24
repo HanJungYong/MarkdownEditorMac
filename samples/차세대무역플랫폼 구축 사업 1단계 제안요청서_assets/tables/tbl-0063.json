@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0063",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0063-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0063-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "제약사항"
+    },
+    {
+      "id": "tbl-0063-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0063-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "COR-CM-006"
+    },
+    {
+      "id": "tbl-0063-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0063-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SaaS 서비스 운영 책임 및 인력 관리"
+    },
+    {
+      "id": "tbl-0063-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0063-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0063-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "안정적 서비스 제공을 위한 공급자 운영 책임 소재 명확화"
+    },
+    {
+      "id": "tbl-0063-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0063-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ SaaS 공급자 책임: 솔루션 결함이나 업체 측 인프라 장애로 인한 손해 발생 시 책임 소재를 명확히 하며, 구체적인 배상 정책을 제시해야 함\n○ 기술 지원 인력: 협회 유관 시스템과 원활한 연계를 위해 관련 분야(Cloud, API 연동 등) 숙련된 전문 인력을 투입해야 하며, 업무 수행 능력이 부족할 경우 협의 후 교체할 수 있음\n○ 운영 연속성: 사업 수행 중 공정 지연이나 장애 발생 시 대처 방안을 수립하여 보고해야 함\n○ 업데이트 사전 고지 : 협회의 업무 프로세스에 치명적인 영향을 줄 수 있는 대규모 업데이트 시, 사전 공지 및 테스트 환경 제공을 의무화"
+    },
+    {
+      "id": "tbl-0063-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0063-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SaaS 운영 SLA(운영 책임 합의서)"
+    }
+  ]
+}

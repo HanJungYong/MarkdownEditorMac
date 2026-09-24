@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0133",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0133-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0133-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 요구사항"
+    },
+    {
+      "id": "tbl-0133-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0133-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SER-AP-001"
+    },
+    {
+      "id": "tbl-0133-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0133-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "AI 가드레일 정의"
+    },
+    {
+      "id": "tbl-0133-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0133-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0133-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "Agent 행동 정책·보안·윤리 등 AI 서비스 공통 가드레일 정의"
+    },
+    {
+      "id": "tbl-0133-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0133-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 행동정책\n  - Agent가 작업을 수행하기 위해 지켜야 할 기본 원칙을 수립해서 시스템 내에 적용 해야 함\n  - 지식베이스, 메타데이터 기반으로 정해진 시나리오와 워크플로우를 바탕으로 작업을 수행 해야 함\n  - 답변의 생성은 매뉴얼이나 표준 탬플릿, 응답 가이드 등을 통해 구조화 되어야 함\n  - 답변을 제공하는 과정에서는 근거 자료, 규정, 가이드 등이 함께 제공 되어야 함\n  - 관리자와 이용자의 승인이 필요한 작업에 대한 기준이 마련 되어야 함\n  - 이용자와의 대화나 작업 수행 내용을 임의로 조작하지 않고 원본 그대로 유지 해야 함\n○ 보안\n  - 개인정보·매출정보 등 외부 유출 방지가 필요한 민감데이터에 대해 정의하고 이를 LLM 모델에 입력하기 전에 비식별 처리를 하기 위한 기준을 수립 해야 함\n  - 데이터의 외부 유출, 가공 과정에서의 정보 조합으로 인한 데이터 유출 등의 데이터 유출에 대한 보안 기준을 적용해야 함\n  - 외부 서비스 혹은 데이터 활용시 인가 되지 않은 접근 및 행동, 데이터 임의 조작 등의 행동을 방지해야 함\n○ 윤리\n  - 이용자와의 대화 혹은 작업 수행 과정에서 비속어, 욕설, 풍속에 저촉 되는 표현 등은 사전에 차단 되어야 함\n  - 대화 과정에서의 왜곡과 비약을 방지해야 함\n  - 근거 데이터가 없거나, 결과를 생성할 수 없을 경우 가이드를 하고 임의 생성을 하지 않아야 함\n  - LLM 모델 제공사의 윤리 정책을 우회하지 않아야 함"
+    },
+    {
+      "id": "tbl-0133-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0133-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "보안 정책서"
+    }
+  ]
+}

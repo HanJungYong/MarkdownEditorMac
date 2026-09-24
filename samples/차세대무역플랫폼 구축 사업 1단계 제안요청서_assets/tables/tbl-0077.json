@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0077",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0077-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0077-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비구성 요구사항"
+    },
+    {
+      "id": "tbl-0077-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0077-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-DP-001"
+    },
+    {
+      "id": "tbl-0077-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0077-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) 데이터플랫폼 도입"
+    },
+    {
+      "id": "tbl-0077-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0077-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0077-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "(신규) 데이터플랫폼 도입 요구사항"
+    },
+    {
+      "id": "tbl-0077-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0077-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 전사 데이터를 통합하여 수집, 저장, 처리, 분석, 제공까지의 전주기적 데이터 활용 체계를 지원해야 함\n○ 다양한 내부 시스템(DB, 로그, API 등) 및 외부 데이터(공공데이터,API 등)로부터 수집이 가능해야 하며, 데이터 흐름의 자동화 및 오류 복구 기능을 포함해야 함\n○ 저장소는 데이터 특성과 활용 목적에 따라 설계해야 하며, 정형과 비정형 데이터를 분리하여 효율적으로 관리하고, 증분 적재 및 이력 관리를 지원해야 함\n○ 데이터 저장 및 분석 환경은 데이터레이크하우스(Data Lakehouse) 구조를 기준으로 설계되어야 하며, 다양한 유형의 데이터를 통합 저장하고 분석할 수 있는 유연한 구조를 갖춰야 함\n  - ACID 트랜잭션 지원, 메타데이터 기반 관리, 고속 분석 쿼리 기능을 포함해야 함\n○ 플랫폼 전체 구성요소에 대한 실시간 모니터링, 리소스 사용량 분석을 통해 안정적 운영이 가능하도록 해야함\n○ 대규모 데이터의 병렬 처리 및 분산 컴퓨팅이 가능하도록 플랫폼 구성 시 클러스터 기반 아키텍처를 적용할 수 있어야 하며, 클러스터 간의 부하 분산, 확장성 보장을 통해 안정적인 서비스를 제공해야 함"
+    },
+    {
+      "id": "tbl-0077-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0077-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "아키텍처 설계서, 라이선스 목록, 제조사 물품공급·기술지원 확약서, 사용자·운영자 매뉴얼"
+    }
+  ]
+}

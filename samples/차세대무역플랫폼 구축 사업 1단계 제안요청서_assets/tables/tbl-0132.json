@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0132",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0132-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0132-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 요구사항"
+    },
+    {
+      "id": "tbl-0132-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0132-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "DAR-AP-003"
+    },
+    {
+      "id": "tbl-0132-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0132-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 데이터·이력·로그 관리"
+    },
+    {
+      "id": "tbl-0132-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0132-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0132-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "사용자 기본 정보 및 Agent 서비스 이용 이력 관리"
+    },
+    {
+      "id": "tbl-0132-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0132-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ Agent 서비스를 이용하는 사용자 맞춤형 정보를 제공할 수 있도록 사용자 정보를 활용해야 함\n  - 사용자가 가입시 설정한 회원사·관심국가·상품 정보 등 가입페이지에서 설정하는 기본 설정 정보가 고려 되어야 함\n  - 비로그인시 사용자에게 제공할 수 있는 기본 정보가 고려 되어야 함\n○ 사용자가 서비스를 이용한 과거의 대화 이력이 관리 되어야 함\n  - 서비스 제공시 과거 대화 이력 정보를 제공할 수 있도록 대화 이력이 저장 및 관리 되어야 함\n  - 사용자의 대화 이력 등 서비스 이력에 대한 보관주기가 설정 되어야 함\n○ 사용자가 서비스를 이용시 발생한 사용자와 Agent간, Agent와 Agent간 발생한 소통 내역이 로그로 관리 되어야 함\n  - 메타데이터 표준에 의거하여 로그 데이터가 기록 되고 관리 되어야 함\n  - 운영시 관리자가 이슈 관리가 가능하도록 시각·행동 주체·내용·이벤트 코드·유관 서비스 등에 대한 정보들이 관리 되어야 함"
+    },
+    {
+      "id": "tbl-0132-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0132-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "데이터 모델 ERD, 데이터 정의서"
+    }
+  ]
+}

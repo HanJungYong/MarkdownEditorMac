@@ -1,0 +1,119 @@
+{
+  "app": "HWPtoMarkdown 0.1.0",
+  "job_id": "20260919-102406-8883ca",
+  "processed_at": "2026-09-19T01:24:09+00:00",
+  "started_at": "2026-09-19T01:24:06+00:00",
+  "inputs": [
+    {
+      "role": "주 입력",
+      "name": "차세대무역플랫폼 구축 사업 1단계 제안요청서.hwp",
+      "sha256": "be5dc074707db8f837d25be1689cd65174f5a79a0900fac339e8fcbbf84d0913",
+      "size": 662528,
+      "status": "HWP 5.x 5.1.0.1 — 지원: HWP 5.x 문서 (압축)",
+      "note": "압축"
+    }
+  ],
+  "structure_basis": "hwp5_native",
+  "source_format": "hwp5",
+  "hwpx_source": null,
+  "pdf_source": null,
+  "pdf_renderer_kind": "none",
+  "conversion_notes": [
+    "한글 COM 백엔드를 쓸 수 없습니다: HWPFrame.HwpObject ProgID가 없습니다(한글 미설치)."
+  ],
+  "provenance": [
+    {
+      "step": "structure",
+      "tool": "hwp_to_md.hwp5 parser",
+      "version": null,
+      "settings_hash": null,
+      "renderer_kind": "native",
+      "note": null
+    }
+  ],
+  "policy": {
+    "name": "default",
+    "source": "F:\\38.AICowork\\202609_HWPtoMD\\config\\validation_policy.toml",
+    "sha256": "95171431c5f7d07ff90bed0758bcc09a82429ec4a5604e8043e6789e4b9689f6"
+  },
+  "settings_hash": "0309b90ede2ce46c8be1763b53f46f685db3f58d255afb08a57c4ba64482753a",
+  "settings": {
+    "version": 1,
+    "output": {
+      "page_markers": true,
+      "single_cell_table_mode": "blockquote",
+      "include_memos": false,
+      "header_footer_appendix": true,
+      "keep_intermediate": false,
+      "debug_block_ids": false,
+      "render_dpi": 150
+    },
+    "backends": {
+      "hwp_com": {
+        "enabled": true,
+        "security_module_name": "FilePathCheckerModule",
+        "message_box_mode": 2244897,
+        "open_options": "forceopen:true",
+        "timeout_sec": 300,
+        "pdf_via_print_fallback": false
+      },
+      "java_path": null,
+      "hwp2hwpx_jar": null,
+      "hwp2hwpx_enabled": false,
+      "soffice_path": null,
+      "libreoffice_enabled": false,
+      "timeout_sec": 300
+    },
+    "ocr": {
+      "engine": "auto",
+      "languages": [
+        "ko",
+        "en-US"
+      ],
+      "tesseract_languages": "kor+eng",
+      "tesseract_cmd": null,
+      "dpi": 300,
+      "ocr_images": false,
+      "ocr_low_quality_pages": true
+    },
+    "ai": {
+      "enabled": false,
+      "provider": "anthropic",
+      "model": "claude-opus-5",
+      "endpoint": null,
+      "timeout_sec": 300,
+      "max_retries": 2,
+      "max_requests": 200,
+      "max_output_tokens": 16000,
+      "server_fallbacks": true,
+      "cost_limit_usd": 5.0,
+      "price_input_per_mtok_usd": null,
+      "price_output_per_mtok_usd": null,
+      "policy_url": "https://www.anthropic.com/legal/commercial-terms",
+      "tasks_visual": true,
+      "tasks_conflicts": true,
+      "tasks_headings": false,
+      "mask_pii": true,
+      "cache_responses": true,
+      "image_max_long_side_px": 2576,
+      "image_max_pixels": 3750000,
+      "image_max_tokens": 4784,
+      "tile_overlap_px": 64,
+      "visual_dpi": 200,
+      "visual_max_pages": null,
+      "section_chunk_chars": 24000,
+      "consent_recorded": false
+    },
+    "policy_path": null
+  },
+  "ai": {
+    "enabled": false,
+    "provider": null,
+    "model": null,
+    "consent": null,
+    "plan": [],
+    "ran": false,
+    "sent": []
+  },
+  "log_file": "C:\\Users\\hdool\\AppData\\Local\\HWPtoMarkdown\\HWPtoMarkdown\\Logs\\job-20260919-102406-8883ca.log"
+}

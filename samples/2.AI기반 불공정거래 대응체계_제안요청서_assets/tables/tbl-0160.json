@@ -1,0 +1,56 @@
+{
+  "table_id": "tbl-0160",
+  "logical_rows": 3,
+  "logical_cols": 2,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0160-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "구분"
+    },
+    {
+      "id": "tbl-0160-r0c1",
+      "row": 0,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "규         격"
+    },
+    {
+      "id": "tbl-0160-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "HW"
+    },
+    {
+      "id": "tbl-0160-r1c1",
+      "row": 1,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "◦  하드웨어 규격 및 성능, 기능 요건 (예시)\n\n   1)  ’요구 규격‘은 도입되는 하드웨어(HW)의 각 요구사양에 표기된 세부사양과 동일하게   작성하고 ’제안 규격‘란에 실제 제안하는 장비 규격을 작성\n   2)  ’만족 여부‘는 제안 장비 규격이 요구 규격을 만족시키는지 여부를 O 또는 X 로 표기"
+    },
+    {
+      "id": "tbl-0160-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "◦  충족 불가 항목 및 사유 (예시)\n\n    1)  모든 요구 규격을 충족하는 경우, “해당사항 없음”으로 표기"
+    }
+  ]
+}

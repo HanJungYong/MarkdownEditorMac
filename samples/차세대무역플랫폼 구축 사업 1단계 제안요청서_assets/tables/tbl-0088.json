@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0088",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0088-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0088-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0088-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0088-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-DP-001"
+    },
+    {
+      "id": "tbl-0088-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0088-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 개발 공통"
+    },
+    {
+      "id": "tbl-0088-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0088-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0088-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 개발 공통 요구사항"
+    },
+    {
+      "id": "tbl-0088-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0088-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 개발 소프트웨어에 대한 보안 취약점 점검을 수행하여야 함\n  - 전체 소스 코드에 대한 보안 취약점 점검을 수행하고, 발견된 취약점은 조치 후 결과를 제출하여야 함\n  - 보안 취약점 점검은 수행사가 의뢰하여 수행하여야 함\n○ 기능 개발은 현행 시스템과 제안요청서의 요구사항을 기준으로 수행하여야 함\n  - 제안요청서에 명시되지 않은 기능은 현 무역통계시스템의 기능을 기본 요건으로 적용하여 개발하여야 함\n  - 업무별 세부사항은 현 무역통계시스템 및 ISP 결과물을 기본 요건으로 반영하여 개발하여야 함\n  - 상기 사항의 적용 및 세부 구현 내용은 발주처와 협의하여야 함\n○ 사업 수행기간 중 발생하는 기존 시스템 기능 변경사항을 반영하여야 함\n  - 본 사업 기간 동안 기존 무역통계시스템 영역에서 수정되거나 추가 개발된 기능은 본 사업 범위에 포함하여 반영하여야 함\n○ 요구사항 간 우선 적용 기준을 준수하여야 함\n  - 현 무역통계시스템 기능과 제안요청서의 요구사항이 상충되는 경우에는 제안요청서를 우선 적용하되, 발주처와 협의하여 결정하여야 함"
+    },
+    {
+      "id": "tbl-0088-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0088-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서"
+    }
+  ]
+}

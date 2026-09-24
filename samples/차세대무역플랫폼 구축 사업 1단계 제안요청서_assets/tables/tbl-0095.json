@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0095",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0095-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0095-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "인터페이스 요구사항"
+    },
+    {
+      "id": "tbl-0095-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0095-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "INR-DP-001"
+    },
+    {
+      "id": "tbl-0095-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0095-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 가이드라인 준수"
+    },
+    {
+      "id": "tbl-0095-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0095-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0095-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 표준 가이드라인 준수 요구사항"
+    },
+    {
+      "id": "tbl-0095-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0095-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ ISP UI/UX 산출물을 기반으로 본 사업에 적용할 최종 UI/UX 표준 가이드라인(v1.0)을 수립·확정하여야 함\n  - 가이드라인에는 적용 범위, 적용 대상 및 핵심 개선 요소를 포함하여 사업 전반의 UI/UX 적용 기준을 명확히 하여야 함\n  - 메뉴, 검색, 그리드 등 주요 화면 구성요소에 대한 공통 규칙 및 적용 기준을 정의하여야 함\n○ 확정된 UI/UX 표준 가이드라인을 차세대 무역통계시스템 전반에 일관되게 적용하여야 함\n  - 화면 설계 및 개발 시 확정된 UI/UX 표준 가이드라인을 준수하여야 함\n  - 세부 적용 방식 및 조정 사항은 발주처와 협의하여 반영하여야 함"
+    },
+    {
+      "id": "tbl-0095-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0095-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "UI/UX 표준 가이드"
+    }
+  ]
+}

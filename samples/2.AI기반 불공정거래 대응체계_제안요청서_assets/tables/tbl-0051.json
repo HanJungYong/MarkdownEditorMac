@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0051",
+  "logical_rows": 5,
+  "logical_cols": 5,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0051-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0051-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "시스템 장비 구성 요구사항"
+    },
+    {
+      "id": "tbl-0051-r0c3",
+      "row": 0,
+      "col": 3,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 번호"
+    },
+    {
+      "id": "tbl-0051-r0c4",
+      "row": 0,
+      "col": 4,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "ECR-002"
+    },
+    {
+      "id": "tbl-0051-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 명칭"
+    },
+    {
+      "id": "tbl-0051-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "납품 방안 (공통)"
+    },
+    {
+      "id": "tbl-0051-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항\n상세설명"
+    },
+    {
+      "id": "tbl-0051-r2c1",
+      "row": 2,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0051-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "납품 방안 (공통)"
+    },
+    {
+      "id": "tbl-0051-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부\n내용"
+    },
+    {
+      "id": "tbl-0051-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "ㅇ 용역사업자는 명시된 HW 및 상용 SW 일체를 일괄 공급 방식으로 납품과 설치를 완료하여야 함\nㅇ 납품하는 물품은 입찰등록 마감일 기준으로 제조사가 단종하는 물품을 납품할 수 없음\nㅇ 납품하는 장비가 사업종료일 이전에 단종되거나 공인시험 인증이 만료된 경우, 금감원의 도입장비 변경 승인을 득하여 기존 장비 동급 이상의 교체 납품 등 필요시 과업 중 납품장비 변경 대응방안을 제시하고 수행하여야 함\nㅇ 납품장비는 세부사양 동등 또는 그 이상의 제품이어야 함\nㅇ 공급업체는 각종 SW를 도입시스템에 탑재하고, 그 원본이 저장된 기록매체를 납품하여야 함\nㅇ HW 및 SW의 납품 일정계획을 제시하여야 함\nㅇ 사업자는 제반 HW 및 SW의 설치, 운용, 관리 등에 필요한 매뉴얼을  문서 파일로 제공하여야 함"
+    },
+    {
+      "id": "tbl-0051-r4c0",
+      "row": 4,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0051-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 3,
+      "is_header": false,
+      "text": "설치계획서, 설치결과서"
+    }
+  ]
+}

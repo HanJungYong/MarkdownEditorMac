@@ -1,0 +1,128 @@
+{
+  "table_id": "tbl-0201",
+  "logical_rows": 6,
+  "logical_cols": 3,
+  "header_rows": 0,
+  "caption": null,
+  "unit_context": null,
+  "note": "병합된 칸은 왼쪽 위 셀에만 값을 두고 나머지는 비워 둔다(값을 복제하지 않음).",
+  "cells": [
+    {
+      "id": "tbl-0201-r0c0",
+      "row": 0,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항 분류"
+    },
+    {
+      "id": "tbl-0201-r0c2",
+      "row": 0,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 요구사항"
+    },
+    {
+      "id": "tbl-0201-r1c0",
+      "row": 1,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "고유번호"
+    },
+    {
+      "id": "tbl-0201-r1c2",
+      "row": 1,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "SFR-AC-003"
+    },
+    {
+      "id": "tbl-0201-r2c0",
+      "row": 2,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "요구사항명"
+    },
+    {
+      "id": "tbl-0201-r2c2",
+      "row": 2,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "콘텐츠 관리"
+    },
+    {
+      "id": "tbl-0201-r3c0",
+      "row": 3,
+      "col": 0,
+      "row_span": 2,
+      "col_span": 1,
+      "is_header": false,
+      "text": "요구사항 상세설명"
+    },
+    {
+      "id": "tbl-0201-r3c1",
+      "row": 3,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "정의"
+    },
+    {
+      "id": "tbl-0201-r3c2",
+      "row": 3,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "디지털 교육 자산의 체계적 관리"
+    },
+    {
+      "id": "tbl-0201-r4c1",
+      "row": 4,
+      "col": 1,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "세부내용"
+    },
+    {
+      "id": "tbl-0201-r4c2",
+      "row": 4,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "○ 학습 콘텐츠 관리\n  - 학습 콘텐츠(강의자료, 교재, 참고문헌 등)는 PDF, MS Office, 이미지, 동영상, 외부 링크, SCORM 등 다양한 포맷으로 등록·관리할 수 있어야 함\n  - 모든 교육자료는 과정별·차시별·주차별로 분류되어 관리될 수 있어야 하며, 차후 과정 운영 시 재사용 가능\n  - 콘텐츠 업로드 시 유효성 검증(Validation)이 적용되어야 함\n  - 동영상 콘텐츠는 서버 업로드 후 자동 인코딩 및 STT(음성→텍스트) 변환을 수행하여 자막 및 목차를 생성하며, 검색 키워드 메타데이터로 활용 가능해야 함\n  - 각 자료는 검색, 미리보기, 다운로드, 버전관리, 접근 권한 설정 기능을 지원해야 함\n○ 시험(시험지/문항) 관리\n  - 시험지 단위로 등록·수정·삭제할 수 있어야 하며, 시험지 내 문항은 객관식/주관식/서술형 등 다양한 형태로 구성할 수 있어야 함\n  - 문항 등록 시 점수, 보기 등 상세 속성을 입력할 수 있어야 하고, 문항은행 기반 관리가 가능해야 함\n  - 엑셀 업로드 기능을 지원하며, 형식 오류·중복 문항 등 유효성 검증을 통해 업로드 결과를 안내해야 함\n○ 과제/토론 관리\n  - 과정 내 과제는 텍스트 입력형, 파일 제출형 등으로 등록할 수 있어야 하며, 제출기한·지각 허용 여부·제출 가능 파일 형식(문서/이미지/압축파일 등) 등 을 설정할 수 있어야 함\n  - 과제 및 토론을 등록·수정·삭제할 수 있어야 함\n○ 설문/템플릿/답변 관리\n  - 설문지는 일반/만족도/진단 등 카테고리 단위로 등록할 수 있어야 하며 문항 유형(객관/주관/서술형 등)을 자유롭게 구성할 수 있어야 함\n  - 설문 템플릿을 미리 생성하여 여러 과정에서 재사용할 수 있어야 하고, 기존 설문을 복사하여 새로운 설문지 생성 가능\n  - 수강생은 모바일·웹 환경에서 설문에 참여할 수 있음\n  - 설문 응답 전체는 엑셀 다운로드가 가능해야 하고, 다중 조건 검색이 가능해야 함"
+    },
+    {
+      "id": "tbl-0201-r5c0",
+      "row": 5,
+      "col": 0,
+      "row_span": 1,
+      "col_span": 2,
+      "is_header": false,
+      "text": "산출물"
+    },
+    {
+      "id": "tbl-0201-r5c2",
+      "row": 5,
+      "col": 2,
+      "row_span": 1,
+      "col_span": 1,
+      "is_header": false,
+      "text": "기능 설계서"
+    }
+  ]
+}
