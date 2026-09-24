@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "한국어 Windows용 실시간 Markdown 뷰어·편집기"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
-license = { text = "MIT" }
+license = { text = "Apache-2.0" }
 authors = [{ name = "MarkdownEditor contributors" }]
 dependencies = [
   "PySide6>=6.8,<7",

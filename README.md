@@ -156,3 +156,7 @@ UTF-8·UTF-16·CP949만 자동 판별합니다. 다른 인코딩은 UTF-8로 변
 - 외부 URL이 실제로 유효한지는 자동 검사하지 않습니다.
 
 자세한 절차는 [사용설명서](docs/사용설명서.md), 내부 구조는 [아키텍처 문서](docs/ARCHITECTURE.md)를 참고하십시오.
+
+## 라이선스
+
+이 프로젝트는 [Apache License 2.0](LICENSE)으로 배포합니다. 포함된 외부 구성요소의 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참고하십시오.
