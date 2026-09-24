@@ -11,3 +11,4 @@ build/
 reports/verification_*.json
 reports/verification_*.md
 reports/screenshots/*.png
+markdown/*.md
