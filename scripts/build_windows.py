@@ -152,6 +152,12 @@ def main() -> int:
     for forbidden_icu in ("icuuc.dll", "icudt78.dll"):
         if (built_app / "_internal" / forbidden_icu).exists():
             raise RuntimeError(f"Windows 시스템 ICU를 가리는 DLL이 포함되었습니다: {forbidden_icu}")
+    qt_root = built_app / "_internal" / "PySide6"
+    for unused_qt in ("qml", "QtQml.pyd", "resources/*.debug.*", "translations/qtbase_de.qm"):
+        if any(qt_root.glob(unused_qt)):
+            raise RuntimeError(
+                f"spec에서 제외한 Qt 구성 요소가 포함되었습니다: PySide6/{unused_qt}"
+            )
 
     portable.mkdir()
     shutil.copytree(built_app, portable / "app")

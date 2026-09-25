@@ -27,3 +27,7 @@
 20. 렌더링 중에는 위치맞춤 버튼을 비활성화하고, 양방향 실시간 동기화는 30ms 단위로 이벤트를 합치며 편집 커서와 선택을 보존한다.
 21. Mermaid는 라이트 모드에서 기본 테마를 유지하고, 다크 모드에서는 `base` 테마와 명시적인 선·글자·노트·활성화 색상 변수를 적용해 문서 테마와 함께 다시 렌더링한다.
 22. Mermaid 다크 모드 회귀는 실제 SVG의 계산된 색상을 기준으로 flowchart 연결선·화살촉·레이블과 sequenceDiagram 메시지 선·텍스트를 측정하며, 각 항목의 배경 대비 4.5:1 이상을 인수 기준으로 삼는다. Mermaid 버전별 스타일 차이에 대비한 CSS 보정은 해당 SVG 요소에만 제한한다.
+
+## 2026-09-25
+
+23. Windows 배포 번들에는 앱이 실제로 로드하는 Qt 구성 요소만 넣는다. QML 모듈과 이를 따라 들어오는 Qt 3D·Charts·Multimedia 등의 DLL, 쓰지 않는 PySide6 바인딩, WebEngine 디버그·DevTools 리소스, 한국어 이외의 번역(Chromium 대체용 `en-US.pak`은 유지), 사용하지 않는 Qt 플러그인은 `packaging/MarkdownEditor.spec`에서 제외하고, 다시 포함되면 `scripts/build_windows.py`가 빌드를 실패시킨다. `opengl32sw.dll`은 GPU가 없는 PC의 대체 경로일 수 있어 유지한다.
