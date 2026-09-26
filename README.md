@@ -1,4 +1,6 @@
-# MarkdownEditor
+# MarkdownEditorMac
+
+Markdown Editor for Mac
 
 MarkdownEditor는 Markdown 원문을 왼쪽에서 편집하고 결과를 오른쪽에서 실시간으로 확인하는 한국어 macOS·Windows 데스크톱 프로그램입니다. Python과 PySide6로 작성되었으며, 문서와 같은 폴더에 있는 이미지·CSV·JSON·HTML 링크, 복잡한 HTML 표, 문서 내부 앵커와 Mermaid 다이어그램을 처리합니다.
 
