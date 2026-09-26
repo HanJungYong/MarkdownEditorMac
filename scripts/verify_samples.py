@@ -6,6 +6,7 @@ import hashlib
 import json
 import os
 import shutil
+import subprocess
 import sys
 import tempfile
 import time
@@ -18,26 +19,46 @@ from typing import Any
 
 os.environ.setdefault("QTWEBENGINE_CHROMIUM_FLAGS", "--disable-gpu")
 
-from PySide6.QtCore import QCoreApplication, QEventLoop, QSettings, Qt, QTimer
+from PySide6.QtCore import (
+    QCoreApplication,
+    QEventLoop,
+    QMimeData,
+    QPoint,
+    QPointF,
+    QSettings,
+    Qt,
+    QTimer,
+    QUrl,
+)
 
 QCoreApplication.setAttribute(Qt.ApplicationAttribute.AA_ShareOpenGLContexts, True)
 
-from PySide6.QtGui import QGuiApplication, QTextCursor
+from PySide6.QtGui import (
+    QDragEnterEvent,
+    QDragMoveEvent,
+    QDropEvent,
+    QFontMetrics,
+    QGuiApplication,
+    QTextCursor,
+)
 from PySide6.QtTest import QTest
-from PySide6.QtWidgets import QApplication
+from PySide6.QtWebEngineCore import QWebEngineProfile
+from PySide6.QtWidgets import QApplication, QMessageBox, QWidget
 
 from markdowneditor.core.file_io import load_document
 from markdowneditor.core.links import inspect_links
 from markdowneditor.core.naming import dated_path
 from markdowneditor.core.renderer import render_markdown
+from markdowneditor.gui import preview as preview_module
 from markdowneditor.gui.fonts import DEFAULT_FONT_SIZE, FONT_FAMILY
 from markdowneditor.gui.main_window import MainWindow
+from markdowneditor.gui.preview import shared_network_guard
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMPLES = [
     {
         "key": "survey",
-        "path": ROOT / "Samples" / "설문지_기업 인공지능 활용 실태조사.md",
+        "path": ROOT / "samples" / "설문지_기업 인공지능 활용 실태조사.md",
         "sha256": "199c443b79e03fbe4c080cbd71addb0af559232607c8c03303f808bb974ea506",
         "tables": 23,
         "images": 0,
@@ -45,7 +66,7 @@ SAMPLES = [
     },
     {
         "key": "proposal",
-        "path": ROOT / "Samples" / "차세대무역플랫폼 구축 사업 1단계 제안요청서.md",
+        "path": ROOT / "samples" / "차세대무역플랫폼 구축 사업 1단계 제안요청서.md",
         "sha256": "7af22c18bcffc0bedf3868ba39c5261c1c06f03636005fa17b9c3f289ea93895",
         "tables": 238,
         "images": 7,
@@ -131,6 +152,22 @@ def isolated_window(settings_root: Path, name: str) -> MainWindow:
     return MainWindow(settings=settings)
 
 
+def close_window(window: MainWindow) -> None:
+    """Close a verification window without the unsaved-changes dialog (edits are on copies)."""
+    for session in window.sessions:
+        session.editor.document().setModified(False)
+    window.close()
+    window.deleteLater()
+    QApplication.processEvents()
+
+
+def open_scratch(window: MainWindow, path: Path, text: str) -> dict[str, Any] | None:
+    """Open a small document; since 4차 the editor exists per tab, not before a file is open."""
+    path.write_text(text, encoding="utf-8")
+    stats, _ = wait_for_render(window, lambda: window.open_document(path))
+    return stats
+
+
 def add_result(
     results: list[dict[str, Any]],
     test_id: str,
@@ -150,6 +187,622 @@ def add_result(
             "metrics": metrics or {},
         }
     )
+
+
+EXTRA_SAMPLES = [
+    ROOT / "samples" / "2.AI기반 불공정거래 대응체계_제안요청서.md",
+    ROOT / "samples" / "KT DS_케이뱅크_GPU 플랫폼 구축_제안서_GPT_OpenShift AI_20260803.md",
+]
+
+
+def wait_until(predicate: Callable[[], bool], timeout_ms: int = 15_000) -> bool:
+    deadline = time.perf_counter() + timeout_ms / 1000
+    while time.perf_counter() < deadline:
+        QApplication.processEvents()
+        if predicate():
+            return True
+        QTest.qWait(25)
+    return bool(predicate())
+
+
+def open_tab(window: MainWindow, path: Path, timeout_ms: int = 30_000) -> Any:
+    """Open ``path`` as a tab and wait until *that* tab's preview finished rendering."""
+    if not window.open_document(path):
+        raise RuntimeError(f"탭을 열지 못했습니다: {path}")
+    session = window.active_session
+    if session is None or not wait_until(lambda: session.preview_render_ready, timeout_ms):
+        raise RuntimeError(f"미리보기 렌더가 끝나지 않았습니다: {path}")
+    return session
+
+
+def _run_js(page_call: Callable[[Callable[[object], None]], None], timeout_ms: int) -> object:
+    loop = QEventLoop()
+    received: list[object] = []
+
+    def completed(value: object) -> None:
+        received.append(value)
+        loop.quit()
+
+    page_call(completed)
+    QTimer.singleShot(timeout_ms, loop.quit)
+    loop.exec()
+    return received[-1] if received else None
+
+
+def session_stats(session: Any) -> dict[str, Any]:
+    # Nested JS objects do not survive runJavaScript's QVariant conversion reliably,
+    # so the stats travel as a JSON string (the same way the preview bridge sends them).
+    raw = session_js(
+        session,
+        "JSON.stringify(window.markdownEditorStats ? window.markdownEditorStats() : null)",
+    )
+    try:
+        value = json.loads(raw) if isinstance(raw, str) else None
+    except json.JSONDecodeError:
+        value = None
+    return value if isinstance(value, dict) else {}
+
+
+def session_js(session: Any, script: str, timeout_ms: int = 3000) -> object:
+    return _run_js(lambda done: session.preview.page.runJavaScript(script, done), timeout_ms)
+
+
+class ScriptedDialogs:
+    """Answer modal dialogs in order during automated checks; unscripted ones are recorded."""
+
+    STATIC = ("question", "warning", "critical", "information")
+
+    def __init__(self) -> None:
+        self.answers: list[str] = []
+        self.seen: list[tuple[str, str]] = []
+        self.unexpected: list[tuple[str, str]] = []
+        self._saved: dict[str, Any] = {}
+
+    def answer(self, *texts: str) -> None:
+        self.answers.extend(texts)
+
+    def _exec(self, box: QMessageBox) -> int:
+        self.seen.append((box.windowTitle(), box.text()))
+        if not self.answers:
+            self.unexpected.append((box.windowTitle(), box.text()))
+            wanted = "취소"
+        else:
+            wanted = self.answers.pop(0)
+        for button in box.buttons():
+            if button.text() == wanted:
+                button.click()
+                return 0
+        self.unexpected.append((box.windowTitle(), f"버튼 없음: {wanted}"))
+        return 0
+
+    def _static(self, _parent, title, text, *_args, **_kwargs):  # noqa: ANN001, ANN202
+        self.seen.append((title, text))
+        if self.answers and self.answers[0] in {"Yes", "No"}:
+            answer = self.answers.pop(0)
+            if answer == "Yes":
+                return QMessageBox.StandardButton.Yes
+            return QMessageBox.StandardButton.No
+        return QMessageBox.StandardButton.Ok
+
+    def __enter__(self) -> ScriptedDialogs:
+        self._saved = {name: getattr(QMessageBox, name) for name in ("exec", *self.STATIC)}
+        QMessageBox.exec = lambda box: self._exec(box)  # type: ignore[method-assign]
+        for name in self.STATIC:
+            setattr(QMessageBox, name, staticmethod(self._static))
+        return self
+
+    def __exit__(self, *_exc: object) -> None:
+        for name, value in self._saved.items():
+            setattr(QMessageBox, name, value)
+
+
+def append_text(session: Any, text: str) -> None:
+    """Type at the end of the document so front matter stays intact in screenshots."""
+    cursor = session.editor.textCursor()
+    cursor.movePosition(QTextCursor.MoveOperation.End)
+    session.editor.setTextCursor(cursor)
+    session.editor.insertPlainText(text)
+
+
+def dnd_target(widget: QWidget) -> QWidget:
+    """Qt's rule for real drags: the nearest widget (or ancestor) that accepts drops."""
+    current = widget
+    while current is not None and not current.acceptDrops():
+        current = current.parentWidget()
+    return current if current is not None else widget
+
+
+def send_file_drop(
+    widget: QWidget,
+    items: list[Path | str],
+    proposed: Qt.DropAction = Qt.DropAction.CopyAction,
+) -> tuple[QDragEnterEvent, QDropEvent]:
+    """Deliver DragEnter, DragMove and Drop to one concrete widget, like a Qt drag would."""
+    mime = QMimeData()
+    mime.setUrls(
+        [QUrl.fromLocalFile(str(item)) if isinstance(item, Path) else QUrl(item) for item in items]
+    )
+    point = QPoint(max(1, widget.width() // 2), max(1, widget.height() // 2))
+    actions = Qt.DropAction.CopyAction | Qt.DropAction.MoveAction
+    buttons, modifiers = Qt.MouseButton.LeftButton, Qt.KeyboardModifier.NoModifier
+    enter = QDragEnterEvent(point, actions, mime, buttons, modifiers)
+    enter.setDropAction(proposed)
+    QApplication.sendEvent(widget, enter)
+    move = QDragMoveEvent(point, actions, mime, buttons, modifiers)
+    move.setDropAction(proposed)
+    QApplication.sendEvent(widget, move)
+    drop = QDropEvent(QPointF(point), actions, mime, buttons, modifiers)
+    drop.setDropAction(proposed)
+    QApplication.sendEvent(widget, drop)
+    return enter, drop
+
+
+def process_memory() -> dict[str, Any]:
+    """Working set of this process and its QtWebEngineProcess children (PowerShell/CIM)."""
+    pid = os.getpid()
+    script = (
+        f"$p = Get-CimInstance Win32_Process -Filter 'ProcessId={pid}'; "
+        f"$c = @(Get-CimInstance Win32_Process -Filter 'ParentProcessId={pid}' | "
+        "Where-Object { $_.Name -eq 'QtWebEngineProcess.exe' }); "
+        "[pscustomobject]@{app=[math]::Round($p.WorkingSetSize/1MB,1); "
+        "web=[math]::Round((($c | Measure-Object WorkingSetSize -Sum).Sum)/1MB,1); "
+        "count=$c.Count} | ConvertTo-Json -Compress"
+    )
+    try:
+        completed = subprocess.run(
+            ["powershell", "-NoProfile", "-Command", script],
+            capture_output=True,
+            text=True,
+            timeout=60,
+            check=True,
+        )
+        data = json.loads(completed.stdout.strip())
+    except (OSError, subprocess.SubprocessError, json.JSONDecodeError) as exc:
+        return {"error": str(exc)}
+    return {
+        "app_mb": data.get("app"),
+        "webengine_mb": data.get("web") or 0,
+        "webengine_processes": data.get("count"),
+    }
+
+
+def _result(ok: bool, pass_text: str, fail_text: str, **metrics: Any) -> dict[str, Any]:
+    return {
+        "status": "PASS" if ok else "FAIL",
+        "reason": pass_text if ok else fail_text,
+        "metrics": metrics,
+    }
+
+
+class FourthRound:
+    """S24~S28 on copies of the samples: letter spacing, tabs, save/close, drops, regressions."""
+
+    def __init__(self, temp_root: Path, screenshots: Path, stamp: str) -> None:
+        self.work = temp_root / "fourth"
+        self.work.mkdir()
+        self.screenshot_dir = screenshots
+        self.stamp = stamp
+        self.screenshots: list[Path] = []
+        self.copies: dict[str, Path] = {}
+        for item in SAMPLES:
+            folder = self.work / item["key"]
+            folder.mkdir()
+            self.copies[item["key"]] = copy_sample(item["path"], folder)
+        self.extras: list[Path] = []
+        for index, extra in enumerate(EXTRA_SAMPLES, start=1):
+            if extra.exists():
+                folder = self.work / f"extra{index}"
+                folder.mkdir()
+                self.extras.append(copy_sample(extra, folder))
+        self.mermaid_copy = self.work / "mermaid_flowchart.md"
+        shutil.copy2(ROOT / "tests" / "fixtures" / "mermaid_flowchart.md", self.mermaid_copy)
+        self.windows: list[MainWindow] = []
+
+    def window(self, name: str) -> MainWindow:
+        window = isolated_window(self.work, name)
+        window.show()
+        self.windows.append(window)
+        return window
+
+    def shot(self, window: MainWindow, name: str) -> None:
+        path = self.screenshot_dir / f"{self.stamp}_{name}.png"
+        if capture_window(window, path):
+            self.screenshots.append(path)
+
+    def run(self) -> dict[str, dict[str, Any]]:
+        checks: dict[str, dict[str, Any]] = {}
+        for check_id, method in (
+            ("S24", self.letter_spacing),
+            ("S25", self.document_tabs),
+            ("S26", self.save_and_close),
+            ("S27", self.drops),
+            ("S28", self.regressions),
+        ):
+            try:
+                checks[check_id] = method()
+            except Exception as exc:  # noqa: BLE001 - a crashed check is a failed check
+                checks[check_id] = {
+                    "status": "FAIL",
+                    "reason": f"검사 중 예외가 발생했습니다: {type(exc).__name__}: {exc}",
+                    "metrics": {},
+                }
+            finally:
+                for window in self.windows:
+                    close_window(window)
+                self.windows.clear()
+        return checks
+
+    def letter_spacing(self) -> dict[str, Any]:
+        window = self.window("spacing")
+        survey = open_tab(window, self.copies["survey"])
+        proposal = open_tab(window, self.copies["proposal"])
+        tabs = [survey, proposal]
+        larger = window.letter_spacing_larger_action
+        smaller = window.letter_spacing_smaller_action
+        view_menu = next(a.menu() for a in window.menuBar().actions() if a.text() == "보기(&V)")
+        labels_ok = (
+            larger.text() == "글간격 크게"
+            and smaller.text() == "글간격 작게"
+            and {larger, smaller} <= set(view_menu.actions())
+        )
+        self.shot(window, "spacing_100")
+        larger.trigger()
+        up_ok = all(s.editor.font().letterSpacing() == 105 for s in tabs)
+        up_ok = up_ok and window.letter_spacing_label.text() == "간격 105%"
+        smaller.trigger()
+        down_ok = all(s.editor.font().letterSpacing() == 100 for s in tabs)
+        for _ in range(20):
+            larger.trigger()
+        upper_ok = window.letter_spacing == 150 and not larger.isEnabled() and smaller.isEnabled()
+        area = proposal.editor.line_number_area
+        line_ok = (
+            area.font().letterSpacing() == 100
+            and area.width() >= QFontMetrics(area.font()).horizontalAdvance("9999")
+            and proposal.editor.viewport().geometry().left() > area.geometry().right()
+        )
+        self.shot(window, "spacing_150")
+        for _ in range(20):
+            smaller.trigger()
+        lower_ok = window.letter_spacing == 80 and not smaller.isEnabled() and larger.isEnabled()
+        window.set_letter_spacing(115)
+        preview_spacing = session_js(survey, "getComputedStyle(document.body).letterSpacing")
+        window.adjust_font_size(1)
+        window.dark_mode_action.setChecked(True)
+        scratch_path = self.work / "새 탭.md"
+        scratch_path.write_text("# 새 탭\n", encoding="utf-8")
+        scratch = open_tab(window, scratch_path)
+        keep_ok = all(
+            s.editor.font().letterSpacing() == 115
+            and s.editor.font().pointSize() == window.font_size
+            for s in (*tabs, scratch)
+        )
+        window.dark_mode_action.setChecked(False)
+        window.adjust_font_size(-1)
+        window.settings.sync()
+        restored = MainWindow(
+            settings=QSettings(window.settings.fileName(), QSettings.Format.IniFormat)
+        )
+        restore_ok = restored.letter_spacing == 115
+        restore_ok = restore_ok and restored.letter_spacing_label.text() == "간격 115%"
+        close_window(restored)
+        ok = all((labels_ok, up_ok, down_ok, upper_ok, lower_ok, line_ok, keep_ok, restore_ok))
+        ok = ok and preview_spacing in {"normal", "0px"}
+        return _result(
+            ok,
+            "보기 메뉴의 글간격 크게·작게가 모든 탭 편집기를 "
+            "5%씩 바꾸고 80~150%에서 멈추며, 150%에서도 "
+            "4자리 줄 번호가 잘리지 않았습니다. 미리보기 "
+            "자간은 그대로이고 글자 크기·다크 모드·새 탭과 "
+            "다시 실행 뒤에도 유지되었습니다.",
+            "글간격 동작 중 기준을 충족하지 못한 항목이 있습니다.",
+            menu_labels=labels_ok,
+            step_up=up_ok,
+            step_down=down_ok,
+            upper_bound=upper_ok,
+            lower_bound=lower_ok,
+            line_numbers_at_150=line_ok,
+            kept_after_font_theme_new_tab=keep_ok,
+            restored_from_settings=restore_ok,
+            preview_letter_spacing=preview_spacing,
+        )
+
+    def document_tabs(self) -> dict[str, Any]:
+        window = self.window("tabs")
+        memory = {"0": process_memory()}
+        open_ms: dict[str, float] = {}
+        sessions: list[Any] = []
+        paths = [self.copies["survey"], self.copies["proposal"], *self.extras]
+        for count, path in enumerate(paths, start=1):
+            started = time.perf_counter()
+            sessions.append(open_tab(window, path))
+            open_ms[str(count)] = round((time.perf_counter() - started) * 1000, 1)
+            memory[str(count)] = process_memory()
+        survey, proposal = sessions[0], sessions[1]
+        pairs = ((survey, self.copies["survey"]), (proposal, self.copies["proposal"]))
+        survey_stats = session_stats(survey)
+        proposal_stats = session_stats(proposal)
+        content_ok = all(s.editor.raw_text() == load_document(p).text for s, p in pairs)
+        folders_ok = all(s.preview.document_dir == p.parent.resolve() for s, p in pairs)
+        titles_ok = all(
+            window.tab_title(s) == p.name
+            and window.tabs.tabToolTip(window.tabs.indexOf(s.page)) == str(s.path)
+            for s, p in pairs
+        )
+        render_ok = (
+            survey_stats.get("tables") == 23
+            and proposal_stats.get("tables") == 238
+            and proposal_stats.get("imagesLoaded") == 7
+        )
+        count_before = window.tabs.count()
+        window.activate_session(proposal)
+        window.open_document(self.copies["survey"])
+        reopen_ok = window.tabs.count() == count_before and window.active_session is survey
+        self.shot(window, "tabs_survey")
+        append_text(proposal, "탭 격리 확인 ")
+        isolation_ok = (
+            proposal.is_modified()
+            and not survey.is_modified()
+            and window.tab_title(proposal).endswith(" *")
+            and not window.tab_title(survey).endswith(" *")
+        )
+        window.activate_session(proposal)
+        wait_until(lambda: proposal.preview_render_ready)
+        self.shot(window, "tabs_proposal")
+        self.tabs_window = window
+        self.tab_sessions = sessions
+        self.windows.remove(window)  # kept open for S26
+        ok = all((content_ok, folders_ok, titles_ok, render_ok, reopen_ok, isolation_ok))
+        return _result(
+            ok,
+            f"두 인수 샘플과 추가 자료를 탭 {len(sessions)}개로 동시에 열었고, "
+            "탭별 원문·미리보기(표 23/238, 이미지 7)·기준 폴더·제목·수정 상태가 분리되었으며, "
+            "같은 파일을 다시 열면 탭을 "
+            "새로 만들지 않고 기존 탭을 활성화했습니다.",
+            "다중 탭 격리 기준 중 충족하지 못한 항목이 있습니다.",
+            content=content_ok,
+            folders=folders_ok,
+            titles=titles_ok,
+            render={
+                "survey_tables": survey_stats.get("tables"),
+                "proposal_tables": proposal_stats.get("tables"),
+                "proposal_images_loaded": proposal_stats.get("imagesLoaded"),
+            },
+            reopen_activates_existing=reopen_ok,
+            modified_isolation=isolation_ok,
+            open_to_render_ms_by_tab_count=open_ms,
+            memory_by_tab_count=memory,
+        )
+
+    def save_and_close(self) -> dict[str, Any]:
+        window = self.tabs_window
+        self.windows.append(window)
+        survey, proposal = self.tab_sessions[0], self.tab_sessions[1]
+        today = date.today()
+        with ScriptedDialogs() as dialogs:
+            append_text(survey, "설문 수정 ")
+            window.activate_session(proposal)
+            original_bytes = self.copies["proposal"].read_bytes()
+            saved_ok = window.save_document() and not proposal.is_modified()
+            saved_ok = saved_ok and dated_path(self.copies["proposal"], today).exists()
+            saved_ok = saved_ok and self.copies["proposal"].read_bytes() == original_bytes
+            other_kept = survey.is_modified() and window.tab_title(survey).endswith(" *")
+            dated_survey = dated_path(self.copies["survey"], today)
+            dated_survey.write_bytes(self.copies["survey"].read_bytes())
+            dated_tab = open_tab(window, dated_survey)
+            window.activate_session(survey)
+            dialogs.answer("번호 붙여 저장")
+            conflict_ok = (
+                window.save_document()
+                and survey.path.name == f"{dated_survey.stem}_2{dated_survey.suffix}"
+                and dated_survey.read_bytes() == self.copies["survey"].read_bytes()
+                and any(title == "다른 탭에서 열려 있는 파일" for title, _ in dialogs.seen)
+            )
+            append_text(survey, "다시 ")
+            dialogs.answer("취소")
+            cancel_ok = not window.close_session(survey) and survey in window.sessions
+            dialogs.answer("저장 안 함")
+            discard_ok = window.close_session(survey) and survey not in window.sessions
+            append_text(proposal, "종료 확인 ")
+            append_text(dated_tab, "종료 확인 ")
+            remaining = len(window.sessions)
+            dialogs.answer("저장 안 함", "취소")
+            app_cancel_ok = not window.close() and window.isVisible()
+            app_cancel_ok = app_cancel_ok and len(window.sessions) == remaining
+            unexpected = list(dialogs.unexpected)
+        for session in list(window.sessions):
+            session.editor.document().setModified(False)
+            window.close_session(session)
+        welcome_ok = (
+            window.central_stack.currentWidget() is window.welcome
+            and window.editor is None
+            and not window.close_tab_action.isEnabled()
+        )
+        self.shot(window, "welcome")
+        self.welcome_window = window
+        self.windows.remove(window)  # reused empty for S27
+        ok = all((saved_ok, other_kept, conflict_ok, cancel_ok, discard_ok, app_cancel_ok))
+        ok = ok and welcome_ok and not unexpected
+        return _result(
+            ok,
+            "한 탭의 날짜 저장이 다른 탭의 수정 상태를 바꾸지 "
+            "않았고, 다른 탭에 열린 날짜 파일은 덮어쓰지 "
+            "않고 번호를 붙여 저장했으며, 수정 탭 닫기의 "
+            "취소·저장 안 함, 앱 종료 중 취소, 마지막 탭을 "
+            "닫은 뒤 안내 화면을 확인했습니다.",
+            "탭 저장·닫기 기준 중 충족하지 못한 항목이 있습니다.",
+            dated_save=saved_ok,
+            other_tab_kept_modified=other_kept,
+            open_tab_not_overwritten=conflict_ok,
+            close_cancel=cancel_ok,
+            close_discard=discard_ok,
+            app_close_cancel=app_cancel_ok,
+            welcome_after_last_tab=welcome_ok,
+            unexpected_dialogs=unexpected,
+        )
+
+    def drops(self) -> dict[str, Any]:
+        window = self.welcome_window
+        self.windows.append(window)
+        folder = self.work / "끌어놓기 폴더 (한글)"
+        folder.mkdir()
+        names = (
+            "안내 화면에 놓기.md",
+            "편집기에 놓기.md",
+            "미리보기에 놓기.md",
+            "넷째 문서.md",
+            "다섯째 (사본).markdown",
+        )
+        docs = []
+        for name in names:
+            path = folder / name
+            path.write_text(f"# {Path(name).stem}\n", encoding="utf-8")
+            docs.append(path)
+        image = folder / "그림.png"
+        image.write_bytes(b"\x89PNG\r\n")
+        before = {str(path): sha256(path) for path in docs}
+
+        target = dnd_target(window.welcome)
+        _enter, drop = send_file_drop(target, [docs[0]])
+        welcome_ok = target is window and drop.isAccepted()
+        welcome_ok = welcome_ok and wait_until(lambda: len(window.sessions) == 1)
+        first = window.active_session
+        wait_until(lambda: first.preview_render_ready)
+        text_before = first.editor.raw_text()
+        _enter, drop = send_file_drop(first.editor.viewport(), [docs[1]], Qt.DropAction.MoveAction)
+        editor_ok = (
+            drop.isAccepted()
+            and drop.dropAction() == Qt.DropAction.CopyAction
+            and wait_until(lambda: len(window.sessions) == 2)
+            and first.editor.raw_text() == text_before
+            and not first.is_modified()
+        )
+        second = window.active_session
+        wait_until(lambda: second.preview_render_ready)
+        proxy = second.preview.view.focusProxy()
+        shell_url = second.preview.view.url().toString()
+        preview_ok = proxy is not None and dnd_target(proxy) is proxy
+        if preview_ok:
+            _enter, drop = send_file_drop(proxy, [docs[2]])
+            preview_ok = drop.isAccepted() and wait_until(lambda: len(window.sessions) == 3)
+            preview_ok = preview_ok and second.preview.view.url().toString() == shell_url
+        _enter, drop = send_file_drop(
+            dnd_target(window.tabs.tabBar()),
+            [docs[3], image, "https://example.com/remote.md", docs[4], docs[0], docs[3]],
+        )
+        message = ""
+        multi_ok = drop.isAccepted() and wait_until(lambda: len(window.sessions) == 5)
+        if multi_ok:
+            message = window.statusBar().currentMessage()
+            names_now = [session.path.name for session in window.sessions]
+            multi_ok = names_now[-2:] == [docs[3].name, docs[4].name]
+            multi_ok = multi_ok and all(
+                part in message for part in ("열림 2", "이미 열림 1", "건너뜀 2")
+            )
+        editor = window.active_session.editor
+        invalid_before = editor.raw_text()
+        enter, _drop = send_file_drop(editor.viewport(), [image, folder])
+        invalid_ok = (
+            not enter.isAccepted()
+            and editor.raw_text() == invalid_before
+            and len(window.sessions) == 5
+            and "열 수 없는 항목" in window.statusBar().currentMessage()
+        )
+        sources_ok = {str(path): sha256(path) for path in docs} == before
+        ok = all((welcome_ok, editor_ok, preview_ok, multi_ok, invalid_ok, sources_ok))
+        return _result(
+            ok,
+            "안내 화면·편집기 viewport·미리보기 렌더 "
+            "위젯(focusProxy)·탭 표시줄에 놓은 한글·공백·괄호 "
+            "경로의 마크다운이 새 탭으로 열렸고, 여러 "
+            "파일·중복·무효 항목이 규칙대로 처리되었습니다. "
+            "본문에 URL이 들어가지 않았고 미리보기 셸이 유지되었으며 항상 복사로 수락했습니다"
+            "(합성 Qt 이벤트 경로 검증, 실제 Explorer 조작은 S29).",
+            "끌어다 놓기 기준 중 충족하지 못한 항목이 있습니다.",
+            welcome=welcome_ok,
+            editor_viewport=editor_ok,
+            webengine_focus_proxy=preview_ok,
+            tab_bar_multi=multi_ok,
+            tab_bar_status=message,
+            invalid_rejected=invalid_ok,
+            dropped_sources_unchanged=sources_ok,
+        )
+
+    def regressions(self) -> dict[str, Any]:
+        window = self.window("regression")
+        calls: list[object] = []
+        original_set = QWebEngineProfile.setUrlRequestInterceptor
+
+        def recording(profile: QWebEngineProfile, interceptor: object) -> None:
+            calls.append(interceptor)
+            original_set(profile, interceptor)
+
+        QWebEngineProfile.setUrlRequestInterceptor = recording  # type: ignore[method-assign]
+        try:
+            mermaid = open_tab(window, self.mermaid_copy)
+            proposal = open_tab(window, self.copies["proposal"])
+            survey = open_tab(window, self.copies["survey"])
+            headings = {
+                "proposal": session_stats(proposal).get("headings"),
+                "survey": session_stats(survey).get("headings"),
+            }
+            isolation_ok = headings == {"proposal": 61, "survey": 10}
+            survey.preview.sync_checkbox.setChecked(True)
+            sync_ok = window.sync_scroll_enabled and all(
+                session.preview.sync_checkbox.isChecked() for session in window.sessions
+            )
+            survey.preview.sync_checkbox.setChecked(False)
+            window.activate_session(proposal)
+            fixed: list[object] = []
+            window.sync_scroll_fixed.connect(fixed.append)
+            proposal.preview.sync_fix_button.click()
+            fix_ok = wait_until(lambda: bool(fixed), 5000) and isinstance(fixed[-1], dict)
+            folder_ok = proposal.preview.document_dir == self.copies["proposal"].parent.resolve()
+            window.adjust_font_size(1)
+            font_ok = all(s.editor.font().pointSize() == window.font_size for s in window.sessions)
+            window.adjust_font_size(-1)
+            window.dark_mode_action.setChecked(True)
+            window.activate_session(mermaid)
+            wait_until(lambda: mermaid.preview_render_ready, 30_000)
+            stats = session_stats(mermaid)
+            contrast = stats.get("mermaidContrast") or {}
+            mermaid_ok = (
+                stats.get("mermaidSvg") == 3
+                and stats.get("mermaidErrors") == 1
+                and contrast.get("theme") == "dark"
+                and float(contrast.get("minimumRatio", 0)) >= 4.5
+            )
+            theme_ok = all(s.editor.dark_mode and s.preview.dark_mode for s in window.sessions)
+            self.shot(window, "tabs_dark")
+            window.close_session(survey, confirm=False)
+            guard_ok = None not in calls and preview_module._guard_installed
+            guard_ok = guard_ok and shared_network_guard() is proposal.preview.network_guard
+        finally:
+            QWebEngineProfile.setUrlRequestInterceptor = original_set  # type: ignore[method-assign]
+        ok = all((isolation_ok, sync_ok, fix_ok, folder_ok, font_ok, mermaid_ok, theme_ok))
+        ok = ok and guard_ok
+        return _result(
+            ok,
+            "탭 여러 개에서 탭별 렌더(제목 61/10개)가 섞이지 "
+            "않았고, Sync Scroll 설정 공유와 위치맞춤, "
+            "링크 기준 폴더, 글자 크기·다크 모드, Mermaid "
+            "다크 대비가 정상이며, 탭을 닫아도 외부 요청 "
+            "차단기가 유지되었습니다.",
+            "탭 환경의 기존 기능 중 기준을 충족하지 못한 항목이 있습니다.",
+            headings=headings,
+            sync_scroll_shared=sync_ok,
+            sync_fix=fix_ok,
+            link_folder=folder_ok,
+            font_size_all_tabs=font_ok,
+            mermaid_dark=mermaid_ok,
+            theme_all_tabs=theme_ok,
+            request_guard_kept=guard_ok,
+        )
+
+
+def fourth_round_checks(temp_root: Path, screenshots: Path, stamp: str) -> dict[str, Any]:
+    runner = FourthRound(temp_root, screenshots, stamp)
+    checks = runner.run()
+    return {"checks": checks, "screenshots": runner.screenshots}
 
 
 def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
@@ -237,7 +890,7 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
         },
     )
 
-    application = QApplication.instance() or QApplication(sys.argv[:1])
+    _application = QApplication.instance() or QApplication(sys.argv[:1])
     gui_stats: dict[str, dict[str, Any]] = {}
     open_times: dict[str, float] = {}
     screenshot_paths: list[Path] = []
@@ -431,9 +1084,7 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
                     and output.exists()
                     and copy.read_bytes() == original_copy
                 )
-            window.close()
-            window.deleteLater()
-            application.processEvents()
+            close_window(window)
 
         mermaid_copy = temp_root / "mermaid_flowchart.md"
         shutil.copy2(ROOT / "tests" / "fixtures" / "mermaid_flowchart.md", mermaid_copy)
@@ -457,27 +1108,28 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
         mermaid_dark_screen = screenshots / f"{stamp}_mermaid_dark.png"
         if capture_window(mermaid_window, mermaid_dark_screen):
             screenshot_paths.append(mermaid_dark_screen)
-        mermaid_window.close()
-        mermaid_window.deleteLater()
-        application.processEvents()
+        close_window(mermaid_window)
 
         security_copy = temp_root / "security.md"
         shutil.copy2(ROOT / "tests" / "fixtures" / "security.md", security_copy)
         security_window = isolated_window(temp_root, "security")
         security_window.show()
+        blocked_before_security = shared_network_guard().blocked_requests
         security_stats, _ = wait_for_render(
             security_window, lambda: security_window.open_document(security_copy)
         )
         security_screen = screenshots / f"{stamp}_security.png"
         if capture_window(security_window, security_screen):
             screenshot_paths.append(security_screen)
-        blocked_requests = security_window.preview.network_guard.blocked_requests
-        security_window.close()
-        security_window.deleteLater()
-        application.processEvents()
+        # The request guard is shared by every tab and window, so count only this document.
+        blocked_requests = (
+            security_window.preview.network_guard.blocked_requests - blocked_before_security
+        )
+        close_window(security_window)
 
         indentation_window = isolated_window(temp_root, "indentation")
-        indentation_window.editor.setEnabled(True)
+        indentation_window.show()
+        open_scratch(indentation_window, temp_root / "indentation.md", "# 들여쓰기\n")
         editor = indentation_window.editor
 
         editor.setPlainText("본문")
@@ -504,9 +1156,10 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
             QTest.keyClick(editor, Qt.Key.Key_Return)
             newline_results.append(editor.raw_text() == expected)
         indentation_ok = tab_ok and all(newline_results)
-        indentation_window.close()
-        indentation_window.deleteLater()
-        application.processEvents()
+        close_window(indentation_window)
+
+        fourth = fourth_round_checks(temp_root, screenshots, stamp)
+        screenshot_paths.extend(fourth["screenshots"])
 
     table_ok = all(
         gui_stats.get(item["key"], {}).get("tables") == item["tables"] for item in SAMPLES
@@ -662,7 +1315,8 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
         },
     )
 
-    screenshots_ok = len(screenshot_paths) == 5 and all(
+    # 5 legacy screens + 6 for 4차 (spacing 100/150, two tabs, welcome, dark tabs).
+    screenshots_ok = len(screenshot_paths) == 11 and all(
         path.stat().st_size > 0 for path in screenshot_paths
     )
     visual_status = "PASS" if args.visual_confirmed and screenshots_ok else "NOT_CHECKED"
@@ -796,23 +1450,72 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
         mermaid_contrast,
     )
 
-    counts = Counter(item["status"] for item in results)
-    if counts["FAIL"]:
-        overall = "FAIL"
-    elif any(counts[key] for key in ("WARN", "NOT_CHECKED", "BASELINE_CHANGED")):
-        overall = "WARN"
-    else:
-        overall = "PASS"
+    titles = {
+        "S24": "편집기 글간격",
+        "S25": "다중 문서 탭",
+        "S26": "탭 저장·닫기",
+        "S27": "끌어다 놓기(Qt 이벤트 경로)",
+        "S28": "탭 회귀",
+    }
+    fourth_screens = {
+        "S24": ("spacing_100", "spacing_150"),
+        "S25": ("tabs_survey", "tabs_proposal"),
+        "S26": ("welcome",),
+        "S28": ("tabs_dark",),
+    }
+    for check_id, title in titles.items():
+        check = fourth["checks"].get(check_id) or {
+            "status": "FAIL",
+            "reason": "검사가 실행되지 않았습니다.",
+            "metrics": {},
+        }
+        evidence = [
+            str(path)
+            for path in fourth["screenshots"]
+            if any(path.stem.endswith(f"_{name}") for name in fourth_screens.get(check_id, ()))
+        ]
+        add_result(
+            results, check_id, title, check["status"], check["reason"], evidence, check["metrics"]
+        )
+    explorer_ok = bool(args.explorer_drop_confirmed and args.explorer_drop_note)
+    add_result(
+        results,
+        "S29",
+        "실제 Explorer 끌어다 놓기",
+        "PASS" if explorer_ok else "NOT_CHECKED",
+        args.explorer_drop_note
+        if explorer_ok
+        else (
+            "실제 Windows Explorer에서 편집기·미리보기로 "
+            "끌어다 놓는 조작은 이 자동 검증에서 수행하지 "
+            "않았습니다. 수행한 뒤 --confirm-explorer-drop으로 증거와 함께 기록해야 합니다."
+        ),
+        list(args.explorer_drop_evidence or []),
+    )
+
     report = {
         "generated_at": datetime.now().astimezone().isoformat(),
-        "overall_status": overall,
-        "status_counts": dict(counts),
         "application": "MarkdownEditor 0.1.0",
         "samples": [str(item["path"]) for item in SAMPLES],
         "results": results,
     }
     json_path = reports / f"verification_{stamp}.json"
     md_path = reports / f"verification_{stamp}.md"
+    write_report(report, md_path, json_path)
+    return report, md_path, json_path
+
+
+def write_report(report: dict[str, Any], md_path: Path, json_path: Path) -> None:
+    """Recompute the overall status from the results and write the JSON and Markdown report."""
+    counts = Counter(item["status"] for item in report["results"])
+    if counts["FAIL"]:
+        overall = "FAIL"
+    elif any(counts[key] for key in ("WARN", "NOT_CHECKED", "BASELINE_CHANGED")):
+        overall = "WARN"
+    else:
+        overall = "PASS"
+    report["overall_status"] = overall
+    report["status_counts"] = dict(counts)
     json_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     lines = [
         "# MarkdownEditor 샘플 검증 보고서",
@@ -820,11 +1523,11 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
         f"- 생성: {report['generated_at']}",
         f"- 전체 상태: **{overall}**",
         f"- 상태 집계: `{json.dumps(dict(counts), ensure_ascii=False)}`",
-        "",
-        "| ID | 검사 | 상태 | 결과 |",
-        "|---|---|---|---|",
     ]
-    for item in results:
+    for confirmation in report.get("confirmations", []):
+        lines.append(f"- 사후 확인: {confirmation['check']} · {confirmation['confirmed_at']}")
+    lines.extend(["", "| ID | 검사 | 상태 | 결과 |", "|---|---|---|---|"])
+    for item in report["results"]:
         reason = item["reason"].replace("|", "\\|").replace("\n", " ")
         lines.append(f"| {item['id']} | {item['title']} | {item['status']} | {reason} |")
     lines.extend(
@@ -839,18 +1542,74 @@ def run(args: argparse.Namespace) -> tuple[dict[str, Any], Path, Path]:
         ]
     )
     md_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def confirm_existing_report(
+    report_path: Path, check_id: str, note: str, evidence: list[str]
+) -> tuple[dict[str, Any], Path, Path]:
+    """Record a human/agent confirmation on an existing report instead of re-running it.
+
+    The confirmed files are exactly the ones this report lists (plus any extra evidence),
+    and their SHA-256 values are stored, so the report cannot point at unseen screenshots.
+    """
+    json_path = report_path.with_suffix(".json")
+    md_path = report_path.with_suffix(".md")
+    report = json.loads(json_path.read_text(encoding="utf-8"))
+    item = next(entry for entry in report["results"] if entry["id"] == check_id)
+    files = [Path(path) for path in [*item.get("evidence", []), *evidence]]
+    missing = [str(path) for path in files if not path.is_file()]
+    if missing or not note.strip() or not files:
+        raise SystemExit(f"확인할 증거 파일이나 소견이 없습니다: {missing or '(소견/파일 없음)'}")
+    item["status"] = "PASS"
+    item["reason"] = note.strip()
+    item["evidence"] = [str(path) for path in files]
+    item.setdefault("metrics", {})["confirmed_files_sha256"] = {
+        str(path): sha256(path) for path in files
+    }
+    report.setdefault("confirmations", []).append(
+        {"check": check_id, "confirmed_at": datetime.now().astimezone().isoformat()}
+    )
+    write_report(report, md_path, json_path)
     return report, md_path, json_path
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="MarkdownEditor 실제 샘플 인수 검증")
-    parser.add_argument("--visual-confirmed", action="store_true")
+    parser.add_argument(
+        "--visual-confirmed", action="store_true", help="(구 방식) 같은 실행에서 확인"
+    )
     parser.add_argument("--visual-note", default="")
+    parser.add_argument(
+        "--confirm-visual",
+        metavar="REPORT",
+        help="이미 만든 보고서(.json/.md)의 S14 캡처를 열어 본 뒤 그 보고서에 확인 결과를 기록",
+    )
+    parser.add_argument("--explorer-drop-confirmed", action="store_true")
+    parser.add_argument("--explorer-drop-note", default="")
+    parser.add_argument("--explorer-drop-evidence", nargs="*", default=[])
+    parser.add_argument(
+        "--confirm-explorer-drop",
+        metavar="REPORT",
+        help="실제 Explorer 끌어다 놓기(S29)를 수행한 뒤 증거와 함께 기존 보고서에 기록",
+    )
     return parser.parse_args()
 
 
 def main() -> int:
-    report, md_path, json_path = run(parse_args())
+    args = parse_args()
+    if args.confirm_visual:
+        report, md_path, json_path = confirm_existing_report(
+            Path(args.confirm_visual), "S14", args.visual_note, []
+        )
+    elif args.confirm_explorer_drop:
+        report, md_path, json_path = confirm_existing_report(
+            Path(args.confirm_explorer_drop),
+            "S29",
+            args.explorer_drop_note,
+            list(args.explorer_drop_evidence),
+        )
+    else:
+        report, md_path, json_path = run(args)
     print(f"전체 상태: {report['overall_status']}")
     print(f"보고서: {md_path}")
     print(f"JSON: {json_path}")

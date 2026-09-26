@@ -8,14 +8,21 @@ from pathlib import Path
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="MarkdownEditor Windows GUI")
-    parser.add_argument("file", nargs="?", help="열 Markdown 파일")
+    parser.add_argument(
+        "files", nargs="*", metavar="file", help="열 Markdown 파일(여러 개면 각각 탭으로 엽니다)"
+    )
     parser.add_argument("--disable-gpu", action="store_true", help="QtWebEngine GPU 비활성화")
     parser.add_argument("--version", action="version", version="MarkdownEditor 0.1.0")
     return parser
 
 
+def parse_arguments(argv: list[str] | None = None) -> argparse.Namespace:
+    # Files and options may be mixed (e.g. several files dropped on the .bat plus a flag).
+    return build_parser().parse_intermixed_args(argv)
+
+
 def main(argv: list[str] | None = None) -> int:
-    args = build_parser().parse_args(argv)
+    args = parse_arguments(argv)
     if args.disable_gpu:
         current = os.environ.get("QTWEBENGINE_CHROMIUM_FLAGS", "")
         if "--disable-gpu" not in current:
@@ -39,12 +46,15 @@ def main(argv: list[str] | None = None) -> int:
         application.installTranslator(translator)
 
     from markdowneditor.gui.main_window import MainWindow
+    from markdowneditor.gui.preview import release_shared_network_guard
 
-    initial = Path(args.file).resolve() if args.file else None
-    window = MainWindow(initial)
+    initial = [Path(item).resolve() for item in args.files]
+    window = MainWindow(initial or None)
     window.show()
     result = application.exec()
-    window.preview.shutdown()
+    # Every tab owns a WebEngine page; release all of them (safe with zero tabs).
+    window.shutdown_sessions()
+    release_shared_network_guard()
     window.deleteLater()
     application.processEvents()
     return result

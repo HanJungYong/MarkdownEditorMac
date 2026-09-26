@@ -22,6 +22,32 @@ def run(command: list[str]) -> None:
     subprocess.run(command, cwd=ROOT, check=True)
 
 
+def source_revision() -> dict[str, object]:
+    """Git commit and whether the working tree had uncommitted changes when building.
+
+    The version number alone does not tell two 0.1.0 builds apart, so the manifest records
+    where the code came from.
+    """
+    try:
+        commit = subprocess.run(
+            ["git", "rev-parse", "--short", "HEAD"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout.strip()
+        status = subprocess.run(
+            ["git", "status", "--porcelain", "--untracked-files=no"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return {"commit": None, "uncommitted_changes": None}
+    return {"commit": commit, "uncommitted_changes": bool(status.strip())}
+
+
 def safe_remove(path: Path) -> None:
     resolved = path.resolve()
     build_root = BUILD.resolve()
@@ -237,6 +263,7 @@ def main() -> int:
         "version": version,
         "platform": "Windows x64",
         "created_at": datetime.now().astimezone().isoformat(),
+        "source": source_revision(),
         "python": platform.python_version(),
         "pyinstaller": __import__("PyInstaller").__version__,
         "app_file_count": file_count,

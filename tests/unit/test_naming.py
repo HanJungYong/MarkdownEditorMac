@@ -30,6 +30,13 @@ def test_first_available_path_uses_sequence(tmp_path: Path) -> None:
     assert first_available_path(target).name == "문서_20260919_3.md"
 
 
+def test_first_available_path_skips_paths_reserved_by_open_tabs(tmp_path: Path) -> None:
+    target = tmp_path / "문서_20260919.md"
+    reserved = {target, numbered_path(target, 2)}
+    assert first_available_path(target, lambda path: path in reserved).name == "문서_20260919_3.md"
+    assert first_available_path(target, lambda _path: False) == target
+
+
 def test_number_must_start_at_two() -> None:
     with pytest.raises(ValueError):
         numbered_path("x.md", 1)

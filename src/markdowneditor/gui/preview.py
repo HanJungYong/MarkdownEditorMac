@@ -78,6 +78,33 @@ class NetworkGuard(QWebEngineUrlRequestInterceptor):
             info.block(True)
 
 
+_shared_guard: NetworkGuard | None = None
+_guard_installed = False
+
+
+def shared_network_guard() -> NetworkGuard:
+    """Return the single app-wide request guard, installing it on the shared profile once.
+
+    Every preview tab uses ``QWebEngineProfile.defaultProfile()``, and a profile holds only
+    one interceptor. Closing one tab must therefore never replace or remove it.
+    """
+    global _shared_guard, _guard_installed
+    if _shared_guard is None:
+        _shared_guard = NetworkGuard(QApplication.instance())
+    if not _guard_installed:
+        QWebEngineProfile.defaultProfile().setUrlRequestInterceptor(_shared_guard)
+        _guard_installed = True
+    return _shared_guard
+
+
+def release_shared_network_guard() -> None:
+    """Detach the guard at application teardown, after every preview has shut down."""
+    global _guard_installed
+    if _guard_installed:
+        QWebEngineProfile.defaultProfile().setUrlRequestInterceptor(None)
+        _guard_installed = False
+
+
 class SafePreviewPage(QWebEnginePage):
     blocked_navigation = Signal(str)
     console_message = Signal(str)
@@ -92,6 +119,13 @@ class SafePreviewPage(QWebEnginePage):
             is_main_frame
             and navigation_type == QWebEnginePage.NavigationType.NavigationTypeLinkClicked
         ):
+            self.blocked_navigation.emit(url.toString())
+            return False
+        # The shell is always loaded with setHtml(), which arrives as a main-frame data: URL.
+        # about:blank is used by Chromium itself (for example while a page is torn down).
+        # Any other main-frame navigation (for example a file dropped on the view) would
+        # replace the preview shell, so it is refused.
+        if is_main_frame and url.scheme().lower() not in {"data", "about"}:
             self.blocked_navigation.emit(url.toString())
             return False
         return super().acceptNavigationRequest(url, navigation_type, is_main_frame)
@@ -153,8 +187,7 @@ class PreviewPane(QWidget):
         # The process-wide profile outlives every test/app window. A short-lived
         # profile can crash Chromium during QApplication teardown on Windows.
         self.profile = QWebEngineProfile.defaultProfile()
-        self.network_guard = NetworkGuard(QApplication.instance())
-        self.profile.setUrlRequestInterceptor(self.network_guard)
+        self.network_guard = shared_network_guard()
         self.page = SafePreviewPage(self.profile, self.view)
         self.view.setPage(self.page)
         settings = self.page.settings()
@@ -164,6 +197,8 @@ class PreviewPane(QWidget):
         )
         settings.setAttribute(QWebEngineSettings.WebAttribute.JavascriptCanAccessClipboard, False)
         settings.setAttribute(QWebEngineSettings.WebAttribute.JavascriptCanOpenWindows, False)
+        # Dropped files are opened as editor tabs by the app; Chromium must never navigate.
+        settings.setAttribute(QWebEngineSettings.WebAttribute.NavigateOnDropEnabled, False)
 
         self.bridge = PreviewBridge(self)
         self.channel = QWebChannel(self.page)
@@ -190,18 +225,33 @@ class PreviewPane(QWidget):
         self._reported_revisions: set[int] = set()
         self.diagnostics: dict[str, object] = {}
         self._shut_down = False
+        # A tab's WebEngine shell (with the 3.6 MB Mermaid bundle) is loaded only when the
+        # tab is first shown, so opening many files at once stays cheap.
+        self._started = False
+
+    @property
+    def started(self) -> bool:
+        return self._started
+
+    def ensure_started(self) -> None:
+        if self._started or self._shut_down:
+            return
+        self._started = True
+        self.reload_shell()
 
     def set_document_directory(self, directory: str | Path) -> None:
         target = Path(directory).resolve()
         if target == self.document_dir and self._shell_ready:
             return
         self.document_dir = target
-        self.reload_shell()
+        if self._started:
+            self.reload_shell()
 
     def set_external_images(self, enabled: bool) -> None:
         self.allow_external_images = enabled
         self.network_guard.allow_external_images = enabled
-        self.reload_shell()
+        if self._started:
+            self.reload_shell()
 
     def set_control_height(self, height: int) -> None:
         self.controls.setFixedHeight(max(32, height))
@@ -210,13 +260,16 @@ class PreviewPane(QWidget):
         if self.dark_mode == enabled:
             return
         self.dark_mode = enabled
-        self.reload_shell()
+        if self._started:
+            self.reload_shell()
 
     def set_markdown_font_size(self, size: int) -> None:
         self.font_size = size
         self.view.setZoomFactor(size / DEFAULT_FONT_SIZE)
 
     def set_scroll_ratio(self, ratio: float) -> None:
+        if self._shut_down:
+            return
         bounded = max(0.0, min(1.0, ratio))
         self.page.runJavaScript(
             "window.markdownEditorSetScrollRatio && "
@@ -233,6 +286,10 @@ class PreviewPane(QWidget):
         fallback_ratio: float,
         callback=None,  # noqa: ANN001
     ) -> None:  # noqa: ANN001
+        if self._shut_down:
+            if callback is not None:
+                callback(None)
+            return
         script = (
             "window.markdownEditorAlignToSourceLine ? "
             f"window.markdownEditorAlignToSourceLine({max(1, line)}, "
@@ -243,6 +300,8 @@ class PreviewPane(QWidget):
         else:
 
             def decoded(value: object) -> None:
+                if self._shut_down:
+                    return
                 if isinstance(value, str):
                     try:
                         callback(json.loads(value))
@@ -254,6 +313,8 @@ class PreviewPane(QWidget):
             self.page.runJavaScript(f"JSON.stringify({script})", decoded)
 
     def reload_shell(self) -> None:
+        if self._shut_down or not self._started:
+            return
         self._shell_ready = False
         nonce = secrets.token_urlsafe(18)
         package_assets = files("markdowneditor").joinpath("assets")
@@ -293,6 +354,8 @@ class PreviewPane(QWidget):
 
     @Slot()
     def _on_shell_ready(self) -> None:
+        if self._shut_down:
+            return
         self._shell_ready = True
         if self._pending is not None:
             html_value, revision, total_lines = self._pending
@@ -301,9 +364,13 @@ class PreviewPane(QWidget):
 
     @Slot(bool)
     def _on_load_finished(self, success: bool) -> None:
+        if self._shut_down:
+            return
         self.diagnostics["loadFinished"] = success
 
         def inspected(value: object) -> None:
+            if self._shut_down:
+                return
             if isinstance(value, dict):
                 self.diagnostics.update(value)
                 if value.get("update") == "function" and not self._shell_ready:
@@ -317,12 +384,16 @@ class PreviewPane(QWidget):
         )
 
     def update_html(self, html_value: str, revision: int, total_lines: int) -> None:
+        if self._shut_down:
+            return
         self._last_revision = revision
         if not self._shell_ready:
             self._pending = (html_value, revision, total_lines)
             return
 
         def after_ratio(value: object) -> None:
+            if self._shut_down:
+                return
             ratio = value if isinstance(value, int | float) else 0.0
             script = (
                 "window.markdownEditorUpdate("
@@ -330,7 +401,8 @@ class PreviewPane(QWidget):
                 f"{revision}, {max(1, total_lines)});"
             )
             self.page.runJavaScript(script)
-            QTimer.singleShot(750, lambda: self._poll_render(revision, 0))
+            # The context object cancels this retry automatically if the pane is destroyed.
+            QTimer.singleShot(750, self, lambda: self._poll_render(revision, 0))
 
         self.page.runJavaScript(
             "window.markdownEditorScrollRatio ? window.markdownEditorScrollRatio() : 0", after_ratio
@@ -338,6 +410,8 @@ class PreviewPane(QWidget):
 
     @Slot(object)
     def _emit_render_completed(self, value: object) -> None:
+        if self._shut_down:
+            return
         if isinstance(value, dict):
             revision = int(value.get("revision", 0))
             if revision in self._reported_revisions:
@@ -346,10 +420,16 @@ class PreviewPane(QWidget):
         self.render_completed.emit(value)
 
     def _poll_render(self, revision: int, attempt: int) -> None:
-        if revision in self._reported_revisions or revision != self._last_revision:
+        if (
+            self._shut_down
+            or revision in self._reported_revisions
+            or revision != self._last_revision
+        ):
             return
 
         def received(value: object) -> None:
+            if self._shut_down:
+                return
             if (
                 isinstance(value, dict)
                 and int(value.get("revision", 0)) == revision
@@ -357,21 +437,29 @@ class PreviewPane(QWidget):
             ):
                 self._emit_render_completed(value)
             elif attempt < 40:
-                QTimer.singleShot(250, lambda: self._poll_render(revision, attempt + 1))
+                QTimer.singleShot(250, self, lambda: self._poll_render(revision, attempt + 1))
 
         self.request_stats(received)
 
     def request_stats(self, callback) -> None:  # noqa: ANN001
+        if self._shut_down:
+            callback(None)
+            return
         self.page.runJavaScript(
             "window.markdownEditorStats ? window.markdownEditorStats() : null", callback
         )
 
     def shutdown(self) -> None:
+        """Release this tab's WebEngine page.
+
+        The shared profile and its request guard stay installed for the remaining tabs;
+        see ``release_shared_network_guard()`` for application teardown.
+        """
         if self._shut_down:
             return
         self._shut_down = True
+        self._pending = None
         self.view.stop()
         self.page.setWebChannel(None)
-        self.profile.setUrlRequestInterceptor(None)
         self.page.deleteLater()
         self.view.deleteLater()

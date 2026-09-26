@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from collections.abc import Callable
 from datetime import date, datetime
 from pathlib import Path
 
@@ -36,11 +37,20 @@ def numbered_path(path: str | Path, number: int) -> Path:
     return target.with_name(f"{target.stem}_{number}{target.suffix}")
 
 
-def first_available_path(path: str | Path) -> Path:
+def first_available_path(path: str | Path, is_taken: Callable[[Path], bool] | None = None) -> Path:
+    """Return ``path`` or the first free ``_N`` variant.
+
+    ``is_taken`` lets callers reserve paths that do not exist on disk yet but must not be
+    reused, such as a file that is open in another editor tab.
+    """
+
+    def unavailable(candidate: Path) -> bool:
+        return candidate.exists() or (is_taken is not None and is_taken(candidate))
+
     target = Path(path)
-    if not target.exists():
+    if not unavailable(target):
         return target
     number = 2
-    while numbered_path(target, number).exists():
+    while unavailable(numbered_path(target, number)):
         number += 1
     return numbered_path(target, number)

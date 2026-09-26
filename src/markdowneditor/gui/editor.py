@@ -7,7 +7,8 @@ from PySide6.QtGui import QColor, QFont, QPainter, QSyntaxHighlighter, QTextChar
 from PySide6.QtWidgets import QPlainTextEdit, QWidget
 
 from markdowneditor.core.editing import INDENT_TEXT, newline_prefix
-from markdowneditor.gui.fonts import DEFAULT_FONT_SIZE, FONT_FAMILY
+from markdowneditor.core.view_settings import DEFAULT_LETTER_SPACING, clamp_letter_spacing
+from markdowneditor.gui.fonts import DEFAULT_FONT_SIZE, editor_font
 
 
 class MarkdownHighlighter(QSyntaxHighlighter):
@@ -88,8 +89,9 @@ class MarkdownEditorWidget(QPlainTextEdit):
         self.highlighter = MarkdownHighlighter(self.document())
         self.dark_mode = False
         self.auto_indent_enabled = True
-        font = QFont(FONT_FAMILY, DEFAULT_FONT_SIZE)
-        self.setFont(font)
+        self.markdown_font_size = DEFAULT_FONT_SIZE
+        self.letter_spacing = DEFAULT_LETTER_SPACING
+        self._apply_editor_font()
         self.set_dark_mode(False)
         self.setLineWrapMode(QPlainTextEdit.LineWrapMode.WidgetWidth)
         self.blockCountChanged.connect(self.update_line_number_width)
@@ -136,7 +138,8 @@ class MarkdownEditorWidget(QPlainTextEdit):
     def line_number_area_width(self, block_count: int | None = None) -> int:
         count = self.blockCount() if block_count is None else block_count
         digits = len(str(max(1, count)))
-        return 12 + self.fontMetrics().horizontalAdvance("9") * digits
+        # Line numbers use their own 100%-spacing font, so measure with that font.
+        return 12 + self.line_number_area.fontMetrics().horizontalAdvance("9") * digits
 
     def update_line_number_width(self, block_count: int = 0) -> None:
         count = block_count if block_count > 0 else self.blockCount()
@@ -187,10 +190,20 @@ class MarkdownEditorWidget(QPlainTextEdit):
             number += 1
 
     def set_markdown_font_size(self, size: int) -> None:
-        font = QFont(FONT_FAMILY, size)
-        self.setFont(font)
+        self.markdown_font_size = int(size)
+        self._apply_editor_font()
+
+    def set_letter_spacing(self, percent: int) -> None:
+        self.letter_spacing = clamp_letter_spacing(percent)
+        self._apply_editor_font()
+
+    def _apply_editor_font(self) -> None:
+        # Size and letter spacing are stored separately so changing one never drops the other.
+        self.setFont(editor_font(self.markdown_font_size, self.letter_spacing))
+        self.line_number_area.setFont(editor_font(self.markdown_font_size, DEFAULT_LETTER_SPACING))
         self.update_line_number_width()
         self.viewport().update()
+        self.line_number_area.update()
 
     def set_dark_mode(self, enabled: bool) -> None:
         self.dark_mode = enabled

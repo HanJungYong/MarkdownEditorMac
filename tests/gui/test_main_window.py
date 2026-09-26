@@ -5,32 +5,19 @@ from datetime import date
 from pathlib import Path
 
 import pytest
-from PySide6.QtCore import QMimeData, QPoint, QPointF, QSettings, Qt, QUrl
+from gui_helpers import open_scratch_document as _open_scratch_document
+from PySide6.QtCore import QMimeData, QPoint, QPointF, Qt, QUrl
 from PySide6.QtGui import QAction, QDropEvent, QTextCursor, QWheelEvent
 from PySide6.QtWebEngineCore import QWebEnginePage
-from PySide6.QtWidgets import QApplication
 
 from markdowneditor.core.naming import dated_path
 from markdowneditor.gui.fonts import DEFAULT_FONT_SIZE, FONT_FAMILY
-from markdowneditor.gui.main_window import MainWindow
 
 pytestmark = pytest.mark.gui
 
 
 def _sample_root() -> Path:
     return Path(__file__).resolve().parents[2] / "Samples"
-
-
-@pytest.fixture
-def app_window(qtbot, tmp_path: Path):  # noqa: ANN001
-    settings = QSettings(str(tmp_path / "settings.ini"), QSettings.Format.IniFormat)
-    window = MainWindow(settings=settings)
-    qtbot.addWidget(window)
-    window.show()
-    yield window
-    window.close()
-    window.deleteLater()
-    QApplication.processEvents()
 
 
 def test_open_render_edit_and_save_sample(qtbot, app_window, tmp_path: Path) -> None:  # noqa: ANN001
@@ -42,10 +29,13 @@ def test_open_render_edit_and_save_sample(qtbot, app_window, tmp_path: Path) -> 
     original = copy.read_bytes()
 
     window = app_window
-    assert window.preview.sync_fix_button.text() == "Sync Scroll 위치맞춤"
-    assert not window.preview.sync_fix_button.isEnabled()
+    # No document yet: the welcome page is shown and there is no preview to align.
+    assert window.preview is None
+    assert window.central_stack.currentWidget() is window.welcome
     with qtbot.waitSignal(window.render_completed, timeout=20_000) as blocker:
         assert window.open_document(copy)
+        assert window.preview.sync_fix_button.text() == "Sync Scroll 위치맞춤"
+        assert not window.preview.sync_fix_button.isEnabled()
     assert window.preview.sync_fix_button.isEnabled()
     stats = blocker.args[0]
     assert stats["tables"] == 23
@@ -139,8 +129,8 @@ def test_large_sample_renders_tables_and_images(qtbot, app_window, tmp_path: Pat
         editor_scroll.maximum(),
         window.editor.blockCount(),
         reported_lines[-1],
-        window._pending_preview_source_line,
-        window.preview_sync_timer.isActive(),
+        window.active_session._pending_preview_source_line,
+        window.active_session.preview_sync_timer.isActive(),
     )
     assert window.editor.textCursor().position() == cursor_position
 
@@ -248,8 +238,9 @@ def test_toolbar_undo_shortcuts_date_provider_and_drop(qtbot, app_window, tmp_pa
     assert window._choose_save_target() == tmp_path / "끌어놓기_20260919.md"
 
 
-def test_prd_theme_editor_font_and_zoom_controls(qtbot, app_window) -> None:  # noqa: ANN001
+def test_prd_theme_editor_font_and_zoom_controls(qtbot, app_window, tmp_path: Path) -> None:  # noqa: ANN001
     window = app_window
+    _open_scratch_document(qtbot, window, tmp_path)
     window.set_font_size(DEFAULT_FONT_SIZE)
     window.dark_mode_action.setChecked(False)
 
@@ -304,8 +295,9 @@ def test_prd_theme_editor_font_and_zoom_controls(qtbot, app_window) -> None:  # 
     assert "#17191d" in window.styleSheet()
 
 
-def test_prd_auto_indent_tab_and_markdown_continuation(qtbot, app_window) -> None:  # noqa: ANN001
+def test_prd_auto_indent_tab_and_markdown_continuation(qtbot, app_window, tmp_path: Path) -> None:  # noqa: ANN001
     window = app_window
+    _open_scratch_document(qtbot, window, tmp_path)
     editor = window.editor
     editor.setEnabled(True)
 

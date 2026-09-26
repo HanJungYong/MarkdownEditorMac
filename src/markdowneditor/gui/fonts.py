@@ -3,7 +3,9 @@ from __future__ import annotations
 from importlib.resources import files
 from pathlib import Path
 
-from PySide6.QtGui import QFontDatabase
+from PySide6.QtGui import QFont, QFontDatabase
+
+from markdowneditor.core.view_settings import DEFAULT_LETTER_SPACING
 
 FONT_FAMILY = "Pretendard"
 FONT_FILES = (
@@ -41,6 +43,13 @@ def register_pretendard_fonts() -> bool:
     loaded = [QFontDatabase.addApplicationFont(str(path)) >= 0 for path in paths]
     _registered = all(loaded)
     return _registered
+
+
+def editor_font(size: int, letter_spacing: int = DEFAULT_LETTER_SPACING) -> QFont:
+    """The only place that builds the Markdown editor font (size + percentage spacing)."""
+    font = QFont(FONT_FAMILY, int(size))
+    font.setLetterSpacing(QFont.SpacingType.PercentageSpacing, float(letter_spacing))
+    return font
 
 
 def font_face_css() -> str:
