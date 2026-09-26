@@ -2,6 +2,19 @@
 
 최종 갱신: 2026-09-26 (4차 기능보완)
 
+## macOS 지원 추가 (2026-09-26)
+
+- Mac용 `run_markdowneditor.command`와 `scripts/build_macos.py` 추가, Apple Silicon 앱 번들·배포 ZIP 빌드 완료
+- `MarkdownApplication`이 Finder/Dock 파일 열기 이벤트를 시작 중 대기시키고 공통 열기 경로로 전달
+- Mac의 표준 Command 단축키, 바꾸기 `⇧⌘H`, 줄로 이동 `⌘L`, 물리적인 `Control+Tab` 탭 이동, 앱 정보·종료 메뉴 적용
+- 상대 링크의 Windows 전용 경로 변환 수정, Mac 글꼴 대체 목록과 번들 사용설명서 추가
+- 전체 테스트 108개 통과, Ruff 검사·포맷 검사 통과, 실행 스크립트·번들 CLI 실행·로컬 서명 검증 통과
+- 번들 GUI에서 샘플을 지정한 앱 본체·QtWebEngine 렌더러 실행을 확인했고 런타임 오류 로그 없음
+- 수동 화면·실제 Finder/Dock 동작 확인은 Computer Use 권한 대기로 미완료. 자동 GUI 검사는 실제 Mac Qt·QtWebEngine 세션에서 완료
+- 실행 절차: [macOS 실행 가이드](macOS_실행_가이드.md)
+
+## 기존 Windows 개발 기록
+
 | 단계 | 상태 | 증거 |
 |---|---|---|
 | M0 환경·기준선 | 완료 | `docs/environment_report.md`, 샘플 SHA-256 확인 |

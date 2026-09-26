@@ -219,7 +219,7 @@ def test_reopening_a_file_activates_its_tab(qtbot, app_window, tmp_path: Path) -
     assert window.tabs.count() == 2
     for variant in (
         doc,
-        Path(str(doc).upper()),
+        *([Path(str(doc).upper())] if Path(str(doc).upper()).exists() else []),
         Path(str(doc).replace("\\", "/")),
         doc.parent / ".." / doc.parent.name / doc.name,
     ):
@@ -263,7 +263,9 @@ def test_saving_one_tab_never_touches_another_open_file(
     # The dated target is open in another tab: no overwrite option, numbered save instead.
     dialogs.answer("번호 붙여 저장")
     assert window.save_document()
-    assert dialogs.seen[-1][0] == "다른 탭에서 열려 있는 파일"
+    # macOS ignores QMessageBox window titles; verify the user-visible explanation.
+    assert "다른 탭에서 열려 있어 덮어쓸 수 없습니다" in dialogs.seen[-1][1]
+    assert dated_file.name in dialogs.seen[-1][1]
     assert original.path.name == "보고서_20260926_2.md"
     assert dated_file.read_text(encoding="utf-8") == "# 오늘 사본\n"
     assert not dated_tab.is_modified()

@@ -16,6 +16,7 @@
 - `gui.toolbar`: 서식 명령 `QAction` 모음(`MarkdownActions`, 창마다 한 벌)과 탭마다 만드는 툴바 위젯
 - `gui.document_session`: 탭 하나의 문서·편집기·미리보기·렌더·동기화 상태(`DocumentSession`)
 - `gui.file_drop`: 모든 끌어다 놓기 대상이 함께 쓰는 이벤트 필터(`FileDropController`)
+- `gui.file_open`: macOS Finder/Dock의 Qt `FileOpen` 이벤트를 공통 열기 경로로 전달하고 시작 중 요청을 대기시키는 `MarkdownApplication`
 - `gui.main_window`: 메뉴·액션, 전역 보기 설정, 탭·시작 화면, 공통 열기 경로, 저장·닫기·종료 조정
 
 ## 문서 세션과 탭
@@ -38,7 +39,7 @@
 
 ## 공통 열기 경로
 
-`파일 > 열기`(여러 개 선택), 최근 파일, 명령줄 인자(여러 개), 미리보기의 `.md` 링크, 도움말, 끌어다 놓기가 모두 `MainWindow.open_paths()`를 거칩니다. 경로마다 `core.opening.document_key()`(실제 경로 + 대소문자 무시)와 `os.path.samefile()`로 이미 열린 탭을 찾고, 있으면 그 탭을 활성화합니다. 없으면 `load_document()`로 검증해 새 세션을 만듭니다. 결과는 `열림 · 이미 열림 · 건너뜀 · 실패` 수로 상태 표시줄에 요약하고, 실패가 있을 때만 대화상자 하나로 이유를 보여 줍니다. 여러 파일을 한 번에 열면 마지막 탭만 바로 렌더링하고, 나머지 탭의 WebEngine 셸은 처음 볼 때 불러옵니다.
+`파일 > 열기`(여러 개 선택), 최근 파일, 명령줄 인자(여러 개), 미리보기의 `.md` 링크, 도움말, 끌어다 놓기가 모두 `MainWindow.open_paths()`를 거칩니다. 경로마다 `core.opening.document_key()`(실제 경로 + OS 경로 정규화)와 `os.path.samefile()`로 이미 열린 탭을 찾고, 있으면 그 탭을 활성화합니다. 없으면 `load_document()`로 검증해 새 세션을 만듭니다. 결과는 `열림 · 이미 열림 · 건너뜀 · 실패` 수로 상태 표시줄에 요약하고, 실패가 있을 때만 대화상자 하나로 이유를 보여 줍니다. 여러 파일을 한 번에 열면 마지막 탭만 바로 렌더링하고, 나머지 탭의 WebEngine 셸은 처음 볼 때 불러옵니다.
 
 ## 액션 라우팅
 

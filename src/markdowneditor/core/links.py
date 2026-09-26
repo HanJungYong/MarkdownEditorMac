@@ -57,7 +57,8 @@ def resolve_target(target: str, document_dir: Path, anchors: set[str]) -> tuple[
     elif scheme:
         return "차단", clean
     else:
-        raw_path = path_part.replace("/", "\\")
+        # Markdown uses forward slashes; accept Windows-authored relative paths on Mac too.
+        raw_path = path_part.replace("\\", "/")
         resolved = (document_dir / raw_path).resolve()
     if not resolved.exists():
         return "없음", str(resolved)

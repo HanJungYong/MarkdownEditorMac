@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "markdowneditor"
 version = "0.1.0"
-description = "한국어 Windows용 실시간 Markdown 뷰어·편집기"
+description = "한국어 macOS·Windows용 실시간 Markdown 뷰어·편집기"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 license = { text = "Apache-2.0" }
@@ -40,6 +40,8 @@ packages = ["src/markdowneditor"]
 "Font/Pretendard-Regular.otf" = "markdowneditor/assets/fonts/Pretendard-Regular.otf"
 "Font/Pretendard-Medium.otf" = "markdowneditor/assets/fonts/Pretendard-Medium.otf"
 "Font/Pretendard-Bold.otf" = "markdowneditor/assets/fonts/Pretendard-Bold.otf"
+"docs/사용설명서.md" = "markdowneditor/assets/docs/사용설명서.md"
+"docs/macOS_실행_가이드.md" = "markdowneditor/assets/docs/macOS_실행_가이드.md"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

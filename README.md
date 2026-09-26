@@ -1,6 +1,8 @@
 # MarkdownEditor
 
-MarkdownEditor는 Markdown 원문을 왼쪽에서 편집하고 결과를 오른쪽에서 실시간으로 확인하는 한국어 Windows 데스크톱 프로그램입니다. 문서와 같은 폴더에 있는 이미지·CSV·JSON·HTML 링크, 복잡한 HTML 표, 문서 내부 앵커와 Mermaid 다이어그램을 처리합니다.
+MarkdownEditor는 Markdown 원문을 왼쪽에서 편집하고 결과를 오른쪽에서 실시간으로 확인하는 한국어 macOS·Windows 데스크톱 프로그램입니다. Python과 PySide6로 작성되었으며, 문서와 같은 폴더에 있는 이미지·CSV·JSON·HTML 링크, 복잡한 HTML 표, 문서 내부 앵커와 Mermaid 다이어그램을 처리합니다.
+
+Mac에서는 **macOS**에서 실행합니다. 아래 사용법의 `Ctrl`은 Mac에서 `Command(⌘)`를 사용하며, 바꾸기·줄로 이동·다시 실행 등은 [단축키 표](#주요-단축키)를 참고하세요.
 
 ## 주요 기능
 
@@ -24,11 +26,42 @@ MarkdownEditor는 Markdown 원문을 왼쪽에서 편집하고 결과를 오른�
 
 ## 요구 환경
 
-- Windows 11 권장
-- [uv](https://docs.astral.sh/uv/) 0.11 이상
+- macOS 13 이상(Apple Silicon·Intel), 또는 Windows 11 권장
+- [uv](https://docs.astral.sh/uv/) 0.10 이상
+- 프로젝트 Python 3.12(uv가 별도 설치하므로 시스템 Python을 바꿀 필요 없음)
 - 최초 설치 시 Python과 PySide6 패키지를 받을 인터넷 연결
 
 ## 설치 및 실행
+
+### macOS
+
+터미널에서 프로젝트 루트로 이동한 다음 실행합니다. Homebrew로 uv를 설치할 수 있습니다.
+
+```bash
+brew install uv
+chmod +x run_markdowneditor.command
+./run_markdowneditor.command
+```
+
+Finder에서 `run_markdowneditor.command`를 두 번 눌러도 실행됩니다. 처음 실행할 때 프로젝트 전용 Python·패키지를 다운로드합니다. 다른 운영체제에서 만든 `.venv`는 재사용하지 않습니다.
+
+```bash
+./run_markdowneditor.command "samples/설문지_기업 인공지능 활용 실태조사.md" "samples/차세대무역플랫폼 구축 사업 1단계 제안요청서.md"
+```
+
+Python 없이 실행하는 Mac 앱을 만들려면 다음을 실행합니다.
+
+```bash
+export UV_CACHE_DIR="$PWD/.uv-cache"
+export UV_PYTHON_INSTALL_DIR="$PWD/.uv-python"
+uv sync --locked
+uv run --locked python scripts/build_macos.py
+open dist/MarkdownEditor.app
+```
+
+빌드한 `MarkdownEditor.app`은 Finder의 `연결 프로그램`이나 Dock 아이콘으로 전달된 문서를 탭으로 엽니다. 자세한 실행·배포 절차는 [macOS 실행 가이드](docs/macOS_실행_가이드.md)를 참고하세요.
+
+### Windows
 
 PowerShell에서 프로젝트 루트로 이동한 다음 실행합니다.
 
@@ -66,7 +99,7 @@ uv run --locked markdowneditor "samples\설문지_기업 인공지능 활용 실
 ## 문서 탭
 
 - 파일을 새로 열 때마다 탭이 하나씩 추가되고, 기존 탭은 그대로 남습니다. 열려 있는 문서의 저장 여부를 묻지 않습니다.
-- 이미 열려 있는 파일을 다시 열면 새 탭을 만들지 않고 그 탭으로 이동합니다(경로의 대소문자·`\`·`/` 차이는 같은 파일로 봅니다).
+- 이미 열려 있는 파일을 다시 열면 새 탭을 만들지 않고 그 탭으로 이동합니다. 실제 파일이 같은지 확인하므로 Mac의 대소문자 구별 볼륨에 있는 서로 다른 파일도 올바르게 처리합니다.
 - 탭 제목은 파일 이름이며, 수정한 탭에는 ` *`가 붙습니다. 탭에 마우스를 올리면 전체 경로가 보이고, 이름이 같은 파일이 여러 개면 폴더 이름을 함께 표시합니다. 현재 탭은 위쪽 파란 막대와 굵은 글씨로 구분합니다.
 - 탭을 끌어서 순서를 바꿀 수 있습니다. `Ctrl+Tab`/`Ctrl+Shift+Tab`으로 다음·이전 탭으로 이동합니다.
 - 탭의 `×`, `Ctrl+W`, 또는 탭을 마우스 가운데 단추로 눌러 탭을 닫습니다. 수정한 탭이면 파일 이름과 함께 [저장] [저장 안 함] [취소]를 묻고, 취소하거나 저장에 실패하면 닫지 않습니다. 마지막 탭을 닫으면 최근 파일 목록이 있는 시작 화면으로 돌아갑니다.
@@ -107,21 +140,25 @@ Mermaid JavaScript는 프로그램에 포함되어 실행 중 인터넷 연결�
 
 ## 주요 단축키
 
-| 기능 | 단축키 |
-|---|---|
-| 열기 | `Ctrl+O` |
-| 탭 닫기 | `Ctrl+W`, `Ctrl+F4` 또는 탭을 마우스 가운데 단추로 누르기 |
-| 다음 탭 / 이전 탭 | `Ctrl+Tab` / `Ctrl+Shift+Tab` |
-| 날짜 붙여 저장 | `Ctrl+S` |
-| 다른 이름으로 저장 | `Ctrl+Shift+S` |
-| 찾기 / 바꾸기 | `Ctrl+F` / `Ctrl+H` |
-| 굵게 / 기울임 | `Ctrl+B` / `Ctrl+I` |
-| 링크 | `Ctrl+K` |
-| 실행 취소 / 다시 실행 | `Ctrl+Z` / `Ctrl+Y` |
-| 공백 2칸 들여쓰기 | `Tab` |
-| 줄로 이동 | `Ctrl+G` |
-| 미리보기 새로 고침 | `F5` |
-| 글자 크게 / 작게 | `Ctrl`+`+` / `Ctrl`+`-` 또는 `Ctrl`+마우스 휠 |
+| 기능 | macOS | Windows |
+|---|---|---|
+| 열기 | `⌘O` | `Ctrl+O` |
+| 탭 닫기 | `⌘W` | `Ctrl+W`, `Ctrl+F4` |
+| 다음 탭 / 이전 탭 | `Control+Tab` / `Control+Shift+Tab` | `Ctrl+Tab` / `Ctrl+Shift+Tab` |
+| 날짜 붙여 저장 | `⌘S` | `Ctrl+S` |
+| 다른 이름으로 저장 | `⇧⌘S` | `Ctrl+Shift+S` |
+| 찾기 / 바꾸기 | `⌘F` / `⇧⌘H` | `Ctrl+F` / `Ctrl+H` |
+| 다음 찾기 | `⌘G` | `F3` |
+| 굵게 / 기울임 | `⌘B` / `⌘I` | `Ctrl+B` / `Ctrl+I` |
+| 링크 | `⌘K` | `Ctrl+K` |
+| 실행 취소 / 다시 실행 | `⌘Z` / `⇧⌘Z` | `Ctrl+Z` / `Ctrl+Y` |
+| 공백 2칸 들여쓰기 | `Tab` | `Tab` |
+| 줄로 이동 | `⌘L` | `Ctrl+G` |
+| 미리보기 새로 고침 | `F5`(키보드에 따라 `fn+F5`) | `F5` |
+| 글자 크게 / 작게 | `⌘+` / `⌘-` 또는 Command+마우스 휠 | `Ctrl`+`+` / `Ctrl`+`-` 또는 Ctrl+마우스 휠 |
+| 종료 | `⌘Q` | `Alt+F4` |
+
+Mac의 탭 이동에는 Command가 아닌 Control 키를 사용합니다. 탭은 두 운영체제 모두 마우스 가운데 단추로도 닫을 수 있습니다.
 
 ## 진단 CLI
 
@@ -142,7 +179,7 @@ uv run --locked python scripts/verify_samples.py
 uv build
 ```
 
-검증 보고서는 `reports/`, 화면 캡처는 `reports/screenshots/`에 생성됩니다. GUI 검사는 실제 Windows 데스크톱 세션에서 실행해야 합니다.
+검증 보고서는 `reports/`, 화면 캡처는 `reports/screenshots/`에 생성됩니다. GUI 검사는 실제 macOS 또는 Windows 로그인 세션에서 실행해야 합니다. 위 `uv` 명령은 Mac 터미널에서도 동일하게 사용할 수 있습니다.
 
 사람이 확인해야 하는 두 항목은 이미 만든 보고서에 결과를 기록합니다. 기록할 때 해당 캡처·증거 파일의 SHA-256이 보고서에 함께 저장됩니다.
 
@@ -192,7 +229,7 @@ UTF-8·UTF-16·CP949만 자동 판별합니다. 다른 인코딩은 UTF-8로 변
 ## 알려진 제한
 
 - WYSIWYG, 공동 편집, HWP/DOCX 가져오기는 지원하지 않습니다.
-- 프로그램을 다시 실행할 때 이전 탭을 복원하지 않습니다. 이미 실행 중인 창으로 파일을 넘기는 기능(단일 실행)도 없어서, 바로 가기에 파일을 놓거나 파일 탐색기의 `연결 프로그램`으로 열면 새 창이 열립니다. 이미 열린 창에서 여러 문서를 탭으로 보려면 그 창으로 파일을 끌어다 놓거나 `파일 > 열기`를 사용하십시오.
+- 프로그램을 다시 실행할 때 이전 탭을 복원하지 않습니다. Windows 바로 가기나 터미널에서 새로 실행하면 별도 창이 열립니다. macOS 앱 번들은 Finder/Dock의 파일 열기 요청을 실행 중인 창의 탭으로 전달합니다.
 - 탭마다 미리보기(QtWebEngine)가 따로 있어 탭이 많을수록 메모리를 더 씁니다. 탭 수 제한은 두지 않았습니다.
 - 혼합 줄바꿈 문서를 편집하면 대표 줄바꿈 형식으로 통일될 수 있습니다.
 - 외부 URL이 실제로 유효한지는 자동 검사하지 않습니다.

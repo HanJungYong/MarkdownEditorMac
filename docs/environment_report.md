@@ -2,6 +2,20 @@
 
 작성일: 2026-09-19
 
+## macOS 이식 확인 (2026-09-26)
+
+- 현재 환경: macOS 27.0 (26A428), Apple Silicon arm64
+- uv 0.10.10, 프로젝트 전용 Python 3.12.13, PySide6/QtWebEngine 6.11.2
+- 기존 `uv.lock`으로 Mac용 의존성 설치 확인. 시스템 Python 3.14.3은 변경하지 않음
+- 단위 테스트 72개 + GUI 테스트 36개 = 전체 108개 통과
+- Ruff 검사·포맷 검사, 실행 스크립트의 Bash 구문 검사 통과
+- PyInstaller 6.22.3으로 `dist/MarkdownEditor.app`과 arm64 배포 ZIP 생성
+- 번들 `--version` 및 `run_markdowneditor.command --version` 실행, `codesign --verify --deep --strict` 검증 통과
+- 번들 GUI에 설문지 샘플을 지정해 앱 본체와 QtWebEngine 렌더러 실행 확인. 런타임 오류 로그 없음
+- 수동 화면 확인은 Computer Use의 손쉬운 사용·화면 기록 권한 대기로 수행하지 못함
+- 실제 Finder/Dock 전달은 수동 미확인. Qt 파일 열기 이벤트의 시작 대기·추가 탭·중복 문서 처리는 GUI 테스트로 검증
+- Intel Mac과 Windows의 이번 변경 실행 검증은 수행하지 않음. 아래 내용은 기존 Windows 개발 기록
+
 ## 확인한 사실
 
 - 프로젝트 루트: `F:\38.AICowork\202609_MarkdownEditor`

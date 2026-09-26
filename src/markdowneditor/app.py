@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="MarkdownEditor Windows GUI")
+    parser = argparse.ArgumentParser(description="MarkdownEditor macOS / Windows GUI")
     parser.add_argument(
         "files", nargs="*", metavar="file", help="열 Markdown 파일(여러 개면 각각 탭으로 엽니다)"
     )
@@ -31,10 +31,11 @@ def main(argv: list[str] | None = None) -> int:
     from PySide6.QtCore import QLibraryInfo, QLocale, Qt, QTranslator
     from PySide6.QtWidgets import QApplication
 
+    from markdowneditor.gui.file_open import MarkdownApplication
     from markdowneditor.gui.fonts import register_pretendard_fonts
 
     QApplication.setAttribute(Qt.ApplicationAttribute.AA_ShareOpenGLContexts, True)
-    application = QApplication.instance() or QApplication(sys.argv[:1])
+    application = QApplication.instance() or MarkdownApplication(sys.argv[:1])
     application.setApplicationName("MarkdownEditor")
     application.setApplicationVersion("0.1.0")
     application.setOrganizationName("OpenAI-Cowork")
@@ -50,11 +51,15 @@ def main(argv: list[str] | None = None) -> int:
 
     initial = [Path(item).resolve() for item in args.files]
     window = MainWindow(initial or None)
+    if isinstance(application, MarkdownApplication):
+        application.set_window(window)
     window.show()
     result = application.exec()
     # Every tab owns a WebEngine page; release all of them (safe with zero tabs).
     window.shutdown_sessions()
     release_shared_network_guard()
+    if isinstance(application, MarkdownApplication):
+        application.set_window(None)
     window.deleteLater()
     application.processEvents()
     return result

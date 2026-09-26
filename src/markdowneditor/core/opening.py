@@ -11,7 +11,11 @@ SHORTCUT_EXTENSIONS = {".lnk", ".url"}
 
 
 def document_key(path: str | Path) -> str:
-    """Identity key for an opened file: absolute, symlinks resolved, Windows case folded."""
+    """Absolute, symlink-resolved key using the host OS's path normalization.
+
+    On macOS, same_document() also checks file identity for case-insensitive volumes.
+    Do not case-fold POSIX paths: APFS can also be formatted case-sensitive.
+    """
     return os.path.normcase(os.path.realpath(os.fspath(path)))
 
 

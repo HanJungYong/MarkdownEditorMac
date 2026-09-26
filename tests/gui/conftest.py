@@ -6,7 +6,13 @@ import pytest
 from PySide6.QtCore import QSettings
 from PySide6.QtWidgets import QApplication, QMessageBox
 
+from markdowneditor.gui.file_open import MarkdownApplication
 from markdowneditor.gui.main_window import MainWindow
+
+
+@pytest.fixture(scope="session")
+def qapp_cls():  # noqa: ANN201
+    return MarkdownApplication
 
 
 class DialogScript:

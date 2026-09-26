@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import os
+import sys
 import weakref
 from collections.abc import Callable, Iterable, Sequence
 from datetime import date
+from importlib.resources import files
 from pathlib import Path
 from urllib.parse import quote, unquote, urlparse
 
@@ -354,8 +356,23 @@ class MainWindow(QMainWindow):
         self.close_all_action = document_action(QAction("모든 탭 닫기", self))
         self.close_all_action.triggered.connect(lambda _checked=False: self.close_all_sessions())
         file_menu.addActions([self.close_others_action, self.close_all_action])
+        # Qt maps "Meta" to the physical Control key on macOS. Command+Tab is
+        # reserved by the OS for switching apps, so expose Control+Tab explicitly.
+        if sys.platform == "darwin":
+            for text, key, step in (
+                ("다음 탭", "Meta+Tab", 1),
+                ("이전 탭", "Meta+Shift+Tab", -1),
+            ):
+                action = document_action(QAction(text, self, shortcut=QKeySequence(key)))
+                action.triggered.connect(
+                    lambda _checked=False, offset=step: self.tabs.setCurrentIndex(
+                        (self.tabs.currentIndex() + offset) % self.tabs.count()
+                    )
+                )
+                file_menu.addAction(action)
         file_menu.addSeparator()
-        file_menu.addAction("끝내기", self.close, QKeySequence.StandardKey.Quit)
+        quit_action = file_menu.addAction("끝내기", self.close, QKeySequence.StandardKey.Quit)
+        quit_action.setMenuRole(QAction.MenuRole.QuitRole)
 
         edit_menu = self.menuBar().addMenu("편집(&E)")
         for text, method, shortcut in (
@@ -377,11 +394,21 @@ class MainWindow(QMainWindow):
         edit_menu.addSeparator()
         find_action = document_action(QAction("찾기", self, shortcut=QKeySequence.StandardKey.Find))
         find_action.triggered.connect(self.show_find)
-        replace_action = document_action(QAction("바꾸기", self, shortcut=QKeySequence("Ctrl+H")))
+        # Qt has no StandardKey.Replace binding on macOS; Cmd+H hides the app.
+        replace_key = (
+            QKeySequence("Ctrl+Shift+H")
+            if sys.platform == "darwin"
+            else QKeySequence(QKeySequence.StandardKey.Replace)
+        )
+        replace_action = document_action(QAction("바꾸기", self, shortcut=replace_key))
         replace_action.triggered.connect(self.show_replace)
-        next_action = document_action(QAction("다음 찾기", self, shortcut=QKeySequence("F3")))
+        next_action = document_action(
+            QAction("다음 찾기", self, shortcut=QKeySequence.StandardKey.FindNext)
+        )
         next_action.triggered.connect(self.find_next)
-        goto_action = document_action(QAction("줄로 이동", self, shortcut=QKeySequence("Ctrl+G")))
+        # Cmd+G is Find Next on macOS, so use Cmd+L for Go to Line there.
+        goto_key = "Ctrl+L" if sys.platform == "darwin" else "Ctrl+G"
+        goto_action = document_action(QAction("줄로 이동", self, shortcut=QKeySequence(goto_key)))
         goto_action.triggered.connect(self.ask_go_to_line)
         edit_menu.addActions([find_action, replace_action, next_action, goto_action])
         edit_menu.addSeparator()
@@ -451,6 +478,7 @@ class MainWindow(QMainWindow):
         help_action = QAction("사용 설명서", self)
         help_action.triggered.connect(self.open_help)
         about_action = QAction("정보", self)
+        about_action.setMenuRole(QAction.MenuRole.AboutRole)
         about_action.triggered.connect(self.show_about)
         help_menu.addActions([help_action, about_action])
 
@@ -1405,7 +1433,7 @@ class MainWindow(QMainWindow):
         if parsed.scheme.lower() in {"http", "https", "mailto"}:
             self.external_opener(QUrl(target))
             return
-        clean = unquote(parsed.path).replace("/", os.sep)
+        clean = unquote(parsed.path).replace("\\", os.sep).replace("/", os.sep)
         path = Path(clean) if re_drive_path(clean) else (session.path.parent / clean)
         path = path.resolve()
         if not path.exists():
@@ -1422,7 +1450,12 @@ class MainWindow(QMainWindow):
             self.external_opener(QUrl.fromLocalFile(str(session.path.parent)))
 
     def open_help(self) -> None:
-        path = Path(__file__).resolve().parents[3] / "docs" / "사용설명서.md"
+        packaged = files("markdowneditor").joinpath("assets", "docs", "사용설명서.md")
+        path = (
+            Path(str(packaged))
+            if packaged.is_file()
+            else Path(__file__).resolve().parents[3] / "docs" / "사용설명서.md"
+        )
         if path.exists():
             self.open_paths([path], origin="help")
 

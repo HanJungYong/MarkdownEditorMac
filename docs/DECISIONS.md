@@ -1,5 +1,14 @@
 # 설계 결정 기록
 
+## 2026-09-26 macOS 이식
+
+- Python 3.12와 기존 `uv.lock`을 유지한다. 시스템 Python 3.14는 변경하지 않으며 macOS 전용 가상 환경을 준비한다.
+- Qt는 macOS에서 `Ctrl`/`ControlModifier`를 Command로 매핑하므로 기존 편집·저장·서식 키를 유지한다. 바꾸기는 `⇧⌘H`, 줄로 이동은 `⌘L`, 탭 이동은 `Meta+Tab`(물리적인 Control+Tab)으로 충돌을 피한다.
+- Finder/Dock 전달은 `QApplication.event()`의 `FileOpen` 처리로 구현한다. 전역 Python 이벤트 필터는 QtWebEngine 내부 객체 생성 중 PySide 래퍼 충돌이 발생해 사용하지 않는다.
+- 대소문자 판정은 운영체제 경로 정규화와 `os.path.samefile()`을 조합한다. POSIX 경로 전체를 소문자로 만들지 않아 대소문자 구별 APFS에서도 서로 다른 파일을 보존한다.
+- Windows의 DLL·Qt 플러그인 용량 최적화는 Windows 빌드에만 적용한다. Mac에서는 Qt 프레임워크를 유지하고 `BUNDLE`로 앱을 만든다. `argv_emulation=False`를 유지해 Qt가 Apple 파일 열기 이벤트를 직접 받는다.
+- 현재 Mac의 arm64 빌드와 자동 GUI 검사를 완료했다. Intel·Windows 재검증과 실제 Finder/Dock의 수동 확인은 별도로 구분한다.
+
 ## 2026-09-19
 
 1. 제품명, 배포 패키지명, import 패키지명을 모두 `MarkdownEditor`/`markdowneditor`로 통일한다.

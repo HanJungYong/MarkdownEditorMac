@@ -75,7 +75,8 @@ def _render(path: str, output: str) -> int:
         return 2
     result = render_markdown(document.text)
     style = """
-body { max-width: 1100px; margin: 2rem auto; font: 15px/1.65 'Malgun Gothic', sans-serif; }
+body { max-width: 1100px; margin: 2rem auto;
+       font: 15px/1.65 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
 table { border-collapse: collapse; display: block; overflow: auto; }
 th, td { border: 1px solid #bbb; padding: 6px; }
 img { max-width: 100%; height: auto; }

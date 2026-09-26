@@ -17,7 +17,7 @@ body {
   padding: 24px 28px 64px;
   background: var(--bg);
   color: var(--text);
-  font-family: "Pretendard", "Malgun Gothic", "맑은 고딕", sans-serif;
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", sans-serif;
   font-size: 17px;
   line-height: 1.68;
   overflow-wrap: anywhere;
@@ -30,7 +30,7 @@ h1, h2 { border-bottom: 1px solid #e4e7ec; padding-bottom: .3em; }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 blockquote { margin: 1em 0; padding: .2em 1em; border-left: 4px solid #b9c6dc; color: #475467; }
-code, pre { font-family: Consolas, "Malgun Gothic", monospace; }
+code, pre { font-family: Menlo, Consolas, "Apple SD Gothic Neo", "Malgun Gothic", monospace; }
 code { background: #f2f4f7; border-radius: 4px; padding: .12em .35em; }
 pre { margin: 0; padding: 14px; overflow: auto; background: #111827; color: #f9fafb; border-radius: 7px; }
 pre code { padding: 0; background: transparent; color: inherit; }

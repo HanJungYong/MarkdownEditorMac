@@ -16,24 +16,38 @@ def _local(path: Path) -> DropEntry:
     return DropEntry(display=str(path), local_path=str(path))
 
 
-def test_document_key_ignores_case_separators_and_relative_parts(tmp_path: Path) -> None:
+def test_document_key_normalizes_separators_and_relative_parts(tmp_path: Path) -> None:
     target = tmp_path / "한글 폴더" / "문서 (1).md"
     target.parent.mkdir()
     target.write_text("# a\n", encoding="utf-8")
     variants = [
         target,
-        Path(str(target).upper()),
         Path(str(target).replace("\\", "/")),
         tmp_path / "한글 폴더" / ".." / "한글 폴더" / "문서 (1).md",
     ]
     keys = {document_key(item) for item in variants}
     assert len(keys) == 1
+    differently_cased = Path(str(target).upper())
+    if differently_cased.exists():
+        assert same_document(target, differently_cased)
     cwd = Path.cwd()
     try:
         os.chdir(tmp_path)
         assert document_key(Path("한글 폴더") / "문서 (1).md") == document_key(target)
     finally:
         os.chdir(cwd)
+
+
+def test_distinct_case_sensitive_files_are_not_merged(tmp_path: Path) -> None:
+    lower = tmp_path / "case.md"
+    upper = tmp_path / "CASE.md"
+    lower.write_text("lower", encoding="utf-8")
+    if upper.exists():
+        assert same_document(lower, upper)  # case-insensitive filesystem
+    else:
+        upper.write_text("upper", encoding="utf-8")
+        assert document_key(lower) != document_key(upper)
+        assert not same_document(lower, upper)
 
 
 def test_same_document_detects_hard_links(tmp_path: Path) -> None:

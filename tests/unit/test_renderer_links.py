@@ -105,3 +105,12 @@ def test_self_created_syntax_and_broken_fixtures_do_not_crash() -> None:
     assert "문서 정보" in syntax.html
     assert broken.html
     assert "가" * 100 in broken.html
+
+
+def test_nested_local_links_support_markdown_and_windows_separators(tmp_path: Path) -> None:
+    folder = tmp_path / "한글 폴더"
+    folder.mkdir()
+    target = folder / "그림.png"
+    target.write_bytes(b"image")
+    for link in ("한글%20폴더/그림.png", r"한글%20폴더\그림.png"):
+        assert resolve_target(link, tmp_path, set()) == ("정상", str(target.resolve()))

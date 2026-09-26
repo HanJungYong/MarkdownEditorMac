@@ -1,13 +1,21 @@
 from fnmatch import fnmatch
 from pathlib import Path
+import sys
+import tomllib
 
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
 
 project_root = Path(SPECPATH).parent
 source_root = project_root / "src"
+with (project_root / "pyproject.toml").open("rb") as metadata_file:
+    version = tomllib.load(metadata_file)["project"]["version"]
 
 datas = collect_data_files("markdowneditor")
+datas.append((str(project_root / "docs" / "사용설명서.md"), "markdowneditor/assets/docs"))
+datas.append((str(project_root / "docs" / "macOS_실행_가이드.md"), "markdowneditor/assets/docs"))
+for notice in ("LICENSE", "THIRD_PARTY_NOTICES.md"):
+    datas.append((str(project_root / notice), "markdowneditor/assets/legal"))
 for font_name in (
     "Pretendard-Regular.otf",
     "Pretendard-Medium.otf",
@@ -32,7 +40,7 @@ unused_qt_bindings = [
     "PySide6.QtQml",
     "PySide6.QtQuick",
     "PySide6.QtQuickWidgets",
-]
+] if sys.platform == "win32" else []
 
 analysis = Analysis(
     [str(source_root / "markdowneditor" / "__main__.py")],
@@ -93,12 +101,13 @@ def is_unused_qt_file(dest_name):
     return any(fnmatch(path, pattern) for pattern in unused_qt_patterns)
 
 
-analysis.binaries = [
-    entry
-    for entry in analysis.binaries
-    if Path(entry[0]).name.lower() not in excluded_icu_names and not is_unused_qt_file(entry[0])
-]
-analysis.datas = [entry for entry in analysis.datas if not is_unused_qt_file(entry[0])]
+if sys.platform == "win32":
+    analysis.binaries = [
+        entry
+        for entry in analysis.binaries
+        if Path(entry[0]).name.lower() not in excluded_icu_names and not is_unused_qt_file(entry[0])
+    ]
+    analysis.datas = [entry for entry in analysis.datas if not is_unused_qt_file(entry[0])]
 
 python_archive = PYZ(analysis.pure)
 
@@ -129,3 +138,26 @@ distribution = COLLECT(
     upx_exclude=[],
     name="MarkdownEditor",
 )
+
+if sys.platform == "darwin":
+    app = BUNDLE(
+        distribution,
+        name="MarkdownEditor.app",
+        bundle_identifier="org.openaicowork.markdowneditor",
+        version=version,
+        info_plist={
+            "CFBundleDisplayName": "MarkdownEditor",
+            "CFBundleShortVersionString": version,
+            "CFBundleDevelopmentRegion": "ko",
+            "CFBundleLocalizations": ["ko"],
+            "NSHighResolutionCapable": True,
+            "CFBundleDocumentTypes": [
+                {
+                    "CFBundleTypeName": "Markdown 문서",
+                    "CFBundleTypeExtensions": ["md", "markdown", "mdown", "mkd", "mkdn"],
+                    "CFBundleTypeRole": "Editor",
+                    "LSHandlerRank": "Alternate",
+                }
+            ],
+        },
+    )
